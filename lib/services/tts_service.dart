@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'storage_service.dart';
+import 'web_tts/web_tts.dart';
 
 enum TtsPlayState { stopped, playing, paused }
 
@@ -25,6 +26,9 @@ class TtsService with ChangeNotifier {
   String _currentSectionId = '';
   String get currentSectionId => _currentSectionId;
 
+  bool _currentIsEnglish = false;
+  bool get currentIsEnglish => _currentIsEnglish;
+
   Timer? _sleepTimer;
   int _sleepMinutesRemaining = 0;
   int get sleepMinutesRemaining => _sleepMinutesRemaining;
@@ -37,7 +41,32 @@ class TtsService with ChangeNotifier {
   Future<void> init() async {
     if (_isInitialized) return;
 
-    // Apply speed and pitch
+    if (kIsWeb) {
+      WebTts.instance.onStart = () {
+        _state = TtsPlayState.playing;
+        notifyListeners();
+      };
+      WebTts.instance.onCompletion = () {
+        _onParagraphComplete();
+      };
+      WebTts.instance.onPause = () {
+        _state = TtsPlayState.paused;
+        notifyListeners();
+      };
+      WebTts.instance.onContinue = () {
+        _state = TtsPlayState.playing;
+        notifyListeners();
+      };
+      WebTts.instance.onError = (msg) {
+        _state = TtsPlayState.stopped;
+        notifyListeners();
+      };
+      await WebTts.instance.init();
+      _isInitialized = true;
+      return;
+    }
+
+    // Apply speed and pitch on Android/Mobile
     await _applySpeedMultiplier(_storage.ttsSpeedMultiplier);
     await _flutterTts.setPitch(_storage.ttsPitch);
 
@@ -81,12 +110,14 @@ class TtsService with ChangeNotifier {
   }
 
   Future<void> setSpeedMultiplier(double multiplier) async {
-    await _applySpeedMultiplier(multiplier);
+    if (!kIsWeb) {
+      await _applySpeedMultiplier(multiplier);
+    }
     await _storage.setTtsSpeedMultiplier(multiplier);
     notifyListeners();
 
     if (_state == TtsPlayState.playing) {
-      await _flutterTts.stop();
+      await stop();
       await _speakCurrentIndex();
     }
   }
@@ -94,6 +125,13 @@ class TtsService with ChangeNotifier {
   double get currentSpeedMultiplier => _storage.ttsSpeedMultiplier;
 
   Future<void> setLanguage(bool isEnglish) async {
+    _currentIsEnglish = isEnglish;
+
+    if (kIsWeb) {
+      await WebTts.instance.init();
+      return;
+    }
+
     final lang = isEnglish ? 'en-US' : 'vi-VN';
     await _flutterTts.setLanguage(lang);
 
@@ -172,6 +210,10 @@ class TtsService with ChangeNotifier {
 
   Future<List<Map<String, String>>> getAvailableVoices(bool isEnglish) async {
     await init();
+    if (kIsWeb) {
+      return await WebTts.instance.getAvailableVoices(isEnglish);
+    }
+
     final targetPrefix = isEnglish ? 'en' : 'vi';
     try {
       final dynamic raw = await _flutterTts.getVoices;
@@ -203,22 +245,37 @@ class TtsService with ChangeNotifier {
   }
 
   Future<void> setVoice(Map<String, String> voice) async {
-    await _flutterTts.setVoice(voice);
     final isEn = voice['locale']?.toLowerCase().startsWith('en') ?? _storage.isEnglish;
+    _currentIsEnglish = isEn;
     await _storage.setVoiceForLanguage(
       isEnglish: isEn,
       name: voice['name'],
       locale: voice['locale'],
     );
+
+    if (!kIsWeb) {
+      await _flutterTts.setVoice(voice);
+    }
+
     notifyListeners();
 
     // Immediate audio feedback
     if (_state == TtsPlayState.playing) {
-      await _flutterTts.stop();
+      await stop();
       await _speakCurrentIndex();
     } else {
       final sample = isEn ? 'The Science of Spirituality.' : 'Khoa học và tâm linh.';
-      await _flutterTts.speak(sample);
+      if (kIsWeb) {
+        await WebTts.instance.speak(
+          sample,
+          isEnglish: isEn,
+          rate: _storage.ttsSpeedMultiplier,
+          pitch: _storage.ttsPitch,
+          preferredVoiceName: voice['name'],
+        );
+      } else {
+        await _flutterTts.speak(sample);
+      }
     }
   }
 
@@ -234,6 +291,7 @@ class TtsService with ChangeNotifier {
     _currentSectionId = sectionId;
     _currentParagraphs = paragraphs;
     _currentIndex = startIndex.clamp(0, paragraphs.isEmpty ? 0 : paragraphs.length - 1);
+    _currentIsEnglish = isEnglish;
 
     await setLanguage(isEnglish);
     await _speakCurrentIndex();
@@ -255,7 +313,17 @@ class TtsService with ChangeNotifier {
     _state = TtsPlayState.playing;
     notifyListeners();
 
-    await _flutterTts.speak(text);
+    if (kIsWeb) {
+      await WebTts.instance.speak(
+        text,
+        isEnglish: _currentIsEnglish,
+        rate: _storage.ttsSpeedMultiplier,
+        pitch: _storage.ttsPitch,
+        preferredVoiceName: _storage.getVoiceName(_currentIsEnglish),
+      );
+    } else {
+      await _flutterTts.speak(text);
+    }
   }
 
   void _onParagraphComplete() {
@@ -292,19 +360,33 @@ class TtsService with ChangeNotifier {
   }
 
   Future<void> pause() async {
-    await _flutterTts.pause();
+    if (kIsWeb) {
+      await WebTts.instance.pause();
+    } else {
+      await _flutterTts.pause();
+    }
     _state = TtsPlayState.paused;
     notifyListeners();
   }
 
   Future<void> resume() async {
     if (_state == TtsPlayState.paused) {
-      await _speakCurrentIndex();
+      if (kIsWeb) {
+        await WebTts.instance.resume();
+        _state = TtsPlayState.playing;
+        notifyListeners();
+      } else {
+        await _speakCurrentIndex();
+      }
     }
   }
 
   Future<void> stop() async {
-    await _flutterTts.stop();
+    if (kIsWeb) {
+      await WebTts.instance.stop();
+    } else {
+      await _flutterTts.stop();
+    }
     _state = TtsPlayState.stopped;
     cancelSleepTimer();
     notifyListeners();
@@ -312,7 +394,7 @@ class TtsService with ChangeNotifier {
 
   Future<void> nextParagraph() async {
     if (_currentIndex < _currentParagraphs.length - 1) {
-      await _flutterTts.stop();
+      await stop();
       _currentIndex++;
       await _speakCurrentIndex();
     }
@@ -320,24 +402,36 @@ class TtsService with ChangeNotifier {
 
   Future<void> prevParagraph() async {
     if (_currentIndex > 0) {
-      await _flutterTts.stop();
+      await stop();
       _currentIndex--;
       await _speakCurrentIndex();
     }
   }
 
   Future<void> setPitch(double pitch, {bool previewIfIdle = true}) async {
-    await _flutterTts.setPitch(pitch);
+    if (!kIsWeb) {
+      await _flutterTts.setPitch(pitch);
+    }
     await _storage.setTtsPitch(pitch);
     notifyListeners();
 
     if (_state == TtsPlayState.playing) {
-      await _flutterTts.stop();
+      await stop();
       await _speakCurrentIndex();
     } else if (previewIfIdle) {
       final isEn = _storage.isEnglish;
       final sample = isEn ? 'The Science of Spirituality.' : 'Khoa học và tâm linh.';
-      await _flutterTts.speak(sample);
+      if (kIsWeb) {
+        await WebTts.instance.speak(
+          sample,
+          isEnglish: isEn,
+          rate: _storage.ttsSpeedMultiplier,
+          pitch: pitch,
+          preferredVoiceName: _storage.getVoiceName(isEn),
+        );
+      } else {
+        await _flutterTts.speak(sample);
+      }
     }
   }
 

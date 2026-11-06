@@ -31,6 +31,119 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body style="background-color: #0E1117; margin: 0; padding: 0; overflow-x: hidden;">
+  <script>
+    window.KHTL_TTS = {
+      keepAliveTimer: null,
+      getVoices: function() {
+        if (!window.speechSynthesis) return [];
+        var voices = window.speechSynthesis.getVoices();
+        var list = [];
+        for (var i = 0; i < voices.length; i++) {
+          list.push({
+            name: voices[i].name || '',
+            lang: voices[i].lang || ''
+          });
+        }
+        return list;
+      },
+      speak: function(text, isEnglish, rate, pitch, preferredVoiceName, onStart, onEnd, onError) {
+        if (!window.speechSynthesis) return;
+        window.speechSynthesis.cancel();
+        clearInterval(this.keepAliveTimer);
+
+        var u = new SpeechSynthesisUtterance(text);
+        var targetLang = isEnglish ? 'en-US' : 'vi-VN';
+        u.lang = targetLang;
+        u.rate = (typeof rate === 'number' && rate > 0) ? rate : 1.0;
+        u.pitch = (typeof pitch === 'number' && pitch > 0) ? pitch : 1.0;
+
+        var voices = window.speechSynthesis.getVoices();
+        var selectedVoice = null;
+
+        if (preferredVoiceName) {
+          var pLower = preferredVoiceName.toLowerCase();
+          for (var i = 0; i < voices.length; i++) {
+            if (voices[i].name && voices[i].name.toLowerCase() === pLower) {
+              selectedVoice = voices[i];
+              break;
+            }
+          }
+        }
+
+        if (!selectedVoice) {
+          if (!isEnglish) {
+            // Find Vietnamese voice in Chrome/Edge/OS
+            for (var i = 0; i < voices.length; i++) {
+              var v = voices[i];
+              var l = (v.lang || '').toLowerCase();
+              var n = (v.name || '').toLowerCase();
+              if (l.indexOf('vi') === 0 || l.indexOf('vi-') !== -1 || l.indexOf('vi_') !== -1 ||
+                  n.indexOf('vietnam') !== -1 || n.indexOf('tiếng việt') !== -1 || n.indexOf('tieng viet') !== -1 ||
+                  n.indexOf('hoaimy') !== -1 || n.indexOf('namminh') !== -1 || n.indexOf('an') !== -1) {
+                selectedVoice = v;
+                break;
+              }
+            }
+          } else {
+            // English voice
+            for (var i = 0; i < voices.length; i++) {
+              var l = (voices[i].lang || '').toLowerCase();
+              if (l.indexOf('en') === 0) {
+                selectedVoice = voices[i];
+                break;
+              }
+            }
+          }
+        }
+
+        if (selectedVoice) {
+          u.voice = selectedVoice;
+          u.lang = selectedVoice.lang || targetLang;
+        }
+
+        u.onstart = function() {
+          if (typeof onStart === 'function') onStart();
+          KHTL_TTS.keepAliveTimer = setInterval(function() {
+            if (window.speechSynthesis && window.speechSynthesis.speaking) {
+              window.speechSynthesis.pause();
+              window.speechSynthesis.resume();
+            }
+          }, 10000);
+        };
+
+        u.onend = function() {
+          clearInterval(KHTL_TTS.keepAliveTimer);
+          if (typeof onEnd === 'function') onEnd();
+        };
+
+        u.onerror = function(e) {
+          clearInterval(KHTL_TTS.keepAliveTimer);
+          if (typeof onError === 'function') onError(e ? (e.error || 'error') : 'error');
+        };
+
+        window.speechSynthesis.speak(u);
+      },
+      pause: function() {
+        if (window.speechSynthesis) window.speechSynthesis.pause();
+      },
+      resume: function() {
+        if (window.speechSynthesis) window.speechSynthesis.resume();
+      },
+      stop: function() {
+        clearInterval(this.keepAliveTimer);
+        if (window.speechSynthesis) window.speechSynthesis.cancel();
+      }
+    };
+
+    if (window.speechSynthesis) {
+      window.speechSynthesis.getVoices();
+      if (window.speechSynthesis.onvoiceschanged !== undefined) {
+        window.speechSynthesis.onvoiceschanged = function() {
+          window.speechSynthesis.getVoices();
+        };
+      }
+    }
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
