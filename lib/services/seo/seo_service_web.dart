@@ -51,7 +51,7 @@ class SeoService {
       _setMetaContent('name', 'twitter:description', description);
     }
 
-    final origin = html.window.location.origin ?? '';
+    final origin = html.window.location.origin;
     if (origin.isNotEmpty) {
       final fullUrl = '$origin$normalizedPath';
       _setMetaContent('property', 'og:url', fullUrl);
