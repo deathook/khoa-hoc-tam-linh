@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import '../../models/podcast_item.dart';
+import '../../routes/seo_router.dart';
 import '../../services/book_repository.dart';
 import '../../services/audio_player_service.dart';
+import '../../services/seo/seo_service.dart';
 import '../../services/storage_service.dart';
 import '../../services/tts_service.dart';
 import '../../theme/app_colors.dart';
@@ -61,6 +63,11 @@ class _PodcastScreenState extends State<PodcastScreen> {
     setState(() {
       _isEnglish = next;
     });
+    SeoService.updateUrl(
+      SeoRouter.getTabUrl(2, next),
+      title: SeoRouter.getTabTitle(2, next),
+      replace: false,
+    );
   }
 
   String _formatDuration(Duration d) {

@@ -2,7 +2,9 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../../models/quote_item.dart';
+import '../../routes/seo_router.dart';
 import '../../services/book_repository.dart';
+import '../../services/seo/seo_service.dart';
 import '../../services/storage_service.dart';
 import '../../services/tts_service.dart';
 import '../../theme/app_colors.dart';
@@ -78,6 +80,11 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       _isEnglish = next;
     });
+    SeoService.updateUrl(
+      SeoRouter.getTabUrl(0, next),
+      title: SeoRouter.getTabTitle(0, next),
+      replace: false,
+    );
   }
 
   void _openSection(String sectionId) {
@@ -86,7 +93,16 @@ class _HomeScreenState extends State<HomeScreen> {
       MaterialPageRoute(
         builder: (_) => ReaderScreen(sectionId: sectionId),
       ),
-    ).then((_) => setState(() {}));
+    ).then((_) {
+      if (mounted) {
+        setState(() {});
+        SeoService.updateUrl(
+          SeoRouter.getTabUrl(0, _isEnglish),
+          title: SeoRouter.getTabTitle(0, _isEnglish),
+          replace: false,
+        );
+      }
+    });
   }
 
   @override

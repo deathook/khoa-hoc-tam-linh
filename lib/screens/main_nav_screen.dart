@@ -1,5 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import '../routes/seo_router.dart';
+import '../services/seo/seo_service.dart';
 import 'home/home_screen.dart';
 import 'reader/toc_screen.dart';
 import 'reader/reader_screen.dart';
@@ -15,8 +17,15 @@ import '../utils/web_download.dart';
 
 class MainNavScreen extends StatefulWidget {
   final VoidCallback onThemeChanged;
+  final int initialTabIndex;
+  final String? initialSectionId;
 
-  const MainNavScreen({Key? key, required this.onThemeChanged}) : super(key: key);
+  const MainNavScreen({
+    Key? key,
+    required this.onThemeChanged,
+    this.initialTabIndex = 0,
+    this.initialSectionId,
+  }) : super(key: key);
 
   @override
   State<MainNavScreen> createState() => _MainNavScreenState();
@@ -31,10 +40,43 @@ class _MainNavScreenState extends State<MainNavScreen> {
   @override
   void initState() {
     super.initState();
+    _currentIndex = widget.initialTabIndex;
     _tts.addListener(_onServiceUpdate);
     _audioPlayer.addListener(_onServiceUpdate);
     _storage.isEnglishNotifier.addListener(_onServiceUpdate);
     _storage.themeModeNotifier.addListener(_onServiceUpdate);
+
+    SeoService.listenPopState(_handleBrowserPopState);
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (widget.initialSectionId != null && widget.initialSectionId!.isNotEmpty) {
+        _openReader(widget.initialSectionId!);
+      } else {
+        _syncUrlWithCurrentState(replace: true);
+      }
+    });
+  }
+
+  void _handleBrowserPopState(String path) {
+    if (!mounted) return;
+    final parsed = SeoRouter.parsePath(path);
+    if (parsed.isEnglish != _storage.isEnglish) {
+      _storage.setIsEnglish(parsed.isEnglish);
+      _tts.setLanguage(parsed.isEnglish);
+    }
+    if (parsed.type == SeoRouteType.reader && parsed.sectionId != null) {
+      _openReader(parsed.sectionId!);
+    } else {
+      setState(() {
+        _currentIndex = parsed.tabIndex;
+      });
+    }
+  }
+
+  void _syncUrlWithCurrentState({bool replace = false}) {
+    final url = SeoRouter.getTabUrl(_currentIndex, _storage.isEnglish);
+    final title = SeoRouter.getTabTitle(_currentIndex, _storage.isEnglish);
+    SeoService.updateUrl(url, title: title, replace: replace);
   }
 
   @override
@@ -52,6 +94,20 @@ class _MainNavScreenState extends State<MainNavScreen> {
 
   void _setIndex(int idx) {
     setState(() => _currentIndex = idx);
+    _syncUrlWithCurrentState(replace: false);
+  }
+
+  void _openReader(String sectionId) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => ReaderScreen(sectionId: sectionId),
+      ),
+    ).then((_) {
+      if (mounted) {
+        _syncUrlWithCurrentState(replace: false);
+      }
+    });
   }
 
   void _downloadAndroidApk() {
@@ -264,7 +320,9 @@ class _MainNavScreenState extends State<MainNavScreen> {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (_) => const SearchScreen()),
-              );
+              ).then((_) {
+                if (mounted) _syncUrlWithCurrentState(replace: false);
+              });
             },
           ),
 
@@ -275,6 +333,7 @@ class _MainNavScreenState extends State<MainNavScreen> {
               await _storage.setIsEnglish(next);
               await _tts.setLanguage(next);
               setState(() {});
+              _syncUrlWithCurrentState(replace: false);
             },
             borderRadius: BorderRadius.circular(20),
             child: Container(

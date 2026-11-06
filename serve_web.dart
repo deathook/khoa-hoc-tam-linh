@@ -40,6 +40,36 @@ void main() async {
   await for (HttpRequest request in server) {
     try {
       var path = request.uri.path;
+
+      // TTS Proxy to bypass Chrome referer block
+      if (path == '/api/tts') {
+        final q = request.uri.queryParameters['q'] ?? '';
+        final tl = request.uri.queryParameters['tl'] ?? 'vi';
+        if (q.trim().isEmpty) {
+          request.response.statusCode = HttpStatus.badRequest;
+          await request.response.close();
+          continue;
+        }
+        final googleUrl = 'https://translate.google.com/translate_tts?ie=UTF-8&tl=$tl&client=tw-ob&q=${Uri.encodeComponent(q)}';
+        final client = HttpClient();
+        try {
+          final googleReq = await client.getUrl(Uri.parse(googleUrl));
+          googleReq.headers.set('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)');
+          final googleRes = await googleReq.close();
+          request.response.statusCode = googleRes.statusCode;
+          request.response.headers.set('Content-Type', 'audio/mpeg');
+          request.response.headers.set('Access-Control-Allow-Origin', '*');
+          request.response.headers.set('Cache-Control', 'public, max-age=86400');
+          await googleRes.pipe(request.response);
+        } catch (_) {
+          request.response.statusCode = HttpStatus.internalServerError;
+          await request.response.close();
+        } finally {
+          client.close();
+        }
+        continue;
+      }
+
       if (path == '/' || path.isEmpty) {
         path = '/index.html';
       }

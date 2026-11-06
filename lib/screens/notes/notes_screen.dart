@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import '../../models/user_note.dart';
+import '../../routes/seo_router.dart';
 import '../../services/book_repository.dart';
+import '../../services/seo/seo_service.dart';
 import '../../services/storage_service.dart';
 import '../../services/tts_service.dart';
 import '../../theme/app_colors.dart';
@@ -50,6 +52,11 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
     setState(() {
       _isEnglish = next;
     });
+    SeoService.updateUrl(
+      SeoRouter.getTabUrl(3, next),
+      title: SeoRouter.getTabTitle(3, next),
+      replace: false,
+    );
   }
 
   void _openSection(String sectionId, int paragraphIndex) {
@@ -61,7 +68,16 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
           initialParagraphIndex: paragraphIndex,
         ),
       ),
-    ).then((_) => setState(() {}));
+    ).then((_) {
+      if (mounted) {
+        setState(() {});
+        SeoService.updateUrl(
+          SeoRouter.getTabUrl(3, _isEnglish),
+          title: SeoRouter.getTabTitle(3, _isEnglish),
+          replace: false,
+        );
+      }
+    });
   }
 
   @override

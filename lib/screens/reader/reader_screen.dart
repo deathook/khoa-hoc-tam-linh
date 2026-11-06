@@ -3,7 +3,9 @@ import 'package:flutter/services.dart';
 import '../../models/book_section.dart';
 import '../../models/quote_item.dart';
 import '../../models/user_note.dart';
+import '../../routes/seo_router.dart';
 import '../../services/book_repository.dart';
+import '../../services/seo/seo_service.dart';
 import '../../services/storage_service.dart';
 import '../../services/tts_service.dart';
 import '../../theme/app_colors.dart';
@@ -124,6 +126,15 @@ class _ReaderScreenState extends State<ReaderScreen> {
     }
   }
 
+  void _syncReaderUrl({bool replace = false}) {
+    if (_section == null) return;
+    final url = SeoRouter.getReaderUrl(_currentId, _isEnglish);
+    final title = SeoRouter.getReaderTitle(_section!.getTitle(_isEnglish), _isEnglish);
+    final paras = _section!.getParagraphs(_isEnglish);
+    final desc = paras.isNotEmpty ? paras.first : '';
+    SeoService.updateUrl(url, title: title, description: desc, replace: replace);
+  }
+
   void _loadSection() {
     setState(() {
       _section = _repo.getSectionById(_currentId);
@@ -134,6 +145,7 @@ class _ReaderScreenState extends State<ReaderScreen> {
           _paragraphKeys[i] = GlobalKey();
         }
         _storage.saveLastRead(_section!.id, _section!.getTitle(_isEnglish));
+        _syncReaderUrl(replace: false);
       }
     });
   }

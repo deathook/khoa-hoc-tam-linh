@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_web_plugins/url_strategy.dart';
+import 'routes/seo_router.dart';
 import 'services/book_repository.dart';
+import 'services/seo/seo_service.dart';
 import 'services/storage_service.dart';
 import 'services/tts_service.dart';
 import 'theme/app_theme.dart';
@@ -9,6 +12,8 @@ import 'screens/main_nav_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  usePathUrlStrategy();
+  SeoService.init();
 
   // Set system UI overlay style
   SystemChrome.setSystemUIOverlayStyle(
@@ -36,6 +41,7 @@ class _KhoaHocTamLinhAppState extends State<KhoaHocTamLinhApp> {
   final StorageService _storage = StorageService();
   final BookRepository _repo = BookRepository();
   bool _isLoading = true;
+  ParsedSeoRoute? _initialRoute;
 
   @override
   void initState() {
@@ -46,6 +52,17 @@ class _KhoaHocTamLinhAppState extends State<KhoaHocTamLinhApp> {
   Future<void> _loadInitialData() async {
     await _repo.loadData();
     await TtsService().init();
+
+    // Check deep link URL on initial page load
+    final currentPath = SeoService.getCurrentPath();
+    final parsed = SeoRouter.parsePath(currentPath);
+    _initialRoute = parsed;
+
+    if (parsed.isEnglish != _storage.isEnglish) {
+      await _storage.setIsEnglish(parsed.isEnglish);
+      await TtsService().setLanguage(parsed.isEnglish);
+    }
+
     setState(() {
       _isLoading = false;
     });
@@ -115,7 +132,11 @@ class _KhoaHocTamLinhAppState extends State<KhoaHocTamLinhApp> {
           title: 'Khoa Học Tâm Linh',
           debugShowCheckedModeBanner: false,
           theme: _getThemeForMode(themeMode),
-          home: MainNavScreen(onThemeChanged: _onThemeChanged),
+          home: MainNavScreen(
+            onThemeChanged: _onThemeChanged,
+            initialTabIndex: _initialRoute?.tabIndex ?? 0,
+            initialSectionId: _initialRoute?.sectionId,
+          ),
         );
       },
     );

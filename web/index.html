@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="referrer" content="no-referrer">
   <meta name="description" content="Khoa Học Tâm Linh - Hai ngôn ngữ của một chân lý. Tác giả: Hoàng Nhật Minh. Ứng dụng đọc sách, sách nói TTS, podcast chữa lành và thông điệp tỉnh thức song ngữ Việt - Anh.">
   <meta name="keywords" content="Khoa Học Tâm Linh, Hoàng Nhật Minh, The Science of Spirituality, sách tâm linh, podcast chữa lành, thiền định, trung đạo, lượng tử">
   <meta name="author" content="Hoàng Nhật Minh">
@@ -33,7 +34,11 @@
 <body style="background-color: #0E1117; margin: 0; padding: 0; overflow-x: hidden;">
   <script>
     window.KHTL_TTS = {
+      currentAudio: null,
+      audioQueue: [],
+      isAudioPlaying: false,
       keepAliveTimer: null,
+
       getVoices: function() {
         if (!window.speechSynthesis) return [];
         var voices = window.speechSynthesis.getVoices();
@@ -46,18 +51,19 @@
         }
         return list;
       },
+
       speak: function(text, isEnglish, rate, pitch, preferredVoiceName, onStart, onEnd, onError) {
-        if (!window.speechSynthesis) return;
-        window.speechSynthesis.cancel();
-        clearInterval(this.keepAliveTimer);
+        this.stop();
+        if (!text || !text.trim()) {
+          if (onEnd) onEnd();
+          return;
+        }
 
-        var u = new SpeechSynthesisUtterance(text);
+        var cleanText = text.trim();
         var targetLang = isEnglish ? 'en-US' : 'vi-VN';
-        u.lang = targetLang;
-        u.rate = (typeof rate === 'number' && rate > 0) ? rate : 1.0;
-        u.pitch = (typeof pitch === 'number' && pitch > 0) ? pitch : 1.0;
 
-        var voices = window.speechSynthesis.getVoices();
+        // Check if browser has a matching native voice
+        var voices = window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
         var selectedVoice = null;
 
         if (preferredVoiceName) {
@@ -72,7 +78,6 @@
 
         if (!selectedVoice) {
           if (!isEnglish) {
-            // Find Vietnamese voice in Chrome/Edge/OS
             for (var i = 0; i < voices.length; i++) {
               var v = voices[i];
               var l = (v.lang || '').toLowerCase();
@@ -85,7 +90,6 @@
               }
             }
           } else {
-            // English voice
             for (var i = 0; i < voices.length; i++) {
               var l = (voices[i].lang || '').toLowerCase();
               if (l.indexOf('en') === 0) {
@@ -96,42 +100,179 @@
           }
         }
 
-        if (selectedVoice) {
+        // If a real matching native voice exists in browser, use SpeechSynthesis
+        if (selectedVoice && (isEnglish || (!isEnglish && selectedVoice.lang.toLowerCase().indexOf('vi') === 0))) {
+          var u = new SpeechSynthesisUtterance(cleanText);
           u.voice = selectedVoice;
           u.lang = selectedVoice.lang || targetLang;
+          u.rate = (typeof rate === 'number' && rate > 0) ? rate : 1.0;
+          u.pitch = (typeof pitch === 'number' && pitch > 0) ? pitch : 1.0;
+
+          u.onstart = function() {
+            if (onStart) onStart();
+            KHTL_TTS.keepAliveTimer = setInterval(function() {
+              if (window.speechSynthesis && window.speechSynthesis.speaking) {
+                window.speechSynthesis.pause();
+                window.speechSynthesis.resume();
+              }
+            }, 10000);
+          };
+
+          u.onend = function() {
+            clearInterval(KHTL_TTS.keepAliveTimer);
+            if (onEnd) onEnd();
+          };
+
+          u.onerror = function() {
+            clearInterval(KHTL_TTS.keepAliveTimer);
+            KHTL_TTS._playOnlineTts(cleanText, isEnglish, rate, onStart, onEnd, onError);
+          };
+
+          window.speechSynthesis.speak(u);
+          return;
         }
 
-        u.onstart = function() {
-          if (typeof onStart === 'function') onStart();
-          KHTL_TTS.keepAliveTimer = setInterval(function() {
-            if (window.speechSynthesis && window.speechSynthesis.speaking) {
-              window.speechSynthesis.pause();
-              window.speechSynthesis.resume();
+        // Fallback to high quality online audio
+        this._playOnlineTts(cleanText, isEnglish, rate, onStart, onEnd, onError);
+      },
+
+      _splitTextIntoChunks: function(text, maxLength) {
+        maxLength = maxLength || 160;
+        if (text.length <= maxLength) return [text];
+
+        var chunks = [];
+        var sentences = text.split(/([.,!?;:\n]+)/);
+        var cur = '';
+
+        for (var i = 0; i < sentences.length; i++) {
+          var part = sentences[i];
+          if ((cur + part).length <= maxLength) {
+            cur += part;
+          } else {
+            if (cur.trim().length > 0) chunks.push(cur.trim());
+            cur = part;
+          }
+        }
+        if (cur.trim().length > 0) chunks.push(cur.trim());
+        return chunks.length > 0 ? chunks : [text.substring(0, maxLength)];
+      },
+
+      _playOnlineTts: function(text, isEnglish, rate, onStart, onEnd, onError) {
+        var lang = isEnglish ? 'en' : 'vi';
+        var chunks = this._splitTextIntoChunks(text, 160);
+        this.audioQueue = [];
+
+        for (var i = 0; i < chunks.length; i++) {
+          var q = chunks[i];
+          if (q.trim().length === 0) continue;
+          this.audioQueue.push({
+            proxyUrl: '/api/tts?tl=' + lang + '&q=' + encodeURIComponent(q),
+            directUrl: 'https://translate.google.com/translate_tts?ie=UTF-8&tl=' + lang + '&client=tw-ob&q=' + encodeURIComponent(q)
+          });
+        }
+
+        if (this.audioQueue.length === 0) {
+          if (onEnd) onEnd();
+          return;
+        }
+
+        var queueIdx = 0;
+        var queue = this.audioQueue;
+        var self = this;
+        var hasStarted = false;
+
+        function playNext() {
+          if (queueIdx >= queue.length) {
+            self.isAudioPlaying = false;
+            self.currentAudio = null;
+            if (onEnd) onEnd();
+            return;
+          }
+
+          var item = queue[queueIdx++];
+          var audio = document.createElement('audio');
+          audio.referrerPolicy = 'no-referrer';
+          self.currentAudio = audio;
+          self.isAudioPlaying = true;
+          if (typeof rate === 'number' && rate > 0) {
+            audio.playbackRate = rate;
+          }
+
+          audio.onplay = function() {
+            if (!hasStarted) {
+              hasStarted = true;
+              if (onStart) onStart();
             }
-          }, 10000);
-        };
+          };
 
-        u.onend = function() {
-          clearInterval(KHTL_TTS.keepAliveTimer);
-          if (typeof onEnd === 'function') onEnd();
-        };
+          audio.onended = function() {
+            playNext();
+          };
 
-        u.onerror = function(e) {
-          clearInterval(KHTL_TTS.keepAliveTimer);
-          if (typeof onError === 'function') onError(e ? (e.error || 'error') : 'error');
-        };
+          var triedDirect = false;
+          audio.onerror = function() {
+            if (!triedDirect && item.directUrl) {
+              triedDirect = true;
+              audio.src = item.directUrl;
+              audio.play().catch(function() {
+                playNext();
+              });
+            } else {
+              playNext();
+            }
+          };
 
-        window.speechSynthesis.speak(u);
+          audio.src = item.proxyUrl;
+          audio.play().catch(function(e) {
+            if (!triedDirect && item.directUrl) {
+              triedDirect = true;
+              audio.src = item.directUrl;
+              audio.play().catch(function(err) {
+                if (queueIdx >= queue.length && onError) {
+                  onError(err ? err.message : 'autoplay-blocked');
+                } else {
+                  playNext();
+                }
+              });
+            } else if (onError) {
+              onError(e ? e.message : 'autoplay-blocked');
+            }
+          });
+        }
+
+        playNext();
       },
+
       pause: function() {
-        if (window.speechSynthesis) window.speechSynthesis.pause();
+        if (this.currentAudio) {
+          this.currentAudio.pause();
+        } else if (window.speechSynthesis) {
+          window.speechSynthesis.pause();
+        }
       },
+
       resume: function() {
-        if (window.speechSynthesis) window.speechSynthesis.resume();
+        if (this.currentAudio) {
+          this.currentAudio.play().catch(function(){});
+        } else if (window.speechSynthesis) {
+          window.speechSynthesis.resume();
+        }
       },
+
       stop: function() {
         clearInterval(this.keepAliveTimer);
-        if (window.speechSynthesis) window.speechSynthesis.cancel();
+        this.audioQueue = [];
+        this.isAudioPlaying = false;
+        if (this.currentAudio) {
+          try {
+            this.currentAudio.pause();
+            this.currentAudio.currentTime = 0;
+          } catch(e){}
+          this.currentAudio = null;
+        }
+        if (window.speechSynthesis) {
+          window.speechSynthesis.cancel();
+        }
       }
     };
 

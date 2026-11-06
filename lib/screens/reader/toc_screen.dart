@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import '../../models/toc_item.dart';
+import '../../routes/seo_router.dart';
 import '../../services/book_repository.dart';
+import '../../services/seo/seo_service.dart';
 import '../../services/storage_service.dart';
 import '../../services/tts_service.dart';
 import '../../theme/app_colors.dart';
@@ -61,6 +63,11 @@ class _TocScreenState extends State<TocScreen> with SingleTickerProviderStateMix
     setState(() {
       _isEnglish = next;
     });
+    SeoService.updateUrl(
+      SeoRouter.getTabUrl(1, next),
+      title: SeoRouter.getTabTitle(1, next),
+      replace: false,
+    );
   }
 
   void _openSection(String sectionId) {
@@ -69,7 +76,16 @@ class _TocScreenState extends State<TocScreen> with SingleTickerProviderStateMix
       MaterialPageRoute(
         builder: (_) => ReaderScreen(sectionId: sectionId),
       ),
-    ).then((_) => setState(() {}));
+    ).then((_) {
+      if (mounted) {
+        setState(() {});
+        SeoService.updateUrl(
+          SeoRouter.getTabUrl(1, _isEnglish),
+          title: SeoRouter.getTabTitle(1, _isEnglish),
+          replace: false,
+        );
+      }
+    });
   }
 
   List<TocItem> _getFilteredList() {

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import '../../routes/seo_router.dart';
+import '../../services/book_repository.dart';
+import '../../services/image_cache_service.dart';
+import '../../services/seo/seo_service.dart';
 import '../../services/storage_service.dart';
 import '../../services/tts_service.dart';
-import '../../services/image_cache_service.dart';
-import '../../services/book_repository.dart';
 import '../../theme/app_colors.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -207,6 +209,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       await _tts.setLanguage(false);
                       setState(() => _isEnglish = false);
                       _loadDeviceVoices();
+                      SeoService.updateUrl(
+                        SeoRouter.getTabUrl(4, false),
+                        title: SeoRouter.getTabTitle(4, false),
+                        replace: false,
+                      );
                     }
                   },
                   borderRadius: BorderRadius.circular(16),
@@ -272,6 +279,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       await _tts.setLanguage(true);
                       setState(() => _isEnglish = true);
                       _loadDeviceVoices();
+                      SeoService.updateUrl(
+                        SeoRouter.getTabUrl(4, true),
+                        title: SeoRouter.getTabTitle(4, true),
+                        replace: false,
+                      );
                     }
                   },
                   borderRadius: BorderRadius.circular(16),

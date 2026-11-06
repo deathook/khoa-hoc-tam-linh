@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import '../../routes/seo_router.dart';
 import '../../services/book_repository.dart';
+import '../../services/seo/seo_service.dart';
 import '../../services/storage_service.dart';
 import '../../theme/app_colors.dart';
 import '../reader/reader_screen.dart';
@@ -24,6 +26,11 @@ class _SearchScreenState extends State<SearchScreen> {
   void initState() {
     super.initState();
     _isEnglish = _storage.isEnglish;
+    SeoService.updateUrl(
+      SeoRouter.getSearchUrl(_isEnglish),
+      title: SeoRouter.getSearchTitle(_isEnglish),
+      replace: false,
+    );
   }
 
   void _onSearchChanged(String query) {
