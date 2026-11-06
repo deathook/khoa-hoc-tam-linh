@@ -1,0 +1,1428 @@
+{
+  "vertical_en_count": 158,
+  "cdn_base_url": "https://khoahoctamlinh.vn/app/vertical_en/",
+  "files": [
+    {
+      "id": "ch_01",
+      "title_vi": "CHƯƠNG 1: Khoa học và Tâm linh - Hai ngôn ngữ của một chân lý",
+      "title_en": "Chapter 1: Science and Spirituality - Two Languages of One Truth",
+      "oldFile": "CHƯƠNG 1 Khoa học và Tâm linh - Hai ngôn ngữ của một chân lý.webp",
+      "newFile": "the-science-of-spirituality-chapter-01-science-and-spirituality-two-languages-of-one-truth.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-01-khoa-hoc-va-tam-linh-hai-ngon-ngu-cua-mot-chan-ly.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-01-science-and-spirituality-two-languages-of-one-truth.webp"
+    },
+    {
+      "id": "ch_10",
+      "title_vi": "CHƯƠNG 10: Tâm trí kiến tạo ra thiên đường và địa ngục",
+      "title_en": "Chapter 10: The Mind Creates Heaven and Hell",
+      "oldFile": "CHƯƠNG 10 Tâm trí kiến tạo ra thiên đường và địa ngục.webp",
+      "newFile": "the-science-of-spirituality-chapter-10-the-mind-creates-heaven-and-hell.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-10-tam-tri-kien-tao-ra-thien-duong-va-dia-nguc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-10-the-mind-creates-heaven-and-hell.webp"
+    },
+    {
+      "id": "ch_11",
+      "title_vi": "CHƯƠNG 11: Khi khoa học chạm tới tâm linh",
+      "title_en": "Chapter 11: When Science Touches Spirituality",
+      "oldFile": "CHƯƠNG 11 Khi khoa học chạm tới tâm linh.webp",
+      "newFile": "the-science-of-spirituality-chapter-11-when-science-touches-spirituality.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-11-khi-khoa-hoc-cham-toi-tam-linh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-11-when-science-touches-spirituality.webp"
+    },
+    {
+      "id": "ch_12",
+      "title_vi": "CHƯƠNG 12: Khoa học thần kinh ý thức",
+      "title_en": "Chapter 12: The Neuroscience of Consciousness",
+      "oldFile": "CHƯƠNG 12 Khoa học thần kinh ý thức.webp",
+      "newFile": "the-science-of-spirituality-chapter-12-the-neuroscience-of-consciousness.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-12-khoa-hoc-than-kinh-y-thuc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-12-the-neuroscience-of-consciousness.webp"
+    },
+    {
+      "id": "ch_13",
+      "title_vi": "CHƯƠNG 13: Giáo dục thuận tự nhiên",
+      "title_en": "Chapter 13: Education in Harmony with Nature",
+      "oldFile": "CHƯƠNG 13 Giáo dục thuận tự nhiên.webp",
+      "newFile": "the-science-of-spirituality-chapter-13-education-in-harmony-with-nature.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-13-giao-duc-thuan-tu-nhien.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-13-education-in-harmony-with-nature.webp"
+    },
+    {
+      "id": "ch_14",
+      "title_vi": "CHƯƠNG 14: Từ bi với chính mình - Khởi điểm của mọi chữa lành",
+      "title_en": "Chapter 14: Compassion for Yourself - the Beginning of All Healing",
+      "oldFile": "CHƯƠNG 14 Từ bi với chính mình - Khởi điểm của mọi chữa lành.webp",
+      "newFile": "the-science-of-spirituality-chapter-14-compassion-for-yourself-the-beginning-of-all-healing.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-14-tu-bi-voi-chinh-minh-khoi-diem-cua-moi-chua-lanh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-14-compassion-for-yourself-the-beginning-of-all-healing.webp"
+    },
+    {
+      "id": "ch_15",
+      "title_vi": "CHƯƠNG 15: Khi ta trưởng thành",
+      "title_en": "Chapter 15: When We Mature",
+      "oldFile": "CHƯƠNG 15 Khi ta trưởng thành.webp",
+      "newFile": "the-science-of-spirituality-chapter-15-when-we-mature.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-15-khi-ta-truong-thanh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-15-when-we-mature.webp"
+    },
+    {
+      "id": "ch_16",
+      "title_vi": "CHƯƠNG 16: Hòa nhập cùng vũ trụ - Sống như một phần của toàn thể",
+      "title_en": "Chapter 16: Becoming One with the Universe - Living as Part of the Whole",
+      "oldFile": "CHƯƠNG 16 Hòa nhập cùng vũ trụ - Sống như một phần của toàn thể.webp",
+      "newFile": "the-science-of-spirituality-chapter-16-becoming-one-with-the-universe-living-as-part-of-the-whole.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-16-hoa-nhap-cung-vu-tru-song-nhu-mot-phan-cua-toan-the.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-16-becoming-one-with-the-universe-living-as-part-of-the-whole.webp"
+    },
+    {
+      "id": "ch_17",
+      "title_vi": "CHƯƠNG 17: Những cấp độ nhận thức của con người",
+      "title_en": "Chapter 17: Levels of Human Awareness",
+      "oldFile": "CHƯƠNG 17 Những cấp độ nhận thức của con người.webp",
+      "newFile": "the-science-of-spirituality-chapter-17-levels-of-human-awareness.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-17-nhung-cap-do-nhan-thuc-cua-con-nguoi.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-17-levels-of-human-awareness.webp"
+    },
+    {
+      "id": "ch_18",
+      "title_vi": "CHƯƠNG 18: Từ tôn giáo đến tâm linh - Hành trình quay về chính mình",
+      "title_en": "Chapter 18: From Religion to Spirituality - The Journey Home to Yourself",
+      "oldFile": "CHƯƠNG 18 Từ tôn giáo đến tâm linh - Hành trình quay về chính mình.webp",
+      "newFile": "the-science-of-spirituality-chapter-18-from-religion-to-spirituality-the-journey-home-to-yourself.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-18-tu-ton-giao-den-tam-linh-hanh-trinh-quay-ve-chinh-minh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-18-from-religion-to-spirituality-the-journey-home-to-yourself.webp"
+    },
+    {
+      "id": "ch_19",
+      "title_vi": "CHƯƠNG 19: Khoa học tâm linh - Nền văn minh của tương lai",
+      "title_en": "Chapter 19: The Science of Spirituality - A Civilisation of the Future",
+      "oldFile": "CHƯƠNG 19 Khoa học tâm linh - Nền văn minh của tương lai.webp",
+      "newFile": "the-science-of-spirituality-chapter-19-the-science-of-spirituality-a-civilisation-of-the-future.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-19-khoa-hoc-tam-linh-nen-van-minh-cua-tuong-lai.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-19-the-science-of-spirituality-a-civilisation-of-the-future.webp"
+    },
+    {
+      "id": "ch_02",
+      "title_vi": "CHƯƠNG 2: Năng lượng - Cội nguồn của mọi hiện tượng",
+      "title_en": "Chapter 2: Energy - The Source of Every Phenomenon",
+      "oldFile": "CHƯƠNG 2 Năng lượng - Cội nguồn của mọi hiện tượng.webp",
+      "newFile": "the-science-of-spirituality-chapter-02-energy-the-source-of-every-phenomenon.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-02-nang-luong-coi-nguon-cua-moi-hien-tuong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-02-energy-the-source-of-every-phenomenon.webp"
+    },
+    {
+      "id": "ch_03",
+      "title_vi": "CHƯƠNG 3: Tôn giáo và chân lý - Nhiều con đường, một đỉnh núi",
+      "title_en": "Chapter 3: Religion and Truth - Many Paths, One Summit",
+      "oldFile": "CHƯƠNG 3 Tôn giáo và chân lý - Nhiều con đường, một đỉnh núi.webp",
+      "newFile": "the-science-of-spirituality-chapter-03-religion-and-truth-many-paths-one-summit.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-03-ton-giao-va-chan-ly-nhieu-con-duong-mot-dinh-nui.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-03-religion-and-truth-many-paths-one-summit.webp"
+    },
+    {
+      "id": "ch_04",
+      "title_vi": "CHƯƠNG 4: Con người - Cầu nối giữa vật chất và tinh thần",
+      "title_en": "Chapter 4: The Human Being - A Bridge Between Matter and Spirit",
+      "oldFile": "CHƯƠNG 4 Con người - Cầu nối giữa vật chất và tinh thần.webp",
+      "newFile": "the-science-of-spirituality-chapter-04-the-human-being-a-bridge-between-matter-and-spirit.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-04-con-nguoi-cau-noi-giua-vat-chat-va-tinh-than.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-04-the-human-being-a-bridge-between-matter-and-spirit.webp"
+    },
+    {
+      "id": "ch_05",
+      "title_vi": "CHƯƠNG 5: Từ bản năng đến tỉnh thức",
+      "title_en": "Chapter 5: From Instinct to Wakefulness",
+      "oldFile": "CHƯƠNG 5 Từ bản năng đến tỉnh thức.webp",
+      "newFile": "the-science-of-spirituality-chapter-05-from-instinct-to-wakefulness.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-05-tu-ban-nang-den-tinh-thuc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-05-from-instinct-to-wakefulness.webp"
+    },
+    {
+      "id": "ch_06",
+      "title_vi": "CHƯƠNG 6: Luật nhân quả và sự công bằng của vũ trụ",
+      "title_en": "Chapter 6: Cause and Effect, and the Universe's Justice",
+      "oldFile": "CHƯƠNG 6 Luật nhân quả và sự công bằng của vũ trụ.webp",
+      "newFile": "the-science-of-spirituality-chapter-06-cause-and-effect-and-the-universes-justice.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-06-luat-nhan-qua-va-su-cong-bang-cua-vu-tru.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-06-cause-and-effect-and-the-universes-justice.webp"
+    },
+    {
+      "id": "ch_07",
+      "title_vi": "CHƯƠNG 7: Nghịch cảnh và bài học linh hồn",
+      "title_en": "Chapter 7: Adversity and the Lessons of the Soul",
+      "oldFile": "CHƯƠNG 7 Nghịch cảnh và bài học linh hồn.webp",
+      "newFile": "the-science-of-spirituality-chapter-07-adversity-and-the-lessons-of-the-soul.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-07-nghich-canh-va-bai-hoc-linh-hon.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-07-adversity-and-the-lessons-of-the-soul.webp"
+    },
+    {
+      "id": "ch_08",
+      "title_vi": "CHƯƠNG 8: Tình yêu - Ngôn ngữ cao nhất của vũ trụ",
+      "title_en": "Chapter 8: Love - The Highest Language of the Universe",
+      "oldFile": "CHƯƠNG 8 Tình yêu - Ngôn ngữ cao nhất của vũ trụ.webp",
+      "newFile": "the-science-of-spirituality-chapter-08-love-the-highest-language-of-the-universe.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-08-tinh-yeu-ngon-ngu-cao-nhat-cua-vu-tru.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-08-love-the-highest-language-of-the-universe.webp"
+    },
+    {
+      "id": "ch_09",
+      "title_vi": "CHƯƠNG 9: Trung đạo - Giao điểm của mọi con đường",
+      "title_en": "Chapter 9: The Middle Way – Where All Paths Meet",
+      "oldFile": "CHƯƠNG 9 Trung đạo - Giao điểm của mọi con đường.webp",
+      "newFile": "the-science-of-spirituality-chapter-09-the-middle-way-where-all-paths-meet.webp",
+      "viFile": "khoa-hoc-tam-linh-chuong-09-trung-dao-giao-diem-cua-moi-con-duong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-09-the-middle-way-where-all-paths-meet.webp"
+    },
+    {
+      "id": "gn_01",
+      "title_vi": "GIẢI NGỘ 01: Về phân biệt chủng tộc",
+      "title_en": "Realisation 01: On racial discrimination",
+      "oldFile": "GIẢI NGỘ 01 Về phân biệt chủng tộc.webp",
+      "newFile": "the-science-of-spirituality-realisation-01-on-racial-discrimination.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-01-ve-phan-biet-chung-toc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-01-on-racial-discrimination.webp"
+    },
+    {
+      "id": "gn_02",
+      "title_vi": "GIẢI NGỘ 02: Về phân biệt tôn giáo",
+      "title_en": "Realisation 02: On religious discrimination",
+      "oldFile": "GIẢI NGỘ 02 Về phân biệt tôn giáo.webp",
+      "newFile": "the-science-of-spirituality-realisation-02-on-religious-discrimination.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-02-ve-phan-biet-ton-giao.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-02-on-religious-discrimination.webp"
+    },
+    {
+      "id": "gn_03",
+      "title_vi": "GIẢI NGỘ 03: Về giới tính và vai trò Nam - Nữ",
+      "title_en": "Realisation 03: On gender and the roles of men and women",
+      "oldFile": "GIẢI NGỘ 03 Về giới tính và vai trò Nam - Nữ.webp",
+      "newFile": "the-science-of-spirituality-realisation-03-on-gender-and-the-roles-of-men-and-women.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-03-ve-gioi-tinh-va-vai-tro-nam-nu.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-03-on-gender-and-the-roles-of-men-and-women.webp"
+    },
+    {
+      "id": "gn_04",
+      "title_vi": "GIẢI NGỘ 04: Về Cái thiện và Cái ác",
+      "title_en": "Realisation 04: On good and evil",
+      "oldFile": "GIẢI NGỘ 04 Về Cái thiện và Cái ác.webp",
+      "newFile": "the-science-of-spirituality-realisation-04-on-good-and-evil.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-04-ve-cai-thien-va-cai-ac.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-04-on-good-and-evil.webp"
+    },
+    {
+      "id": "gn_05",
+      "title_vi": "GIẢI NGỘ 05: Về Ăn chay và Ăn mặn",
+      "title_en": "Realisation 05: On vegetarian and non-vegetarian eating",
+      "oldFile": "GIẢI NGỘ 05 Về Ăn chay và Ăn mặn.webp",
+      "newFile": "the-science-of-spirituality-realisation-05-on-vegetarian-and-non-vegetarian-eating.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-05-ve-an-chay-va-an-man.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-05-on-vegetarian-and-non-vegetarian-eating.webp"
+    },
+    {
+      "id": "gn_06",
+      "title_vi": "GIẢI NGỘ 06: Về Tiền và Đồng tiền Hạnh phúc",
+      "title_en": "Realisation 06: On money and the currency of happiness",
+      "oldFile": "GIẢI NGỘ 06 Về Tiền và Đồng tiền Hạnh phúc.webp",
+      "newFile": "the-science-of-spirituality-realisation-06-on-money-and-the-currency-of-happiness.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-06-ve-tien-va-dong-tien-hanh-phuc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-06-on-money-and-the-currency-of-happiness.webp"
+    },
+    {
+      "id": "gn_07",
+      "title_vi": "GIẢI NGỘ 07: Về Khổ đau",
+      "title_en": "Realisation 07: On Suffering",
+      "oldFile": "GIẢI NGỘ 07 Về Khổ đau.webp",
+      "newFile": "the-science-of-spirituality-realisation-07-on-suffering.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-07-ve-kho-dau.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-07-on-suffering.webp"
+    },
+    {
+      "id": "gn_08",
+      "title_vi": "GIẢI NGỘ 08: Về Sinh và Tử",
+      "title_en": "Realisation 08: On Birth and Death",
+      "oldFile": "GIẢI NGỘ 08 Về Sinh và Tử.webp",
+      "newFile": "the-science-of-spirituality-realisation-08-on-birth-and-death.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-08-ve-sinh-va-tu.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-08-on-birth-and-death.webp"
+    },
+    {
+      "id": "gn_09",
+      "title_vi": "GIẢI NGỘ 09: Về Ý nghĩa Sự sống",
+      "title_en": "Realisation 09: On the Meaning of Life",
+      "oldFile": "GIẢI NGỘ 09 Về Ý nghĩa Sự sống.webp",
+      "newFile": "the-science-of-spirituality-realisation-09-on-the-meaning-of-life.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-09-ve-y-nghia-su-song.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-09-on-the-meaning-of-life.webp"
+    },
+    {
+      "id": "gn_10",
+      "title_vi": "GIẢI NGỘ 10: Về Tự do ý chí",
+      "title_en": "Realisation 10: On Free Will",
+      "oldFile": "GIẢI NGỘ 10 Về Tự do ý chí.webp",
+      "newFile": "the-science-of-spirituality-realisation-10-on-free-will.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-10-ve-tu-do-y-chi.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-10-on-free-will.webp"
+    },
+    {
+      "id": "gn_11",
+      "title_vi": "GIẢI NGỘ 11: Về Định mệnh và Sự an bài",
+      "title_en": "Realisation 11: On Destiny and the Larger Design",
+      "oldFile": "GIẢI NGỘ 11 Về Định mệnh và Sự an bài.webp",
+      "newFile": "the-science-of-spirituality-realisation-11-on-destiny-and-the-larger-design.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-11-ve-dinh-menh-va-su-an-bai.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-11-on-destiny-and-the-larger-design.webp"
+    },
+    {
+      "id": "gn_12",
+      "title_vi": "GIẢI NGỘ 12: Về Nỗi sợ và Sự tin tưởng",
+      "title_en": "Realisation 12: On Fear and Trust",
+      "oldFile": "GIẢI NGỘ 12 Về Nỗi sợ và Sự tin tưởng.webp",
+      "newFile": "the-science-of-spirituality-realisation-12-on-fear-and-trust.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-12-ve-noi-so-va-su-tin-tuong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-12-on-fear-and-trust.webp"
+    },
+    {
+      "id": "gn_13",
+      "title_vi": "GIẢI NGỘ 13: Về Cái tôi - Bản ngã - Ego",
+      "title_en": "Realisation 13: On the Self - the Ego",
+      "oldFile": "GIẢI NGỘ 13 Về Cái tôi - Bản ngã - Ego.webp",
+      "newFile": "the-science-of-spirituality-realisation-13-on-the-self-the-ego.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-13-ve-cai-toi-ban-nga-ego.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-13-on-the-self-the-ego.webp"
+    },
+    {
+      "id": "gn_14",
+      "title_vi": "GIẢI NGỘ 14: Về Hạnh phúc",
+      "title_en": "Realisation 14: On Happiness",
+      "oldFile": "GIẢI NGỘ 14 Về Hạnh phúc.webp",
+      "newFile": "the-science-of-spirituality-realisation-14-on-happiness.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-14-ve-hanh-phuc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-14-on-happiness.webp"
+    },
+    {
+      "id": "gn_15",
+      "title_vi": "GIẢI NGỘ 15: Về Biết ơn",
+      "title_en": "Realisation 15: On Gratitude",
+      "oldFile": "GIẢI NGỘ 15 Về Biết ơn.webp",
+      "newFile": "the-science-of-spirituality-realisation-15-on-gratitude.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-15-ve-biet-on.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-15-on-gratitude.webp"
+    },
+    {
+      "id": "gn_16",
+      "title_vi": "GIẢI NGỘ 16: Về Tha thứ",
+      "title_en": "Realisation 16: On Forgiveness",
+      "oldFile": "GIẢI NGỘ 16 Về Tha thứ.webp",
+      "newFile": "the-science-of-spirituality-realisation-16-on-forgiveness.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-16-ve-tha-thu.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-16-on-forgiveness.webp"
+    },
+    {
+      "id": "gn_17",
+      "title_vi": "GIẢI NGỘ 17: Về Tình yêu và Trách nhiệm",
+      "title_en": "Realisation 17: On Love and Responsibility",
+      "oldFile": "GIẢI NGỘ 17 Về Tình yêu và Trách nhiệm.webp",
+      "newFile": "the-science-of-spirituality-realisation-17-on-love-and-responsibility.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-17-ve-tinh-yeu-va-trach-nhiem.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-17-on-love-and-responsibility.webp"
+    },
+    {
+      "id": "gn_18",
+      "title_vi": "GIẢI NGỘ 18: Về Tâm và Trí",
+      "title_en": "Realisation 18: On Heart and Mind",
+      "oldFile": "GIẢI NGỘ 18 Về Tâm và Trí.webp",
+      "newFile": "the-science-of-spirituality-realisation-18-on-heart-and-mind.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-18-ve-tam-va-tri.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-18-on-heart-and-mind.webp"
+    },
+    {
+      "id": "gn_19",
+      "title_vi": "GIẢI NGỘ 19: Tâm trí - Bộ lọc của năng lượng",
+      "title_en": "Realisation 19: The Mind as a Filter for Energy",
+      "oldFile": "GIẢI NGỘ 19 Tâm trí - Bộ lọc của năng lượng.webp",
+      "newFile": "the-science-of-spirituality-realisation-19-the-mind-as-a-filter-for-energy.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-19-tam-tri-bo-loc-cua-nang-luong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-19-the-mind-as-a-filter-for-energy.webp"
+    },
+    {
+      "id": "gn_20",
+      "title_vi": "GIẢI NGỘ 20: Về Góc nhìn - Mỗi người đều đúng trong thế giới của họ",
+      "title_en": "Realisation 20: Perspective - Everyone is right in their own world",
+      "oldFile": "GIẢI NGỘ 20 Về Góc nhìn - Mỗi người đều đúng trong thế giới của họ.webp",
+      "newFile": "the-science-of-spirituality-realisation-20-perspective-everyone-is-right-in-their-own-world.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-20-ve-goc-nhin-moi-nguoi-deu-dung-trong-the-gioi-cua-ho.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-20-perspective-everyone-is-right-in-their-own-world.webp"
+    },
+    {
+      "id": "gn_21",
+      "title_vi": "GIẢI NGỘ 21: Về Đạo và Đời",
+      "title_en": "Realisation 21: The Way and everyday life",
+      "oldFile": "GIẢI NGỘ 21 Về Đạo và Đời.webp",
+      "newFile": "the-science-of-spirituality-realisation-21-the-way-and-everyday-life.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-21-ve-dao-va-doi.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-21-the-way-and-everyday-life.webp"
+    },
+    {
+      "id": "gn_22",
+      "title_vi": "GIẢI NGỘ 22: Về Thế giới bên trong - Thế giới bên ngoài",
+      "title_en": "Realisation 22: The inner world and the outer world",
+      "oldFile": "GIẢI NGỘ 22 Về Thế giới bên trong - Thế giới bên ngoài.webp",
+      "newFile": "the-science-of-spirituality-realisation-22-the-inner-world-and-the-outer-world.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-22-ve-the-gioi-ben-trong-the-gioi-ben-ngoai.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-22-the-inner-world-and-the-outer-world.webp"
+    },
+    {
+      "id": "gn_23",
+      "title_vi": "GIẢI NGỘ 23: Về Ba Loại Tình Yêu",
+      "title_en": "Realisation 23: The three kinds of love",
+      "oldFile": "GIẢI NGỘ 23 Về Ba Loại Tình Yêu.webp",
+      "newFile": "the-science-of-spirituality-realisation-23-the-three-kinds-of-love.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-23-ve-ba-loai-tinh-yeu.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-23-the-three-kinds-of-love.webp"
+    },
+    {
+      "id": "gn_24",
+      "title_vi": "GIẢI NGỘ 24: Về Lẽ sống - Tìm lại ngọn lửa bên trong",
+      "title_en": "Realisation 24: Purpose in life - rekindling the inner flame",
+      "oldFile": "GIẢI NGỘ 24 Về Lẽ sống - Tìm lại ngọn lửa bên trong.webp",
+      "newFile": "the-science-of-spirituality-realisation-24-purpose-in-life-rekindling-the-inner-flame.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-24-ve-le-song-tim-lai-ngon-lua-ben-trong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-24-purpose-in-life-rekindling-the-inner-flame.webp"
+    },
+    {
+      "id": "gn_25",
+      "title_vi": "GIẢI NGỘ 25: Về Cuộc sống Cân bằng",
+      "title_en": "Realisation 25: A balanced life",
+      "oldFile": "GIẢI NGỘ 25 Về Cuộc sống Cân bằng.webp",
+      "newFile": "the-science-of-spirituality-realisation-25-a-balanced-life.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-25-ve-cuoc-song-can-bang.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-25-a-balanced-life.webp"
+    },
+    {
+      "id": "gn_26",
+      "title_vi": "GIẢI NGỘ 26: Về Sức khỏe - Khi cơ thể là ngôi đền của linh hồn",
+      "title_en": "Realisation 26: Health - when the body is the temple of the soul",
+      "oldFile": "GIẢI NGỘ 26 Về Sức khỏe - Khi cơ thể là ngôi đền của linh hồn.webp",
+      "newFile": "the-science-of-spirituality-realisation-26-health-when-the-body-is-the-temple-of-the-soul.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-26-ve-suc-khoe-khi-co-the-la-ngoi-den-cua-linh-hon.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-26-health-when-the-body-is-the-temple-of-the-soul.webp"
+    },
+    {
+      "id": "gn_27",
+      "title_vi": "GIẢI NGỘ 27: Về Thời gian",
+      "title_en": "Realisation 27: Time",
+      "oldFile": "GIẢI NGỘ 27 Về Thời gian.webp",
+      "newFile": "the-science-of-spirituality-realisation-27-time.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-27-ve-thoi-gian.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-27-time.webp"
+    },
+    {
+      "id": "gn_28",
+      "title_vi": "GIẢI NGỘ 28: Về Thiên đường đời đời và Hỏa ngục đời đời",
+      "title_en": "Realisation 28: On Eternal Heaven and Eternal Hell",
+      "oldFile": "GIẢI NGỘ 28 Về Thiên đường đời đời và Hỏa ngục đời đời.webp",
+      "newFile": "the-science-of-spirituality-realisation-28-on-eternal-heaven-and-eternal-hell.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-28-ve-thien-duong-doi-doi-va-hoa-nguc-doi-doi.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-28-on-eternal-heaven-and-eternal-hell.webp"
+    },
+    {
+      "id": "gn_29",
+      "title_vi": "GIẢI NGỘ 29: Về Nhị nguyên - Âm dương",
+      "title_en": "Realisation 29: On duality - Yin and Yang",
+      "oldFile": "GIẢI NGỘ 29 Về Nhị nguyên - Âm dương.webp",
+      "newFile": "the-science-of-spirituality-realisation-29-on-duality-yin-and-yang.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-29-ve-nhi-nguyen-am-duong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-29-on-duality-yin-and-yang.webp"
+    },
+    {
+      "id": "gn_30",
+      "title_vi": "GIẢI NGỘ 30: Về Tam nguyên Thân - Tâm - Trí",
+      "title_en": "Realisation 30: On the triad of Body - Heart - Mind",
+      "oldFile": "GIẢI NGỘ 30 Về Tam nguyên Thân - Tâm - Trí.webp",
+      "newFile": "the-science-of-spirituality-realisation-30-on-the-triad-of-body-heart-mind.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-30-ve-tam-nguyen-than-tam-tri.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-30-on-the-triad-of-body-heart-mind.webp"
+    },
+    {
+      "id": "gn_31",
+      "title_vi": "GIẢI NGỘ 31: Về Nhất nguyên",
+      "title_en": "Realisation 31: On Oneness (Monism)",
+      "oldFile": "GIẢI NGỘ 31 Về Nhất nguyên.webp",
+      "newFile": "the-science-of-spirituality-realisation-31-on-oneness-monism.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-31-ve-nhat-nguyen.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-31-on-oneness-monism.webp"
+    },
+    {
+      "id": "gn_32",
+      "title_vi": "GIẢI NGỘ 32: Về Đạo - Tính không - Nền tảng vô hình của vạn hữu",
+      "title_en": "Realisation 32: On the Dao - Emptiness - the Invisible Ground of All Things",
+      "oldFile": "GIẢI NGỘ 32 Về Đạo - Tính không - Nền tảng vô hình của vạn hữu.webp",
+      "newFile": "the-science-of-spirituality-realisation-32-on-the-dao-emptiness-the-invisible-ground-of-all-things.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-32-ve-dao-tinh-khong-nen-tang-vo-hinh-cua-van-huu.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-32-on-the-dao-emptiness-the-invisible-ground-of-all-things.webp"
+    },
+    {
+      "id": "gn_33",
+      "title_vi": "GIẢI NGỘ 33: Các trạng thái của Tâm Không",
+      "title_en": "Realisation 33: The States of the Empty Mind",
+      "oldFile": "GIẢI NGỘ 33 Các trạng thái của Tâm Không.webp",
+      "newFile": "the-science-of-spirituality-realisation-33-the-states-of-the-empty-mind.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-33-cac-trang-thai-cua-tam-khong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-33-the-states-of-the-empty-mind.webp"
+    },
+    {
+      "id": "gn_34",
+      "title_vi": "GIẢI NGỘ 34: Con đường trung đạo",
+      "title_en": "Realisation 34: The Middle Way",
+      "oldFile": "GIẢI NGỘ 34 Con đường trung đạo.webp",
+      "newFile": "the-science-of-spirituality-realisation-34-the-middle-way.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-34-con-duong-trung-dao.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-34-the-middle-way.webp"
+    },
+    {
+      "id": "gn_35",
+      "title_vi": "GIẢI NGỘ 35: Các quy luật vũ trụ",
+      "title_en": "Realisation 35: The Laws of the Universe",
+      "oldFile": "GIẢI NGỘ 35 Các quy luật vũ trụ.webp",
+      "newFile": "the-science-of-spirituality-realisation-35-the-laws-of-the-universe.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-35-cac-quy-luat-vu-tru.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-35-the-laws-of-the-universe.webp"
+    },
+    {
+      "id": "gn_36",
+      "title_vi": "GIẢI NGỘ 36: Vũ trụ & Con người",
+      "title_en": "Realisation 36: The Universe & the Human Being",
+      "oldFile": "GIẢI NGỘ 36 Vũ trụ & Con người.webp",
+      "newFile": "the-science-of-spirituality-realisation-36-the-universe-the-human-being.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-36-vu-tru-con-nguoi.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-36-the-universe-the-human-being.webp"
+    },
+    {
+      "id": "gn_37",
+      "title_vi": "GIẢI NGỘ 37: Luật của Một",
+      "title_en": "Realisation 37: The Law of One",
+      "oldFile": "GIẢI NGỘ 37 Luật của Một.webp",
+      "newFile": "the-science-of-spirituality-realisation-37-the-law-of-one.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-37-luat-cua-mot.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-37-the-law-of-one.webp"
+    },
+    {
+      "id": "gn_38",
+      "title_vi": "GIẢI NGỘ 38: Mọi con đường đều dẫn về Một",
+      "title_en": "Realisation 38: All Paths Lead Back to the One",
+      "oldFile": "GIẢI NGỘ 38 Mọi con đường đều dẫn về Một.webp",
+      "newFile": "the-science-of-spirituality-realisation-38-all-paths-lead-back-to-the-one.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-38-moi-con-duong-deu-dan-ve-mot.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-38-all-paths-lead-back-to-the-one.webp"
+    },
+    {
+      "id": "gn_39",
+      "title_vi": "GIẢI NGỘ 39: Tất cả đều là ánh sáng",
+      "title_en": "Realisation 39: Everything Is Light",
+      "oldFile": "GIẢI NGỘ 39 Tất cả đều là ánh sáng.webp",
+      "newFile": "the-science-of-spirituality-realisation-39-everything-is-light.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-39-tat-ca-deu-la-anh-sang.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-39-everything-is-light.webp"
+    },
+    {
+      "id": "gn_40",
+      "title_vi": "GIẢI NGỘ 40: Về linh hồn",
+      "title_en": "Realisation 40: On the Soul",
+      "oldFile": "GIẢI NGỘ 40 Về linh hồn.webp",
+      "newFile": "the-science-of-spirituality-realisation-40-on-the-soul.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-40-ve-linh-hon.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-40-on-the-soul.webp"
+    },
+    {
+      "id": "gn_41",
+      "title_vi": "GIẢI NGỘ 41: Góc nhìn Linh hồn",
+      "title_en": "Realisation 41: The Soul's Perspective",
+      "oldFile": "GIẢI NGỘ 41 Góc nhìn Linh hồn.webp",
+      "newFile": "the-science-of-spirituality-realisation-41-the-souls-perspective.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-41-goc-nhin-linh-hon.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-41-the-souls-perspective.webp"
+    },
+    {
+      "id": "gn_42",
+      "title_vi": "GIẢI NGỘ 42: Tình yêu ẩn sau những vết thương",
+      "title_en": "Realisation 42: Love Hidden Behind Wounds",
+      "oldFile": "GIẢI NGỘ 42 Tình yêu ẩn sau những vết thương.webp",
+      "newFile": "the-science-of-spirituality-realisation-42-love-hidden-behind-wounds.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-42-tinh-yeu-an-sau-nhung-vet-thuong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-42-love-hidden-behind-wounds.webp"
+    },
+    {
+      "id": "gn_43",
+      "title_vi": "GIẢI NGỘ 43: Về Tự do",
+      "title_en": "Realisation 43: On Freedom",
+      "oldFile": "GIẢI NGỘ 43 Về Tự do.webp",
+      "newFile": "the-science-of-spirituality-realisation-43-on-freedom.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-43-ve-tu-do.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-43-on-freedom.webp"
+    },
+    {
+      "id": "gn_44",
+      "title_vi": "GIẢI NGỘ 44: Về Độc lập - Tự do - Hạnh phúc",
+      "title_en": "Realisation 44: On Independence, Freedom, and Happiness",
+      "oldFile": "GIẢI NGỘ 44 Về Độc lập - Tự do - Hạnh phúc.webp",
+      "newFile": "the-science-of-spirituality-realisation-44-on-independence-freedom-and-happiness.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-44-ve-doc-lap-tu-do-hanh-phuc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-44-on-independence-freedom-and-happiness.webp"
+    },
+    {
+      "id": "gn_45",
+      "title_vi": "GIẢI NGỘ 45: Về Cách mạng nội tâm",
+      "title_en": "Realisation 45: On Inner Revolution",
+      "oldFile": "GIẢI NGỘ 45 Về Cách mạng nội tâm.webp",
+      "newFile": "the-science-of-spirituality-realisation-45-on-inner-revolution.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-45-ve-cach-mang-noi-tam.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-45-on-inner-revolution.webp"
+    },
+    {
+      "id": "gn_46",
+      "title_vi": "GIẢI NGỘ 46: Về Tùy Duyên",
+      "title_en": "Realisation 46: On Letting Things Unfold",
+      "oldFile": "GIẢI NGỘ 46 Về Tùy Duyên.webp",
+      "newFile": "the-science-of-spirituality-realisation-46-on-letting-things-unfold.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-46-ve-tuy-duyen.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-46-on-letting-things-unfold.webp"
+    },
+    {
+      "id": "gn_47",
+      "title_vi": "GIẢI NGỘ 47: Thuận duyên - Bước ra khỏi trò chơi của tính hai mặt",
+      "title_en": "Realisation 47: Favourable Conditions-Stepping Out of the Game of Duality",
+      "oldFile": "GIẢI NGỘ 47 Thuận duyên - Bước ra khỏi trò chơi của tính hai mặt.webp",
+      "newFile": "the-science-of-spirituality-realisation-47-favourable-conditions-stepping-out-of-the-game-of-duality.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-47-thuan-duyen-buoc-ra-khoi-tro-choi-cua-tinh-hai-mat.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-47-favourable-conditions-stepping-out-of-the-game-of-duality.webp"
+    },
+    {
+      "id": "gn_48",
+      "title_vi": "GIẢI NGỘ 48: Về Đạo của nước - Tình yêu của nước",
+      "title_en": "Realisation 48: The Way of Water-Water's Love",
+      "oldFile": "GIẢI NGỘ 48 Về Đạo của nước - Tình yêu của nước.webp",
+      "newFile": "the-science-of-spirituality-realisation-48-the-way-of-water-waters-love.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-48-ve-dao-cua-nuoc-tinh-yeu-cua-nuoc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-48-the-way-of-water-waters-love.webp"
+    },
+    {
+      "id": "gn_49",
+      "title_vi": "GIẢI NGỘ 49: Thiên địa vạn vật đồng nhất thể",
+      "title_en": "Realisation 49: Heaven, Earth, and All Things Are One Whole",
+      "oldFile": "GIẢI NGỘ 49 Thiên địa vạn vật đồng nhất thể.webp",
+      "newFile": "the-science-of-spirituality-realisation-49-heaven-earth-and-all-things-are-one-whole.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-49-thien-dia-van-vat-dong-nhat-the.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-49-heaven-earth-and-all-things-are-one-whole.webp"
+    },
+    {
+      "id": "gn_50",
+      "title_vi": "GIẢI NGỘ 50: Tất cả chúng ta là Một - Hòa hợp chứ không hòa tan",
+      "title_en": "Realisation 50: We Are All One - Harmonise, Don't Dissolve",
+      "oldFile": "GIẢI NGỘ 50 Tất cả chúng ta là Một - Hòa hợp chứ không hòa tan.webp",
+      "newFile": "the-science-of-spirituality-realisation-50-we-are-all-one-harmonise-dont-dissolve.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-50-tat-ca-chung-ta-la-mot-hoa-hop-chu-khong-hoa-tan.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-50-we-are-all-one-harmonise-dont-dissolve.webp"
+    },
+    {
+      "id": "gn_51",
+      "title_vi": "GIẢI NGỘ 51: Thấu hiểu - Cội nguồn của tình yêu thương",
+      "title_en": "Realisation 51: Understanding - The Source of Love",
+      "oldFile": "GIẢI NGỘ 51 Thấu hiểu - Cội nguồn của tình yêu thương.webp",
+      "newFile": "the-science-of-spirituality-realisation-51-understanding-the-source-of-love.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-51-thau-hieu-coi-nguon-cua-tinh-yeu-thuong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-51-understanding-the-source-of-love.webp"
+    },
+    {
+      "id": "gn_52",
+      "title_vi": "GIẢI NGỘ 52: Tình yêu - Là để cho người khác được là chính họ",
+      "title_en": "Realisation 52: Love - Letting Others Be Themselves",
+      "oldFile": "GIẢI NGỘ 52 Tình yêu - Là để cho người khác được là chính họ.webp",
+      "newFile": "the-science-of-spirituality-realisation-52-love-letting-others-be-themselves.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-52-tinh-yeu-la-de-cho-nguoi-khac-duoc-la-chinh-ho.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-52-love-letting-others-be-themselves.webp"
+    },
+    {
+      "id": "gn_53",
+      "title_vi": "GIẢI NGỘ 53: Hành trình tiến hóa của Trái tim",
+      "title_en": "Realisation 53: The Heart's Evolutionary Journey",
+      "oldFile": "GIẢI NGỘ 53 Hành trình tiến hóa của Trái tim.webp",
+      "newFile": "the-science-of-spirituality-realisation-53-the-hearts-evolutionary-journey.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-53-hanh-trinh-tien-hoa-cua-trai-tim.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-53-the-hearts-evolutionary-journey.webp"
+    },
+    {
+      "id": "gn_54",
+      "title_vi": "GIẢI NGỘ 54: Sống thuận tự nhiên",
+      "title_en": "Realisation 54: Living in Harmony with Nature",
+      "oldFile": "GIẢI NGỘ 54 Sống thuận tự nhiên.webp",
+      "newFile": "the-science-of-spirituality-realisation-54-living-in-harmony-with-nature.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-54-song-thuan-tu-nhien.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-54-living-in-harmony-with-nature.webp"
+    },
+    {
+      "id": "gn_55",
+      "title_vi": "GIẢI NGỘ 55: Thế giới đại đồng - Giấc mơ chung của nhân loại",
+      "title_en": "Realisation 55: The Great Harmony of the World - Humanity's Shared Dream",
+      "oldFile": "GIẢI NGỘ 55 Thế giới đại đồng - Giấc mơ chung của nhân loại.webp",
+      "newFile": "the-science-of-spirituality-realisation-55-the-great-harmony-of-the-world-humanitys-shared-dream.webp",
+      "viFile": "khoa-hoc-tam-linh-giai-ngo-55-the-gioi-dai-dong-giac-mo-chung-cua-nhan-loai.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-55-the-great-harmony-of-the-world-humanitys-shared-dream.webp"
+    },
+    {
+      "id": "hanh_trang",
+      "title_vi": "HÀNH TRANG TIẾN VÀO KỶ NGUYÊN MỚI",
+      "title_en": "Packing for a New Era",
+      "oldFile": "HÀNH TRANG TIẾN VÀO KỶ NGUYÊN MỚI.webp",
+      "newFile": "the-science-of-spirituality-packing-for-a-new-era.webp",
+      "viFile": "khoa-hoc-tam-linh-hanh-trang-tien-vao-ky-nguyen-moi.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-packing-for-a-new-era.webp"
+    },
+    {
+      "id": "cn_01",
+      "title_vi": "CHỨNG NGỘ 01: Hành trình từ biết đến sống",
+      "title_en": "Attainment 01: The journey from knowing to living",
+      "oldFile": "III CHỨNG NGỘ 01 Hành trình từ biết đến sống.webp",
+      "newFile": "the-science-of-spirituality-attainment-01-the-journey-from-knowing-to-living.webp",
+      "viFile": "khoa-hoc-tam-linh-iii-chung-ngo-01-hanh-trinh-tu-biet-den-song.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-01-the-journey-from-knowing-to-living.webp"
+    },
+    {
+      "id": "cn_02",
+      "title_vi": "CHỨNG NGỘ 02: Sáu nấc thang chuyển hóa nội tâm",
+      "title_en": "Attainment 02: Six steps of inner transformation",
+      "oldFile": "III CHỨNG NGỘ 02 Sáu nấc thang chuyển hóa nội tâm.webp",
+      "newFile": "the-science-of-spirituality-attainment-02-six-steps-of-inner-transformation.webp",
+      "viFile": "khoa-hoc-tam-linh-iii-chung-ngo-02-sau-nac-thang-chuyen-hoa-noi-tam.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-02-six-steps-of-inner-transformation.webp"
+    },
+    {
+      "id": "cn_03",
+      "title_vi": "CHỨNG NGỘ 03: Đối diện với Bóng tối",
+      "title_en": "Attainment 03: Facing the Darkness",
+      "oldFile": "III CHỨNG NGỘ 03 Đối diện với Bóng tối.webp",
+      "newFile": "the-science-of-spirituality-attainment-03-facing-the-darkness.webp",
+      "viFile": "khoa-hoc-tam-linh-iii-chung-ngo-03-doi-dien-voi-bong-toi.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-03-facing-the-darkness.webp"
+    },
+    {
+      "id": "cn_04",
+      "title_vi": "CHỨNG NGỘ 04: Khi thử thách trở thành món quà",
+      "title_en": "Attainment 04: When challenges become a gift",
+      "oldFile": "III CHỨNG NGỘ 04 Khi thử thách trở thành món quà.webp",
+      "newFile": "the-science-of-spirituality-attainment-04-when-challenges-become-a-gift.webp",
+      "viFile": "khoa-hoc-tam-linh-iii-chung-ngo-04-khi-thu-thach-tro-thanh-mon-qua.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-04-when-challenges-become-a-gift.webp"
+    },
+    {
+      "id": "cn_05",
+      "title_vi": "CHỨNG NGỘ 05: Buông - Bước ngoặt của hành trình chứng ngộ",
+      "title_en": "Attainment 05: Letting go - the turning point on the path of attainment",
+      "oldFile": "III CHỨNG NGỘ 05 Buông - Bước ngoặt của hành trình chứng ngộ.webp",
+      "newFile": "the-science-of-spirituality-attainment-05-letting-go-the-turning-point-on-the-path-of-attainment.webp",
+      "viFile": "khoa-hoc-tam-linh-iii-chung-ngo-05-buong-buoc-ngoat-cua-hanh-trinh-chung-ngo.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-05-letting-go-the-turning-point-on-the-path-of-attainment.webp"
+    },
+    {
+      "id": "cn_06",
+      "title_vi": "CHỨNG NGỘ 06: Tự do - Trạng thái tự nhiên của Tâm",
+      "title_en": "Attainment 06: Freedom - the Heart-Mind's natural state",
+      "oldFile": "III CHỨNG NGỘ 06 Tự do - Trạng thái tự nhiên của Tâm.webp",
+      "newFile": "the-science-of-spirituality-attainment-06-freedom-the-heart-minds-natural-state.webp",
+      "viFile": "khoa-hoc-tam-linh-iii-chung-ngo-06-tu-do-trang-thai-tu-nhien-cua-tam.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-06-freedom-the-heart-minds-natural-state.webp"
+    },
+    {
+      "id": "part_8",
+      "title_vi": "PHẦN VIII - GIÁC NGỘ",
+      "title_en": "Part VIII – Awakening",
+      "oldFile": "PHẦN VIII - GIÁC NGỘ.webp",
+      "newFile": "the-science-of-spirituality-part-viii-awakening.webp",
+      "viFile": "khoa-hoc-tam-linh-phan-08-giac-ngo.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-part-viii-awakening.webp"
+    },
+    {
+      "id": "part_11",
+      "title_vi": "PHẦN XI - LỜI KẾT",
+      "title_en": "Part XI - Conclusion",
+      "oldFile": "PHẦN XI - LỜI KẾT.webp",
+      "newFile": "the-science-of-spirituality-part-xi-conclusion.webp",
+      "viFile": "khoa-hoc-tam-linh-phan-11-loi-ket.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-part-xi-conclusion.webp"
+    },
+    {
+      "id": "pl_03",
+      "title_vi": "PHỤ LỤC 3: BẢN ĐỒ HÀNH TRÌNH THỨC TỈNH",
+      "title_en": "Appendix 3: Map of the Journey of Awakening",
+      "oldFile": "PHỤ LỤC 3 BẢN ĐỒ HÀNH TRÌNH THỨC TỈNH.webp",
+      "newFile": "the-science-of-spirituality-appendix-03-map-of-the-journey-of-awakening.webp",
+      "viFile": "khoa-hoc-tam-linh-phu-luc-03-ban-do-hanh-trinh-thuc-tinh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-appendix-03-map-of-the-journey-of-awakening.webp"
+    },
+    {
+      "id": "sn_01",
+      "title_vi": "SUY NGẪM 01: Tượng đài của cái tôi",
+      "title_en": "Reflection 01: The Monument of the Ego",
+      "oldFile": "SUY NGẪM 01 Tượng đài của cái tôi.webp",
+      "newFile": "the-science-of-spirituality-reflection-01-the-monument-of-the-ego.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-01-tuong-dai-cua-cai-toi.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-01-the-monument-of-the-ego.webp"
+    },
+    {
+      "id": "sn_02",
+      "title_vi": "SUY NGẪM 02: Hạt mầm của khổ đau",
+      "title_en": "Reflection 02: The Seed of Suffering",
+      "oldFile": "SUY NGẪM 02 Hạt mầm của khổ đau.webp",
+      "newFile": "the-science-of-spirituality-reflection-02-the-seed-of-suffering.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-02-hat-mam-cua-kho-dau.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-02-the-seed-of-suffering.webp"
+    },
+    {
+      "id": "sn_03",
+      "title_vi": "SUY NGẪM 03: Sức mạnh của sự thật",
+      "title_en": "Reflection 03: The Power of Truth",
+      "oldFile": "SUY NGẪM 03 Sức mạnh của sự thật.webp",
+      "newFile": "the-science-of-spirituality-reflection-03-the-power-of-truth.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-03-suc-manh-cua-su-that.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-03-the-power-of-truth.webp"
+    },
+    {
+      "id": "sn_04",
+      "title_vi": "SUY NGẪM 04: Về Thiện và Ác - Ánh sáng của sự thật",
+      "title_en": "Reflection 04: Good and Evil - The Light of Truth",
+      "oldFile": "SUY NGẪM 04 Về Thiện và Ác - Ánh sáng của sự thật.webp",
+      "newFile": "the-science-of-spirituality-reflection-04-good-and-evil-the-light-of-truth.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-04-ve-thien-va-ac-anh-sang-cua-su-that.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-04-good-and-evil-the-light-of-truth.webp"
+    },
+    {
+      "id": "sn_05",
+      "title_vi": "SUY NGẪM 05: Nghịch cảnh và giải thoát",
+      "title_en": "Reflection 05: Adversity and Liberation",
+      "oldFile": "SUY NGẪM 05 Nghịch cảnh và giải thoát.webp",
+      "newFile": "the-science-of-spirituality-reflection-05-adversity-and-liberation.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-05-nghich-canh-va-giai-thoat.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-05-adversity-and-liberation.webp"
+    },
+    {
+      "id": "sn_06",
+      "title_vi": "SUY NGẪM 06: Khi mất rồi mới thấy biết ơn những gì mình đang có",
+      "title_en": "Reflection 06: Only After Losing It Do We Appreciate What We Had",
+      "oldFile": "SUY NGẪM 06 Khi mất rồi mới thấy biết ơn những gì mình đang có.webp",
+      "newFile": "the-science-of-spirituality-reflection-06-only-after-losing-it-do-we-appreciate-what-we-had.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-06-khi-mat-roi-moi-thay-biet-on-nhung-gi-minh-dang-co.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-06-only-after-losing-it-do-we-appreciate-what-we-had.webp"
+    },
+    {
+      "id": "sn_07",
+      "title_vi": "SUY NGẪM 07: Ba nền tảng của sức khỏe toàn diện",
+      "title_en": "Reflection 07: The Three Foundations of True Wellbeing",
+      "oldFile": "SUY NGẪM 07 Ba nền tảng của sức khỏe toàn diện.webp",
+      "newFile": "the-science-of-spirituality-reflection-07-the-three-foundations-of-true-wellbeing.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-07-ba-nen-tang-cua-suc-khoe-toan-dien.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-07-the-three-foundations-of-true-wellbeing.webp"
+    },
+    {
+      "id": "sn_08",
+      "title_vi": "SUY NGẪM 08: Nền giáo dục ánh sáng",
+      "title_en": "Reflection 08: Education as Light",
+      "oldFile": "SUY NGẪM 08 Nền giáo dục ánh sáng.webp",
+      "newFile": "the-science-of-spirituality-reflection-08-education-as-light.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-08-nen-giao-duc-anh-sang.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-08-education-as-light.webp"
+    },
+    {
+      "id": "sn_09",
+      "title_vi": "SUY NGẪM 09: Chuyển hóa nghiệp",
+      "title_en": "Reflection 09: Transforming Karma",
+      "oldFile": "SUY NGẪM 09 Chuyển hóa nghiệp.webp",
+      "newFile": "the-science-of-spirituality-reflection-09-transforming-karma.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-09-chuyen-hoa-nghiep.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-09-transforming-karma.webp"
+    },
+    {
+      "id": "sn_10",
+      "title_vi": "SUY NGẪM 10: Nỗi sợ - Ảo ảnh của tâm",
+      "title_en": "Reflection 10: Fear - the Mind's Illusion",
+      "oldFile": "SUY NGẪM 10 Nỗi sợ - Ảo ảnh của tâm.webp",
+      "newFile": "the-science-of-spirituality-reflection-10-fear-the-minds-illusion.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-10-noi-so-ao-anh-cua-tam.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-10-fear-the-minds-illusion.webp"
+    },
+    {
+      "id": "sn_11",
+      "title_vi": "SUY NGẪM 11: Khi Tâm phản ứng với ngoại cảnh",
+      "title_en": "Reflection 11: When the Mind Reacts to Outer Circumstances",
+      "oldFile": "SUY NGẪM 11 Khi Tâm phản ứng với ngoại cảnh.webp",
+      "newFile": "the-science-of-spirituality-reflection-11-when-the-mind-reacts-to-outer-circumstances.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-11-khi-tam-phan-ung-voi-ngoai-canh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-11-when-the-mind-reacts-to-outer-circumstances.webp"
+    },
+    {
+      "id": "sn_12",
+      "title_vi": "SUY NGẪM 12: Chưa tu chấp kiểu đời, tu rồi chấp kiểu Đạo",
+      "title_en": "Reflection 12: Before Practice, We Cling in Worldly Ways; After Practice, We Cling in Spiritual Ways",
+      "oldFile": "SUY NGẪM 12 Chưa tu chấp kiểu đời, tu rồi chấp kiểu Đạo.webp",
+      "newFile": "the-science-of-spirituality-reflection-12-before-practice-we-cling-in-worldly-ways-after-practice-we-cling-in-spiritual-ways.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-12-chua-tu-chap-kieu-doi-tu-roi-chap-kieu-dao.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-12-before-practice-we-cling-in-worldly-ways-after-practice-we-cling-in-spiritual-ways.webp"
+    },
+    {
+      "id": "sn_13",
+      "title_vi": "SUY NGẪM 13: Quy luật cân bằng",
+      "title_en": "Reflection 13: The Law of Balance",
+      "oldFile": "SUY NGẪM 13 Quy luật cân bằng.webp",
+      "newFile": "the-science-of-spirituality-reflection-13-the-law-of-balance.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-13-quy-luat-can-bang.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-13-the-law-of-balance.webp"
+    },
+    {
+      "id": "sn_14",
+      "title_vi": "SUY NGẪM 14: Giàu có là khi Tâm biết đủ",
+      "title_en": "Reflection 14: Wealth Is a Contented Heart",
+      "oldFile": "SUY NGẪM 14 Giàu có là khi Tâm biết đủ.webp",
+      "newFile": "the-science-of-spirituality-reflection-14-wealth-is-a-contented-heart.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-14-giau-co-la-khi-tam-biet-du.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-14-wealth-is-a-contented-heart.webp"
+    },
+    {
+      "id": "sn_15",
+      "title_vi": "SUY NGẪM 15: Làm mà không quan tâm",
+      "title_en": "Reflection 15: Acting Without Attachment",
+      "oldFile": "SUY NGẪM 15 Làm mà không quan tâm.webp",
+      "newFile": "the-science-of-spirituality-reflection-15-acting-without-attachment.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-15-lam-ma-khong-quan-tam.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-15-acting-without-attachment.webp"
+    },
+    {
+      "id": "sn_16",
+      "title_vi": "SUY NGẪM 16: Người đã lành - Không có gì là không thể nói",
+      "title_en": "Reflection 16: One Who Has Healed-There Is Nothing They Cannot Say",
+      "oldFile": "SUY NGẪM 16 Người đã lành - Không có gì là không thể nói.webp",
+      "newFile": "the-science-of-spirituality-reflection-16-one-who-has-healed-there-is-nothing-they-cannot-say.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-16-nguoi-da-lanh-khong-co-gi-la-khong-the-noi.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-16-one-who-has-healed-there-is-nothing-they-cannot-say.webp"
+    },
+    {
+      "id": "sn_17",
+      "title_vi": "SUY NGẪM 17: Khi ta trưởng thành",
+      "title_en": "Reflection 17: When We Grow Up",
+      "oldFile": "SUY NGẪM 17 Khi ta trưởng thành.webp",
+      "newFile": "the-science-of-spirituality-reflection-17-when-we-grow-up.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-17-khi-ta-truong-thanh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-17-when-we-grow-up.webp"
+    },
+    {
+      "id": "sn_18",
+      "title_vi": "SUY NGẪM 18: Hành trình chữa lành",
+      "title_en": "Reflection 18: The Healing Journey",
+      "oldFile": "SUY NGẪM 18 Hành trình chữa lành.webp",
+      "newFile": "the-science-of-spirituality-reflection-18-the-healing-journey.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-18-hanh-trinh-chua-lanh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-18-the-healing-journey.webp"
+    },
+    {
+      "id": "sn_19",
+      "title_vi": "SUY NGẪM 19: Tan chảy để trở về đại dương",
+      "title_en": "Reflection 19: Melting to Return to the Ocean",
+      "oldFile": "SUY NGẪM 19 Tan chảy để trở về đại dương.webp",
+      "newFile": "the-science-of-spirituality-reflection-19-melting-to-return-to-the-ocean.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-19-tan-chay-de-tro-ve-dai-duong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-19-melting-to-return-to-the-ocean.webp"
+    },
+    {
+      "id": "sn_20",
+      "title_vi": "SUY NGẪM 20: Trở thành tình yêu",
+      "title_en": "Reflection 20: Becoming Love",
+      "oldFile": "SUY NGẪM 20 Trở thành tình yêu.webp",
+      "newFile": "the-science-of-spirituality-reflection-20-becoming-love.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-20-tro-thanh-tinh-yeu.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-20-becoming-love.webp"
+    },
+    {
+      "id": "sn_21",
+      "title_vi": "SUY NGẪM 21: Tình yêu vô điều kiện",
+      "title_en": "Reflection 21: Unconditional Love",
+      "oldFile": "SUY NGẪM 21 Tình yêu vô điều kiện.webp",
+      "newFile": "the-science-of-spirituality-reflection-21-unconditional-love.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-21-tinh-yeu-vo-dieu-kien.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-21-unconditional-love.webp"
+    },
+    {
+      "id": "sn_22",
+      "title_vi": "SUY NGẪM 22: Tình yêu của tạo hóa - Không thiên vị, không phân biệt",
+      "title_en": "Reflection 22: The Love of Creation - Unbiased, Without Discrimination",
+      "oldFile": "SUY NGẪM 22 Tình yêu của tạo hóa - Không thiên vị, không phân biệt.webp",
+      "newFile": "the-science-of-spirituality-reflection-22-the-love-of-creation-unbiased-without-discrimination.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-22-tinh-yeu-cua-tao-hoa-khong-thien-vi-khong-phan-biet.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-22-the-love-of-creation-unbiased-without-discrimination.webp"
+    },
+    {
+      "id": "sn_23",
+      "title_vi": "SUY NGẪM 23: Khi tình yêu với chính mình chưa đủ",
+      "title_en": "Reflection 23: When Your Self-Love Is Not Yet Enough",
+      "oldFile": "SUY NGẪM 23 Khi tình yêu với chính mình chưa đủ.webp",
+      "newFile": "the-science-of-spirituality-reflection-23-when-your-self-love-is-not-yet-enough.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-23-khi-tinh-yeu-voi-chinh-minh-chua-du.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-23-when-your-self-love-is-not-yet-enough.webp"
+    },
+    {
+      "id": "sn_24",
+      "title_vi": "SUY NGẪM 24: Tình yêu thì không có bài xích",
+      "title_en": "Reflection 24: Love Has No Rejection",
+      "oldFile": "SUY NGẪM 24 Tình yêu thì không có bài xích.webp",
+      "newFile": "the-science-of-spirituality-reflection-24-love-has-no-rejection.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-24-tinh-yeu-thi-khong-co-bai-xich.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-24-love-has-no-rejection.webp"
+    },
+    {
+      "id": "sn_25",
+      "title_vi": "SUY NGẪM 25: Từ bi với chính mình - Cội nguồn của mọi yêu thương",
+      "title_en": "Reflection 25: Compassion for Yourself - The Source of All Love",
+      "oldFile": "SUY NGẪM 25 Từ bi với chính mình - Cội nguồn của mọi yêu thương.webp",
+      "newFile": "the-science-of-spirituality-reflection-25-compassion-for-yourself-the-source-of-all-love.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-25-tu-bi-voi-chinh-minh-coi-nguon-cua-moi-yeu-thuong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-25-compassion-for-yourself-the-source-of-all-love.webp"
+    },
+    {
+      "id": "sn_26",
+      "title_vi": "SUY NGẪM 26: Giá trị sống - Thước đo của hạnh phúc",
+      "title_en": "Reflection 26: Values in Life - The Measure of Happiness",
+      "oldFile": "SUY NGẪM 26 Giá trị sống - Thước đo của hạnh phúc.webp",
+      "newFile": "the-science-of-spirituality-reflection-26-values-in-life-the-measure-of-happiness.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-26-gia-tri-song-thuoc-do-cua-hanh-phuc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-26-values-in-life-the-measure-of-happiness.webp"
+    },
+    {
+      "id": "sn_27",
+      "title_vi": "SUY NGẪM 27: Đạo của tự nhiên",
+      "title_en": "Reflection 27: The Dao of Nature",
+      "oldFile": "SUY NGẪM 27 Đạo của tự nhiên.webp",
+      "newFile": "the-science-of-spirituality-reflection-27-the-dao-of-nature.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-27-dao-cua-tu-nhien.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-27-the-dao-of-nature.webp"
+    },
+    {
+      "id": "sn_28",
+      "title_vi": "SUY NGẪM 28: Một chữ Hòa",
+      "title_en": "Reflection 28: One Word - Harmony",
+      "oldFile": "SUY NGẪM 28 Một chữ Hòa.webp",
+      "newFile": "the-science-of-spirituality-reflection-28-one-word-harmony.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-28-mot-chu-hoa.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-28-one-word-harmony.webp"
+    },
+    {
+      "id": "sn_29",
+      "title_vi": "SUY NGẪM 29: Cây sự sống",
+      "title_en": "Reflection 29: The Tree of Life",
+      "oldFile": "SUY NGẪM 29 Cây sự sống.webp",
+      "newFile": "the-science-of-spirituality-reflection-29-the-tree-of-life.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-29-cay-su-song.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-29-the-tree-of-life.webp"
+    },
+    {
+      "id": "sn_30",
+      "title_vi": "SUY NGẪM 30: Bí mật của cái chết",
+      "title_en": "Reflection 30: The Secret of Death",
+      "oldFile": "SUY NGẪM 30 Bí mật của cái chết.webp",
+      "newFile": "the-science-of-spirituality-reflection-30-the-secret-of-death.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-30-bi-mat-cua-cai-chet.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-30-the-secret-of-death.webp"
+    },
+    {
+      "id": "sn_31",
+      "title_vi": "SUY NGẪM 31: Tất cả đều là Phật",
+      "title_en": "Reflection 31: Everything Is Buddha",
+      "oldFile": "SUY NGẪM 31 Tất cả đều là Phật.webp",
+      "newFile": "the-science-of-spirituality-reflection-31-everything-is-buddha.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-31-tat-ca-deu-la-phat.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-31-everything-is-buddha.webp"
+    },
+    {
+      "id": "sn_32",
+      "title_vi": "SUY NGẪM 32: Phật ở trong Tâm",
+      "title_en": "Reflection 32: Buddha Is Within the Heart",
+      "oldFile": "SUY NGẪM 32 Phật ở trong Tâm.webp",
+      "newFile": "the-science-of-spirituality-reflection-32-buddha-is-within-the-heart.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-32-phat-o-trong-tam.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-32-buddha-is-within-the-heart.webp"
+    },
+    {
+      "id": "sn_33",
+      "title_vi": "SUY NGẪM 33: Nụ cười của Phật Di Lặc",
+      "title_en": "Reflection 33: The Smile of Maitreya Buddha",
+      "oldFile": "SUY NGẪM 33 Nụ cười của Phật Di Lặc.webp",
+      "newFile": "the-science-of-spirituality-reflection-33-the-smile-of-maitreya-buddha.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-33-nu-cuoi-cua-phat-di-lac.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-33-the-smile-of-maitreya-buddha.webp"
+    },
+    {
+      "id": "sn_34",
+      "title_vi": "SUY NGẪM 34: Niết bàn trong luân hồi",
+      "title_en": "Reflection 34: Nirvana Within Samsara",
+      "oldFile": "SUY NGẪM 34 Niết bàn trong luân hồi.webp",
+      "newFile": "the-science-of-spirituality-reflection-34-nirvana-within-samsara.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-34-niet-ban-trong-luan-hoi.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-34-nirvana-within-samsara.webp"
+    },
+    {
+      "id": "sn_35",
+      "title_vi": "SUY NGẪM 35: Thức tỉnh",
+      "title_en": "Reflection 35: Awakening",
+      "oldFile": "SUY NGẪM 35 Thức tỉnh.webp",
+      "newFile": "the-science-of-spirituality-reflection-35-awakening.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-35-thuc-tinh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-35-awakening.webp"
+    },
+    {
+      "id": "sn_36",
+      "title_vi": "SUY NGẪM 36: Người vô hình",
+      "title_en": "Reflection 36: The Invisible One",
+      "oldFile": "SUY NGẪM 36 Người vô hình.webp",
+      "newFile": "the-science-of-spirituality-reflection-36-the-invisible-one.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-36-nguoi-vo-hinh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-36-the-invisible-one.webp"
+    },
+    {
+      "id": "sn_37",
+      "title_vi": "SUY NGẪM 37: Vượt ra ngoài nhân quả",
+      "title_en": "Reflection 37: Beyond Cause and Effect",
+      "oldFile": "SUY NGẪM 37 Vượt ra ngoài nhân quả.webp",
+      "newFile": "the-science-of-spirituality-reflection-37-beyond-cause-and-effect.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-37-vuot-ra-ngoai-nhan-qua.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-37-beyond-cause-and-effect.webp"
+    },
+    {
+      "id": "sn_38",
+      "title_vi": "SUY NGẪM 38: Thượng đế ở khắp muôn nơi",
+      "title_en": "Reflection 38: God Is Everywhere",
+      "oldFile": "SUY NGẪM 38 Thượng đế ở khắp muôn nơi.webp",
+      "newFile": "the-science-of-spirituality-reflection-38-god-is-everywhere.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-38-thuong-de-o-khap-muon-noi.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-38-god-is-everywhere.webp"
+    },
+    {
+      "id": "sn_39",
+      "title_vi": "SUY NGẪM 39: Xã hội Đại Đồng - Khi thiên đường trở lại",
+      "title_en": "Reflection 39: The Great Unity Society - When Heaven Returns",
+      "oldFile": "SUY NGẪM 39 Xã hội Đại Đồng - Khi thiên đường trở lại.webp",
+      "newFile": "the-science-of-spirituality-reflection-39-the-great-unity-society-when-heaven-returns.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-39-xa-hoi-dai-dong-khi-thien-duong-tro-lai.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-39-the-great-unity-society-when-heaven-returns.webp"
+    },
+    {
+      "id": "sn_40",
+      "title_vi": "SUY NGẪM 40: Là chính mình - Hành trình trở về tự tính",
+      "title_en": "Reflection 40: Being Yourself - The Journey Back to Your True Nature",
+      "oldFile": "SUY NGẪM 40 Là chính mình - Hành trình trở về tự tính.webp",
+      "newFile": "the-science-of-spirituality-reflection-40-being-yourself-the-journey-back-to-your-true-nature.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-40-la-chinh-minh-hanh-trinh-tro-ve-tu-tinh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-40-being-yourself-the-journey-back-to-your-true-nature.webp"
+    },
+    {
+      "id": "sn_41",
+      "title_vi": "SUY NGẪM 41: Cả thế giới này được tạo ra chỉ là: “Vì bạn”",
+      "title_en": "Reflection 41: This Whole World Was Made for One Reason: You",
+      "oldFile": "SUY NGẪM 41 Cả thế giới này được tạo ra chỉ là Vì bạn.webp",
+      "newFile": "the-science-of-spirituality-reflection-41-this-whole-world-was-made-for-one-reason-you.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-41-ca-the-gioi-nay-duoc-tao-ra-chi-la-vi-ban.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-41-this-whole-world-was-made-for-one-reason-you.webp"
+    },
+    {
+      "id": "sn_42",
+      "title_vi": "SUY NGẪM 42: Đỉnh cao của trí tuệ chính là sự đơn giản",
+      "title_en": "Reflection 42: The Highest Wisdom Is Simplicity",
+      "oldFile": "SUY NGẪM 42 Đỉnh cao của trí tuệ chính là sự đơn giản.webp",
+      "newFile": "the-science-of-spirituality-reflection-42-the-highest-wisdom-is-simplicity.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-42-dinh-cao-cua-tri-tue-chinh-la-su-don-gian.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-42-the-highest-wisdom-is-simplicity.webp"
+    },
+    {
+      "id": "sn_43",
+      "title_vi": "SUY NGẪM 43: Bạn không là gì cả thì bạn là tất cả",
+      "title_en": "Reflection 43: When You Are Nothing, You Are Everything",
+      "oldFile": "SUY NGẪM 43 Bạn không là gì cả thì bạn là tất cả.webp",
+      "newFile": "the-science-of-spirituality-reflection-43-when-you-are-nothing-you-are-everything.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-43-ban-khong-la-gi-ca-thi-ban-la-tat-ca.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-43-when-you-are-nothing-you-are-everything.webp"
+    },
+    {
+      "id": "sn_44",
+      "title_vi": "SUY NGẪM 44: Người thầy vĩ đại nhất",
+      "title_en": "Reflection 44: The Greatest Teacher",
+      "oldFile": "SUY NGẪM 44 Người thầy vĩ đại nhất.webp",
+      "newFile": "the-science-of-spirituality-reflection-44-the-greatest-teacher.webp",
+      "viFile": "khoa-hoc-tam-linh-suy-ngam-44-nguoi-thay-vi-dai-nhat.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-44-the-greatest-teacher.webp"
+    },
+    {
+      "id": "th_01",
+      "title_vi": "THỰC HÀNH 01: Yoga - Pranayama - Khí công",
+      "title_en": "Practice 01: Yoga - Pranayama - Qigong",
+      "oldFile": "THỰC HÀNH 01 Yoga - Pranayama - Khí công.webp",
+      "newFile": "the-science-of-spirituality-practice-01-yoga-pranayama-qigong.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-01-yoga-pranayama-khi-cong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-01-yoga-pranayama-qigong.webp"
+    },
+    {
+      "id": "th_02",
+      "title_vi": "THỰC HÀNH 02: Thiền tĩnh - Thiền nằm cân bằng - Thiền Vipassana",
+      "title_en": "Practice 02: Still Meditation - Balanced Lying Meditation - Vipassana",
+      "oldFile": "THỰC HÀNH 02 Thiền tĩnh - Thiền nằm cân bằng - Thiền Vipassana.webp",
+      "newFile": "the-science-of-spirituality-practice-02-still-meditation-balanced-lying-meditation-vipassana.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-02-thien-tinh-thien-nam-can-bang-thien-vipassana.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-02-still-meditation-balanced-lying-meditation-vipassana.webp"
+    },
+    {
+      "id": "th_03",
+      "title_vi": "THỰC HÀNH 03: Thiền động - Con đường chữa lành bằng hành động",
+      "title_en": "Practice 03: Dynamic Meditation - the path of healing through action",
+      "oldFile": "THỰC HÀNH 03 Thiền động - Con đường chữa lành bằng hành động.webp",
+      "newFile": "the-science-of-spirituality-practice-03-dynamic-meditation-the-path-of-healing-through-action.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-03-thien-dong-con-duong-chua-lanh-bang-hanh-dong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-03-dynamic-meditation-the-path-of-healing-through-action.webp"
+    },
+    {
+      "id": "th_04",
+      "title_vi": "THỰC HÀNH 04: Sống thiền - Thiền trung đạo",
+      "title_en": "Practice 04: Living Meditation - the Middle Way",
+      "oldFile": "THỰC HÀNH 04 Sống thiền - Thiền trung đạo.webp",
+      "newFile": "the-science-of-spirituality-practice-04-living-meditation-the-middle-way.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-04-song-thien-thien-trung-dao.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-04-living-meditation-the-middle-way.webp"
+    },
+    {
+      "id": "th_05",
+      "title_vi": "THỰC HÀNH 05: Ăn uống cân bằng Âm - Dương",
+      "title_en": "Practice 05: Eating to Balance Yin and Yang",
+      "oldFile": "THỰC HÀNH 05 Ăn uống cân bằng Âm - Dương.webp",
+      "newFile": "the-science-of-spirituality-practice-05-eating-to-balance-yin-and-yang.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-05-an-uong-can-bang-am-duong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-05-eating-to-balance-yin-and-yang.webp"
+    },
+    {
+      "id": "th_06",
+      "title_vi": "THỰC HÀNH 06: Thức tỉnh tế bào",
+      "title_en": "Practice 06: Awakening the Cells",
+      "oldFile": "THỰC HÀNH 06 Thức tỉnh tế bào.webp",
+      "newFile": "the-science-of-spirituality-practice-06-awakening-the-cells.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-06-thuc-tinh-te-bao.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-06-awakening-the-cells.webp"
+    },
+    {
+      "id": "th_07",
+      "title_vi": "THỰC HÀNH 07: Nghe nhạc chữa lành - Nhạc tần số",
+      "title_en": "Practice 07: Listening to Healing Music - Frequency Music",
+      "oldFile": "THỰC HÀNH 07 Nghe nhạc chữa lành - Nhạc tần số.webp",
+      "newFile": "the-science-of-spirituality-practice-07-listening-to-healing-music-frequency-music.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-07-nghe-nhac-chua-lanh-nhac-tan-so.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-07-listening-to-healing-music-frequency-music.webp"
+    },
+    {
+      "id": "th_08",
+      "title_vi": "THỰC HÀNH 08: Thiền quán",
+      "title_en": "Practice 08: Insight Meditation",
+      "oldFile": "THỰC HÀNH 08 Thiền quán.webp",
+      "newFile": "the-science-of-spirituality-practice-08-insight-meditation.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-08-thien-quan.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-08-insight-meditation.webp"
+    },
+    {
+      "id": "th_09",
+      "title_vi": "THỰC HÀNH 09: Nhật ký tỉnh thức",
+      "title_en": "Practice 09: The Awakening Journal",
+      "oldFile": "THỰC HÀNH 09 Nhật ký tỉnh thức.webp",
+      "newFile": "the-science-of-spirituality-practice-09-the-awakening-journal.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-09-nhat-ky-tinh-thuc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-09-the-awakening-journal.webp"
+    },
+    {
+      "id": "th_10",
+      "title_vi": "THỰC HÀNH 10: Tha thứ",
+      "title_en": "Practice 10: Forgiveness",
+      "oldFile": "THỰC HÀNH 10 Tha thứ.webp",
+      "newFile": "the-science-of-spirituality-practice-10-forgiveness.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-10-tha-thu.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-10-forgiveness.webp"
+    },
+    {
+      "id": "th_11",
+      "title_vi": "THỰC HÀNH 11: Biết ơn và yêu thương vô điều kiện",
+      "title_en": "Practice 11: Gratitude and Unconditional Love",
+      "oldFile": "THỰC HÀNH 11 Biết ơn và yêu thương vô điều kiện.webp",
+      "newFile": "the-science-of-spirituality-practice-11-gratitude-and-unconditional-love.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-11-biet-on-va-yeu-thuong-vo-dieu-kien.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-11-gratitude-and-unconditional-love.webp"
+    },
+    {
+      "id": "th_12",
+      "title_vi": "THỰC HÀNH 12: Ho’oponopono - Khoa học của chữa lành",
+      "title_en": "Practice 12: Ho'oponopono - The Science of Healing",
+      "oldFile": "THỰC HÀNH 12 Ho’oponopono - Khoa học của chữa lành.webp",
+      "newFile": "the-science-of-spirituality-practice-12-hooponopono-the-science-of-healing.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-12-ho-oponopono-khoa-hoc-cua-chua-lanh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-12-hooponopono-the-science-of-healing.webp"
+    },
+    {
+      "id": "th_13",
+      "title_vi": "THỰC HÀNH 13: Nghĩ thật - Nói thật - Làm thật",
+      "title_en": "Practice 13: Think True - Speak True - Act True",
+      "oldFile": "THỰC HÀNH 13 Nghĩ thật - Nói thật - Làm thật.webp",
+      "newFile": "the-science-of-spirituality-practice-13-think-true-speak-true-act-true.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-13-nghi-that-noi-that-lam-that.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-13-think-true-speak-true-act-true.webp"
+    },
+    {
+      "id": "th_14",
+      "title_vi": "THỰC HÀNH 14: Góc nhìn tích cực - Tư duy tích cực",
+      "title_en": "Practice 14: A Positive Perspective - Positive Thinking",
+      "oldFile": "THỰC HÀNH 14 Góc nhìn tích cực - Tư duy tích cực.webp",
+      "newFile": "the-science-of-spirituality-practice-14-a-positive-perspective-positive-thinking.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-14-goc-nhin-tich-cuc-tu-duy-tich-cuc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-14-a-positive-perspective-positive-thinking.webp"
+    },
+    {
+      "id": "th_15",
+      "title_vi": "THỰC HÀNH 15: Nghệ thuật và sáng tạo",
+      "title_en": "Practice 15: Art and Creativity",
+      "oldFile": "THỰC HÀNH 15 Nghệ thuật và sáng tạo.webp",
+      "newFile": "the-science-of-spirituality-practice-15-art-and-creativity.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-15-nghe-thuat-va-sang-tao.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-15-art-and-creativity.webp"
+    },
+    {
+      "id": "th_16",
+      "title_vi": "THỰC HÀNH 16: Sống chậm - Sống thật - Sống đơn giản",
+      "title_en": "Practice 16: Slow Living - Living Truthfully - Living Simply",
+      "oldFile": "THỰC HÀNH 16 Sống chậm - Sống thật - Sống đơn giản.webp",
+      "newFile": "the-science-of-spirituality-practice-16-slow-living-living-truthfully-living-simply.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-16-song-cham-song-that-song-don-gian.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-16-slow-living-living-truthfully-living-simply.webp"
+    },
+    {
+      "id": "th_17",
+      "title_vi": "THỰC HÀNH 17: Phong cách sống bình thản",
+      "title_en": "Practice 17: A Calm Way of Living",
+      "oldFile": "THỰC HÀNH 17 Phong cách sống bình thản.webp",
+      "newFile": "the-science-of-spirituality-practice-17-a-calm-way-of-living.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-17-phong-cach-song-binh-than.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-17-a-calm-way-of-living.webp"
+    },
+    {
+      "id": "th_18",
+      "title_vi": "THỰC HÀNH 18: Làm bạn với sự cô đơn",
+      "title_en": "Practice 18: Befriending loneliness",
+      "oldFile": "THỰC HÀNH 18 Làm bạn với sự cô đơn.webp",
+      "newFile": "the-science-of-spirituality-practice-18-befriending-loneliness.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-18-lam-ban-voi-su-co-don.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-18-befriending-loneliness.webp"
+    },
+    {
+      "id": "th_19",
+      "title_vi": "THỰC HÀNH 19: Dựa vào chính mình",
+      "title_en": "Practice 19: Relying on Yourself",
+      "oldFile": "THỰC HÀNH 19 Dựa vào chính mình.webp",
+      "newFile": "the-science-of-spirituality-practice-19-relying-on-yourself.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-19-dua-vao-chinh-minh.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-19-relying-on-yourself.webp"
+    },
+    {
+      "id": "th_20",
+      "title_vi": "THỰC HÀNH 20: Cầu nguyện hoặc giao cảm với Đấng thiêng liêng",
+      "title_en": "Practice 20: Prayer, or Communion with the Sacred",
+      "oldFile": "THỰC HÀNH 20 Cầu nguyện hoặc giao cảm với Đấng thiêng liêng.webp",
+      "newFile": "the-science-of-spirituality-practice-20-prayer-or-communion-with-the-sacred.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-20-cau-nguyen-hoac-giao-cam-voi-dang-thieng-lieng.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-20-prayer-or-communion-with-the-sacred.webp"
+    },
+    {
+      "id": "th_21",
+      "title_vi": "THỰC HÀNH 21: Yêu thương Mẹ Trái Đất",
+      "title_en": "Practice 21: Loving Mother Earth",
+      "oldFile": "THỰC HÀNH 21 Yêu thương Mẹ Trái Đất.webp",
+      "newFile": "the-science-of-spirituality-practice-21-loving-mother-earth.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-21-yeu-thuong-me-trai-dat.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-21-loving-mother-earth.webp"
+    },
+    {
+      "id": "th_22",
+      "title_vi": "THỰC HÀNH 22: Kết nối với thiên nhiên",
+      "title_en": "Practice 22: Connecting with Nature",
+      "oldFile": "THỰC HÀNH 22 Kết nối với thiên nhiên.webp",
+      "newFile": "the-science-of-spirituality-practice-22-connecting-with-nature.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-22-ket-noi-voi-thien-nhien.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-22-connecting-with-nature.webp"
+    },
+    {
+      "id": "th_23",
+      "title_vi": "THỰC HÀNH 23: Bố thí - Dāna",
+      "title_en": "Practice 23: Giving - Dāna",
+      "oldFile": "THỰC HÀNH 23 Bố thí - Dāna.webp",
+      "newFile": "the-science-of-spirituality-practice-23-giving-d-na.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-23-bo-thi-dana.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-23-giving-d-na.webp"
+    },
+    {
+      "id": "th_24",
+      "title_vi": "THỰC HÀNH 24: Sống trọn vẹn trong luật của Một",
+      "title_en": "Practice 24: Living Fully in the Law of One",
+      "oldFile": "THỰC HÀNH 24 Sống trọn vẹn trong luật của Một.webp",
+      "newFile": "the-science-of-spirituality-practice-24-living-fully-in-the-law-of-one.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-24-song-tron-ven-trong-luat-cua-mot.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-24-living-fully-in-the-law-of-one.webp"
+    },
+    {
+      "id": "th_25",
+      "title_vi": "THỰC HÀNH 25: Sống tỉnh thức giữa đời thường",
+      "title_en": "Practice 25: Living Awake in Everyday Life",
+      "oldFile": "THỰC HÀNH 25 Sống tỉnh thức giữa đời thường.webp",
+      "newFile": "the-science-of-spirituality-practice-25-living-awake-in-everyday-life.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-25-song-tinh-thuc-giua-doi-thuong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-25-living-awake-in-everyday-life.webp"
+    },
+    {
+      "id": "th_26",
+      "title_vi": "THỰC HÀNH 26: Sống trọn vẹn từng phút giây",
+      "title_en": "Practice 26: Living Fully, Moment by Moment",
+      "oldFile": "THỰC HÀNH 26 Sống trọn vẹn từng phút giây.webp",
+      "newFile": "the-science-of-spirituality-practice-26-living-fully-moment-by-moment.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-26-song-tron-ven-tung-phut-giay.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-26-living-fully-moment-by-moment.webp"
+    },
+    {
+      "id": "th_27",
+      "title_vi": "THỰC HÀNH 27: Giao tiếp bằng tâm thức",
+      "title_en": "Practice 27: Communicating through Consciousness",
+      "oldFile": "THỰC HÀNH 27 Giao tiếp bằng tâm thức.webp",
+      "newFile": "the-science-of-spirituality-practice-27-communicating-through-consciousness.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-27-giao-tiep-bang-tam-thuc.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-27-communicating-through-consciousness.webp"
+    },
+    {
+      "id": "th_28",
+      "title_vi": "THỰC HÀNH 28: Nghệ thuật buông xả",
+      "title_en": "Practice 28: The Art of Letting Go",
+      "oldFile": "THỰC HÀNH 28 Nghệ thuật buông xả.webp",
+      "newFile": "the-science-of-spirituality-practice-28-the-art-of-letting-go.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-28-nghe-thuat-buong-xa.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-28-the-art-of-letting-go.webp"
+    },
+    {
+      "id": "th_29",
+      "title_vi": "THỰC HÀNH 29: Tái kết nối với đứa trẻ bên trong",
+      "title_en": "Practice 29: Reconnecting with Your Inner Child",
+      "oldFile": "THỰC HÀNH 29 Tái kết nối với đứa trẻ bên trong.webp",
+      "newFile": "the-science-of-spirituality-practice-29-reconnecting-with-your-inner-child.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-29-tai-ket-noi-voi-dua-tre-ben-trong.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-29-reconnecting-with-your-inner-child.webp"
+    },
+    {
+      "id": "th_30",
+      "title_vi": "THỰC HÀNH 30: Thức tỉnh trái tim",
+      "title_en": "Practice 30: Awakening the Heart",
+      "oldFile": "THỰC HÀNH 30 Thức tỉnh trái tim.webp",
+      "newFile": "the-science-of-spirituality-practice-30-awakening-the-heart.webp",
+      "viFile": "khoa-hoc-tam-linh-thuc-hanh-30-thuc-tinh-trai-tim.webp",
+      "url_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-30-awakening-the-heart.webp"
+    }
+  ]
+}

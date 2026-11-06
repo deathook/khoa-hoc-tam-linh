@@ -1,0 +1,368 @@
+import 'dart:async';
+import 'package:flutter/foundation.dart';
+import 'package:flutter_tts/flutter_tts.dart';
+import 'storage_service.dart';
+
+enum TtsPlayState { stopped, playing, paused }
+
+class TtsService with ChangeNotifier {
+  static final TtsService _instance = TtsService._internal();
+  factory TtsService() => _instance;
+  TtsService._internal();
+
+  final FlutterTts _flutterTts = FlutterTts();
+  final StorageService _storage = StorageService();
+
+  static const List<double> availableSpeeds = [0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0];
+
+  TtsPlayState _state = TtsPlayState.stopped;
+  TtsPlayState get state => _state;
+
+  List<String> _currentParagraphs = [];
+  int _currentIndex = 0;
+  int get currentIndex => _currentIndex;
+
+  String _currentSectionId = '';
+  String get currentSectionId => _currentSectionId;
+
+  Timer? _sleepTimer;
+  int _sleepMinutesRemaining = 0;
+  int get sleepMinutesRemaining => _sleepMinutesRemaining;
+
+  bool _isInitialized = false;
+
+  // Callback when a whole section finishes playing
+  VoidCallback? onSectionFinished;
+
+  Future<void> init() async {
+    if (_isInitialized) return;
+
+    // Apply speed and pitch
+    await _applySpeedMultiplier(_storage.ttsSpeedMultiplier);
+    await _flutterTts.setPitch(_storage.ttsPitch);
+
+    _flutterTts.setStartHandler(() {
+      _state = TtsPlayState.playing;
+      notifyListeners();
+    });
+
+    _flutterTts.setCompletionHandler(() {
+      _onParagraphComplete();
+    });
+
+    _flutterTts.setPauseHandler(() {
+      _state = TtsPlayState.paused;
+      notifyListeners();
+    });
+
+    _flutterTts.setContinueHandler(() {
+      _state = TtsPlayState.playing;
+      notifyListeners();
+    });
+
+    _flutterTts.setErrorHandler((msg) {
+      // ignore: avoid_print
+      print('TTS Error: $msg');
+      _state = TtsPlayState.stopped;
+      notifyListeners();
+    });
+
+    _isInitialized = true;
+  }
+
+  double _multiplierToAndroidRate(double multiplier) {
+    // 0.45 is comfortable reading pace on Android TTS for 1.0x
+    return (multiplier * 0.45).clamp(0.15, 1.0);
+  }
+
+  Future<void> _applySpeedMultiplier(double multiplier) async {
+    final rate = _multiplierToAndroidRate(multiplier);
+    await _flutterTts.setSpeechRate(rate);
+  }
+
+  Future<void> setSpeedMultiplier(double multiplier) async {
+    await _applySpeedMultiplier(multiplier);
+    await _storage.setTtsSpeedMultiplier(multiplier);
+    notifyListeners();
+
+    if (_state == TtsPlayState.playing) {
+      await _flutterTts.stop();
+      await _speakCurrentIndex();
+    }
+  }
+
+  double get currentSpeedMultiplier => _storage.ttsSpeedMultiplier;
+
+  Future<void> setLanguage(bool isEnglish) async {
+    final lang = isEnglish ? 'en-US' : 'vi-VN';
+    await _flutterTts.setLanguage(lang);
+
+    // Apply voice specifically configured for this language
+    final voiceName = _storage.getVoiceName(isEnglish);
+    final voiceLocale = _storage.getVoiceLocale(isEnglish);
+
+    if (voiceName != null && voiceLocale != null) {
+      try {
+        await _flutterTts.setVoice({'name': voiceName, 'locale': voiceLocale});
+        return;
+      } catch (_) {}
+    }
+
+    // Auto-select first matching voice for this language if none is saved
+    try {
+      final voices = await getAvailableVoices(isEnglish);
+      if (voices.isNotEmpty) {
+        final first = voices.first;
+        await _flutterTts.setVoice({'name': first['name']!, 'locale': first['locale']!});
+        await _storage.setVoiceForLanguage(
+          isEnglish: isEnglish,
+          name: first['name'],
+          locale: first['locale'],
+        );
+      }
+    } catch (_) {}
+  }
+
+  static String formatVoiceDisplayName(String name, String locale, int index, bool isEnglish) {
+    final lower = name.toLowerCase();
+
+    // Check gender hints
+    bool isFemale = lower.contains('female') ||
+        lower.contains('vif') ||
+        lower.contains('vic') ||
+        lower.contains('sfg') ||
+        lower.contains('woman') ||
+        lower.contains('-f-') ||
+        lower.contains('_f_');
+    bool isMale = lower.contains('male') ||
+        lower.contains('vid') ||
+        lower.contains('vie') ||
+        lower.contains('man') ||
+        lower.contains('-m-') ||
+        lower.contains('_m_');
+    bool isNetwork = lower.contains('network') || lower.contains('neural') || lower.contains('wavenet');
+
+    if (locale.toLowerCase().startsWith('vi')) {
+      String gender;
+      if (isFemale) {
+        gender = 'Nữ';
+      } else if (isMale) {
+        gender = 'Nam';
+      } else {
+        gender = (index % 2 == 1) ? 'Nữ' : 'Nam';
+      }
+      String quality = isNetwork ? 'Truyền cảm' : 'Chuẩn máy';
+      return isEnglish
+          ? 'Vietnamese Voice ${index + 1} ($gender - $quality)'
+          : 'Giọng đọc Tiếng Việt ${index + 1} ($gender - $quality)';
+    } else {
+      String region = 'US';
+      if (locale.toLowerCase().contains('gb') || locale.toLowerCase().contains('uk')) {
+        region = 'UK';
+      } else if (locale.toLowerCase().contains('au')) {
+        region = 'AU';
+      }
+      String gender = isFemale ? 'Female' : (isMale ? 'Male' : (index % 2 == 1 ? 'Female' : 'Male'));
+      String quality = isNetwork ? 'Natural' : 'Standard';
+      return isEnglish
+          ? 'English Voice ${index + 1} ($region $gender - $quality)'
+          : 'Giọng đọc Tiếng Anh ${index + 1} ($region $gender - $quality)';
+    }
+  }
+
+  Future<List<Map<String, String>>> getAvailableVoices(bool isEnglish) async {
+    await init();
+    final targetPrefix = isEnglish ? 'en' : 'vi';
+    try {
+      final dynamic raw = await _flutterTts.getVoices;
+      if (raw is List) {
+        final List<Map<String, String>> result = [];
+        int idx = 0;
+        for (var item in raw) {
+          if (item is Map) {
+            final name = item['name']?.toString() ?? '';
+            final locale = item['locale']?.toString() ?? '';
+            if (locale.toLowerCase().startsWith(targetPrefix)) {
+              final displayName = formatVoiceDisplayName(name, locale, idx, isEnglish);
+              result.add({
+                'name': name,
+                'locale': locale,
+                'displayName': displayName,
+              });
+              idx++;
+            }
+          }
+        }
+        return result;
+      }
+    } catch (e) {
+      // ignore: avoid_print
+      print('Error getting voices: $e');
+    }
+    return [];
+  }
+
+  Future<void> setVoice(Map<String, String> voice) async {
+    await _flutterTts.setVoice(voice);
+    final isEn = voice['locale']?.toLowerCase().startsWith('en') ?? _storage.isEnglish;
+    await _storage.setVoiceForLanguage(
+      isEnglish: isEn,
+      name: voice['name'],
+      locale: voice['locale'],
+    );
+    notifyListeners();
+
+    // Immediate audio feedback
+    if (_state == TtsPlayState.playing) {
+      await _flutterTts.stop();
+      await _speakCurrentIndex();
+    } else {
+      final sample = isEn ? 'The Science of Spirituality.' : 'Khoa học và tâm linh.';
+      await _flutterTts.speak(sample);
+    }
+  }
+
+  Future<void> startReadingSection({
+    required String sectionId,
+    required List<String> paragraphs,
+    required bool isEnglish,
+    int startIndex = 0,
+  }) async {
+    await init();
+    await stop();
+
+    _currentSectionId = sectionId;
+    _currentParagraphs = paragraphs;
+    _currentIndex = startIndex.clamp(0, paragraphs.isEmpty ? 0 : paragraphs.length - 1);
+
+    await setLanguage(isEnglish);
+    await _speakCurrentIndex();
+  }
+
+  Future<void> _speakCurrentIndex() async {
+    if (_currentIndex < 0 || _currentIndex >= _currentParagraphs.length) {
+      _state = TtsPlayState.stopped;
+      notifyListeners();
+      return;
+    }
+
+    final text = _currentParagraphs[_currentIndex].trim();
+    if (text.isEmpty) {
+      _onParagraphComplete();
+      return;
+    }
+
+    _state = TtsPlayState.playing;
+    notifyListeners();
+
+    await _flutterTts.speak(text);
+  }
+
+  void _onParagraphComplete() {
+    if (_state != TtsPlayState.playing) return;
+
+    if (_currentIndex < _currentParagraphs.length - 1) {
+      _currentIndex++;
+      notifyListeners();
+      _speakCurrentIndex();
+    } else {
+      // End of section reached!
+      _handleSectionFinished();
+    }
+  }
+
+  void _handleSectionFinished() {
+    final mode = _storage.autoNextChapterMode; // 'next', 'repeat', 'stop'
+    if (mode == 'repeat') {
+      _currentIndex = 0;
+      notifyListeners();
+      _speakCurrentIndex();
+    } else if (mode == 'next') {
+      if (onSectionFinished != null) {
+        onSectionFinished!();
+      } else {
+        _state = TtsPlayState.stopped;
+        notifyListeners();
+      }
+    } else {
+      // 'stop'
+      _state = TtsPlayState.stopped;
+      notifyListeners();
+    }
+  }
+
+  Future<void> pause() async {
+    await _flutterTts.pause();
+    _state = TtsPlayState.paused;
+    notifyListeners();
+  }
+
+  Future<void> resume() async {
+    if (_state == TtsPlayState.paused) {
+      await _speakCurrentIndex();
+    }
+  }
+
+  Future<void> stop() async {
+    await _flutterTts.stop();
+    _state = TtsPlayState.stopped;
+    cancelSleepTimer();
+    notifyListeners();
+  }
+
+  Future<void> nextParagraph() async {
+    if (_currentIndex < _currentParagraphs.length - 1) {
+      await _flutterTts.stop();
+      _currentIndex++;
+      await _speakCurrentIndex();
+    }
+  }
+
+  Future<void> prevParagraph() async {
+    if (_currentIndex > 0) {
+      await _flutterTts.stop();
+      _currentIndex--;
+      await _speakCurrentIndex();
+    }
+  }
+
+  Future<void> setPitch(double pitch, {bool previewIfIdle = true}) async {
+    await _flutterTts.setPitch(pitch);
+    await _storage.setTtsPitch(pitch);
+    notifyListeners();
+
+    if (_state == TtsPlayState.playing) {
+      await _flutterTts.stop();
+      await _speakCurrentIndex();
+    } else if (previewIfIdle) {
+      final isEn = _storage.isEnglish;
+      final sample = isEn ? 'The Science of Spirituality.' : 'Khoa học và tâm linh.';
+      await _flutterTts.speak(sample);
+    }
+  }
+
+  // --- Sleep Timer ---
+  void setSleepTimer(int minutes) {
+    cancelSleepTimer();
+    if (minutes <= 0) return;
+
+    _sleepMinutesRemaining = minutes;
+    notifyListeners();
+
+    _sleepTimer = Timer.periodic(const Duration(minutes: 1), (timer) {
+      _sleepMinutesRemaining--;
+      notifyListeners();
+      if (_sleepMinutesRemaining <= 0) {
+        stop();
+        cancelSleepTimer();
+      }
+    });
+  }
+
+  void cancelSleepTimer() {
+    _sleepTimer?.cancel();
+    _sleepTimer = null;
+    _sleepMinutesRemaining = 0;
+    notifyListeners();
+  }
+}
