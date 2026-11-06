@@ -11,7 +11,8 @@ import '../search/search_screen.dart';
 import '../../widgets/app_cached_image.dart';
 
 class TocScreen extends StatefulWidget {
-  const TocScreen({Key? key}) : super(key: key);
+  final Function(String sectionId)? onOpenSection;
+  const TocScreen({Key? key, this.onOpenSection}) : super(key: key);
 
   @override
   State<TocScreen> createState() => _TocScreenState();
@@ -71,6 +72,10 @@ class _TocScreenState extends State<TocScreen> with SingleTickerProviderStateMix
   }
 
   void _openSection(String sectionId) {
+    if (widget.onOpenSection != null) {
+      widget.onOpenSection!(sectionId);
+      return;
+    }
     Navigator.push(
       context,
       MaterialPageRoute(

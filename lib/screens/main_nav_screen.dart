@@ -10,6 +10,7 @@ import 'notes/notes_screen.dart';
 import 'settings/settings_screen.dart';
 import 'search/search_screen.dart';
 import '../services/storage_service.dart';
+import '../services/book_repository.dart';
 import '../services/tts_service.dart';
 import '../services/audio_player_service.dart';
 import '../theme/app_colors.dart';
@@ -33,6 +34,7 @@ class MainNavScreen extends StatefulWidget {
 
 class _MainNavScreenState extends State<MainNavScreen> {
   int _currentIndex = 0;
+  String? _readingSectionId;
   final StorageService _storage = StorageService();
   final TtsService _tts = TtsService();
   final AudioPlayerService _audioPlayer = AudioPlayerService();
@@ -50,7 +52,7 @@ class _MainNavScreenState extends State<MainNavScreen> {
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (widget.initialSectionId != null && widget.initialSectionId!.isNotEmpty) {
-        _openReader(widget.initialSectionId!);
+        _openReader(widget.initialSectionId!, replace: true);
       } else {
         _syncUrlWithCurrentState(replace: true);
       }
@@ -65,9 +67,12 @@ class _MainNavScreenState extends State<MainNavScreen> {
       _tts.setLanguage(parsed.isEnglish);
     }
     if (parsed.type == SeoRouteType.reader && parsed.sectionId != null) {
-      _openReader(parsed.sectionId!);
+      setState(() {
+        _readingSectionId = parsed.sectionId;
+      });
     } else {
       setState(() {
+        _readingSectionId = null;
         _currentIndex = parsed.tabIndex;
       });
     }
@@ -76,6 +81,16 @@ class _MainNavScreenState extends State<MainNavScreen> {
   void _syncUrlWithCurrentState({bool replace = false}) {
     final url = SeoRouter.getTabUrl(_currentIndex, _storage.isEnglish);
     final title = SeoRouter.getTabTitle(_currentIndex, _storage.isEnglish);
+    SeoService.updateUrl(url, title: title, replace: replace);
+  }
+
+  void _syncUrlForReader(String sectionId, {bool replace = false}) {
+    final url = SeoRouter.getReaderUrl(sectionId, _storage.isEnglish);
+    final sec = BookRepository().getSectionById(sectionId);
+    final title = SeoRouter.getReaderTitle(
+      sec != null ? sec.getTitle(_storage.isEnglish) : sectionId,
+      _storage.isEnglish,
+    );
     SeoService.updateUrl(url, title: title, replace: replace);
   }
 
@@ -93,21 +108,18 @@ class _MainNavScreenState extends State<MainNavScreen> {
   }
 
   void _setIndex(int idx) {
-    setState(() => _currentIndex = idx);
+    setState(() {
+      _readingSectionId = null;
+      _currentIndex = idx;
+    });
     _syncUrlWithCurrentState(replace: false);
   }
 
-  void _openReader(String sectionId) {
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (_) => ReaderScreen(sectionId: sectionId),
-      ),
-    ).then((_) {
-      if (mounted) {
-        _syncUrlWithCurrentState(replace: false);
-      }
+  void _openReader(String sectionId, {bool replace = false}) {
+    setState(() {
+      _readingSectionId = sectionId;
     });
+    _syncUrlForReader(sectionId, replace: replace);
   }
 
   void _downloadAndroidApk() {
@@ -136,12 +148,27 @@ class _MainNavScreenState extends State<MainNavScreen> {
       HomeScreen(
         onOpenLibrary: () => _setIndex(1),
         onOpenAudio: () => _setIndex(2),
+        onOpenSection: _openReader,
       ),
-      const TocScreen(),
+      TocScreen(
+        onOpenSection: _openReader,
+      ),
       const PodcastScreen(),
       const NotesScreen(),
       SettingsScreen(onThemeChanged: widget.onThemeChanged),
     ];
+
+    final Widget currentBody = _readingSectionId != null
+        ? ReaderScreen(
+            sectionId: _readingSectionId!,
+            onBack: () {
+              setState(() => _readingSectionId = null);
+              _syncUrlWithCurrentState(replace: false);
+            },
+          )
+        : screens[_currentIndex];
+
+    final bool showTtsMiniBar = isTtsActive && _readingSectionId == null;
 
     if (isDesktopWeb) {
       // Desktop / Web Layout with Top Header Navigation
@@ -153,11 +180,11 @@ class _MainNavScreenState extends State<MainNavScreen> {
 
             // Active Screen Content
             Expanded(
-              child: screens[_currentIndex],
+              child: currentBody,
             ),
 
             // Mini-player bar if TTS or Audio is active
-            if (isTtsActive) _buildTtsMiniBar(isEnglish, isDark),
+            if (showTtsMiniBar) _buildTtsMiniBar(isEnglish, isDark),
             if (!isTtsActive && isAudioActive) _buildAudioMiniBar(isEnglish, isDark),
           ],
         ),
@@ -166,12 +193,12 @@ class _MainNavScreenState extends State<MainNavScreen> {
 
     // Mobile Phone Layout with Bottom Navigation Bar
     return Scaffold(
-      body: screens[_currentIndex],
+      body: currentBody,
       bottomNavigationBar: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           // Mini-player bar if TTS or Audio is active
-          if (isTtsActive) _buildTtsMiniBar(isEnglish, isDark),
+          if (showTtsMiniBar) _buildTtsMiniBar(isEnglish, isDark),
           if (!isTtsActive && isAudioActive) _buildAudioMiniBar(isEnglish, isDark),
 
           // Bottom Nav Bar
@@ -446,12 +473,7 @@ class _MainNavScreenState extends State<MainNavScreen> {
             child: InkWell(
               onTap: () {
                 if (_tts.currentSectionId.isNotEmpty) {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) => ReaderScreen(sectionId: _tts.currentSectionId),
-                    ),
-                  );
+                  _openReader(_tts.currentSectionId);
                 }
               },
               child: Column(
@@ -463,7 +485,9 @@ class _MainNavScreenState extends State<MainNavScreen> {
                     style: const TextStyle(fontSize: 10, fontWeight: FontWeight.bold, color: AppColors.primaryDark),
                   ),
                   Text(
-                    isEnglish ? 'Paragraph ${_tts.currentIndex + 1}' : 'Đoạn ${_tts.currentIndex + 1}',
+                    _tts.currentIndex == -1
+                        ? (isEnglish ? 'Chapter Title' : 'Tiêu đề chương')
+                        : (isEnglish ? 'Paragraph ${_tts.currentIndex + 1}' : 'Đoạn ${_tts.currentIndex + 1}'),
                     style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500),
                   ),
                 ],

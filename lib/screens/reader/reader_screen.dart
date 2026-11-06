@@ -16,11 +16,13 @@ import '../../widgets/app_cached_image.dart';
 class ReaderScreen extends StatefulWidget {
   final String sectionId;
   final int initialParagraphIndex;
+  final VoidCallback? onBack;
 
   const ReaderScreen({
     Key? key,
     required this.sectionId,
     this.initialParagraphIndex = 0,
+    this.onBack,
   }) : super(key: key);
 
   @override
@@ -113,7 +115,17 @@ class _ReaderScreenState extends State<ReaderScreen> {
       }
       setState(() {});
       if (_tts.state == TtsPlayState.playing && _tts.currentSectionId == _currentId) {
-        _scrollToParagraph(_tts.currentIndex);
+        if (_tts.currentIndex == -1) {
+          if (_scrollController.hasClients) {
+            _scrollController.animateTo(
+              0,
+              duration: const Duration(milliseconds: 400),
+              curve: Curves.easeOutCubic,
+            );
+          }
+        } else {
+          _scrollToParagraph(_tts.currentIndex);
+        }
       }
     }
   }
@@ -227,6 +239,7 @@ class _ReaderScreenState extends State<ReaderScreen> {
       sectionId: _section!.id,
       paragraphs: paras,
       isEnglish: _isEnglish,
+      title: _section!.getTitle(_isEnglish),
       startIndex: startIndex,
     );
   }
@@ -919,6 +932,16 @@ class _ReaderScreenState extends State<ReaderScreen> {
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
       appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            if (widget.onBack != null) {
+              widget.onBack!();
+            } else {
+              Navigator.pop(context);
+            }
+          },
+        ),
         title: Text(
           _section!.getTitle(_isEnglish),
           style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -971,25 +994,61 @@ class _ReaderScreenState extends State<ReaderScreen> {
       ),
       body: Stack(
         children: [
-          Center(
-            child: ConstrainedBox(
-              constraints: const BoxConstraints(maxWidth: 880),
-              child: ListView(
-                controller: _scrollController,
-                cacheExtent: 50000,
-                padding: EdgeInsets.fromLTRB(16, 24, 16, isTtsActive ? 140 : 90),
-                children: [
-                  // Chapter Title
-              Text(
-                _section!.getTitle(_isEnglish),
-                style: TextStyle(
-                  fontSize: _fontSize + 5,
-                  fontWeight: FontWeight.bold,
-                  height: 1.35,
-                  color: isDark ? AppColors.primary : AppColors.primaryDark,
-                ),
-              ),
-              const SizedBox(height: 16),
+          Scrollbar(
+            controller: _scrollController,
+            thumbVisibility: true,
+            child: ListView(
+              controller: _scrollController,
+              cacheExtent: 50000,
+              padding: EdgeInsets.fromLTRB(16, 24, 16, isTtsActive ? 140 : 90),
+              children: [
+                Center(
+                  child: ConstrainedBox(
+                    constraints: const BoxConstraints(maxWidth: 880),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        // Chapter Title with TTS Reading Highlight
+                        Builder(
+                          builder: (context) {
+                            final isTitleReading = isTtsActive && _tts.currentIndex == -1;
+                            return Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+                              decoration: BoxDecoration(
+                                color: isTitleReading
+                                    ? AppColors.primary.withOpacity(0.2)
+                                    : Colors.transparent,
+                                borderRadius: BorderRadius.circular(10),
+                                border: isTitleReading
+                                    ? Border.all(color: AppColors.primaryDark, width: 2)
+                                    : null,
+                              ),
+                              child: Row(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  if (isTitleReading) ...[
+                                    const Padding(
+                                      padding: EdgeInsets.only(top: 4, right: 8),
+                                      child: Icon(Icons.volume_up, color: AppColors.primaryDark, size: 24),
+                                    ),
+                                  ],
+                                  Expanded(
+                                    child: Text(
+                                      _section!.getTitle(_isEnglish),
+                                      style: TextStyle(
+                                        fontSize: _fontSize + 5,
+                                        fontWeight: FontWeight.bold,
+                                        height: 1.35,
+                                        color: isDark ? AppColors.primary : AppColors.primaryDark,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            );
+                          },
+                        ),
+                        const SizedBox(height: 16),
 
               // Full Width Chapter Illustration (Horizontal on Web, Vertical on App)
               if (_section!.getIllustration(_isEnglish) != null) ...[
@@ -1176,10 +1235,13 @@ class _ReaderScreenState extends State<ReaderScreen> {
                   ),
                 ],
               ),
-                ],
+                    ],
+                  ),
+                ),
               ),
-            ),
+            ],
           ),
+        ),
 
           // Bottom TTS Controller Bar
           Positioned(

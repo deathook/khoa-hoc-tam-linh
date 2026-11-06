@@ -56,23 +56,32 @@ class _InteractiveImageViewerState extends State<InteractiveImageViewer> {
 
   @override
   Widget build(BuildContext context) {
+    final screenSize = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.black.withOpacity(0.94),
+      backgroundColor: Colors.black,
       body: SafeArea(
         child: Stack(
           children: [
-            // Interactive Zoom Viewer
-            Center(
+            // Interactive Zoom Viewer occupying full screen
+            Positioned.fill(
               child: GestureDetector(
                 onDoubleTapDown: (details) => _doubleTapDetails = details,
                 onDoubleTap: _handleDoubleTap,
                 child: InteractiveViewer(
                   transformationController: _transformController,
                   minScale: 1.0,
-                  maxScale: 6.0,
-                  child: AppCachedImage(
-                    imageUrlOrAsset: widget.imagePath,
-                    fit: BoxFit.contain,
+                  maxScale: 8.0,
+                  clipBehavior: Clip.none,
+                  boundaryMargin: const EdgeInsets.all(500),
+                  child: SizedBox(
+                    width: screenSize.width,
+                    height: screenSize.height,
+                    child: Center(
+                      child: AppCachedImage(
+                        imageUrlOrAsset: widget.imagePath,
+                        fit: BoxFit.contain,
+                      ),
+                    ),
                   ),
                 ),
               ),

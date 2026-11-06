@@ -21,12 +21,14 @@ class _PodcastScreenState extends State<PodcastScreen> {
   final StorageService _storage = StorageService();
 
   late bool _isEnglish;
-  String _selectedFilter = 'all';
+  String _selectedFilter = 'auto'; // 'auto' means automatically follow current language
 
   List<PodcastItem> _getFilteredPods() {
     if (_selectedFilter == 'vi') return _repo.podcasts.where((p) => p.language == 'vi').toList();
     if (_selectedFilter == 'en') return _repo.podcasts.where((p) => p.language == 'en').toList();
-    return _repo.podcasts;
+    if (_selectedFilter == 'all') return _repo.podcasts;
+    final langKey = _isEnglish ? 'en' : 'vi';
+    return _repo.podcasts.where((p) => p.language == langKey).toList();
   }
 
   @override
@@ -48,6 +50,7 @@ class _PodcastScreenState extends State<PodcastScreen> {
     if (mounted) {
       setState(() {
         _isEnglish = _storage.isEnglish;
+        _selectedFilter = 'auto';
       });
     }
   }
@@ -62,6 +65,7 @@ class _PodcastScreenState extends State<PodcastScreen> {
     await TtsService().setLanguage(next);
     setState(() {
       _isEnglish = next;
+      _selectedFilter = 'auto';
     });
     SeoService.updateUrl(
       SeoRouter.getTabUrl(2, next),
@@ -76,6 +80,22 @@ class _PodcastScreenState extends State<PodcastScreen> {
     return '$m:$s';
   }
 
+  Widget _buildFilterChipsRow(bool isDark) {
+    final autoLabel = _isEnglish ? '🇬🇧 English (5)' : '🇻🇳 Tiếng Việt (7)';
+    final otherKey = _isEnglish ? 'vi' : 'en';
+    final otherLabel = _isEnglish ? '🇻🇳 Vietnamese (7)' : '🇬🇧 English (5)';
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        _buildFilterChip('auto', '$autoLabel ${_isEnglish ? '(Default)' : '(Mặc định)'}', isDark),
+        const SizedBox(width: 8),
+        _buildFilterChip(otherKey, otherLabel, isDark),
+        const SizedBox(width: 8),
+        _buildFilterChip('all', _isEnglish ? 'All (12)' : 'Tất cả (12)', isDark),
+      ],
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -87,87 +107,85 @@ class _PodcastScreenState extends State<PodcastScreen> {
 
     if (isDesktopWeb) {
       return Scaffold(
-        body: Center(
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 1140),
-            child: ListView(
-              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
-              children: [
-                // Desktop Web Header
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          _isEnglish ? 'HEALING AUDIO & PODCASTS' : 'SÁCH NÓI & PODCAST CHỮA LÀNH',
-                          style: const TextStyle(
-                            fontSize: 12,
-                            fontWeight: FontWeight.bold,
-                            letterSpacing: 1.5,
-                            color: AppColors.primaryDark,
+        body: Scrollbar(
+          child: ListView(
+            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
+            children: [
+              Center(
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(maxWidth: 1140),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      // Desktop Web Header
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                _isEnglish ? 'HEALING AUDIO & PODCASTS' : 'SÁCH NÓI & PODCAST CHỮA LÀNH',
+                                style: const TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold,
+                                  letterSpacing: 1.5,
+                                  color: AppColors.primaryDark,
+                                ),
+                              ),
+                              const SizedBox(height: 6),
+                              Text(
+                                _isEnglish ? 'Voices of Stillness' : 'Thanh Âm Tỉnh Thức',
+                                style: TextStyle(
+                                  fontSize: 28,
+                                  fontWeight: FontWeight.bold,
+                                  color: isDark ? const Color(0xFFF0EBE0) : const Color(0xFF1B1E28),
+                                ),
+                              ),
+                              const SizedBox(height: 6),
+                              Text(
+                                _isEnglish
+                                    ? '${pods.length} mindful podcast episodes • High quality studio audio'
+                                    : '${pods.length} tập podcast sâu sắc • Giọng đọc truyền cảm, âm nhạc thư giãn',
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
+                                ),
+                              ),
+                            ],
                           ),
-                        ),
-                        const SizedBox(height: 6),
-                        Text(
-                          _isEnglish ? 'Voices of Stillness' : 'Thanh Âm Tỉnh Thức',
-                          style: TextStyle(
-                            fontSize: 28,
-                            fontWeight: FontWeight.bold,
-                            color: isDark ? const Color(0xFFF0EBE0) : const Color(0xFF1B1E28),
-                          ),
-                        ),
-                        const SizedBox(height: 6),
-                        Text(
-                          _isEnglish
-                              ? '12 mindful podcast episodes • High quality studio audio • Bilingual VI & EN'
-                              : '12 tập podcast sâu sắc • Giọng đọc truyền cảm, âm nhạc thư giãn • Song ngữ Việt - Anh',
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
-                          ),
-                        ),
-                      ],
-                    ),
-                    // Language filters
-                    Row(
-                      children: [
-                        _buildFilterChip('all', _isEnglish ? 'All (12)' : 'Tất cả (12)', isDark),
-                        const SizedBox(width: 8),
-                        _buildFilterChip('vi', _isEnglish ? '🇻🇳 Vietnamese (7)' : '🇻🇳 Tiếng Việt (7)', isDark),
-                        const SizedBox(width: 8),
-                        _buildFilterChip('en', _isEnglish ? '🇬🇧 English (5)' : '🇬🇧 English (5)', isDark),
-                      ],
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 28),
+                          _buildFilterChipsRow(isDark),
+                        ],
+                      ),
+                      const SizedBox(height: 28),
 
-                // Active player card
-                if (current != null) ...[
-                  _buildPlayerCard(current, isDark),
-                  const SizedBox(height: 28),
-                ],
+                      // Active player card
+                      if (current != null) ...[
+                        _buildPlayerCard(current, isDark),
+                        const SizedBox(height: 28),
+                      ],
 
-                // Grid of tracks
-                GridView.builder(
-                  shrinkWrap: true,
-                  physics: const NeverScrollableScrollPhysics(),
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    childAspectRatio: 3.5,
-                    crossAxisSpacing: 16,
-                    mainAxisSpacing: 14,
+                      // Grid of tracks
+                      GridView.builder(
+                        shrinkWrap: true,
+                        physics: const NeverScrollableScrollPhysics(),
+                        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                          childAspectRatio: 3.5,
+                          crossAxisSpacing: 16,
+                          mainAxisSpacing: 14,
+                        ),
+                        itemCount: pods.length,
+                        itemBuilder: (context, idx) {
+                          return _buildTrackCard(pods[idx], current, isDark);
+                        },
+                      ),
+                    ],
                   ),
-                  itemCount: pods.length,
-                  itemBuilder: (context, idx) {
-                    return _buildTrackCard(pods[idx], current, isDark);
-                  },
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       );
@@ -217,17 +235,12 @@ class _PodcastScreenState extends State<PodcastScreen> {
       ),
       body: Column(
         children: [
-          // Filter Chips (All / Vietnamese / English)
+          // Filter Chips (Auto default by language / Switch language / All)
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
-            child: Row(
-              children: [
-                _buildFilterChip('all', _isEnglish ? 'All (12)' : 'Tất cả (12)', isDark),
-                const SizedBox(width: 8),
-                _buildFilterChip('vi', _isEnglish ? '🇻🇳 Vietnamese (7)' : '🇻🇳 Tiếng Việt (7)', isDark),
-                const SizedBox(width: 8),
-                _buildFilterChip('en', _isEnglish ? '🇬🇧 English (5)' : '🇬🇧 English (5)', isDark),
-              ],
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: _buildFilterChipsRow(isDark),
             ),
           ),
 

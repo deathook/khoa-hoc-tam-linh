@@ -10,6 +10,10 @@ const Map<String, String> mimeTypes = {
   '.jpeg': 'image/jpeg',
   '.webp': 'image/webp',
   '.svg': 'image/svg+xml',
+  '.mp3': 'audio/mpeg',
+  '.m4a': 'audio/mp4',
+  '.wav': 'audio/wav',
+  '.ogg': 'audio/ogg',
   '.wasm': 'application/wasm',
   '.otf': 'font/otf',
   '.ttf': 'font/ttf',
@@ -70,20 +74,34 @@ void main() async {
         continue;
       }
 
-      // Proxy /app/ images from khoahoctamlinh.vn
+      // Proxy /app/ media (images, audio mp3) from khoahoctamlinh.vn
       if (path.startsWith('/app/')) {
         final targetUrl = 'https://khoahoctamlinh.vn$path';
         final client = HttpClient();
         try {
           final proxyReq = await client.getUrl(Uri.parse(targetUrl));
           proxyReq.headers.set('User-Agent', 'Mozilla/5.0');
+          final range = request.headers.value('range');
+          if (range != null) {
+            proxyReq.headers.set('Range', range);
+          }
           final proxyRes = await proxyReq.close();
           request.response.statusCode = proxyRes.statusCode;
           final ext = path.contains('.') ? '.${path.split('.').last.toLowerCase()}' : '';
-          final mime = mimeTypes[ext] ?? 'application/octet-stream';
+          final mime = mimeTypes[ext] ?? (path.contains('.mp3') ? 'audio/mpeg' : 'application/octet-stream');
           request.response.headers.set('Content-Type', mime);
           request.response.headers.set('Access-Control-Allow-Origin', '*');
+          request.response.headers.set('Cross-Origin-Resource-Policy', 'cross-origin');
           request.response.headers.set('Cache-Control', 'public, max-age=86400');
+          if (proxyRes.headers.value('accept-ranges') != null) {
+            request.response.headers.set('Accept-Ranges', proxyRes.headers.value('accept-ranges')!);
+          }
+          if (proxyRes.headers.value('content-range') != null) {
+            request.response.headers.set('Content-Range', proxyRes.headers.value('content-range')!);
+          }
+          if (proxyRes.headers.value('content-length') != null) {
+            request.response.headers.set('Content-Length', proxyRes.headers.value('content-length')!);
+          }
           await proxyRes.pipe(request.response);
         } catch (_) {
           request.response.statusCode = HttpStatus.internalServerError;

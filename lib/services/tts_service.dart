@@ -27,6 +27,9 @@ class TtsService with ChangeNotifier {
   String _currentSectionId = '';
   String get currentSectionId => _currentSectionId;
 
+  String _currentSectionTitle = '';
+  String get currentSectionTitle => _currentSectionTitle;
+
   bool _currentIsEnglish = false;
   bool get currentIsEnglish => _currentIsEnglish;
 
@@ -288,6 +291,7 @@ class TtsService with ChangeNotifier {
     required String sectionId,
     required List<String> paragraphs,
     required bool isEnglish,
+    String? title,
     int startIndex = 0,
   }) async {
     await init();
@@ -295,21 +299,33 @@ class TtsService with ChangeNotifier {
 
     _currentSectionId = sectionId;
     _currentParagraphs = paragraphs;
-    _currentIndex = startIndex.clamp(0, paragraphs.isEmpty ? 0 : paragraphs.length - 1);
+    _currentSectionTitle = title ?? '';
     _currentIsEnglish = isEnglish;
+
+    if (startIndex <= 0 && _currentSectionTitle.trim().isNotEmpty) {
+      _currentIndex = -1; // -1 represents reading the Chapter Title
+    } else {
+      _currentIndex = startIndex.clamp(0, paragraphs.isEmpty ? 0 : paragraphs.length - 1);
+    }
 
     await setLanguage(isEnglish);
     await _speakCurrentIndex();
   }
 
   Future<void> _speakCurrentIndex() async {
-    if (_currentIndex < 0 || _currentIndex >= _currentParagraphs.length) {
+    if (_currentIndex < -1 || _currentIndex >= _currentParagraphs.length) {
       _state = TtsPlayState.stopped;
       notifyListeners();
       return;
     }
 
-    final text = _currentParagraphs[_currentIndex].trim();
+    final String text;
+    if (_currentIndex == -1) {
+      text = _currentSectionTitle.trim();
+    } else {
+      text = _currentParagraphs[_currentIndex].trim();
+    }
+
     if (text.isEmpty) {
       _onParagraphComplete();
       return;
@@ -334,6 +350,18 @@ class TtsService with ChangeNotifier {
   void _onParagraphComplete() {
     if (_state != TtsPlayState.playing) return;
 
+    if (_currentIndex == -1) {
+      // Finished reading chapter title, start reading first paragraph (index 0)
+      if (_currentParagraphs.isNotEmpty) {
+        _currentIndex = 0;
+        notifyListeners();
+        _speakCurrentIndex();
+      } else {
+        _handleSectionFinished();
+      }
+      return;
+    }
+
     if (_currentIndex < _currentParagraphs.length - 1) {
       _currentIndex++;
       notifyListeners();
@@ -347,7 +375,7 @@ class TtsService with ChangeNotifier {
   Future<void> _handleSectionFinished() async {
     final mode = _storage.autoNextChapterMode; // 'next', 'repeat', 'stop'
     if (mode == 'repeat') {
-      _currentIndex = 0;
+      _currentIndex = _currentSectionTitle.trim().isNotEmpty ? -1 : 0;
       notifyListeners();
       await _speakCurrentIndex();
       return;
@@ -358,10 +386,12 @@ class TtsService with ChangeNotifier {
       final nextSec = repo.getNextSection(_currentSectionId);
       if (nextSec != null) {
         final nextParas = nextSec.getParagraphs(_currentIsEnglish);
+        final nextTitle = nextSec.getTitle(_currentIsEnglish);
         _currentSectionId = nextSec.id;
         _currentParagraphs = nextParas;
-        _currentIndex = 0;
-        _storage.saveLastRead(nextSec.id, nextSec.getTitle(_currentIsEnglish));
+        _currentSectionTitle = nextTitle;
+        _currentIndex = nextTitle.trim().isNotEmpty ? -1 : 0;
+        _storage.saveLastRead(nextSec.id, nextTitle);
         notifyListeners();
 
         if (onSectionFinished != null) {
@@ -433,7 +463,8 @@ class TtsService with ChangeNotifier {
   }
 
   Future<void> prevParagraph() async {
-    if (_currentIndex > 0) {
+    final minIndex = _currentSectionTitle.trim().isNotEmpty ? -1 : 0;
+    if (_currentIndex > minIndex) {
       await stop();
       _currentIndex--;
       await _speakCurrentIndex();

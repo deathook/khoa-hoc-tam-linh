@@ -16,11 +16,13 @@ import '../../widgets/quote_card_dialog.dart';
 class HomeScreen extends StatefulWidget {
   final VoidCallback onOpenLibrary;
   final VoidCallback onOpenAudio;
+  final Function(String sectionId)? onOpenSection;
 
   const HomeScreen({
     Key? key,
     required this.onOpenLibrary,
     required this.onOpenAudio,
+    this.onOpenSection,
   }) : super(key: key);
 
   @override
@@ -88,6 +90,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void _openSection(String sectionId) {
+    if (widget.onOpenSection != null) {
+      widget.onOpenSection!(sectionId);
+      return;
+    }
     Navigator.push(
       context,
       MaterialPageRoute(
@@ -979,7 +985,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     const SizedBox(height: 10),
-                    _buildFooterLink(_isEnglish ? 'Healing Podcasts (12)' : 'Podcast Chữa Lành (12)', widget.onOpenAudio, isDark),
+                    _buildFooterLink(_isEnglish ? 'Healing Podcasts (5)' : 'Podcast Chữa Lành (7)', widget.onOpenAudio, isDark),
                     _buildFooterLink(_isEnglish ? 'Download Android App' : 'Tải Cài Đặt Android (.APK)', () => downloadFile('KhoaHocTamLinh.apk'), isDark),
                     _buildFooterLink('khoahoctamlinh.vn', () {}, isDark),
                   ],

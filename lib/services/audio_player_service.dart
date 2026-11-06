@@ -51,6 +51,12 @@ class AudioPlayerService with ChangeNotifier {
       _duration = d;
       notifyListeners();
     });
+
+    _player.onPlayerComplete.listen((_) {
+      _state = AudioPlayState.stopped;
+      _position = Duration.zero;
+      notifyListeners();
+    });
   }
 
   Future<void> playPodcast(PodcastItem podcast) async {
@@ -58,13 +64,22 @@ class AudioPlayerService with ChangeNotifier {
     _state = AudioPlayState.playing;
     notifyListeners();
 
+    String playUrl = podcast.audioUrl;
+    if (kIsWeb && playUrl.startsWith('https://khoahoctamlinh.vn/app/')) {
+      playUrl = playUrl.replaceFirst('https://khoahoctamlinh.vn/app/', '/app/');
+    }
+
     try {
       await _player.stop();
-      await _player.play(UrlSource(podcast.audioUrl));
+      await _player.play(UrlSource(playUrl));
     } catch (e) {
       if (podcast.fallbackAudioUrl != null && podcast.fallbackAudioUrl!.isNotEmpty) {
         try {
-          await _player.play(UrlSource(podcast.fallbackAudioUrl!));
+          String fallback = podcast.fallbackAudioUrl!;
+          if (kIsWeb && fallback.startsWith('https://khoahoctamlinh.vn/app/')) {
+            fallback = fallback.replaceFirst('https://khoahoctamlinh.vn/app/', '/app/');
+          }
+          await _player.play(UrlSource(fallback));
           return;
         } catch (_) {}
       }
