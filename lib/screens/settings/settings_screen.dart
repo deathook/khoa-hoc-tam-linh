@@ -29,6 +29,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   late String _chapterMode;
 
   List<Map<String, String>> _availableVoices = [];
+  bool _isLoadingVoices = false;
 
   int _cachedImagesCount = 0;
   double _cachedSizeMB = 0.0;

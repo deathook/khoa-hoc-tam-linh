@@ -38,6 +38,19 @@
       audioQueue: [],
       isAudioPlaying: false,
       keepAliveTimer: null,
+      currentRate: 1.0,
+
+      setRate: function(rate) {
+        if (typeof rate === 'number' && rate > 0) {
+          this.currentRate = rate;
+          if (this.currentAudio) {
+            try {
+              this.currentAudio.defaultPlaybackRate = rate;
+              this.currentAudio.playbackRate = rate;
+            } catch(e) {}
+          }
+        }
+      },
 
       getVoices: function() {
         if (!window.speechSynthesis) return [];
@@ -61,6 +74,8 @@
 
         var cleanText = text.trim();
         var targetLang = isEnglish ? 'en-US' : 'vi-VN';
+        var effectiveRate = (typeof rate === 'number' && rate > 0) ? rate : (this.currentRate || 1.0);
+        this.currentRate = effectiveRate;
 
         // Check if browser has a matching native voice
         var voices = window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
@@ -105,7 +120,7 @@
           var u = new SpeechSynthesisUtterance(cleanText);
           u.voice = selectedVoice;
           u.lang = selectedVoice.lang || targetLang;
-          u.rate = (typeof rate === 'number' && rate > 0) ? rate : 1.0;
+          u.rate = effectiveRate;
           u.pitch = (typeof pitch === 'number' && pitch > 0) ? pitch : 1.0;
 
           u.onstart = function() {
@@ -125,7 +140,7 @@
 
           u.onerror = function() {
             clearInterval(KHTL_TTS.keepAliveTimer);
-            KHTL_TTS._playOnlineTts(cleanText, isEnglish, rate, onStart, onEnd, onError);
+            KHTL_TTS._playOnlineTts(cleanText, isEnglish, effectiveRate, onStart, onEnd, onError);
           };
 
           window.speechSynthesis.speak(u);
@@ -133,7 +148,7 @@
         }
 
         // Fallback to high quality online audio
-        this._playOnlineTts(cleanText, isEnglish, rate, onStart, onEnd, onError);
+        this._playOnlineTts(cleanText, isEnglish, effectiveRate, onStart, onEnd, onError);
       },
 
       _splitTextIntoChunks: function(text, maxLength) {
@@ -158,6 +173,8 @@
       },
 
       _playOnlineTts: function(text, isEnglish, rate, onStart, onEnd, onError) {
+        var effectiveRate = (typeof rate === 'number' && rate > 0) ? rate : (this.currentRate || 1.0);
+        this.currentRate = effectiveRate;
         var lang = isEnglish ? 'en' : 'vi';
         var chunks = this._splitTextIntoChunks(text, 160);
         this.audioQueue = [];
@@ -194,15 +211,31 @@
           audio.referrerPolicy = 'no-referrer';
           self.currentAudio = audio;
           self.isAudioPlaying = true;
-          if (typeof rate === 'number' && rate > 0) {
-            audio.playbackRate = rate;
-          }
+
+          var applyRate = function() {
+            var r = self.currentRate || effectiveRate;
+            try {
+              audio.defaultPlaybackRate = r;
+              audio.playbackRate = r;
+            } catch(e) {}
+          };
+
+          applyRate();
 
           audio.onplay = function() {
+            applyRate();
             if (!hasStarted) {
               hasStarted = true;
               if (onStart) onStart();
             }
+          };
+
+          audio.onloadedmetadata = function() {
+            applyRate();
+          };
+
+          audio.oncanplay = function() {
+            applyRate();
           };
 
           audio.onended = function() {
@@ -214,6 +247,7 @@
             if (!triedDirect && item.directUrl) {
               triedDirect = true;
               audio.src = item.directUrl;
+              applyRate();
               audio.play().catch(function() {
                 playNext();
               });
@@ -223,10 +257,12 @@
           };
 
           audio.src = item.proxyUrl;
+          applyRate();
           audio.play().catch(function(e) {
             if (!triedDirect && item.directUrl) {
               triedDirect = true;
               audio.src = item.directUrl;
+              applyRate();
               audio.play().catch(function(err) {
                 if (queueIdx >= queue.length && onError) {
                   onError(err ? err.message : 'autoplay-blocked');

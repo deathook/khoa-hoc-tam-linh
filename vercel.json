@@ -9,7 +9,11 @@
       "destination": "/api/$1"
     },
     {
-      "source": "/((?!api/).*)",
+      "source": "/app/(.*)",
+      "destination": "https://khoahoctamlinh.vn/app/$1"
+    },
+    {
+      "source": "/((?!api/|app/).*)",
       "destination": "/index.html"
     }
   ],

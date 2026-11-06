@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../services/image_cache_service.dart';
 import '../services/storage_service.dart';
@@ -53,6 +54,17 @@ class _AppCachedImageState extends State<AppCachedImage> {
     final src = widget.imageUrlOrAsset;
     if (src.isEmpty) return;
 
+    if (kIsWeb) {
+      if (mounted) {
+        setState(() {
+          _isLoading = false;
+          _hasError = false;
+          _localFile = null;
+        });
+      }
+      return;
+    }
+
     if (src.startsWith('assets/')) {
       if (mounted) {
         setState(() {
@@ -105,7 +117,35 @@ class _AppCachedImageState extends State<AppCachedImage> {
   Widget build(BuildContext context) {
     Widget imageContent;
 
-    if (widget.imageUrlOrAsset.startsWith('assets/')) {
+    if (kIsWeb) {
+      if (widget.imageUrlOrAsset.startsWith('assets/')) {
+        imageContent = Image.asset(
+          widget.imageUrlOrAsset,
+          fit: widget.fit,
+          width: widget.width,
+          height: widget.height,
+          errorBuilder: (_, __, ___) => _buildErrorWidget(),
+        );
+      } else {
+        // On web, transform absolute https://khoahoctamlinh.vn/app/ to relative /app/ for same-origin proxy
+        String webUrl = widget.imageUrlOrAsset;
+        if (webUrl.startsWith('https://khoahoctamlinh.vn/app/')) {
+          webUrl = webUrl.replaceFirst('https://khoahoctamlinh.vn/app/', '/app/');
+        }
+
+        imageContent = Image.network(
+          webUrl,
+          fit: widget.fit,
+          width: widget.width,
+          height: widget.height,
+          loadingBuilder: (context, child, progress) {
+            if (progress == null) return child;
+            return widget.placeholder ?? _buildPlaceholder();
+          },
+          errorBuilder: (_, error, stack) => _buildErrorWidget(),
+        );
+      }
+    } else if (widget.imageUrlOrAsset.startsWith('assets/')) {
       imageContent = Image.asset(
         widget.imageUrlOrAsset,
         fit: widget.fit,

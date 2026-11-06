@@ -133,4 +133,11 @@ class WebTts {
       tts?.callMethod('resume');
     } catch (_) {}
   }
+
+  Future<void> setRate(double rate) async {
+    try {
+      final tts = js.context['KHTL_TTS'];
+      tts?.callMethod('setRate', [rate]);
+    } catch (_) {}
+  }
 }

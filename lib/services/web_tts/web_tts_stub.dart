@@ -25,4 +25,5 @@ class WebTts {
   Future<void> stop() async {}
   Future<void> pause() async {}
   Future<void> resume() async {}
+  Future<void> setRate(double rate) async {}
 }

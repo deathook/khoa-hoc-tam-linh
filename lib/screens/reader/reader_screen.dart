@@ -102,6 +102,15 @@ class _ReaderScreenState extends State<ReaderScreen> {
 
   void _onTtsUpdate() {
     if (mounted) {
+      if (_tts.state == TtsPlayState.playing &&
+          _tts.currentSectionId.isNotEmpty &&
+          _tts.currentSectionId != _currentId) {
+        setState(() {
+          _currentId = _tts.currentSectionId;
+          _loadSection();
+        });
+        _scrollController.jumpTo(0);
+      }
       setState(() {});
       if (_tts.state == TtsPlayState.playing && _tts.currentSectionId == _currentId) {
         _scrollToParagraph(_tts.currentIndex);
@@ -110,19 +119,14 @@ class _ReaderScreenState extends State<ReaderScreen> {
   }
 
   void _handleTtsSectionFinished() {
-    final next = _repo.getNextSection(_currentId);
-    if (next != null) {
-      setState(() {
-        _currentId = next.id;
-        _loadSection();
-      });
-      _scrollController.jumpTo(0);
-      _startTts(startIndex: 0);
-    } else {
-      _tts.stop();
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(_isEnglish ? 'Reached the end of the book.' : 'Đã đọc hết cuốn sách!')),
-      );
+    if (mounted) {
+      if (_tts.currentSectionId.isNotEmpty && _tts.currentSectionId != _currentId) {
+        setState(() {
+          _currentId = _tts.currentSectionId;
+          _loadSection();
+        });
+        _scrollController.jumpTo(0);
+      }
     }
   }
 

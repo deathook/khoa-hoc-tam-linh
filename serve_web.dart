@@ -70,6 +70,30 @@ void main() async {
         continue;
       }
 
+      // Proxy /app/ images from khoahoctamlinh.vn
+      if (path.startsWith('/app/')) {
+        final targetUrl = 'https://khoahoctamlinh.vn$path';
+        final client = HttpClient();
+        try {
+          final proxyReq = await client.getUrl(Uri.parse(targetUrl));
+          proxyReq.headers.set('User-Agent', 'Mozilla/5.0');
+          final proxyRes = await proxyReq.close();
+          request.response.statusCode = proxyRes.statusCode;
+          final ext = path.contains('.') ? '.${path.split('.').last.toLowerCase()}' : '';
+          final mime = mimeTypes[ext] ?? 'application/octet-stream';
+          request.response.headers.set('Content-Type', mime);
+          request.response.headers.set('Access-Control-Allow-Origin', '*');
+          request.response.headers.set('Cache-Control', 'public, max-age=86400');
+          await proxyRes.pipe(request.response);
+        } catch (_) {
+          request.response.statusCode = HttpStatus.internalServerError;
+          await request.response.close();
+        } finally {
+          client.close();
+        }
+        continue;
+      }
+
       if (path == '/' || path.isEmpty) {
         path = '/index.html';
       }

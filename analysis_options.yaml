@@ -4,6 +4,7 @@ analyzer:
   errors:
     deprecated_member_use: ignore
     avoid_print: ignore
+    unused_field: ignore
   exclude:
     - build/**
     - android/**

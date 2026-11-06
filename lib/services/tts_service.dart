@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'book_repository.dart';
 import 'storage_service.dart';
 import 'web_tts/web_tts.dart';
 
@@ -112,13 +113,17 @@ class TtsService with ChangeNotifier {
   Future<void> setSpeedMultiplier(double multiplier) async {
     if (!kIsWeb) {
       await _applySpeedMultiplier(multiplier);
+    } else {
+      await WebTts.instance.setRate(multiplier);
     }
     await _storage.setTtsSpeedMultiplier(multiplier);
     notifyListeners();
 
     if (_state == TtsPlayState.playing) {
-      await stop();
-      await _speakCurrentIndex();
+      if (!kIsWeb) {
+        await stop();
+        await _speakCurrentIndex();
+      }
     }
   }
 
@@ -339,23 +344,50 @@ class TtsService with ChangeNotifier {
     }
   }
 
-  void _handleSectionFinished() {
+  Future<void> _handleSectionFinished() async {
     final mode = _storage.autoNextChapterMode; // 'next', 'repeat', 'stop'
     if (mode == 'repeat') {
       _currentIndex = 0;
       notifyListeners();
-      _speakCurrentIndex();
-    } else if (mode == 'next') {
-      if (onSectionFinished != null) {
-        onSectionFinished!();
-      } else {
-        _state = TtsPlayState.stopped;
+      await _speakCurrentIndex();
+      return;
+    }
+
+    if (mode == 'next') {
+      final repo = BookRepository();
+      final nextSec = repo.getNextSection(_currentSectionId);
+      if (nextSec != null) {
+        final nextParas = nextSec.getParagraphs(_currentIsEnglish);
+        _currentSectionId = nextSec.id;
+        _currentParagraphs = nextParas;
+        _currentIndex = 0;
+        _storage.saveLastRead(nextSec.id, nextSec.getTitle(_currentIsEnglish));
         notifyListeners();
+
+        if (onSectionFinished != null) {
+          try {
+            onSectionFinished!();
+          } catch (_) {}
+        }
+
+        // Brief natural pause between chapters (600ms)
+        await Future.delayed(const Duration(milliseconds: 600));
+        if (_state == TtsPlayState.playing || _state == TtsPlayState.paused) {
+          _state = TtsPlayState.playing;
+          notifyListeners();
+          await _speakCurrentIndex();
+        }
+        return;
       }
-    } else {
-      // 'stop'
-      _state = TtsPlayState.stopped;
-      notifyListeners();
+    }
+
+    // End of book or mode == 'stop'
+    _state = TtsPlayState.stopped;
+    notifyListeners();
+    if (onSectionFinished != null) {
+      try {
+        onSectionFinished!();
+      } catch (_) {}
     }
   }
 
