@@ -10,6 +10,7 @@ import '../../services/tts_service.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/auth_dialog.dart';
 import '../../widgets/tts_break_dialog.dart';
+import '../../utils/web_download.dart';
 
 class SettingsScreen extends StatefulWidget {
   final VoidCallback onThemeChanged;
@@ -662,8 +663,130 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
           const SizedBox(height: 16),
 
-          // Section: Offline Image Cache
-          _buildSectionHeader(_isEnglish ? 'OFFLINE IMAGES & STORAGE' : 'BỘ NHỚ & TẢI ẢNH ĐỌC OFFLINE'),
+          if (!kIsWeb) ...[
+            // Section: Offline Image Cache
+            _buildSectionHeader(_isEnglish ? 'OFFLINE IMAGES & STORAGE' : 'BỘ NHỚ & TẢI ẢNH ĐỌC OFFLINE'),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.all(10),
+                          decoration: BoxDecoration(
+                            color: AppColors.primary.withOpacity(0.1),
+                            shape: BoxShape.circle,
+                          ),
+                          child: const Icon(Icons.cloud_download, color: AppColors.primary, size: 24),
+                        ),
+                        const SizedBox(width: 14),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                _isEnglish ? 'Cached Illustrations' : 'Hình ảnh minh họa đã lưu',
+                                style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+                              ),
+                              const SizedBox(height: 2),
+                              Text(
+                                _isEnglish
+                                    ? '$_cachedImagesCount images (${_cachedSizeMB.toStringAsFixed(1)} MB)'
+                                    : 'Đã lưu: $_cachedImagesCount ảnh (${_cachedSizeMB.toStringAsFixed(1)} MB)',
+                                style: TextStyle(
+                                  fontSize: 13,
+                                  color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 12),
+                    Text(
+                      _isEnglish
+                          ? 'Images are automatically downloaded and cached when you open chapters. You can also download all 158 illustrations at once to read offline without internet.'
+                          : 'Khi bạn đọc từng chương, ứng dụng sẽ tự động tải và lưu ảnh vào bộ nhớ máy để lần sau mở lại không cần internet. Bạn cũng có thể tải sẵn toàn bộ 158 ảnh minh họa tại đây.',
+                      style: const TextStyle(fontSize: 12, color: AppColors.textMuted, height: 1.4),
+                    ),
+                    const SizedBox(height: 14),
+                    if (_isDownloadingAll) ...[
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(8),
+                        child: LinearProgressIndicator(
+                          value: _downloadTotal > 0 ? _downloadCompleted / _downloadTotal : null,
+                          minHeight: 8,
+                          backgroundColor: AppColors.primary.withOpacity(0.15),
+                          valueColor: const AlwaysStoppedAnimation<Color>(AppColors.primary),
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            _isEnglish
+                                ? 'Downloading: $_downloadCompleted / $_downloadTotal'
+                                : 'Đang tải: $_downloadCompleted / $_downloadTotal ảnh...',
+                            style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: AppColors.primary),
+                          ),
+                          TextButton(
+                            onPressed: () {
+                              setState(() => _isCancelRequested = true);
+                            },
+                            child: Text(
+                              _isEnglish ? 'Cancel' : 'Dừng lại',
+                              style: const TextStyle(color: Colors.redAccent, fontSize: 12),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ] else ...[
+                      Row(
+                        children: [
+                          Expanded(
+                            child: ElevatedButton.icon(
+                              onPressed: _startDownloadAllImages,
+                              icon: const Icon(Icons.download_rounded, size: 18),
+                              label: Text(_isEnglish ? 'Download All (Offline)' : 'Tải toàn bộ 158 ảnh'),
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: AppColors.primary,
+                                foregroundColor: Colors.white,
+                                padding: const EdgeInsets.symmetric(vertical: 11),
+                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                              ),
+                            ),
+                          ),
+                          if (_cachedImagesCount > 0) ...[
+                            const SizedBox(width: 10),
+                            OutlinedButton.icon(
+                              onPressed: _clearImageCache,
+                              icon: const Icon(Icons.delete_outline, size: 16),
+                              label: Text(_isEnglish ? 'Clear' : 'Xóa'),
+                              style: OutlinedButton.styleFrom(
+                                foregroundColor: Colors.redAccent,
+                                side: BorderSide(color: Colors.redAccent.withOpacity(0.5)),
+                                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 11),
+                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                              ),
+                            ),
+                          ],
+                        ],
+                      ),
+                    ],
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(height: 16),
+          ],
+
+          // Section: Install Android App (CH Play & APK)
+          _buildSectionHeader(_isEnglish ? 'INSTALL ANDROID APP' : 'CÀI ĐẶT ỨNG DỤNG CHO ANDROID'),
           Card(
             child: Padding(
               padding: const EdgeInsets.all(16),
@@ -675,10 +798,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       Container(
                         padding: const EdgeInsets.all(10),
                         decoration: BoxDecoration(
-                          color: AppColors.primary.withOpacity(0.1),
+                          color: const Color(0xFF3DDC84).withOpacity(0.15),
                           shape: BoxShape.circle,
                         ),
-                        child: const Icon(Icons.cloud_download, color: AppColors.primary, size: 24),
+                        child: const Icon(Icons.android, color: Color(0xFF2E7D32), size: 24),
                       ),
                       const SizedBox(width: 14),
                       Expanded(
@@ -686,14 +809,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              _isEnglish ? 'Cached Illustrations' : 'Hình ảnh minh họa đã lưu',
+                              _isEnglish ? 'Khoa Hoc Tam Linh App' : 'Ứng Dụng Khoa Học Tâm Linh',
                               style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
                             ),
                             const SizedBox(height: 2),
                             Text(
-                              _isEnglish
-                                  ? '$_cachedImagesCount images (${_cachedSizeMB.toStringAsFixed(1)} MB)'
-                                  : 'Đã lưu: $_cachedImagesCount ảnh (${_cachedSizeMB.toStringAsFixed(1)} MB)',
+                              _isEnglish ? 'Available on Google Play (CH Play) & APK' : 'Tải từ CH Play hoặc cài đặt trực tiếp qua file APK',
                               style: TextStyle(
                                 fontSize: 13,
                                 color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
@@ -707,80 +828,61 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   const SizedBox(height: 12),
                   Text(
                     _isEnglish
-                        ? 'Images are automatically downloaded and cached when you open chapters. You can also download all 158 illustrations at once to read offline without internet.'
-                        : 'Khi bạn đọc từng chương, ứng dụng sẽ tự động tải và lưu ảnh vào bộ nhớ máy để lần sau mở lại không cần internet. Bạn cũng có thể tải sẵn toàn bộ 158 ảnh minh họa tại đây.',
+                        ? 'Install the Android app for full offline reading, background audiobook playback when screen is off, and smooth gestures.'
+                        : 'Cài đặt ứng dụng trên điện thoại Android để đọc offline trọn vẹn mọi lúc mọi nơi, nghe sách nói chạy ngầm khi tắt màn hình và vuốt đọc mượt mà.',
                     style: const TextStyle(fontSize: 12, color: AppColors.textMuted, height: 1.4),
                   ),
                   const SizedBox(height: 14),
-                  if (_isDownloadingAll) ...[
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(8),
-                      child: LinearProgressIndicator(
-                        value: _downloadTotal > 0 ? _downloadCompleted / _downloadTotal : null,
-                        minHeight: 8,
-                        backgroundColor: AppColors.primary.withOpacity(0.15),
-                        valueColor: const AlwaysStoppedAnimation<Color>(AppColors.primary),
+                  Wrap(
+                    spacing: 10,
+                    runSpacing: 10,
+                    children: [
+                      ElevatedButton.icon(
+                        onPressed: () {
+                          downloadFile('https://play.google.com/store/apps/details?id=vn.khoahoctamlinh.app');
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                              content: Text(_isEnglish
+                                  ? 'Opening Google Play Store (CH Play)...'
+                                  : 'Đang mở chợ ứng dụng Google Play (CH Play)...'),
+                            ),
+                          );
+                        },
+                        icon: const Icon(Icons.shop, size: 18),
+                        label: Text(_isEnglish ? 'Google Play (CH Play)' : 'Tải từ CH Play'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: const Color(0xFF01875F),
+                          foregroundColor: Colors.white,
+                          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                        ),
                       ),
-                    ),
-                    const SizedBox(height: 8),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          _isEnglish
-                              ? 'Downloading: $_downloadCompleted / $_downloadTotal'
-                              : 'Đang tải: $_downloadCompleted / $_downloadTotal ảnh...',
-                          style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: AppColors.primary),
-                        ),
-                        TextButton(
-                          onPressed: () {
-                            setState(() => _isCancelRequested = true);
-                          },
-                          child: Text(
-                            _isEnglish ? 'Cancel' : 'Dừng lại',
-                            style: const TextStyle(color: Colors.redAccent, fontSize: 12),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ] else ...[
-                    Row(
-                      children: [
-                        Expanded(
-                          child: ElevatedButton.icon(
-                            onPressed: _startDownloadAllImages,
-                            icon: const Icon(Icons.download_rounded, size: 18),
-                            label: Text(_isEnglish ? 'Download All (Offline)' : 'Tải toàn bộ 158 ảnh'),
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: AppColors.primary,
-                              foregroundColor: Colors.white,
-                              padding: const EdgeInsets.symmetric(vertical: 11),
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                      ElevatedButton.icon(
+                        onPressed: () {
+                          downloadFile('https://khoahoctamlinh.vn/app/KhoaHocTamLinh.apk');
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                              content: Text(_isEnglish
+                                  ? 'Downloading KhoaHocTamLinh.apk...'
+                                  : 'Đang tải về bộ cài đặt KhoaHocTamLinh.apk...'),
                             ),
-                          ),
+                          );
+                        },
+                        icon: const Icon(Icons.download_rounded, size: 18),
+                        label: Text(_isEnglish ? 'Download APK' : 'Tải File APK (.APK)'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: isDark ? const Color(0xFFE5B968) : AppColors.primary,
+                          foregroundColor: Colors.black87,
+                          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                         ),
-                        if (_cachedImagesCount > 0) ...[
-                          const SizedBox(width: 10),
-                          OutlinedButton.icon(
-                            onPressed: _clearImageCache,
-                            icon: const Icon(Icons.delete_outline, size: 16),
-                            label: Text(_isEnglish ? 'Clear' : 'Xóa'),
-                            style: OutlinedButton.styleFrom(
-                              foregroundColor: Colors.redAccent,
-                              side: BorderSide(color: Colors.redAccent.withOpacity(0.5)),
-                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 11),
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                            ),
-                          ),
-                        ],
-                      ],
-                    ),
-                  ],
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
           ),
-
           const SizedBox(height: 16),
 
           // Section: About Book & Author

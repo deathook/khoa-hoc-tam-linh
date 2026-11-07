@@ -366,8 +366,15 @@ class TtsService with ChangeNotifier {
     s = s.replaceAll(RegExp(r'\s*;\s*'), ', ');
     // Replace punctuation dashes with comma followed by space
     s = s.replaceAll(RegExp(r'\s+[-–—]\s*'), ', ');
-    // Clean up any double commas or extra spaces
-    s = s.replaceAll(RegExp(r',\s*,'), ',');
+    // Replace arrows (→, <-, =>, etc.) with pause comma
+    s = s.replaceAll(RegExp(r'[\u2190-\u21ff\u2794-\u27bf]|->|=>|↔'), ', ');
+    // Replace quotation marks (“ ” " ‘ ’ « ») with pause comma
+    s = s.replaceAll(RegExp(r'["“”‘’«»]'), ', ');
+    // Clean up any double commas or punctuation collisions
+    s = s.replaceAll(RegExp(r'[,，\s]*[,，][,，\s]*'), ', ');
+    s = s.replaceAll(RegExp(r'\.\s*,\s*'), '. ');
+    s = s.replaceAll(RegExp(r'^[,\s]+'), '');
+    s = s.replaceAll(RegExp(r'[,\s]+$'), '');
     s = s.replaceAll(RegExp(r'\s+'), ' ');
     return s.trim();
   }

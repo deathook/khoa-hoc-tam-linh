@@ -179,7 +179,12 @@
           .replace(/\s*:\s*/g, ', ')
           .replace(/\s*;\s*/g, ', ')
           .replace(/\s+[-–—]\s*/g, ', ')
-          .replace(/,\s*,/g, ',')
+          .replace(/[\u2190-\u21ff\u2794-\u27bf]|->|=>|↔/g, ', ')
+          .replace(/["“”‘’«»]/g, ', ')
+          .replace(/[,，\s]*[,，][,，\s]*/g, ', ')
+          .replace(/\.\s*,\s*/g, '. ')
+          .replace(/^[,\s]+/, '')
+          .replace(/[,\s]+$/, '')
           .replace(/\s+/g, ' ');
         var targetLang = isEnglish ? 'en-US' : 'vi-VN';
         var effectiveRate = (typeof rate === 'number' && rate > 0) ? rate : (this.currentRate || 1.0);

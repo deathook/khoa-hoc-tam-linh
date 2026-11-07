@@ -171,7 +171,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           overflow: TextOverflow.ellipsis,
                         ),
                         Text(
-                          _isEnglish ? 'Hoang Nhat Minh' : 'Hoàng Nhật Minh',
+                          _isEnglish ? 'Journey to Rediscover Yourself' : 'Hành trình tìm lại chính mình',
                           style: TextStyle(
                             fontSize: 11.5,
                             color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
