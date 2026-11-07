@@ -20,12 +20,14 @@ class MainNavScreen extends StatefulWidget {
   final VoidCallback onThemeChanged;
   final int initialTabIndex;
   final String? initialSectionId;
+  final int initialParagraphIndex;
 
   const MainNavScreen({
     Key? key,
     required this.onThemeChanged,
     this.initialTabIndex = 0,
     this.initialSectionId,
+    this.initialParagraphIndex = -1,
   }) : super(key: key);
 
   @override
@@ -35,6 +37,7 @@ class MainNavScreen extends StatefulWidget {
 class _MainNavScreenState extends State<MainNavScreen> {
   int _currentIndex = 0;
   String? _readingSectionId;
+  int _initialParagraphIndex = -1;
   final StorageService _storage = StorageService();
   final TtsService _tts = TtsService();
   final AudioPlayerService _audioPlayer = AudioPlayerService();
@@ -52,7 +55,11 @@ class _MainNavScreenState extends State<MainNavScreen> {
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (widget.initialSectionId != null && widget.initialSectionId!.isNotEmpty) {
-        _openReader(widget.initialSectionId!, replace: true);
+        _openReader(
+          widget.initialSectionId!,
+          paragraphIndex: widget.initialParagraphIndex,
+          replace: true,
+        );
       } else {
         _syncUrlWithCurrentState(replace: true);
       }
@@ -69,10 +76,12 @@ class _MainNavScreenState extends State<MainNavScreen> {
     if (parsed.type == SeoRouteType.reader && parsed.sectionId != null) {
       setState(() {
         _readingSectionId = parsed.sectionId;
+        _initialParagraphIndex = parsed.paragraphIndex;
       });
     } else {
       setState(() {
         _readingSectionId = null;
+        _initialParagraphIndex = -1;
         _currentIndex = parsed.tabIndex;
       });
     }
@@ -84,14 +93,23 @@ class _MainNavScreenState extends State<MainNavScreen> {
     SeoService.updateUrl(url, title: title, replace: replace);
   }
 
-  void _syncUrlForReader(String sectionId, {bool replace = false}) {
-    final url = SeoRouter.getReaderUrl(sectionId, _storage.isEnglish);
+  void _syncUrlForReader(String sectionId, {int paragraphIndex = -1, bool replace = false}) {
+    final url = SeoRouter.getReaderUrl(
+      sectionId,
+      _storage.isEnglish,
+      paragraphIndex: paragraphIndex >= 0 ? paragraphIndex : null,
+    );
     final sec = BookRepository().getSectionById(sectionId);
     final title = SeoRouter.getReaderTitle(
       sec != null ? sec.getTitle(_storage.isEnglish) : sectionId,
       _storage.isEnglish,
     );
-    SeoService.updateUrl(url, title: title, replace: replace);
+    final paras = sec?.getParagraphs(_storage.isEnglish) ?? [];
+    final desc = (paragraphIndex >= 0 && paragraphIndex < paras.length)
+        ? paras[paragraphIndex]
+        : (paras.isNotEmpty ? paras.first : '');
+    final img = sec?.image;
+    SeoService.updateUrl(url, title: title, description: desc, image: img, replace: replace);
   }
 
   @override
@@ -110,16 +128,18 @@ class _MainNavScreenState extends State<MainNavScreen> {
   void _setIndex(int idx) {
     setState(() {
       _readingSectionId = null;
+      _initialParagraphIndex = -1;
       _currentIndex = idx;
     });
     _syncUrlWithCurrentState(replace: false);
   }
 
-  void _openReader(String sectionId, {bool replace = false}) {
+  void _openReader(String sectionId, {int paragraphIndex = -1, bool replace = false}) {
     setState(() {
       _readingSectionId = sectionId;
+      _initialParagraphIndex = paragraphIndex;
     });
-    _syncUrlForReader(sectionId, replace: replace);
+    _syncUrlForReader(sectionId, paragraphIndex: paragraphIndex, replace: replace);
   }
 
   void _downloadAndroidApk() {
@@ -161,8 +181,12 @@ class _MainNavScreenState extends State<MainNavScreen> {
     final Widget currentBody = _readingSectionId != null
         ? ReaderScreen(
             sectionId: _readingSectionId!,
+            initialParagraphIndex: _initialParagraphIndex,
             onBack: () {
-              setState(() => _readingSectionId = null);
+              setState(() {
+                _readingSectionId = null;
+                _initialParagraphIndex = -1;
+              });
               _syncUrlWithCurrentState(replace: false);
             },
           )

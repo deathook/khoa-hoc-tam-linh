@@ -1,13 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../models/quote_item.dart';
+import '../routes/seo_router.dart';
 import '../theme/app_colors.dart';
 
 class QuoteCardDialog extends StatelessWidget {
   final QuoteItem quote;
   final bool isEnglish;
+  final String? sectionId;
+  final int? paragraphIndex;
 
-  const QuoteCardDialog({Key? key, required this.quote, this.isEnglish = false}) : super(key: key);
+  const QuoteCardDialog({
+    Key? key,
+    required this.quote,
+    this.isEnglish = false,
+    this.sectionId,
+    this.paragraphIndex,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,9 +24,13 @@ class QuoteCardDialog extends StatelessWidget {
     final sourceText = quote.getSource(isEnglish);
     final appTitle = isEnglish ? 'THE SCIENCE OF SPIRITUALITY' : 'KHOA HỌC TÂM LINH';
     final authorText = isEnglish ? 'Author: Hoang Nhat Minh' : 'Tác giả: Hoàng Nhật Minh';
+    final link = (sectionId != null && sectionId!.isNotEmpty)
+        ? SeoRouter.getFullReaderUrl(sectionId!, isEnglish, paragraphIndex: paragraphIndex)
+        : (isEnglish ? 'https://sach.khoahoctamlinh.vn/en' : 'https://sach.khoahoctamlinh.vn/vi');
+
     final shareClipboardText = isEnglish
-        ? '$quoteText\n\n— Excerpt from "The Science of Spirituality" by Hoang Nhat Minh (https://khoahoctamlinh.vn)'
-        : '$quoteText\n\n— Trích sách "Khoa Học Tâm Linh" - Tác giả Hoàng Nhật Minh (https://khoahoctamlinh.vn)';
+        ? '“$quoteText”\n\n— Excerpt from "$sourceText" | "The Science of Spirituality" by Hoang Nhat Minh\n🔗 Read at: $link'
+        : '“$quoteText”\n\n— Trích từ "$sourceText" | Sách "Khoa Học Tâm Linh" - Hoàng Nhật Minh\n🔗 Đọc tiếp tại: $link';
 
     return Dialog(
       backgroundColor: Colors.transparent,

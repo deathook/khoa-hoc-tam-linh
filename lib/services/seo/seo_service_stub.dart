@@ -5,6 +5,7 @@ class SeoService {
     String path, {
     String? title,
     String? description,
+    String? image,
     bool replace = false,
   }) {}
 

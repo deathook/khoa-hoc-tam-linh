@@ -147,6 +147,7 @@ class _KhoaHocTamLinhAppState extends State<KhoaHocTamLinhApp> {
                   onThemeChanged: _onThemeChanged,
                   initialTabIndex: widget.initialRoute?.tabIndex ?? 0,
                   initialSectionId: widget.initialRoute?.sectionId,
+                  initialParagraphIndex: widget.initialRoute?.paragraphIndex ?? -1,
                 ),
         );
       },

@@ -13,16 +13,19 @@ class ParsedSeoRoute {
   final bool isEnglish;
   final String? sectionId;
   final int tabIndex;
+  final int paragraphIndex;
 
   const ParsedSeoRoute({
     required this.type,
     required this.isEnglish,
     this.sectionId,
     this.tabIndex = 0,
+    this.paragraphIndex = -1,
   });
 }
 
 class SeoRouter {
+  static const String siteBaseUrl = 'https://sach.khoahoctamlinh.vn';
   // --- Tab Index to URL ---
   static String getTabUrl(int tabIndex, bool isEnglish) {
     if (isEnglish) {
@@ -94,9 +97,18 @@ class SeoRouter {
   }
 
   // --- Chapter / Section URL ---
-  static String getReaderUrl(String sectionId, bool isEnglish) {
+  static String getReaderUrl(String sectionId, bool isEnglish, {int? paragraphIndex}) {
     final cleanId = sectionId.trim().replaceAll('/', '');
-    return isEnglish ? '/en/chapter/$cleanId' : '/vi/chuong/$cleanId';
+    final base = isEnglish ? '/en/chapter/$cleanId' : '/vi/chuong/$cleanId';
+    if (paragraphIndex != null && paragraphIndex >= 0) {
+      return '$base?p=$paragraphIndex';
+    }
+    return base;
+  }
+
+  // --- Absolute Chapter / Quote URL for sharing ---
+  static String getFullReaderUrl(String sectionId, bool isEnglish, {int? paragraphIndex}) {
+    return '$siteBaseUrl${getReaderUrl(sectionId, isEnglish, paragraphIndex: paragraphIndex)}';
   }
 
   // --- Chapter / Section Title ---
@@ -115,6 +127,18 @@ class SeoRouter {
   static ParsedSeoRoute parsePath(String rawPath) {
     final uri = Uri.tryParse(rawPath);
     final path = (uri != null ? uri.path : rawPath).trim();
+
+    int paragraphIndex = -1;
+    if (uri != null) {
+      final pParam = uri.queryParameters['p'] ?? uri.queryParameters['paragraph'];
+      if (pParam != null) {
+        paragraphIndex = int.tryParse(pParam) ?? -1;
+      }
+      if (paragraphIndex < 0 && uri.fragment.isNotEmpty) {
+        final frag = uri.fragment.replaceAll(RegExp(r'^(p=|p-|paragraph=|p)'), '');
+        paragraphIndex = int.tryParse(frag) ?? -1;
+      }
+    }
 
     // Default to Vietnamese if empty or root
     if (path.isEmpty || path == '/') {
@@ -148,6 +172,7 @@ class SeoRouter {
         isEnglish: isEnglish,
         sectionId: sectionId,
         tabIndex: 1,
+        paragraphIndex: paragraphIndex,
       );
     }
 

@@ -1,0 +1,2876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/muc-luc</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/muc-luc"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/contents"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/contents</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/muc-luc"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/contents"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/podcast</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/podcast"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/podcast"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/podcast</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/podcast"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/podcast"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/ghi-chu</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/ghi-chu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/notes"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/notes</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/ghi-chu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/notes"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/cai-dat</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/cai-dat"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/settings"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/settings</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/cai-dat"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/settings"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/tim-kiem</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/tim-kiem"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/search"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/search</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/tim-kiem"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/search"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/preface</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/preface"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/preface"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/preface</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/preface"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/preface"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/introduction</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/introduction"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/introduction"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/introduction</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/introduction"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/introduction"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/part_1</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_1"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_1"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/part_1</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_1"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_1"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_03"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_03"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_04</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_04"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_04"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_04</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_04"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_04"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/part_2</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_2"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_2"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/part_2</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_2"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_2"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_05</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_05"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_05"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_05</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_05"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_05"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_06</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_06"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_06"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_06</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_06"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_06"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_07</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_07"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_07"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_07</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_07"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_07"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_08</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_08"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_08"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_08</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_08"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_08"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/part_3</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_3"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/part_3</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_3"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_09</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_09"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_09"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_09</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_09"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_09"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_10</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_10"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_10</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_10"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_11</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_11"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_11</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_11"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_12</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_12"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_12</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_12"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/part_4</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_4"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/part_4</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_4"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_13</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_13"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_13"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_13</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_13"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_13"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_14</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_14"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_14</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_14"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_15</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_15"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_15"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_15</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_15"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_15"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_16</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_16"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_16"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_16</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_16"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_16"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/part_5</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_5"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/part_5</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_5"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_17</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_17"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_17"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_17</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_17"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_17"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_18</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_18"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_18"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_18</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_18"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_18"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/ch_19</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_19"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/ch_19</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/ch_19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/ch_19"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/poem_daidong</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/poem_daidong"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/poem_daidong"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/poem_daidong</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/poem_daidong"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/poem_daidong"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/part_6</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_6"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_6"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/part_6</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_6"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_6"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_03"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_03"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_04</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_04"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_04"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_04</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_04"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_04"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_05</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_05"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_05"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_05</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_05"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_05"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_06</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_06"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_06"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_06</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_06"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_06"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_07</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_07"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_07"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_07</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_07"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_07"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_08</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_08"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_08"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_08</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_08"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_08"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_09</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_09"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_09"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_09</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_09"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_09"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_10</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_10"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_10</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_10"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_11</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_11"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_11</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_11"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_12</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_12"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_12</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_12"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_13</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_13"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_13"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_13</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_13"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_13"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_14</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_14"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_14</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_14"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_15</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_15"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_15"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_15</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_15"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_15"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_16</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_16"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_16"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_16</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_16"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_16"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_17</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_17"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_17"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_17</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_17"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_17"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_18</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_18"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_18"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_18</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_18"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_18"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_19</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_19"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_19</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_19"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_20</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_20"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_20"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_20</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_20"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_20"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_21</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_21"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_21"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_21</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_21"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_21"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_22</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_22"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_22"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_22</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_22"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_22"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_23</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_23"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_23"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_23</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_23"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_23"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_24</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_24"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_24"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_24</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_24"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_24"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_25</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_25"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_25"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_25</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_25"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_25"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_26</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_26"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_26"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_26</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_26"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_26"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_27</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_27"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_27"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_27</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_27"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_27"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_28</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_28"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_28"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_28</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_28"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_28"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_29</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_29"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_29"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_29</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_29"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_29"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_30</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_30"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_30"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_30</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_30"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_30"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_31</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_31"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_31"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_31</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_31"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_31"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_32</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_32"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_32"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_32</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_32"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_32"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_33</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_33"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_33"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_33</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_33"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_33"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_34</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_34"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_34"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_34</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_34"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_34"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_35</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_35"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_35"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_35</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_35"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_35"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_36</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_36"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_36"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_36</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_36"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_36"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_37</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_37"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_37"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_37</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_37"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_37"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_38</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_38"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_38"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_38</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_38"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_38"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_39</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_39"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_39"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_39</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_39"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_39"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_40</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_40"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_40"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_40</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_40"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_40"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_41</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_41"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_41"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_41</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_41"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_41"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_42</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_42"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_42"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_42</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_42"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_42"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_43</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_43"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_43"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_43</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_43"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_43"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_44</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_44"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_44"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_44</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_44"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_44"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_45</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_45"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_45"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_45</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_45"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_45"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_46</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_46"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_46"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_46</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_46"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_46"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_47</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_47"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_47"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_47</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_47"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_47"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_48</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_48"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_48"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_48</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_48"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_48"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_49</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_49"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_49"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_49</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_49"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_49"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_50</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_50"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_50"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_50</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_50"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_50"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_51</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_51"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_51"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_51</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_51"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_51"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_52</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_52"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_52"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_52</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_52"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_52"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_53</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_53"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_53"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_53</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_53"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_53"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_54</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_54"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_54"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_54</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_54"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_54"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/gn_55</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_55"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_55"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/gn_55</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/gn_55"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/gn_55"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/part_7</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_7"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_7"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/part_7</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_7"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_7"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/cn_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/cn_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/cn_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/cn_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/cn_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_03"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/cn_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_03"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/cn_04</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_04"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_04"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/cn_04</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_04"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_04"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/cn_05</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_05"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_05"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/cn_05</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_05"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_05"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/cn_06</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_06"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_06"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/cn_06</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/cn_06"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/cn_06"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/part_8</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_8"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/part_8</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_8"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/part_9</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_9"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_9"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/part_9</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_9"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_9"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_03"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_03"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_04</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_04"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_04"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_04</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_04"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_04"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_05</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_05"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_05"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_05</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_05"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_05"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_06</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_06"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_06"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_06</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_06"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_06"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_07</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_07"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_07"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_07</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_07"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_07"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_08</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_08"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_08"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_08</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_08"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_08"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_09</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_09"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_09"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_09</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_09"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_09"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_10</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_10"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_10</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_10"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_11</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_11"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_11</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_11"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_12</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_12"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_12</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_12"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_13</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_13"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_13"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_13</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_13"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_13"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_14</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_14"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_14</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_14"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_15</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_15"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_15"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_15</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_15"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_15"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_16</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_16"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_16"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_16</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_16"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_16"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_17</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_17"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_17"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_17</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_17"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_17"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_18</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_18"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_18"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_18</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_18"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_18"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_19</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_19"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_19</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_19"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_20</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_20"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_20"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_20</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_20"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_20"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_21</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_21"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_21"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_21</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_21"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_21"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_22</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_22"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_22"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_22</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_22"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_22"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_23</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_23"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_23"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_23</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_23"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_23"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_24</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_24"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_24"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_24</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_24"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_24"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_25</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_25"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_25"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_25</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_25"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_25"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_26</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_26"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_26"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_26</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_26"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_26"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_27</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_27"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_27"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_27</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_27"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_27"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_28</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_28"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_28"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_28</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_28"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_28"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_29</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_29"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_29"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_29</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_29"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_29"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_30</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_30"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_30"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_30</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_30"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_30"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_31</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_31"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_31"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_31</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_31"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_31"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_32</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_32"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_32"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_32</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_32"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_32"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_33</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_33"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_33"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_33</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_33"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_33"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_34</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_34"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_34"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_34</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_34"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_34"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_35</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_35"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_35"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_35</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_35"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_35"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_36</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_36"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_36"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_36</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_36"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_36"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_37</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_37"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_37"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_37</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_37"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_37"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_38</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_38"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_38"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_38</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_38"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_38"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_39</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_39"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_39"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_39</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_39"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_39"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_40</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_40"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_40"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_40</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_40"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_40"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_41</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_41"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_41"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_41</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_41"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_41"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_42</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_42"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_42"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_42</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_42"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_42"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_43</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_43"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_43"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_43</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_43"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_43"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/sn_44</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_44"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_44"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/sn_44</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/sn_44"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/sn_44"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/part_10</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_10"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/part_10</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_10"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_03"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_03"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_04</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_04"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_04"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_04</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_04"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_04"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_05</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_05"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_05"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_05</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_05"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_05"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_06</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_06"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_06"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_06</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_06"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_06"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_07</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_07"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_07"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_07</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_07"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_07"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_08</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_08"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_08"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_08</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_08"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_08"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_09</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_09"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_09"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_09</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_09"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_09"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_10</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_10"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_10</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_10"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_11</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_11"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_11</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_11"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_12</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_12"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_12</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_12"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_13</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_13"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_13"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_13</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_13"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_13"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_14</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_14"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_14</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_14"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_15</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_15"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_15"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_15</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_15"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_15"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_16</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_16"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_16"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_16</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_16"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_16"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_17</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_17"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_17"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_17</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_17"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_17"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_18</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_18"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_18"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_18</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_18"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_18"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_19</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_19"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_19</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_19"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_20</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_20"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_20"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_20</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_20"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_20"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_21</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_21"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_21"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_21</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_21"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_21"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_22</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_22"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_22"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_22</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_22"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_22"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_23</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_23"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_23"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_23</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_23"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_23"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_24</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_24"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_24"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_24</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_24"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_24"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_25</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_25"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_25"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_25</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_25"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_25"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_26</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_26"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_26"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_26</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_26"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_26"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_27</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_27"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_27"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_27</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_27"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_27"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_28</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_28"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_28"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_28</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_28"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_28"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_29</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_29"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_29"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_29</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_29"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_29"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/th_30</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_30"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_30"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/th_30</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/th_30"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/th_30"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/part_11</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_11"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/part_11</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/part_11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/part_11"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/thanks</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/thanks"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/thanks"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/thanks</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/thanks"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/thanks"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/hanh_trang</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/hanh_trang"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/hanh_trang"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/hanh_trang</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/hanh_trang"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/hanh_trang"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/pl_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/pl_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/pl_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/pl_01</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/pl_01"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/pl_01"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/pl_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/pl_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/pl_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/pl_02</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/pl_02"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/pl_02"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/vi/chuong/pl_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/pl_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/pl_03"/>
+  </url>
+  <url>
+    <loc>https://sach.khoahoctamlinh.vn/en/chapter/pl_03</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://sach.khoahoctamlinh.vn/vi/chuong/pl_03"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sach.khoahoctamlinh.vn/en/chapter/pl_03"/>
+  </url>
+</urlset>

@@ -21,7 +21,7 @@ class ReaderScreen extends StatefulWidget {
   const ReaderScreen({
     Key? key,
     required this.sectionId,
-    this.initialParagraphIndex = 0,
+    this.initialParagraphIndex = -1,
     this.onBack,
   }) : super(key: key);
 
@@ -59,12 +59,28 @@ class _ReaderScreenState extends State<ReaderScreen> {
     _storage.isEnglishNotifier.addListener(_onGlobalLanguageChanged);
     _storage.themeModeNotifier.addListener(_onThemeModeChanged);
 
-    if (widget.initialParagraphIndex > 0) {
+    if (widget.initialParagraphIndex >= 0) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         Future.delayed(const Duration(milliseconds: 350), () {
           if (mounted) {
             _scrollToParagraph(widget.initialParagraphIndex);
           }
+        });
+      });
+    }
+  }
+
+  @override
+  void didUpdateWidget(covariant ReaderScreen oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (widget.sectionId != oldWidget.sectionId) {
+      _currentId = widget.sectionId;
+      _loadSection();
+    }
+    if (widget.initialParagraphIndex >= 0 && widget.initialParagraphIndex != oldWidget.initialParagraphIndex) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        Future.delayed(const Duration(milliseconds: 300), () {
+          if (mounted) _scrollToParagraph(widget.initialParagraphIndex);
         });
       });
     }
@@ -378,21 +394,38 @@ class _ReaderScreenState extends State<ReaderScreen> {
                             category: _section!.category,
                           ),
                           isEnglish: _isEnglish,
+                          sectionId: _currentId,
+                          paragraphIndex: pIndex,
                         );
                       },
                     );
                   },
                 ),
 
-                // Copy Text
+                // Copy Text with Deep Link
                 ListTile(
                   leading: const Icon(Icons.copy, color: AppColors.textMuted),
-                  title: Text(_isEnglish ? 'Copy Paragraph' : 'Sao chép đoạn văn'),
+                  title: Text(_isEnglish ? 'Copy Paragraph & Link' : 'Sao chép đoạn văn & Liên kết'),
+                  subtitle: Text(
+                    _isEnglish ? 'Includes link that jumps directly to this quote' : 'Kèm liên kết tự nhảy đến câu trích dẫn này',
+                    style: const TextStyle(fontSize: 11),
+                  ),
                   onTap: () {
                     Navigator.pop(context);
-                    Clipboard.setData(ClipboardData(text: text));
+                    final quoteLink = SeoRouter.getFullReaderUrl(_currentId, _isEnglish, paragraphIndex: pIndex);
+                    final title = _section?.getTitle(_isEnglish) ?? '';
+                    final shareText = _isEnglish
+                        ? '“$text”\n\n— Excerpt from "$title" | "The Science of Spirituality" by Hoang Nhat Minh\n🔗 Read at: $quoteLink'
+                        : '“$text”\n\n— Trích từ "$title" | Sách "Khoa Học Tâm Linh" - Hoàng Nhật Minh\n🔗 Đọc tiếp tại: $quoteLink';
+
+                    Clipboard.setData(ClipboardData(text: shareText));
                     ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(content: Text(_isEnglish ? 'Copied to clipboard' : 'Đã sao chép!')),
+                      SnackBar(
+                        content: Text(_isEnglish
+                            ? 'Quote & link copied to clipboard!'
+                            : 'Đã sao chép đoạn trích dẫn kèm liên kết tự nhảy đến câu!'),
+                        duration: const Duration(seconds: 3),
+                      ),
                     );
                   },
                 ),
@@ -1166,6 +1199,8 @@ class _ReaderScreenState extends State<ReaderScreen> {
                 // Check note
                 final hasNote = notes.any((n) => n.paragraphIndex == idx);
 
+                final isJumpTarget = idx == widget.initialParagraphIndex && widget.initialParagraphIndex >= 0;
+
                 return Container(
                   key: _paragraphKeys[idx],
                   margin: const EdgeInsets.only(bottom: 14),
@@ -1174,14 +1209,16 @@ class _ReaderScreenState extends State<ReaderScreen> {
                         ? (isDark ? AppColors.primary.withOpacity(0.28) : AppColors.primary.withOpacity(0.18))
                         : (highlightBg != null
                             ? (isDark ? highlightBg.withOpacity(0.32) : highlightBg)
-                            : Colors.transparent),
+                            : (isJumpTarget
+                                ? (isDark ? const Color(0xFFE5B968).withOpacity(0.16) : AppColors.primary.withOpacity(0.12))
+                                : Colors.transparent)),
                     borderRadius: BorderRadius.circular(8),
                     border: isTtsReading
                         ? Border.all(color: isDark ? const Color(0xFFE5B968) : AppColors.primaryDark, width: 1.5)
                         : (highlightBg != null && isDark
                             ? Border.all(color: highlightBg.withOpacity(0.7), width: 1)
-                            : (idx == widget.initialParagraphIndex && widget.initialParagraphIndex > 0
-                                ? Border.all(color: AppColors.primary, width: 2)
+                            : (isJumpTarget
+                                ? Border.all(color: isDark ? const Color(0xFFE5B968) : AppColors.primary, width: 2)
                                 : null)),
                   ),
                   child: InkWell(
