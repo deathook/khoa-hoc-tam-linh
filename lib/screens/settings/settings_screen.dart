@@ -8,6 +8,7 @@ import '../../services/storage_service.dart';
 import '../../services/tts_service.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/auth_dialog.dart';
+import '../../widgets/tts_break_dialog.dart';
 
 class SettingsScreen extends StatefulWidget {
   final VoidCallback onThemeChanged;
@@ -487,6 +488,50 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         await _storage.setAutoNextChapterMode(val);
                       }
                     },
+                  ),
+
+                  const Divider(height: 28),
+
+                  // Pause & Break Settings (Thiết lập ngắt nghỉ)
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              _isEnglish ? 'Pause & Break Durations:' : 'Thời gian ngắt nghỉ dấu câu:',
+                              style: const TextStyle(fontWeight: FontWeight.w600, fontSize: 13.5),
+                            ),
+                            const SizedBox(height: 3),
+                            Text(
+                              _isEnglish
+                                  ? 'Period: ${_storage.ttsBreakPeriod}s • Comma: ${_storage.ttsBreakComma}s • Semi/Dash: ${_storage.ttsBreakSemicolon}s • Break: ${_storage.ttsBreakParagraph}s'
+                                  : 'Dấu chấm: ${_storage.ttsBreakPeriod}s • Phẩy: ${_storage.ttsBreakComma}s • ; & - : ${_storage.ttsBreakSemicolon}s • Xuống dòng: ${_storage.ttsBreakParagraph}s',
+                              style: const TextStyle(fontSize: 11.5, color: AppColors.textMuted),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      ElevatedButton.icon(
+                        onPressed: () => showTtsBreakDialog(
+                          context,
+                          isDark: isDark,
+                          isEnglish: _isEnglish,
+                          onSaved: () => setState(() {}),
+                        ),
+                        icon: const Icon(Icons.timer_outlined, size: 16),
+                        label: Text(_isEnglish ? 'Adjust' : 'Thiết Lập'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: isDark ? const Color(0xFFE5B968) : AppColors.primary,
+                          foregroundColor: Colors.black87,
+                          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                        ),
+                      ),
+                    ],
                   ),
 
                   const Divider(height: 28),

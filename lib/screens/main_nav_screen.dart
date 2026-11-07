@@ -331,7 +331,7 @@ class _MainNavScreenState extends State<MainNavScreen> {
                         ),
                       ),
                       Text(
-                        isEnglish ? 'Hoang Nhat Minh • Two Languages, One Truth' : 'Hoàng Nhật Minh • Hai ngôn ngữ, một chân lý',
+                        isEnglish ? 'Hoang Nhat Minh • Journey to Rediscover Yourself' : 'Hoàng Nhật Minh • Hành trình tìm lại chính mình',
                         style: TextStyle(
                           fontSize: 11,
                           color: isDark ? AppColors.textLightMuted : AppColors.textMuted,

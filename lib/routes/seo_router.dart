@@ -81,7 +81,7 @@ class SeoRouter {
     } else {
       switch (tabIndex) {
         case 0:
-          return 'Khoa Học Tâm Linh - Hoàng Nhật Minh | Hai ngôn ngữ của một chân lý';
+          return 'Khoa Học Tâm Linh - Hoàng Nhật Minh | Hành trình tìm lại chính mình';
         case 1:
           return 'Mục Lục Toàn Bộ Sách (173 Mục) | Khoa Học Tâm Linh';
         case 2:

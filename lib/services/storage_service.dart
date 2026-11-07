@@ -50,6 +50,33 @@ class StorageService {
   String get autoNextChapterMode => _prefs?.getString('pref_tts_chapter_mode') ?? 'next';
   Future<void> setAutoNextChapterMode(String mode) async => await _prefs?.setString('pref_tts_chapter_mode', mode);
 
+  // --- TTS Pause / Break Durations (seconds) ---
+  // Defaults matching user's specification:
+  // Dấu chấm: 0.55s, Dấu phẩy: 0.55s, Dấu chấm phẩy / gạch ngang: 0.3s, Xuống dòng: 0.6s
+  static const double defaultBreakPeriod = 0.55;
+  static const double defaultBreakComma = 0.55;
+  static const double defaultBreakSemicolon = 0.3;
+  static const double defaultBreakParagraph = 0.6;
+
+  double get ttsBreakPeriod => _prefs?.getDouble('pref_tts_break_period') ?? defaultBreakPeriod;
+  Future<void> setTtsBreakPeriod(double val) async => await _prefs?.setDouble('pref_tts_break_period', val);
+
+  double get ttsBreakComma => _prefs?.getDouble('pref_tts_break_comma') ?? defaultBreakComma;
+  Future<void> setTtsBreakComma(double val) async => await _prefs?.setDouble('pref_tts_break_comma', val);
+
+  double get ttsBreakSemicolon => _prefs?.getDouble('pref_tts_break_semicolon') ?? defaultBreakSemicolon;
+  Future<void> setTtsBreakSemicolon(double val) async => await _prefs?.setDouble('pref_tts_break_semicolon', val);
+
+  double get ttsBreakParagraph => _prefs?.getDouble('pref_tts_break_paragraph') ?? defaultBreakParagraph;
+  Future<void> setTtsBreakParagraph(double val) async => await _prefs?.setDouble('pref_tts_break_paragraph', val);
+
+  Future<void> resetTtsBreaksToDefault() async {
+    await setTtsBreakPeriod(defaultBreakPeriod);
+    await setTtsBreakComma(defaultBreakComma);
+    await setTtsBreakSemicolon(defaultBreakSemicolon);
+    await setTtsBreakParagraph(defaultBreakParagraph);
+  }
+
   // Voice selection per language (Vietnamese vs English)
   String? getVoiceName(bool isEnglish) {
     final key = isEnglish ? 'pref_tts_voice_name_en' : 'pref_tts_voice_name_vi';

@@ -12,6 +12,7 @@ import '../../theme/app_colors.dart';
 import '../../widgets/quote_card_dialog.dart';
 import '../../widgets/interactive_image_viewer.dart';
 import '../../widgets/app_cached_image.dart';
+import '../../widgets/tts_break_dialog.dart';
 
 class ReaderScreen extends StatefulWidget {
   final String sectionId;
@@ -920,29 +921,6 @@ class _ReaderScreenState extends State<ReaderScreen> {
     );
   }
 
-  // --- Chapter End Mode Selector ---
-  void _toggleAutoNextMode() async {
-    final cur = _storage.autoNextChapterMode;
-    String next;
-    String msg;
-    if (cur == 'next') {
-      next = 'repeat';
-      msg = _isEnglish ? 'Mode: Repeat this chapter' : 'Chế độ: Lặp lại chương này';
-    } else if (cur == 'repeat') {
-      next = 'stop';
-      msg = _isEnglish ? 'Mode: Stop when chapter ends' : 'Chế độ: Dừng khi hết chương';
-    } else {
-      next = 'next';
-      msg = _isEnglish ? 'Mode: Auto-play next chapter' : 'Chế độ: Tự chuyển chương tiếp theo (Mặc định)';
-    }
-
-    await _storage.setAutoNextChapterMode(next);
-    setState(() {});
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text(msg), duration: const Duration(seconds: 2)),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     if (_section == null) {
@@ -1406,11 +1384,114 @@ class _ReaderScreenState extends State<ReaderScreen> {
             onPressed: () => _tts.nextParagraph(),
           ),
 
-          // Auto-next chapter mode toggle
-          IconButton(
-            icon: Icon(modeIcon, color: isDark ? const Color(0xFFE5B968) : AppColors.primaryDark, size: 22),
+          // Auto-next chapter mode popup menu (Pointing UP as requested)
+          PopupMenuButton<String>(
             tooltip: modeTooltip,
-            onPressed: _toggleAutoNextMode,
+            offset: const Offset(0, -170), // Pops UPWARDS above the player bar
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+            color: isDark ? const Color(0xFF22283A) : const Color(0xFFFFFDF8),
+            elevation: 8,
+            onSelected: (val) async {
+              await _storage.setAutoNextChapterMode(val);
+              setState(() {});
+              String msg = '';
+              if (val == 'next') {
+                msg = _isEnglish ? 'Mode: Next Chapter' : 'Chế độ: Chuyển chương';
+              } else if (val == 'repeat') {
+                msg = _isEnglish ? 'Mode: Repeat this Chapter' : 'Chế độ: Lặp lại chương này';
+              } else {
+                msg = _isEnglish ? 'Mode: Stop at End of Chapter' : 'Chế độ: Dừng hết chương';
+              }
+              if (mounted) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(msg),
+                    duration: const Duration(seconds: 2),
+                    backgroundColor: AppColors.primaryDark,
+                  ),
+                );
+              }
+            },
+            itemBuilder: (ctx) => [
+              PopupMenuItem<String>(
+                value: 'next',
+                child: Row(
+                  children: [
+                    const Icon(Icons.skip_next_rounded, size: 20, color: Color(0xFFC5A059)),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Text(
+                        _isEnglish ? 'Next chapter' : 'Chuyển chương',
+                        style: TextStyle(
+                          fontSize: 13.5,
+                          fontWeight: mode == 'next' ? FontWeight.bold : FontWeight.normal,
+                          color: isDark ? Colors.white : Colors.black87,
+                        ),
+                      ),
+                    ),
+                    if (mode == 'next')
+                      const Icon(Icons.check, size: 18, color: Colors.green),
+                  ],
+                ),
+              ),
+              PopupMenuItem<String>(
+                value: 'repeat',
+                child: Row(
+                  children: [
+                    const Icon(Icons.repeat_one_rounded, size: 20, color: Color(0xFF4285F4)),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Text(
+                        _isEnglish ? 'Repeat this chapter' : 'Lặp lại chương này',
+                        style: TextStyle(
+                          fontSize: 13.5,
+                          fontWeight: mode == 'repeat' ? FontWeight.bold : FontWeight.normal,
+                          color: isDark ? Colors.white : Colors.black87,
+                        ),
+                      ),
+                    ),
+                    if (mode == 'repeat')
+                      const Icon(Icons.check, size: 18, color: Colors.green),
+                  ],
+                ),
+              ),
+              PopupMenuItem<String>(
+                value: 'stop',
+                child: Row(
+                  children: [
+                    const Icon(Icons.stop_circle_outlined, size: 20, color: Colors.redAccent),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Text(
+                        _isEnglish ? 'Stop at end of chapter' : 'Dừng hết chương',
+                        style: TextStyle(
+                          fontSize: 13.5,
+                          fontWeight: mode == 'stop' ? FontWeight.bold : FontWeight.normal,
+                          color: isDark ? Colors.white : Colors.black87,
+                        ),
+                      ),
+                    ),
+                    if (mode == 'stop')
+                      const Icon(Icons.check, size: 18, color: Colors.green),
+                  ],
+                ),
+              ),
+            ],
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 8),
+              child: Icon(modeIcon, color: isDark ? const Color(0xFFE5B968) : AppColors.primaryDark, size: 22),
+            ),
+          ),
+
+          // Pause / Break settings button
+          IconButton(
+            icon: Icon(
+              Icons.timer_outlined,
+              size: 20,
+              color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
+            ),
+            tooltip: _isEnglish ? 'Pause settings' : 'Thiết lập ngắt nghỉ',
+            onPressed: () => showTtsBreakDialog(context, isDark: isDark, isEnglish: _isEnglish),
           ),
 
           // Sleep timer button
