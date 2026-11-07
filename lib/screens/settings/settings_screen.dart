@@ -79,11 +79,14 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
   void _startDownloadAllImages() async {
     final sections = _repo.sections;
-    final urls = sections
-        .map((s) => s.getImageVertical(_isEnglish))
-        .where((u) => u != null && u.isNotEmpty && u.startsWith('http'))
-        .cast<String>()
-        .toList();
+    final Set<String> allUrls = {};
+    for (final s in sections) {
+      final v = s.getImageVertical(_isEnglish);
+      if (v != null && v.isNotEmpty && v.startsWith('http')) allUrls.add(v);
+      final vt = s.getImageVerticalThumb(_isEnglish);
+      if (vt != null && vt.isNotEmpty && vt.startsWith('http')) allUrls.add(vt);
+    }
+    final urls = allUrls.toList();
 
     if (urls.isEmpty) return;
 

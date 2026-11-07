@@ -8,6 +8,8 @@ class TocItem {
   final String? image;
   final String? imageVertical;
   final String? imageVerticalEn;
+  final String? imageVerticalThumb;
+  final String? imageVerticalThumbEn;
   final int paragraphsCountVi;
   final int paragraphsCountEn;
 
@@ -21,6 +23,8 @@ class TocItem {
     this.image,
     this.imageVertical,
     this.imageVerticalEn,
+    this.imageVerticalThumb,
+    this.imageVerticalThumbEn,
     required this.paragraphsCountVi,
     required this.paragraphsCountEn,
   });
@@ -36,6 +40,8 @@ class TocItem {
       image: json['image'] as String?,
       imageVertical: json['image_vertical'] as String?,
       imageVerticalEn: json['image_vertical_en'] as String?,
+      imageVerticalThumb: json['image_vertical_thumb'] as String? ?? json['image_thumb'] as String?,
+      imageVerticalThumbEn: json['image_vertical_thumb_en'] as String? ?? json['image_thumb_en'] as String?,
       paragraphsCountVi: json['paragraphsCountVi'] as int? ?? 0,
       paragraphsCountEn: json['paragraphsCountEn'] as int? ?? 0,
     );
@@ -45,6 +51,8 @@ class TocItem {
   String? getImageVertical(bool isEnglish) => isEnglish ? (imageVerticalEn ?? imageVertical) : imageVertical;
 
   String? getImageVerticalThumb(bool isEnglish) {
+    final explicit = isEnglish ? (imageVerticalThumbEn ?? imageVerticalThumb) : imageVerticalThumb;
+    if (explicit != null && explicit.isNotEmpty) return explicit;
     final orig = getImageVertical(isEnglish);
     if (orig == null) return null;
     if (orig.contains('/vertical/')) {

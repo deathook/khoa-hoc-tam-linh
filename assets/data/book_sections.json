@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "preface",
     "category": "intro",
@@ -31,7 +31,9 @@
       "Hoàng Nhật Minh(Written in calm contemplation, in days of ease between earth and sky - Đà Lạt, Việt Nam, 10/2025)"
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "introduction",
@@ -68,7 +70,9 @@
       "Summary map510"
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "part_1",
@@ -94,7 +98,9 @@
       "And once we understand that awareness creates reality, the search is no longer outward. It becomes a journey home-back to the very energy that gave birth to us; back to our clear, luminous essence, where science and spirituality meet at a single point: consciousness."
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "ch_01",
@@ -175,7 +181,9 @@
       "When knowledge bows to silence, wisdom begins to bloom."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-01-khoa-hoc-va-tam-linh-hai-ngon-ngu-cua-mot-chan-ly.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-01-science-and-spirituality-two-languages-of-one-truth.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-01-science-and-spirituality-two-languages-of-one-truth.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-01-khoa-hoc-va-tam-linh-hai-ngon-ngu-cua-mot-chan-ly.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-01-science-and-spirituality-two-languages-of-one-truth.webp"
   },
   {
     "id": "ch_02",
@@ -246,7 +254,9 @@
       "When the energy within us is harmonious, the universe around us becomes harmonious as well."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-02-nang-luong-coi-nguon-cua-moi-hien-tuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-02-energy-the-source-of-every-phenomenon.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-02-energy-the-source-of-every-phenomenon.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-02-nang-luong-coi-nguon-cua-moi-hien-tuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-02-energy-the-source-of-every-phenomenon.webp"
   },
   {
     "id": "ch_03",
@@ -307,7 +317,9 @@
       "When the heart becomes the sky, God rests in every heartbeat."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-03-ton-giao-va-chan-ly-nhieu-con-duong-mot-dinh-nui.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-03-religion-and-truth-many-paths-one-summit.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-03-religion-and-truth-many-paths-one-summit.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-03-ton-giao-va-chan-ly-nhieu-con-duong-mot-dinh-nui.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-03-religion-and-truth-many-paths-one-summit.webp"
   },
   {
     "id": "ch_04",
@@ -371,7 +383,9 @@
       "Understanding is not for proving that we are right, but for listening to what is Right speaking through us."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-04-con-nguoi-cau-noi-giua-vat-chat-va-tinh-than.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-04-the-human-being-a-bridge-between-matter-and-spirit.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-04-the-human-being-a-bridge-between-matter-and-spirit.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-04-con-nguoi-cau-noi-giua-vat-chat-va-tinh-than.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-04-the-human-being-a-bridge-between-matter-and-spirit.webp"
   },
   {
     "id": "part_2",
@@ -396,7 +410,9 @@
       "When we truly understand, we do not merely learn something new-we see everything old illuminated by a new light."
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "ch_05",
@@ -467,7 +483,9 @@
       "Wakefulness is not doing something extra-it is stopping the forgetting of who you are."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-05-tu-ban-nang-den-tinh-thuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-05-from-instinct-to-wakefulness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-05-from-instinct-to-wakefulness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-05-tu-ban-nang-den-tinh-thuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-05-from-instinct-to-wakefulness.webp"
   },
   {
     "id": "ch_06",
@@ -528,7 +546,9 @@
       "Do not pray for karma to end-pray for enough wisdom to understand it."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-06-luat-nhan-qua-va-su-cong-bang-cua-vu-tru.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-06-cause-and-effect-and-the-universes-justice.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-06-cause-and-effect-and-the-universes-justice.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-06-luat-nhan-qua-va-su-cong-bang-cua-vu-tru.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-06-cause-and-effect-and-the-universes-justice.webp"
   },
   {
     "id": "ch_07",
@@ -588,7 +608,9 @@
       "No suffering is meaningless. Every wound is a doorway that opens into Light."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-07-nghich-canh-va-bai-hoc-linh-hon.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-07-adversity-and-the-lessons-of-the-soul.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-07-adversity-and-the-lessons-of-the-soul.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-07-nghich-canh-va-bai-hoc-linh-hon.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-07-adversity-and-the-lessons-of-the-soul.webp"
   },
   {
     "id": "ch_08",
@@ -654,7 +676,9 @@
       "No step is meaningless; only steps not yet seen in the light of wakefulness."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-08-tinh-yeu-ngon-ngu-cao-nhat-cua-vu-tru.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-08-love-the-highest-language-of-the-universe.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-08-love-the-highest-language-of-the-universe.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-08-tinh-yeu-ngon-ngu-cao-nhat-cua-vu-tru.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-08-love-the-highest-language-of-the-universe.webp"
   },
   {
     "id": "part_3",
@@ -680,7 +704,9 @@
       "And when science begins to speak the same language as spirituality, they are no longer two parallel paths, but two branches of one current-guiding humanity back to complete awareness, where understanding becomes love, and knowledge becomes life."
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "ch_09",
@@ -773,7 +799,9 @@
       "I am not on this side, nor on that side. I am the bridge connecting the two shores. I do not fight the darkness, because I know light is within it. I walk in balance-and there is where peace lives."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-09-trung-dao-giao-diem-cua-moi-con-duong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-09-the-middle-way-where-all-paths-meet.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-09-the-middle-way-where-all-paths-meet.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-09-trung-dao-giao-diem-cua-moi-con-duong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-09-the-middle-way-where-all-paths-meet.webp"
   },
   {
     "id": "ch_10",
@@ -826,7 +854,9 @@
       "Mind gives rise to all phenomena; all phenomena return to mind. When you understand that, you have found the doorway to liberation."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-10-tam-tri-kien-tao-ra-thien-duong-va-dia-nguc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-10-the-mind-creates-heaven-and-hell.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-10-the-mind-creates-heaven-and-hell.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-10-tam-tri-kien-tao-ra-thien-duong-va-dia-nguc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-10-the-mind-creates-heaven-and-hell.webp"
   },
   {
     "id": "ch_11",
@@ -900,7 +930,9 @@
       "There is no boundary between science and spirituality-only a boundary between what is known and what is not yet known."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-11-khi-khoa-hoc-cham-toi-tam-linh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-11-when-science-touches-spirituality.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-11-when-science-touches-spirituality.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-11-khi-khoa-hoc-cham-toi-tam-linh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-11-when-science-touches-spirituality.webp"
   },
   {
     "id": "ch_12",
@@ -997,7 +1029,9 @@
       "When wisdom and compassion meet, science becomes the path, and spirituality becomes the light."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-12-khoa-hoc-than-kinh-y-thuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-12-the-neuroscience-of-consciousness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-12-the-neuroscience-of-consciousness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-12-khoa-hoc-than-kinh-y-thuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-12-the-neuroscience-of-consciousness.webp"
   },
   {
     "id": "part_4",
@@ -1025,7 +1059,9 @@
       "And then, each breath, each choice, each gentle gaze we offer becomes a silent prayer for the awakening of all humanity."
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "ch_13",
@@ -1077,7 +1113,9 @@
       "The greatest teacher is the one who helps another become their own teacher. Without attachment, without binding, and completely free. The greatest teacher has always been within each of us…"
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-13-giao-duc-thuan-tu-nhien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-13-education-in-harmony-with-nature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-13-education-in-harmony-with-nature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-13-giao-duc-thuan-tu-nhien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-13-education-in-harmony-with-nature.webp"
   },
   {
     "id": "ch_14",
@@ -1127,7 +1165,9 @@
       "If you want to heal the world-begin by healing your own heart."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-14-tu-bi-voi-chinh-minh-khoi-diem-cua-moi-chua-lanh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-14-compassion-for-yourself-the-beginning-of-all-healing.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-14-compassion-for-yourself-the-beginning-of-all-healing.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-14-tu-bi-voi-chinh-minh-khoi-diem-cua-moi-chua-lanh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-14-compassion-for-yourself-the-beginning-of-all-healing.webp"
   },
   {
     "id": "ch_15",
@@ -1178,7 +1218,9 @@
       "To mature is to stop searching for a support, because you have become your own."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-15-khi-ta-truong-thanh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-15-when-we-mature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-15-when-we-mature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-15-khi-ta-truong-thanh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-15-when-we-mature.webp"
   },
   {
     "id": "ch_16",
@@ -1230,7 +1272,9 @@
       "Awakening is not becoming someone else; it is remembering who you are. - Eckhart Tolle"
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-16-hoa-nhap-cung-vu-tru-song-nhu-mot-phan-cua-toan-the.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-16-becoming-one-with-the-universe-living-as-part-of-the-whole.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-16-becoming-one-with-the-universe-living-as-part-of-the-whole.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-16-hoa-nhap-cung-vu-tru-song-nhu-mot-phan-cua-toan-the.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-16-becoming-one-with-the-universe-living-as-part-of-the-whole.webp"
   },
   {
     "id": "part_5",
@@ -1261,7 +1305,9 @@
       "And so the Science of Spirituality does not close with a full stop, but with a wide-open doorway-leading humanity into a new era: the era of Wisdom, Love, and wholeness."
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "ch_17",
@@ -1312,7 +1358,9 @@
       "An enlightened person does not go up, and does not go down. They simply dissolve into the flow of Life."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-17-nhung-cap-do-nhan-thuc-cua-con-nguoi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-17-levels-of-human-awareness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-17-levels-of-human-awareness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-17-nhung-cap-do-nhan-thuc-cua-con-nguoi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-17-levels-of-human-awareness.webp"
   },
   {
     "id": "ch_18",
@@ -1358,7 +1406,9 @@
       "Spirituality is the religion of the heart. When the heart opens, all religions dissolve into the One."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-18-tu-ton-giao-den-tam-linh-hanh-trinh-quay-ve-chinh-minh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-18-from-religion-to-spirituality-the-journey-home-to-yourself.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-18-from-religion-to-spirituality-the-journey-home-to-yourself.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-18-tu-ton-giao-den-tam-linh-hanh-trinh-quay-ve-chinh-minh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-18-from-religion-to-spirituality-the-journey-home-to-yourself.webp"
   },
   {
     "id": "ch_19",
@@ -1410,7 +1460,9 @@
       "The universe is not outside you. When you understand yourself, you understand the universe."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-19-khoa-hoc-tam-linh-nen-van-minh-cua-tuong-lai.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-19-the-science-of-spirituality-a-civilisation-of-the-future.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-19-the-science-of-spirituality-a-civilisation-of-the-future.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-19-khoa-hoc-tam-linh-nen-van-minh-cua-tuong-lai.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-19-the-science-of-spirituality-a-civilisation-of-the-future.webp"
   },
   {
     "id": "poem_daidong",
@@ -1474,7 +1526,9 @@
       "-st-"
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "part_6",
@@ -1513,7 +1567,9 @@
       "For when we understand that humanity is made of cells within one vast living body, we stop fighting one another-and begin to heal one another. When 'me' melts into 'we', love becomes the common language of the world."
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "gn_01",
@@ -1570,7 +1626,9 @@
       "Even in our differences, we are still One."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-01-ve-phan-biet-chung-toc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-01-on-racial-discrimination.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-01-on-racial-discrimination.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-01-ve-phan-biet-chung-toc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-01-on-racial-discrimination.webp"
   },
   {
     "id": "gn_02",
@@ -1665,7 +1723,9 @@
       "When the heart-mind is bright, every road is bright. When the heart-mind loves, every religion becomes the Way of Love."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-02-ve-phan-biet-ton-giao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-02-on-religious-discrimination.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-02-on-religious-discrimination.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-02-ve-phan-biet-ton-giao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-02-on-religious-discrimination.webp"
   },
   {
     "id": "gn_03",
@@ -1756,7 +1816,9 @@
       "When Mother and Father within us become one, the heart-mind grows still-and the Way returns."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-03-ve-gioi-tinh-va-vai-tro-nam-nu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-03-on-gender-and-the-roles-of-men-and-women.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-03-on-gender-and-the-roles-of-men-and-women.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-03-ve-gioi-tinh-va-vai-tro-nam-nu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-03-on-gender-and-the-roles-of-men-and-women.webp"
   },
   {
     "id": "gn_04",
@@ -1886,7 +1948,9 @@
       "Light does not 'defeat' darkness. Light simply appears - and darkness dissolves."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-04-ve-cai-thien-va-cai-ac.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-04-on-good-and-evil.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-04-on-good-and-evil.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-04-ve-cai-thien-va-cai-ac.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-04-on-good-and-evil.webp"
   },
   {
     "id": "gn_05",
@@ -1996,7 +2060,9 @@
       "When the heart and the food become One, every meal becomes light."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-05-ve-an-chay-va-an-man.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-05-on-vegetarian-and-non-vegetarian-eating.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-05-on-vegetarian-and-non-vegetarian-eating.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-05-ve-an-chay-va-an-man.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-05-on-vegetarian-and-non-vegetarian-eating.webp"
   },
   {
     "id": "gn_06",
@@ -2104,7 +2170,9 @@
       "One who understands their condition no longer fears being human."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-06-ve-tien-va-dong-tien-hanh-phuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-06-on-money-and-the-currency-of-happiness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-06-on-money-and-the-currency-of-happiness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-06-ve-tien-va-dong-tien-hanh-phuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-06-on-money-and-the-currency-of-happiness.webp"
   },
   {
     "id": "gn_07",
@@ -2244,7 +2312,9 @@
       "There is only the flow of life-unfolding, complete, exactly as it is."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-07-ve-kho-dau.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-07-on-suffering.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-07-on-suffering.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-07-ve-kho-dau.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-07-on-suffering.webp"
   },
   {
     "id": "gn_08",
@@ -2327,7 +2397,9 @@
       "Death only takes what was never you. What is truly you is imperishable."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-08-ve-sinh-va-tu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-08-on-birth-and-death.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-08-on-birth-and-death.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-08-ve-sinh-va-tu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-08-on-birth-and-death.webp"
   },
   {
     "id": "gn_09",
@@ -2413,7 +2485,9 @@
       "Simply blow. Simply live. And that is the most sacred thing of all."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-09-ve-y-nghia-su-song.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-09-on-the-meaning-of-life.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-09-on-the-meaning-of-life.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-09-ve-y-nghia-su-song.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-09-on-the-meaning-of-life.webp"
   },
   {
     "id": "gn_10",
@@ -2519,7 +2593,9 @@
       "And when joy no longer arises from within, we suffer."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-10-ve-tu-do-y-chi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-10-on-free-will.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-10-on-free-will.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-10-ve-tu-do-y-chi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-10-on-free-will.webp"
   },
   {
     "id": "gn_11",
@@ -2588,7 +2664,9 @@
       "What we call destiny is, in truth, the universe's love - taking the shape of the lessons we must pass through."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-11-ve-dinh-menh-va-su-an-bai.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-11-on-destiny-and-the-larger-design.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-11-on-destiny-and-the-larger-design.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-11-ve-dinh-menh-va-su-an-bai.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-11-on-destiny-and-the-larger-design.webp"
   },
   {
     "id": "gn_12",
@@ -2679,7 +2757,9 @@
       "Realisations of psyche and spirit are a step from sleep to wakefulness, from control to understanding, from conflict to inner coherence."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-12-ve-noi-so-va-su-tin-tuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-12-on-fear-and-trust.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-12-on-fear-and-trust.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-12-ve-noi-so-va-su-tin-tuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-12-on-fear-and-trust.webp"
   },
   {
     "id": "gn_13",
@@ -2763,7 +2843,9 @@
       "Let go of the self. You do not fall into emptiness. You fall into the Eternal."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-13-ve-cai-toi-ban-nga-ego.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-13-on-the-self-the-ego.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-13-on-the-self-the-ego.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-13-ve-cai-toi-ban-nga-ego.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-13-on-the-self-the-ego.webp"
   },
   {
     "id": "gn_14",
@@ -2840,7 +2922,9 @@
       "True happiness always begins within."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-14-ve-hanh-phuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-14-on-happiness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-14-on-happiness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-14-ve-hanh-phuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-14-on-happiness.webp"
   },
   {
     "id": "gn_15",
@@ -2909,7 +2993,9 @@
       "Thank you, life: each morning I wake, I am given one more day to love."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-15-ve-biet-on.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-15-on-gratitude.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-15-on-gratitude.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-15-ve-biet-on.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-15-on-gratitude.webp"
   },
   {
     "id": "gn_16",
@@ -2976,7 +3062,9 @@
       "Forgiveness is not the end of a story. It is the beginning of a new chapter -one where the soul is free."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-16-ve-tha-thu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-16-on-forgiveness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-16-on-forgiveness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-16-ve-tha-thu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-16-on-forgiveness.webp"
   },
   {
     "id": "gn_17",
@@ -3023,7 +3111,9 @@
       "Love is the deep realisation that the other person is you. - Eckhart Tolle"
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-17-ve-tinh-yeu-va-trach-nhiem.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-17-on-love-and-responsibility.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-17-on-love-and-responsibility.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-17-ve-tinh-yeu-va-trach-nhiem.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-17-on-love-and-responsibility.webp"
   },
   {
     "id": "gn_18",
@@ -3067,7 +3157,9 @@
       "When the heart is still, the mind is bright. When the mind is bright, the heart is at peace."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-18-ve-tam-va-tri.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-18-on-heart-and-mind.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-18-on-heart-and-mind.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-18-ve-tam-va-tri.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-18-on-heart-and-mind.webp"
   },
   {
     "id": "gn_19",
@@ -3114,7 +3206,9 @@
       "A pure mind - free energy. Free energy - a free life. And that is true freedom."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-19-tam-tri-bo-loc-cua-nang-luong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-19-the-mind-as-a-filter-for-energy.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-19-the-mind-as-a-filter-for-energy.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-19-tam-tri-bo-loc-cua-nang-luong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-19-the-mind-as-a-filter-for-energy.webp"
   },
   {
     "id": "gn_20",
@@ -3182,7 +3276,9 @@
       "Message: No-one is wrong - someone has simply not yet been understood. When we understand one another, every argument turns into wind."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-20-ve-goc-nhin-moi-nguoi-deu-dung-trong-the-gioi-cua-ho.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-20-perspective-everyone-is-right-in-their-own-world.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-20-perspective-everyone-is-right-in-their-own-world.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-20-ve-goc-nhin-moi-nguoi-deu-dung-trong-the-gioi-cua-ho.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-20-perspective-everyone-is-right-in-their-own-world.webp"
   },
   {
     "id": "gn_21",
@@ -3225,7 +3321,9 @@
       "But the Middle Way is the Way in the world - and the world in the Way: two, and yet one; interwoven, never truly separate. Life is the Way - and the Way is life."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-21-ve-dao-va-doi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-21-the-way-and-everyday-life.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-21-the-way-and-everyday-life.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-21-ve-dao-va-doi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-21-the-way-and-everyday-life.webp"
   },
   {
     "id": "gn_22",
@@ -3358,7 +3456,9 @@
       "Look around you to find reality. Look within to find yourself."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-22-ve-the-gioi-ben-trong-the-gioi-ben-ngoai.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-22-the-inner-world-and-the-outer-world.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-22-the-inner-world-and-the-outer-world.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-22-ve-the-gioi-ben-trong-the-gioi-ben-ngoai.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-22-the-inner-world-and-the-outer-world.webp"
   },
   {
     "id": "gn_23",
@@ -3430,7 +3530,9 @@
       "Wise love does not come to make you comfortable; it comes to help you become Light."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-23-ve-ba-loai-tinh-yeu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-23-the-three-kinds-of-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-23-the-three-kinds-of-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-23-ve-ba-loai-tinh-yeu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-23-the-three-kinds-of-love.webp"
   },
   {
     "id": "gn_24",
@@ -3516,7 +3618,9 @@
       "Someone with purpose does not need to run after happiness, because they are living inside happiness-whenever they are still able to contribute."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-24-ve-le-song-tim-lai-ngon-lua-ben-trong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-24-purpose-in-life-rekindling-the-inner-flame.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-24-purpose-in-life-rekindling-the-inner-flame.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-24-ve-le-song-tim-lai-ngon-lua-ben-trong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-24-purpose-in-life-rekindling-the-inner-flame.webp"
   },
   {
     "id": "gn_25",
@@ -3600,7 +3704,9 @@
       "Balance is not doing less. It is doing what is right-with a peaceful heart and a clear mind."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-25-ve-cuoc-song-can-bang.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-25-a-balanced-life.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-25-a-balanced-life.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-25-ve-cuoc-song-can-bang.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-25-a-balanced-life.webp"
   },
   {
     "id": "gn_26",
@@ -3689,7 +3795,9 @@
       "Whoever seeks truth outside meets only appearances; whoever turns within touches what is real."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-26-ve-suc-khoe-khi-co-the-la-ngoi-den-cua-linh-hon.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-26-health-when-the-body-is-the-temple-of-the-soul.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-26-health-when-the-body-is-the-temple-of-the-soul.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-26-ve-suc-khoe-khi-co-the-la-ngoi-den-cua-linh-hon.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-26-health-when-the-body-is-the-temple-of-the-soul.webp"
   },
   {
     "id": "gn_27",
@@ -3768,7 +3876,9 @@
       "Time exists only for the one who is still dreaming. When we wake, every moment is One."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-27-ve-thoi-gian.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-27-time.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-27-time.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-27-ve-thoi-gian.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-27-time.webp"
   },
   {
     "id": "gn_28",
@@ -3838,7 +3948,9 @@
       "Yet all of it rests within the One."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-28-ve-thien-duong-doi-doi-va-hoa-nguc-doi-doi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-28-on-eternal-heaven-and-eternal-hell.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-28-on-eternal-heaven-and-eternal-hell.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-28-ve-thien-duong-doi-doi-va-hoa-nguc-doi-doi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-28-on-eternal-heaven-and-eternal-hell.webp"
   },
   {
     "id": "gn_29",
@@ -3958,7 +4070,9 @@
       "When we recognise that the one who breathes, the breathing, and the breath are One-that is the Dao."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-29-ve-nhi-nguyen-am-duong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-29-on-duality-yin-and-yang.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-29-on-duality-yin-and-yang.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-29-ve-nhi-nguyen-am-duong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-29-on-duality-yin-and-yang.webp"
   },
   {
     "id": "gn_30",
@@ -4066,7 +4180,9 @@
       "Then a person attains absolute Freedom: living in the world without belonging to the world; doing as though not doing; knowing as though not knowing; loving as though not loving-because all has returned to One."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-30-ve-tam-nguyen-than-tam-tri.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-30-on-the-triad-of-body-heart-mind.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-30-on-the-triad-of-body-heart-mind.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-30-ve-tam-nguyen-than-tam-tri.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-30-on-the-triad-of-body-heart-mind.webp"
   },
   {
     "id": "gn_31",
@@ -4196,7 +4312,9 @@
       "When you see this, the door of freedom opens-no inside, no outside-only Being."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-31-ve-nhat-nguyen.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-31-on-oneness-monism.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-31-on-oneness-monism.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-31-ve-nhat-nguyen.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-31-on-oneness-monism.webp"
   },
   {
     "id": "gn_32",
@@ -4335,7 +4453,9 @@
       "'The Dao that can be spoken is not the eternal Dao; the name that can be named is not the eternal name. '"
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-32-ve-dao-tinh-khong-nen-tang-vo-hinh-cua-van-huu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-32-on-the-dao-emptiness-the-invisible-ground-of-all-things.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-32-on-the-dao-emptiness-the-invisible-ground-of-all-things.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-32-ve-dao-tinh-khong-nen-tang-vo-hinh-cua-van-huu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-32-on-the-dao-emptiness-the-invisible-ground-of-all-things.webp"
   },
   {
     "id": "gn_33",
@@ -4496,7 +4616,9 @@
       "Emptiness is wholeness: empty, and yet overflowing."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-33-cac-trang-thai-cua-tam-khong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-33-the-states-of-the-empty-mind.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-33-the-states-of-the-empty-mind.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-33-cac-trang-thai-cua-tam-khong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-33-the-states-of-the-empty-mind.webp"
   },
   {
     "id": "gn_34",
@@ -4588,7 +4710,9 @@
       "The wise are the river itself - holding both banks within one body of water."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-34-con-duong-trung-dao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-34-the-middle-way.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-34-the-middle-way.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-34-con-duong-trung-dao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-34-the-middle-way.webp"
   },
   {
     "id": "gn_35",
@@ -5228,7 +5352,9 @@
       "And in this relative world, only Love is absolute."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-35-cac-quy-luat-vu-tru.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-35-the-laws-of-the-universe.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-35-the-laws-of-the-universe.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-35-cac-quy-luat-vu-tru.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-35-the-laws-of-the-universe.webp"
   },
   {
     "id": "gn_36",
@@ -5345,7 +5471,9 @@
       "To understand the order of these principles is to understand the soul's journey from fragmentation back to union-from the countless to the Whole, from ego back to the Way."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-36-vu-tru-con-nguoi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-36-the-universe-the-human-being.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-36-the-universe-the-human-being.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-36-vu-tru-con-nguoi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-36-the-universe-the-human-being.webp"
   },
   {
     "id": "gn_37",
@@ -5453,7 +5581,9 @@
       "You ask only: How can I love more fully?"
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-37-luat-cua-mot.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-37-the-law-of-one.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-37-the-law-of-one.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-37-luat-cua-mot.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-37-the-law-of-one.webp"
   },
   {
     "id": "gn_38",
@@ -5560,7 +5690,9 @@
       "And when love is large enough, we know there is no \" me\" and \" other\"-only One Life, looking at itself through countless forms."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-38-moi-con-duong-deu-dan-ve-mot.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-38-all-paths-lead-back-to-the-one.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-38-all-paths-lead-back-to-the-one.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-38-moi-con-duong-deu-dan-ve-mot.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-38-all-paths-lead-back-to-the-one.webp"
   },
   {
     "id": "gn_39",
@@ -5659,7 +5791,9 @@
       "When we understand this, we stop judging, stop dividing, and see that everything in the universe shines-each in its own way."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-39-tat-ca-deu-la-anh-sang.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-39-everything-is-light.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-39-everything-is-light.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-39-tat-ca-deu-la-anh-sang.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-39-everything-is-light.webp"
   },
   {
     "id": "gn_40",
@@ -5755,7 +5889,9 @@
       "Love does not discriminate. And discrimination is not Love."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-40-ve-linh-hon.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-40-on-the-soul.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-40-on-the-soul.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-40-ve-linh-hon.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-40-on-the-soul.webp"
   },
   {
     "id": "gn_41",
@@ -5855,7 +5991,9 @@
       "There is only Light, taking on countless forms, learning to recognise itself."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-41-goc-nhin-linh-hon.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-41-the-souls-perspective.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-41-the-souls-perspective.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-41-goc-nhin-linh-hon.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-41-the-souls-perspective.webp"
   },
   {
     "id": "gn_42",
@@ -5921,7 +6059,9 @@
       "They are helping you learn your own lesson-so you may evolve and grow."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-42-tinh-yeu-an-sau-nhung-vet-thuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-42-love-hidden-behind-wounds.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-42-love-hidden-behind-wounds.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-42-tinh-yeu-an-sau-nhung-vet-thuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-42-love-hidden-behind-wounds.webp"
   },
   {
     "id": "gn_43",
@@ -6016,7 +6156,9 @@
       "That is a freedom no one can take away: inner freedom-the one thing truly worth seeking for an entire lifetime."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-43-ve-tu-do.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-43-on-freedom.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-43-on-freedom.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-43-ve-tu-do.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-43-on-freedom.webp"
   },
   {
     "id": "gn_44",
@@ -6099,7 +6241,9 @@
       "When a human being returns to themselves, it is also the moment the country, life, and the universe within us become free."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-44-ve-doc-lap-tu-do-hanh-phuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-44-on-independence-freedom-and-happiness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-44-on-independence-freedom-and-happiness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-44-ve-doc-lap-tu-do-hanh-phuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-44-on-independence-freedom-and-happiness.webp"
   },
   {
     "id": "gn_45",
@@ -6208,7 +6352,9 @@
       "the peaceful heart within."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-45-ve-cach-mang-noi-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-45-on-inner-revolution.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-45-on-inner-revolution.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-45-ve-cach-mang-noi-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-45-on-inner-revolution.webp"
   },
   {
     "id": "gn_46",
@@ -6286,7 +6432,9 @@
       "That is the path of ease and quiet freedom."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-46-ve-tuy-duyen.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-46-on-letting-things-unfold.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-46-on-letting-things-unfold.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-46-ve-tuy-duyen.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-46-on-letting-things-unfold.webp"
   },
   {
     "id": "gn_47",
@@ -6323,7 +6471,9 @@
       "And remember: Thuận duyên is not surrender. It is living in wakefulness-allowing nature to move through us, rather than trying to make nature move for us."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-47-thuan-duyen-buoc-ra-khoi-tro-choi-cua-tinh-hai-mat.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-47-favourable-conditions-stepping-out-of-the-game-of-duality.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-47-favourable-conditions-stepping-out-of-the-game-of-duality.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-47-thuan-duyen-buoc-ra-khoi-tro-choi-cua-tinh-hai-mat.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-47-favourable-conditions-stepping-out-of-the-game-of-duality.webp"
   },
   {
     "id": "gn_48",
@@ -6425,7 +6575,9 @@
       "So learn to love like water: love without borders, without conditions, without judgement. This is the love of Creation-the breath of life-and also the path back to God, through every drop of water, every heartbeat, every breath."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-48-ve-dao-cua-nuoc-tinh-yeu-cua-nuoc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-48-the-way-of-water-waters-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-48-the-way-of-water-waters-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-48-ve-dao-cua-nuoc-tinh-yeu-cua-nuoc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-48-the-way-of-water-waters-love.webp"
   },
   {
     "id": "gn_49",
@@ -6518,7 +6670,9 @@
       "Our Creator connects all of us."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-49-thien-dia-van-vat-dong-nhat-the.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-49-heaven-earth-and-all-things-are-one-whole.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-49-heaven-earth-and-all-things-are-one-whole.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-49-thien-dia-van-vat-dong-nhat-the.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-49-heaven-earth-and-all-things-are-one-whole.webp"
   },
   {
     "id": "gn_50",
@@ -6591,7 +6745,9 @@
       "For in the end, only Love and Harmony are the true frequency of the universe."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-50-tat-ca-chung-ta-la-mot-hoa-hop-chu-khong-hoa-tan.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-50-we-are-all-one-harmonise-dont-dissolve.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-50-we-are-all-one-harmonise-dont-dissolve.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-50-tat-ca-chung-ta-la-mot-hoa-hop-chu-khong-hoa-tan.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-50-we-are-all-one-harmonise-dont-dissolve.webp"
   },
   {
     "id": "gn_51",
@@ -6660,7 +6816,9 @@
       "And when people learn to understand one another's suffering, this world will have far fewer tears."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-51-thau-hieu-coi-nguon-cua-tinh-yeu-thuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-51-understanding-the-source-of-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-51-understanding-the-source-of-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-51-thau-hieu-coi-nguon-cua-tinh-yeu-thuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-51-understanding-the-source-of-love.webp"
   },
   {
     "id": "gn_52",
@@ -6710,7 +6868,9 @@
       "Like the sun, which does not need to teach the flower how to bloom-it only shines, and the flower opens in its own way."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-52-tinh-yeu-la-de-cho-nguoi-khac-duoc-la-chinh-ho.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-52-love-letting-others-be-themselves.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-52-love-letting-others-be-themselves.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-52-tinh-yeu-la-de-cho-nguoi-khac-duoc-la-chinh-ho.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-52-love-letting-others-be-themselves.webp"
   },
   {
     "id": "gn_53",
@@ -6770,7 +6930,9 @@
       "When the heart understands, I no longer look for God outside myself-because in this very breath, He is beating in rhythm with me."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-53-hanh-trinh-tien-hoa-cua-trai-tim.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-53-the-hearts-evolutionary-journey.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-53-the-hearts-evolutionary-journey.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-53-hanh-trinh-tien-hoa-cua-trai-tim.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-53-the-hearts-evolutionary-journey.webp"
   },
   {
     "id": "gn_54",
@@ -6843,7 +7005,9 @@
       "To live in harmony with nature-and nature will unfold of itself."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-54-song-thuan-tu-nhien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-54-living-in-harmony-with-nature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-54-living-in-harmony-with-nature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-54-song-thuan-tu-nhien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-54-living-in-harmony-with-nature.webp"
   },
   {
     "id": "gn_55",
@@ -6986,7 +7150,9 @@
       "Hoàng Nhật Minh"
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-55-the-gioi-dai-dong-giac-mo-chung-cua-nhan-loai.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-55-the-great-harmony-of-the-world-humanitys-shared-dream.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-55-the-great-harmony-of-the-world-humanitys-shared-dream.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-55-the-gioi-dai-dong-giac-mo-chung-cua-nhan-loai.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-55-the-great-harmony-of-the-world-humanitys-shared-dream.webp"
   },
   {
     "id": "part_7",
@@ -7013,7 +7179,9 @@
       "Attainment is when we stop trying to become the light-because we realise we have been shining all along."
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "cn_01",
@@ -7068,7 +7236,9 @@
       "Knowing is the seed; living is the flower. When the seed stretches towards the light, wisdom blossoms in everyday life."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-01-hanh-trinh-tu-biet-den-song.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-01-the-journey-from-knowing-to-living.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-01-the-journey-from-knowing-to-living.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-01-hanh-trinh-tu-biet-den-song.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-01-the-journey-from-knowing-to-living.webp"
   },
   {
     "id": "cn_02",
@@ -7217,7 +7387,9 @@
       "Each person must walk these six steps on their own two feet. And when we have walked them through, we realise: there was never anything to conquer-only love waiting to be opened."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-02-sau-nac-thang-chuyen-hoa-noi-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-02-six-steps-of-inner-transformation.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-02-six-steps-of-inner-transformation.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-02-sau-nac-thang-chuyen-hoa-noi-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-02-six-steps-of-inner-transformation.webp"
   },
   {
     "id": "cn_03",
@@ -7308,7 +7480,9 @@
       "There is only one way to be free of fear: face it. The more you run, the stronger it becomes."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-03-doi-dien-voi-bong-toi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-03-facing-the-darkness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-03-facing-the-darkness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-03-doi-dien-voi-bong-toi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-03-facing-the-darkness.webp"
   },
   {
     "id": "cn_04",
@@ -7408,7 +7582,9 @@
       "Without darkness, light cannot reveal itself. Without suffering, compassion cannot take root."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-04-khi-thu-thach-tro-thanh-mon-qua.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-04-when-challenges-become-a-gift.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-04-when-challenges-become-a-gift.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-04-khi-thu-thach-tro-thanh-mon-qua.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-04-when-challenges-become-a-gift.webp"
   },
   {
     "id": "cn_05",
@@ -7481,7 +7657,9 @@
       "(The Dhammapada, verse 103)"
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-05-buong-buoc-ngoat-cua-hanh-trinh-chung-ngo.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-05-letting-go-the-turning-point-on-the-path-of-attainment.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-05-letting-go-the-turning-point-on-the-path-of-attainment.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-05-buong-buoc-ngoat-cua-hanh-trinh-chung-ngo.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-05-letting-go-the-turning-point-on-the-path-of-attainment.webp"
   },
   {
     "id": "cn_06",
@@ -7557,7 +7735,9 @@
       "Freedom is not a door we must open; it is a room we never actually left."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-06-tu-do-trang-thai-tu-nhien-cua-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-06-freedom-the-heart-minds-natural-state.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-06-freedom-the-heart-minds-natural-state.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-06-tu-do-trang-thai-tu-nhien-cua-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-06-freedom-the-heart-minds-natural-state.webp"
   },
   {
     "id": "part_8",
@@ -7665,7 +7845,9 @@
       "The Way uses stillness to settle movement, softness to temper hardness, and balance to harmonise all things."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-phan-08-giac-ngo.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-part-viii-awakening.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-part-viii-awakening.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-phan-08-giac-ngo.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-part-viii-awakening.webp"
   },
   {
     "id": "part_9",
@@ -7704,7 +7886,9 @@
       "To understand yourself is to begin to understand the universe. For the universe is not far away-it is the very shape of the mind."
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "sn_01",
@@ -7729,7 +7913,9 @@
       "Real freedom begins the moment we no longer need to prove who we are. The natural person does not need to try to be natural; the true person needs no image to conceal their true nature."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-01-tuong-dai-cua-cai-toi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-01-the-monument-of-the-ego.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-01-the-monument-of-the-ego.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-01-tuong-dai-cua-cai-toi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-01-the-monument-of-the-ego.webp"
   },
   {
     "id": "sn_02",
@@ -7754,7 +7940,9 @@
       "For the truth is: no one can make us suffer except ourselves. When we understand and embrace our tender places, the seed of suffering slowly dissolves-and we become steady, free, and peaceful, amid the countless changes of life."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-02-hat-mam-cua-kho-dau.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-02-the-seed-of-suffering.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-02-the-seed-of-suffering.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-02-hat-mam-cua-kho-dau.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-02-the-seed-of-suffering.webp"
   },
   {
     "id": "sn_03",
@@ -7781,7 +7969,9 @@
       "Bitter medicine may be hard to swallow, but it carries the taste of healing."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-03-suc-manh-cua-su-that.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-03-the-power-of-truth.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-03-the-power-of-truth.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-03-suc-manh-cua-su-that.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-03-the-power-of-truth.webp"
   },
   {
     "id": "sn_04",
@@ -7846,7 +8036,9 @@
       "Light does not struggle with darkness; it simply shines-and darkness dissolves."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-04-ve-thien-va-ac-anh-sang-cua-su-that.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-04-good-and-evil-the-light-of-truth.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-04-good-and-evil-the-light-of-truth.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-04-ve-thien-va-ac-anh-sang-cua-su-that.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-04-good-and-evil-the-light-of-truth.webp"
   },
   {
     "id": "sn_05",
@@ -7877,7 +8069,9 @@
       "In suffering, there is ease. In life, there is stillness. In samsara, there is liberation."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-05-nghich-canh-va-giai-thoat.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-05-adversity-and-liberation.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-05-adversity-and-liberation.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-05-nghich-canh-va-giai-thoat.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-05-adversity-and-liberation.webp"
   },
   {
     "id": "sn_06",
@@ -7904,7 +8098,9 @@
       "In the end, we understand that everything that comes to us has meaning-joy as well as pain-because contrast is how we learn to recognise true value. And when we cherish each breath, each moment we are alive, then this life-already-is a miracle."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-06-khi-mat-roi-moi-thay-biet-on-nhung-gi-minh-dang-co.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-06-only-after-losing-it-do-we-appreciate-what-we-had.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-06-only-after-losing-it-do-we-appreciate-what-we-had.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-06-khi-mat-roi-moi-thay-biet-on-nhung-gi-minh-dang-co.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-06-only-after-losing-it-do-we-appreciate-what-we-had.webp"
   },
   {
     "id": "sn_07",
@@ -7929,7 +8125,9 @@
       "Only when these three become one do we truly live a life that is healthy, awake, and free."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-07-ba-nen-tang-cua-suc-khoe-toan-dien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-07-the-three-foundations-of-true-wellbeing.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-07-the-three-foundations-of-true-wellbeing.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-07-ba-nen-tang-cua-suc-khoe-toan-dien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-07-the-three-foundations-of-true-wellbeing.webp"
   },
   {
     "id": "sn_08",
@@ -7998,7 +8196,9 @@
       "Every suffering is a doorway. When we stop resisting, the door opens; and on the other side is peace."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-08-nen-giao-duc-anh-sang.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-08-education-as-light.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-08-education-as-light.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-08-nen-giao-duc-anh-sang.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-08-education-as-light.webp"
   },
   {
     "id": "sn_09",
@@ -8025,7 +8225,9 @@
       "So do not try to change other people. Learn instead to regulate your inner world. For when there is peace within you, the world around you, too, becomes gentler."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-09-chuyen-hoa-nghiep.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-09-transforming-karma.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-09-transforming-karma.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-09-chuyen-hoa-nghiep.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-09-transforming-karma.webp"
   },
   {
     "id": "sn_10",
@@ -8058,7 +8260,9 @@
       "And perhaps the journey to the finish was never about travelling far at all, but simply about coming back to where we were once fearless-where the soul was born in stillness and wholeness."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-10-noi-so-ao-anh-cua-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-10-fear-the-minds-illusion.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-10-fear-the-minds-illusion.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-10-noi-so-ao-anh-cua-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-10-fear-the-minds-illusion.webp"
   },
   {
     "id": "sn_11",
@@ -8099,7 +8303,9 @@
       "That is inner freedom: when the mind is no longer led by sounds outside, but becomes a still sea reflecting all things-so we can see that even in the smallest details, the Way is breathing."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-11-khi-tam-phan-ung-voi-ngoai-canh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-11-when-the-mind-reacts-to-outer-circumstances.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-11-when-the-mind-reacts-to-outer-circumstances.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-11-khi-tam-phan-ung-voi-ngoai-canh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-11-when-the-mind-reacts-to-outer-circumstances.webp"
   },
   {
     "id": "sn_12",
@@ -8137,7 +8343,9 @@
       "Practice is to open the heart, not to build more fences. Breaking attachment is the real work. And if love is truly there, there is no need to speak so much about teachings-because love itself is the Way."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-12-chua-tu-chap-kieu-doi-tu-roi-chap-kieu-dao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-12-before-practice-we-cling-in-worldly-ways-after-practice-we-cling-in-spiritual-ways.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-12-before-practice-we-cling-in-worldly-ways-after-practice-we-cling-in-spiritual-ways.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-12-chua-tu-chap-kieu-doi-tu-roi-chap-kieu-dao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-12-before-practice-we-cling-in-worldly-ways-after-practice-we-cling-in-spiritual-ways.webp"
   },
   {
     "id": "sn_13",
@@ -8166,7 +8374,9 @@
       "When we can let go of the need to be more and the fear of losing, we become truly at ease. For the Middle Way is not a midpoint; it is absolute freedom within balance."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-13-quy-luat-can-bang.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-13-the-law-of-balance.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-13-the-law-of-balance.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-13-quy-luat-can-bang.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-13-the-law-of-balance.webp"
   },
   {
     "id": "sn_14",
@@ -8197,7 +8407,9 @@
       "When the inside is full, the world no longer feels lacking."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-14-giau-co-la-khi-tam-biet-du.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-14-wealth-is-a-contented-heart.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-14-wealth-is-a-contented-heart.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-14-giau-co-la-khi-tam-biet-du.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-14-wealth-is-a-contented-heart.webp"
   },
   {
     "id": "sn_15",
@@ -8222,7 +8434,9 @@
       "That is why a truly free person is not the one who 'gets everything', but the one who is no longer bound by anything at all. They act, and then they let go. They give, and then they forget. They live, and they smile-whatever storms and changes the world may bring."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-15-lam-ma-khong-quan-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-15-acting-without-attachment.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-15-acting-without-attachment.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-15-lam-ma-khong-quan-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-15-acting-without-attachment.webp"
   },
   {
     "id": "sn_16",
@@ -8245,7 +8459,9 @@
       "For one who has healed, there is nothing that cannot be spoken-only a choice to speak from a positive state of mind, where everything is seen in the light of compassion and love."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-16-nguoi-da-lanh-khong-co-gi-la-khong-the-noi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-16-one-who-has-healed-there-is-nothing-they-cannot-say.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-16-one-who-has-healed-there-is-nothing-they-cannot-say.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-16-nguoi-da-lanh-khong-co-gi-la-khong-the-noi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-16-one-who-has-healed-there-is-nothing-they-cannot-say.webp"
   },
   {
     "id": "sn_17",
@@ -8270,7 +8486,9 @@
       "And then one day, you suddenly realise: you do not need anyone to hold you up, and you do not need to prove anything. You only need to stand steadily where you are, live kindly, and live simply. At that point you have truly grown up-because you are no longer the one searching for somewhere to lean, but have become the shade where others can rest."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-17-khi-ta-truong-thanh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-17-when-we-grow-up.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-17-when-we-grow-up.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-17-khi-ta-truong-thanh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-17-when-we-grow-up.webp"
   },
   {
     "id": "sn_18",
@@ -8293,7 +8511,9 @@
       "In the end, the journey through wounding is not meant to make us afraid; it is meant to make us more complete. For it is through the cracks that light can enter. And when we learn to love even our own wounds, we begin to heal the world."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-18-hanh-trinh-chua-lanh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-18-the-healing-journey.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-18-the-healing-journey.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-18-hanh-trinh-chua-lanh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-18-the-healing-journey.webp"
   },
   {
     "id": "sn_19",
@@ -8338,7 +8558,9 @@
       "When the heart truly opens, there is no one left to love-only love itself, present."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-19-tan-chay-de-tro-ve-dai-duong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-19-melting-to-return-to-the-ocean.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-19-melting-to-return-to-the-ocean.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-19-tan-chay-de-tro-ve-dai-duong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-19-melting-to-return-to-the-ocean.webp"
   },
   {
     "id": "sn_20",
@@ -8366,7 +8588,9 @@
       "Life is no longer a search for what you lack; it becomes a journey of radiating what you already have. When there is light within you-wherever you are, and whomever you meet-you can find peace."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-20-tro-thanh-tinh-yeu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-20-becoming-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-20-becoming-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-20-tro-thanh-tinh-yeu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-20-becoming-love.webp"
   },
   {
     "id": "sn_21",
@@ -8399,7 +8623,9 @@
       "So shine in your own way-and simply be yourself."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-21-tinh-yeu-vo-dieu-kien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-21-unconditional-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-21-unconditional-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-21-tinh-yeu-vo-dieu-kien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-21-unconditional-love.webp"
   },
   {
     "id": "sn_22",
@@ -8428,7 +8654,9 @@
       "When the human heart returns to that love, the world can truly become one-where every soul merges as One in the light of love."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-22-tinh-yeu-cua-tao-hoa-khong-thien-vi-khong-phan-biet.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-22-the-love-of-creation-unbiased-without-discrimination.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-22-the-love-of-creation-unbiased-without-discrimination.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-22-tinh-yeu-cua-tao-hoa-khong-thien-vi-khong-phan-biet.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-22-the-love-of-creation-unbiased-without-discrimination.webp"
   },
   {
     "id": "sn_23",
@@ -8457,7 +8685,9 @@
       "Remember: No one truly wounds you-only you have not yet loved yourself enough. And when you begin to treat yourself with tenderness, you will naturally treat life the same way."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-23-khi-tinh-yeu-voi-chinh-minh-chua-du.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-23-when-your-self-love-is-not-yet-enough.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-23-when-your-self-love-is-not-yet-enough.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-23-khi-tinh-yeu-voi-chinh-minh-chua-du.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-23-when-your-self-love-is-not-yet-enough.webp"
   },
   {
     "id": "sn_24",
@@ -8485,7 +8715,9 @@
       "Love does not come to make choices. Love comes to unite. And only when rejection ends can you truly live in love-love for others, love for life, and love for yourself."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-24-tinh-yeu-thi-khong-co-bai-xich.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-24-love-has-no-rejection.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-24-love-has-no-rejection.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-24-tinh-yeu-thi-khong-co-bai-xich.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-24-love-has-no-rejection.webp"
   },
   {
     "id": "sn_25",
@@ -8519,7 +8751,9 @@
       "For you are the being closest to you-and when you are loved, the whole world is loved with you."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-25-tu-bi-voi-chinh-minh-coi-nguon-cua-moi-yeu-thuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-25-compassion-for-yourself-the-source-of-all-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-25-compassion-for-yourself-the-source-of-all-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-25-tu-bi-voi-chinh-minh-coi-nguon-cua-moi-yeu-thuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-25-compassion-for-yourself-the-source-of-all-love.webp"
   },
   {
     "id": "sn_26",
@@ -8566,7 +8800,9 @@
       "To see the One within the many-and the many within the One-is when the flower of wisdom opens fully in the heart."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-26-gia-tri-song-thuoc-do-cua-hanh-phuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-26-values-in-life-the-measure-of-happiness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-26-values-in-life-the-measure-of-happiness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-26-gia-tri-song-thuoc-do-cua-hanh-phuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-26-values-in-life-the-measure-of-happiness.webp"
   },
   {
     "id": "sn_27",
@@ -8653,7 +8889,9 @@
       "So if a society wishes to progress, it must honour fairness and balance: balancing interests, ensuring equality and equal rights-so development can be lasting, resilient, and enduring through time."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-27-dao-cua-tu-nhien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-27-the-dao-of-nature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-27-the-dao-of-nature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-27-dao-cua-tu-nhien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-27-the-dao-of-nature.webp"
   },
   {
     "id": "sn_28",
@@ -8711,7 +8949,9 @@
       "\" For where two or three gather in my name, there am I with them.\" (Matthew 18:20)"
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-28-mot-chu-hoa.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-28-one-word-harmony.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-28-one-word-harmony.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-28-mot-chu-hoa.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-28-one-word-harmony.webp"
   },
   {
     "id": "sn_29",
@@ -8744,7 +8984,9 @@
       "So let us reach out our hands to one another. Let us find a shared language, a shared path, a shared understanding-so that we may move forwards together, rather than scheming, competing, pulling others down, and lifting ourselves up, only for everyone to fall behind."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-29-cay-su-song.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-29-the-tree-of-life.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-29-the-tree-of-life.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-29-cay-su-song.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-29-the-tree-of-life.webp"
   },
   {
     "id": "sn_30",
@@ -8777,7 +9019,9 @@
       "Such a person is no longer afraid, no longer clinging. They simply live-fully, peacefully, and free."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-30-bi-mat-cua-cai-chet.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-30-the-secret-of-death.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-30-the-secret-of-death.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-30-bi-mat-cua-cai-chet.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-30-the-secret-of-death.webp"
   },
   {
     "id": "sn_31",
@@ -8824,7 +9068,9 @@
       "'I am a Buddha who has already become; sentient beings are Buddhas yet to become. ' - the Tathāgata"
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-31-tat-ca-deu-la-phat.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-31-everything-is-buddha.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-31-everything-is-buddha.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-31-tat-ca-deu-la-phat.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-31-everything-is-buddha.webp"
   },
   {
     "id": "sn_32",
@@ -8860,7 +9106,9 @@
       "The heart is Buddha; Buddha is the heart."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-32-phat-o-trong-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-32-buddha-is-within-the-heart.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-32-buddha-is-within-the-heart.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-32-phat-o-trong-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-32-buddha-is-within-the-heart.webp"
   },
   {
     "id": "sn_33",
@@ -8889,7 +9137,9 @@
       "When our heart is wide enough to hold, and bright enough to smile, then even in the midst of ordinary life, Maitreya Buddha is smiling within us."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-33-nu-cuoi-cua-phat-di-lac.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-33-the-smile-of-maitreya-buddha.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-33-the-smile-of-maitreya-buddha.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-33-nu-cuoi-cua-phat-di-lac.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-33-the-smile-of-maitreya-buddha.webp"
   },
   {
     "id": "sn_34",
@@ -8930,7 +9180,9 @@
       "Back to the place where Nirvana and samsara, the Absolute and the relative, heaven and hell… have never been separate for even a single moment."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-34-niet-ban-trong-luan-hoi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-34-nirvana-within-samsara.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-34-nirvana-within-samsara.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-34-niet-ban-trong-luan-hoi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-34-nirvana-within-samsara.webp"
   },
   {
     "id": "sn_35",
@@ -8962,7 +9214,9 @@
       "And in that stillness, you awaken for real."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-35-thuc-tinh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-35-awakening.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-35-awakening.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-35-thuc-tinh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-35-awakening.webp"
   },
   {
     "id": "sn_36",
@@ -9024,7 +9278,9 @@
       "And what is not-no matter how hard you try-will, in the end, have to be returned."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-36-nguoi-vo-hinh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-36-the-invisible-one.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-36-the-invisible-one.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-36-nguoi-vo-hinh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-36-the-invisible-one.webp"
   },
   {
     "id": "sn_37",
@@ -9050,7 +9306,9 @@
       "While fear of karma remains, we are still moving inside its circle. When we understand karma and live in harmony with it, we begin to feel freer. And when we see the true nature of karma, we step beyond it-for nothing can trouble a mind that has come to rest in ease."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-37-vuot-ra-ngoai-nhan-qua.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-37-beyond-cause-and-effect.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-37-beyond-cause-and-effect.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-37-vuot-ra-ngoai-nhan-qua.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-37-beyond-cause-and-effect.webp"
   },
   {
     "id": "sn_38",
@@ -9077,7 +9335,9 @@
       "For He has never left. It is only we, in our confusion, who have briefly forgotten that He has always been within us."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-38-thuong-de-o-khap-muon-noi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-38-god-is-everywhere.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-38-god-is-everywhere.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-38-thuong-de-o-khap-muon-noi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-38-god-is-everywhere.webp"
   },
   {
     "id": "sn_39",
@@ -9204,7 +9464,9 @@
       "Freedom is when you stop being the wave and realise you are the ocean."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-39-xa-hoi-dai-dong-khi-thien-duong-tro-lai.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-39-the-great-unity-society-when-heaven-returns.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-39-the-great-unity-society-when-heaven-returns.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-39-xa-hoi-dai-dong-khi-thien-duong-tro-lai.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-39-the-great-unity-society-when-heaven-returns.webp"
   },
   {
     "id": "sn_40",
@@ -9240,7 +9502,9 @@
       "And when you truly return, the world around you becomes gentler too-because you no longer carry the inner battle of having to be someone else. You simply are you."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-40-la-chinh-minh-hanh-trinh-tro-ve-tu-tinh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-40-being-yourself-the-journey-back-to-your-true-nature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-40-being-yourself-the-journey-back-to-your-true-nature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-40-la-chinh-minh-hanh-trinh-tro-ve-tu-tinh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-40-being-yourself-the-journey-back-to-your-true-nature.webp"
   },
   {
     "id": "sn_41",
@@ -9274,7 +9538,9 @@
       "The world is not against you. The world is you."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-41-ca-the-gioi-nay-duoc-tao-ra-chi-la-vi-ban.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-41-this-whole-world-was-made-for-one-reason-you.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-41-this-whole-world-was-made-for-one-reason-you.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-41-ca-the-gioi-nay-duoc-tao-ra-chi-la-vi-ban.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-41-this-whole-world-was-made-for-one-reason-you.webp"
   },
   {
     "id": "sn_42",
@@ -9304,7 +9570,9 @@
       "So the person who speaks simply does not do so because they know little, but because they have understood enough that there is no need to make things more complicated."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-42-dinh-cao-cua-tri-tue-chinh-la-su-don-gian.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-42-the-highest-wisdom-is-simplicity.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-42-the-highest-wisdom-is-simplicity.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-42-dinh-cao-cua-tri-tue-chinh-la-su-don-gian.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-42-the-highest-wisdom-is-simplicity.webp"
   },
   {
     "id": "sn_43",
@@ -9337,7 +9605,9 @@
       "In the same way, when you stop trying to become someone, the light within you will naturally radiate. For the essence of every soul has been whole from the beginning-it is only temporarily forgotten."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-43-ban-khong-la-gi-ca-thi-ban-la-tat-ca.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-43-when-you-are-nothing-you-are-everything.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-43-when-you-are-nothing-you-are-everything.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-43-ban-khong-la-gi-ca-thi-ban-la-tat-ca.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-43-when-you-are-nothing-you-are-everything.webp"
   },
   {
     "id": "sn_44",
@@ -9362,7 +9632,9 @@
       "When you recognise the teacher within, you stop searching outside. Every experience, every stumble, every person you meet becomes a lesson. And then life itself is the classroom-and you are both the student and the teacher of your own journey."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-44-nguoi-thay-vi-dai-nhat.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-44-the-greatest-teacher.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-44-the-greatest-teacher.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-44-nguoi-thay-vi-dai-nhat.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-44-the-greatest-teacher.webp"
   },
   {
     "id": "part_10",
@@ -9405,7 +9677,9 @@
       "When the body is released, the mind settles; the intellect clears; and the soul becomes free. And from there, every journey of awakening begins."
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "th_01",
@@ -9507,7 +9781,9 @@
       "The one who breathes correctly is the one who lives in rhythm with Heaven and Earth."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-01-yoga-pranayama-khi-cong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-01-yoga-pranayama-qigong.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-01-yoga-pranayama-qigong.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-01-yoga-pranayama-khi-cong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-01-yoga-pranayama-qigong.webp"
   },
   {
     "id": "th_02",
@@ -9662,7 +9938,9 @@
       "Guided video: Balanced Lying Meditation: https://surl. vn/ivj"
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-02-thien-tinh-thien-nam-can-bang-thien-vipassana.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-02-still-meditation-balanced-lying-meditation-vipassana.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-02-still-meditation-balanced-lying-meditation-vipassana.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-02-thien-tinh-thien-nam-can-bang-thien-vipassana.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-02-still-meditation-balanced-lying-meditation-vipassana.webp"
   },
   {
     "id": "th_03",
@@ -9741,7 +10019,9 @@
       "And then every action is healing. Every moment is meditation. Every place is a sanctuary."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-03-thien-dong-con-duong-chua-lanh-bang-hanh-dong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-03-dynamic-meditation-the-path-of-healing-through-action.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-03-dynamic-meditation-the-path-of-healing-through-action.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-03-thien-dong-con-duong-chua-lanh-bang-hanh-dong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-03-dynamic-meditation-the-path-of-healing-through-action.webp"
   },
   {
     "id": "th_04",
@@ -9841,7 +10121,9 @@
       "And freedom is awakening."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-04-song-thien-thien-trung-dao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-04-living-meditation-the-middle-way.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-04-living-meditation-the-middle-way.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-04-song-thien-thien-trung-dao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-04-living-meditation-the-middle-way.webp"
   },
   {
     "id": "th_05",
@@ -9960,7 +10242,9 @@
       "You are what you eat. A good cook is a good doctor."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-05-an-uong-can-bang-am-duong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-05-eating-to-balance-yin-and-yang.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-05-eating-to-balance-yin-and-yang.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-05-an-uong-can-bang-am-duong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-05-eating-to-balance-yin-and-yang.webp"
   },
   {
     "id": "th_06",
@@ -10055,7 +10339,9 @@
       "When the cells awaken, the body becomes a temple of light. And when the whole body is light, the soul no longer needs to search for somewhere to return to-because home has never left us. Only we had not yet recognised it."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-06-thuc-tinh-te-bao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-06-awakening-the-cells.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-06-awakening-the-cells.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-06-thuc-tinh-te-bao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-06-awakening-the-cells.webp"
   },
   {
     "id": "th_07",
@@ -10206,7 +10492,9 @@
       "The heart does not need fixing. It only needs to be seen in the light of understanding. Then it naturally returns to its pure, innocent, quiet nature."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-07-nghe-nhac-chua-lanh-nhac-tan-so.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-07-listening-to-healing-music-frequency-music.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-07-listening-to-healing-music-frequency-music.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-07-nghe-nhac-chua-lanh-nhac-tan-so.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-07-listening-to-healing-music-frequency-music.webp"
   },
   {
     "id": "th_08",
@@ -10357,7 +10645,9 @@
       "When you no longer want to \" become\", that is the moment of wholeness."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-08-thien-quan.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-08-insight-meditation.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-08-insight-meditation.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-08-thien-quan.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-08-insight-meditation.webp"
   },
   {
     "id": "th_09",
@@ -10437,7 +10727,9 @@
       "The one you have been searching for has always been right there-where your hand is writing."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-09-nhat-ky-tinh-thuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-09-the-awakening-journal.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-09-the-awakening-journal.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-09-nhat-ky-tinh-thuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-09-the-awakening-journal.webp"
   },
   {
     "id": "th_10",
@@ -10549,7 +10841,9 @@
       "Practise forgiveness every day-for others, for circumstances, and most of all, for yourself."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-10-tha-thu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-10-forgiveness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-10-forgiveness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-10-tha-thu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-10-forgiveness.webp"
   },
   {
     "id": "th_11",
@@ -10672,7 +10966,9 @@
       "There is no path that leads to love-because love is the path."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-11-biet-on-va-yeu-thuong-vo-dieu-kien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-11-gratitude-and-unconditional-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-11-gratitude-and-unconditional-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-11-biet-on-va-yeu-thuong-vo-dieu-kien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-11-gratitude-and-unconditional-love.webp"
   },
   {
     "id": "th_12",
@@ -10817,7 +11113,9 @@
       "And when the mind lights up, the darkness in the heart-mind dissolves naturally-like dawn arriving, without needing to chase the night away."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-12-ho-oponopono-khoa-hoc-cua-chua-lanh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-12-hooponopono-the-science-of-healing.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-12-hooponopono-the-science-of-healing.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-12-ho-oponopono-khoa-hoc-cua-chua-lanh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-12-hooponopono-the-science-of-healing.webp"
   },
   {
     "id": "th_13",
@@ -10938,7 +11236,9 @@
       "A straight person speaks plainly; a loyal person speaks honestly. Truth can be difficult to hear-but it is the road that leads to love and to reality. Deceit keeps us asleep in illusion for a lifetime."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-13-nghi-that-noi-that-lam-that.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-13-think-true-speak-true-act-true.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-13-think-true-speak-true-act-true.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-13-nghi-that-noi-that-lam-that.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-13-think-true-speak-true-act-true.webp"
   },
   {
     "id": "th_14",
@@ -11037,7 +11337,9 @@
       "The sun never goes out; it is only that we have turned our backs to the light."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-14-goc-nhin-tich-cuc-tu-duy-tich-cuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-14-a-positive-perspective-positive-thinking.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-14-a-positive-perspective-positive-thinking.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-14-goc-nhin-tich-cuc-tu-duy-tich-cuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-14-a-positive-perspective-positive-thinking.webp"
   },
   {
     "id": "th_15",
@@ -11112,7 +11414,9 @@
       "Because when you live truthfully, you are creating. And when you create with wakefulness, you are joining the heartbeat of the Universe-where there is no longer an artist, no longer a work-only Life, shining by itself."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-15-nghe-thuat-va-sang-tao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-15-art-and-creativity.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-15-art-and-creativity.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-15-nghe-thuat-va-sang-tao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-15-art-and-creativity.webp"
   },
   {
     "id": "th_16",
@@ -11191,7 +11495,9 @@
       "Happiness does not come from achieving more-it comes from living more deeply in each moment."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-16-song-cham-song-that-song-don-gian.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-16-slow-living-living-truthfully-living-simply.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-16-slow-living-living-truthfully-living-simply.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-16-song-cham-song-that-song-don-gian.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-16-slow-living-living-truthfully-living-simply.webp"
   },
   {
     "id": "th_17",
@@ -11308,7 +11614,9 @@
       "Control what you can control. What you cannot control-do not let it consume you. And if you can only control part of it-remain calm."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-17-phong-cach-song-binh-than.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-17-a-calm-way-of-living.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-17-a-calm-way-of-living.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-17-phong-cach-song-binh-than.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-17-a-calm-way-of-living.webp"
   },
   {
     "id": "th_18",
@@ -11418,7 +11726,9 @@
       "Those who can be cheerful in their own company are often the easiest people to be around-simply because they demand nothing from anyone."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-18-lam-ban-voi-su-co-don.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-18-befriending-loneliness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-18-befriending-loneliness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-18-lam-ban-voi-su-co-don.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-18-befriending-loneliness.webp"
   },
   {
     "id": "th_19",
@@ -11506,7 +11816,9 @@
       "And when we come into harmony with the Whole, limitations dissolve-until only compassion, unity, and light remain."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-19-dua-vao-chinh-minh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-19-relying-on-yourself.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-19-relying-on-yourself.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-19-dua-vao-chinh-minh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-19-relying-on-yourself.webp"
   },
   {
     "id": "th_20",
@@ -11640,7 +11952,9 @@
       "God is in this very heart that is beating."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-20-cau-nguyen-hoac-giao-cam-voi-dang-thieng-lieng.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-20-prayer-or-communion-with-the-sacred.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-20-prayer-or-communion-with-the-sacred.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-20-cau-nguyen-hoac-giao-cam-voi-dang-thieng-lieng.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-20-prayer-or-communion-with-the-sacred.webp"
   },
   {
     "id": "th_21",
@@ -11770,7 +12084,9 @@
       "Begin today: with one small choice, one lighter step, one tender gaze towards the place we call Home."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-21-yeu-thuong-me-trai-dat.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-21-loving-mother-earth.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-21-loving-mother-earth.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-21-yeu-thuong-me-trai-dat.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-21-loving-mother-earth.webp"
   },
   {
     "id": "th_22",
@@ -11883,7 +12199,9 @@
       "Step outside to find peace-then return within to recognise: peace has always been there."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-22-ket-noi-voi-thien-nhien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-22-connecting-with-nature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-22-connecting-with-nature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-22-ket-noi-voi-thien-nhien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-22-connecting-with-nature.webp"
   },
   {
     "id": "th_23",
@@ -12016,7 +12334,9 @@
       "And in the very moment we offer something away, we are filled-quietly, abundantly-with limitless light."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-23-bo-thi-dana.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-23-giving-d-na.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-23-giving-d-na.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-23-bo-thi-dana.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-23-giving-d-na.webp"
   },
   {
     "id": "th_24",
@@ -12116,7 +12436,9 @@
       "No one attains enlightenment; awakening simply happens when there is no longer anyone trying to attain it."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-24-song-tron-ven-trong-luat-cua-mot.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-24-living-fully-in-the-law-of-one.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-24-living-fully-in-the-law-of-one.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-24-song-tron-ven-trong-luat-cua-mot.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-24-living-fully-in-the-law-of-one.webp"
   },
   {
     "id": "th_25",
@@ -12221,7 +12543,9 @@
       "Simply live each second deeply-because each second is eternity."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-25-song-tinh-thuc-giua-doi-thuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-25-living-awake-in-everyday-life.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-25-living-awake-in-everyday-life.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-25-song-tinh-thuc-giua-doi-thuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-25-living-awake-in-everyday-life.webp"
   },
   {
     "id": "th_26",
@@ -12348,7 +12672,9 @@
       "Look within to find yourself."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-26-song-tron-ven-tung-phut-giay.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-26-living-fully-moment-by-moment.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-26-living-fully-moment-by-moment.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-26-song-tron-ven-tung-phut-giay.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-26-living-fully-moment-by-moment.webp"
   },
   {
     "id": "th_27",
@@ -12434,7 +12760,9 @@
       "Let every word be a flower, every look a lamp, and every silence a smile of Love."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-27-giao-tiep-bang-tam-thuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-27-communicating-through-consciousness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-27-communicating-through-consciousness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-27-giao-tiep-bang-tam-thuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-27-communicating-through-consciousness.webp"
   },
   {
     "id": "th_28",
@@ -12511,7 +12839,9 @@
       "Letting go is not so that you lose, but so that you can see you have never truly lost anything at all."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-28-nghe-thuat-buong-xa.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-28-the-art-of-letting-go.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-28-the-art-of-letting-go.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-28-nghe-thuat-buong-xa.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-28-the-art-of-letting-go.webp"
   },
   {
     "id": "th_29",
@@ -12613,7 +12943,9 @@
       "Because only when you can love yourself as you would love a child, can you love this world wholly."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-29-tai-ket-noi-voi-dua-tre-ben-trong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-29-reconnecting-with-your-inner-child.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-29-reconnecting-with-your-inner-child.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-29-tai-ket-noi-voi-dua-tre-ben-trong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-29-reconnecting-with-your-inner-child.webp"
   },
   {
     "id": "th_30",
@@ -12708,7 +13040,9 @@
       "Then you no longer live in fear or control, but in trust, grace, and harmony with all things."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-30-thuc-tinh-trai-tim.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-30-awakening-the-heart.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-30-awakening-the-heart.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-30-thuc-tinh-trai-tim.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-30-awakening-the-heart.webp"
   },
   {
     "id": "part_11",
@@ -12791,7 +13125,9 @@
       "Hoàng Nhật MinhWebsite: https://khoahoctamlinh. vnEmail: khoahoctamlinh. vn@gmail. com"
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-phan-11-loi-ket.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-part-xi-conclusion.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-part-xi-conclusion.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-phan-11-loi-ket.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-part-xi-conclusion.webp"
   },
   {
     "id": "thanks",
@@ -12827,7 +13163,9 @@
       "Hoàng Nhật Minh"
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "hanh_trang",
@@ -12890,7 +13228,9 @@
       "We have not come to run from darkness, but to light it. We have not come to search for heaven, but to recognise: heaven has always been in the heart."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-hanh-trang-tien-vao-ky-nguyen-moi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-packing-for-a-new-era.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-packing-for-a-new-era.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-hanh-trang-tien-vao-ky-nguyen-moi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-packing-for-a-new-era.webp"
   },
   {
     "id": "pl_01",
@@ -12998,7 +13338,9 @@
       "These terms are not doctrines; they are keys. A key is not meant to be stored-it is meant to open a door. When the door opens, you no longer need the key, because then every definition dissolves into the Light of Experience."
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "pl_02",
@@ -13134,7 +13476,9 @@
       "That is when you no longer live in fear or control, but live in trust, grace, and harmony with all that is."
     ],
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "pl_03",
@@ -13232,6 +13576,8 @@
       "The journey of awakening is not travelling far to find the Truth, but returning inward to recognise: we have always been that Truth."
     ],
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-phu-luc-03-ban-do-hanh-trinh-thuc-tinh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-appendix-03-map-of-the-journey-of-awakening.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-appendix-03-map-of-the-journey-of-awakening.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-phu-luc-03-ban-do-hanh-trinh-thuc-tinh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-appendix-03-map-of-the-journey-of-awakening.webp"
   }
 ]

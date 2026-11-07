@@ -5,6 +5,7 @@ import '../../services/seo/seo_service.dart';
 import '../../services/storage_service.dart';
 import '../../theme/app_colors.dart';
 import '../../utils/vietnamese_utils.dart';
+import '../../widgets/app_cached_image.dart';
 import '../reader/reader_screen.dart';
 
 class SearchScreen extends StatefulWidget {
@@ -169,39 +170,82 @@ class _SearchScreenState extends State<SearchScreen> {
                       borderRadius: BorderRadius.circular(14),
                       border: Border.all(color: isDark ? AppColors.cardDarkBorder : Colors.black.withOpacity(0.06)),
                     ),
-                    child: Column(
+                    child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Row(
-                          children: [
-                            Container(
-                              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                              decoration: BoxDecoration(
-                                color: AppColors.primary.withOpacity(0.15),
-                                borderRadius: BorderRadius.circular(6),
+                        if (r.section.getImageVertical(_isEnglish) != null) ...[
+                          AppCachedImage(
+                            imageUrlOrAsset: r.section.getImageVerticalThumb(_isEnglish) ?? r.section.getImageVertical(_isEnglish)!,
+                            fallbackUrlOrAsset: r.section.getImageVertical(_isEnglish),
+                            width: 50,
+                            height: 66,
+                            borderRadius: BorderRadius.circular(6),
+                            fit: BoxFit.cover,
+                          ),
+                          const SizedBox(width: 12),
+                        ],
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  Container(
+                                    padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                                    decoration: BoxDecoration(
+                                      color: AppColors.primary.withOpacity(0.15),
+                                      borderRadius: BorderRadius.circular(6),
+                                    ),
+                                    child: Text(
+                                      r.section.getCategoryLabel(_isEnglish),
+                                      style: const TextStyle(fontSize: 10, fontWeight: FontWeight.bold, color: AppColors.primaryDark),
+                                    ),
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Expanded(
+                                    child: RichText(
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                      text: TextSpan(
+                                        children: buildHighlightedSpans(
+                                          text: r.section.getTitle(_isEnglish),
+                                          query: _searchController.text,
+                                          baseStyle: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 13.5,
+                                            color: isDark ? const Color(0xFFE5B968) : AppColors.primaryDark,
+                                          ),
+                                          highlightStyle: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 13.5,
+                                            color: isDark ? Colors.white : Colors.black87,
+                                            backgroundColor: isDark
+                                                ? const Color(0xFFD4AF37).withOpacity(0.45)
+                                                : const Color(0xFFFFD54F).withOpacity(0.65),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
                               ),
-                              child: Text(
-                                r.section.getCategoryLabel(_isEnglish),
-                                style: const TextStyle(fontSize: 10, fontWeight: FontWeight.bold, color: AppColors.primaryDark),
-                              ),
-                            ),
-                            const SizedBox(width: 8),
-                            Expanded(
-                              child: RichText(
-                                maxLines: 1,
+                              const SizedBox(height: 8),
+                              RichText(
+                                maxLines: 4,
                                 overflow: TextOverflow.ellipsis,
                                 text: TextSpan(
                                   children: buildHighlightedSpans(
-                                    text: r.section.getTitle(_isEnglish),
+                                    text: r.snippet,
                                     query: _searchController.text,
                                     baseStyle: TextStyle(
-                                      fontWeight: FontWeight.bold,
                                       fontSize: 13.5,
-                                      color: isDark ? const Color(0xFFE5B968) : AppColors.primaryDark,
+                                      height: 1.5,
+                                      color: isDark ? AppColors.textLight : AppColors.textDark,
                                     ),
                                     highlightStyle: TextStyle(
-                                      fontWeight: FontWeight.bold,
                                       fontSize: 13.5,
+                                      height: 1.5,
+                                      fontWeight: FontWeight.bold,
                                       color: isDark ? Colors.white : Colors.black87,
                                       backgroundColor: isDark
                                           ? const Color(0xFFD4AF37).withOpacity(0.45)
@@ -210,32 +254,7 @@ class _SearchScreenState extends State<SearchScreen> {
                                   ),
                                 ),
                               ),
-                            ),
-                          ],
-                        ),
-                        const SizedBox(height: 8),
-                        RichText(
-                          maxLines: 4,
-                          overflow: TextOverflow.ellipsis,
-                          text: TextSpan(
-                            children: buildHighlightedSpans(
-                              text: r.snippet,
-                              query: _searchController.text,
-                              baseStyle: TextStyle(
-                                fontSize: 13.5,
-                                height: 1.5,
-                                color: isDark ? AppColors.textLight : AppColors.textDark,
-                              ),
-                              highlightStyle: TextStyle(
-                                fontSize: 13.5,
-                                height: 1.5,
-                                fontWeight: FontWeight.bold,
-                                color: isDark ? Colors.white : Colors.black87,
-                                backgroundColor: isDark
-                                    ? const Color(0xFFD4AF37).withOpacity(0.45)
-                                    : const Color(0xFFFFD54F).withOpacity(0.65),
-                              ),
-                            ),
+                            ],
                           ),
                         ),
                       ],

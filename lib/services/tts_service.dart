@@ -8,12 +8,6 @@ import 'audio_player_service.dart';
 
 enum TtsPlayState { stopped, playing, paused }
 
-class TtsClause {
-  final String text;
-  final double pause;
-  const TtsClause(this.text, this.pause);
-}
-
 class TtsService with ChangeNotifier {
   static final TtsService _instance = TtsService._internal();
   factory TtsService() => _instance;
@@ -31,8 +25,6 @@ class TtsService with ChangeNotifier {
   int _currentIndex = 0;
   int get currentIndex => _currentIndex;
 
-  List<TtsClause> _currentClauses = [];
-  int _currentClauseIndex = 0;
   int _ttsSessionId = 0;
 
   String _currentSectionId = '';
@@ -62,7 +54,7 @@ class TtsService with ChangeNotifier {
         notifyListeners();
       };
       WebTts.instance.onCompletion = () {
-        _onClauseComplete();
+        _onParagraphComplete();
       };
       WebTts.instance.onPause = () {
         _state = TtsPlayState.paused;
@@ -91,7 +83,7 @@ class TtsService with ChangeNotifier {
     });
 
     _flutterTts.setCompletionHandler(() {
-      _onClauseComplete();
+      _onParagraphComplete();
     });
 
     _flutterTts.setPauseHandler(() {
@@ -335,138 +327,58 @@ class TtsService with ChangeNotifier {
       return;
     }
 
-    final String text;
+    final String rawText;
     if (_currentIndex == -1) {
-      text = _currentSectionTitle.trim();
+      rawText = _currentSectionTitle.trim();
     } else {
-      text = _currentParagraphs[_currentIndex].trim();
+      rawText = _currentParagraphs[_currentIndex].trim();
     }
 
-    if (text.isEmpty) {
+    if (rawText.isEmpty) {
       _onParagraphComplete();
       return;
     }
 
     _ttsSessionId++;
-    final session = _ttsSessionId;
-    _currentClauses = _splitParagraphIntoClauses(text);
-    _currentClauseIndex = 0;
-
-    await _speakCurrentClause(session);
-  }
-
-  Future<void> _speakCurrentClause(int session) async {
-    if (_state == TtsPlayState.stopped || session != _ttsSessionId) return;
-
-    if (_currentClauseIndex >= _currentClauses.length) {
-      _onParagraphComplete();
-      return;
-    }
-
-    final clause = _currentClauses[_currentClauseIndex];
-    if (clause.text.trim().isEmpty) {
-      _currentClauseIndex++;
-      await _speakCurrentClause(session);
-      return;
-    }
-
     _state = TtsPlayState.playing;
     notifyListeners();
 
+    final text = _formatParagraphForTts(rawText);
+
     if (kIsWeb) {
       await WebTts.instance.speak(
-        clause.text,
+        text,
         isEnglish: _currentIsEnglish,
         rate: _storage.ttsSpeedMultiplier,
         pitch: _storage.ttsPitch,
         preferredVoiceName: _storage.getVoiceName(_currentIsEnglish),
       );
     } else {
-      await _flutterTts.speak(clause.text);
+      await _flutterTts.speak(text);
     }
   }
 
-  Future<void> _onClauseComplete() async {
+  String _formatParagraphForTts(String paragraph) {
+    var s = paragraph.trim();
+    // Normalize dashes surrounded by spaces or em-dashes to a semicolon with space so the voice takes a natural clause pause
+    s = s.replaceAll(RegExp(r'\s+[-–—]\s*'), ' ; ');
+    // Ensure semicolons and colons have a following space
+    s = s.replaceAll(RegExp(r'([;:])\s*'), r'\1 ');
+    // Ensure commas have a following space
+    s = s.replaceAll(RegExp(r'([,])\s*'), r', ');
+    return s;
+  }
+
+  Future<void> _onParagraphComplete() async {
     if (_state != TtsPlayState.playing) return;
     final session = _ttsSessionId;
 
-    if (_currentClauseIndex < _currentClauses.length) {
-      final pauseSec = _currentClauses[_currentClauseIndex].pause;
-      if (pauseSec > 0) {
-        await Future.delayed(Duration(milliseconds: (pauseSec * 1000).round()));
-      }
+    // Pause between paragraphs (xuống dòng) as configured in user settings
+    final pBreak = _storage.ttsBreakParagraph;
+    if (pBreak > 0) {
+      await Future.delayed(Duration(milliseconds: (pBreak * 1000).round()));
     }
-
     if (_state != TtsPlayState.playing || session != _ttsSessionId) return;
-
-    _currentClauseIndex++;
-    if (_currentClauseIndex < _currentClauses.length) {
-      await _speakCurrentClause(session);
-    } else {
-      // End of paragraph: pause paragraph break before next paragraph
-      final pBreak = _storage.ttsBreakParagraph;
-      if (pBreak > 0) {
-        await Future.delayed(Duration(milliseconds: (pBreak * 1000).round()));
-      }
-      if (_state != TtsPlayState.playing || session != _ttsSessionId) return;
-      _onParagraphComplete();
-    }
-  }
-
-  List<TtsClause> _splitParagraphIntoClauses(String paragraph) {
-    final trimmed = paragraph.trim();
-    if (trimmed.isEmpty) return [];
-
-    final breakPeriod = _storage.ttsBreakPeriod;
-    final breakComma = _storage.ttsBreakComma;
-    final breakSemicolon = _storage.ttsBreakSemicolon;
-
-    // Pattern matches:
-    // 1. Periods, question marks, exclamation, ellipsis: [.?!…]+
-    // 2. Commas: ,+
-    // 3. Semicolons or Colons: [;:]+
-    // 4. Dash/hyphen surrounded by spaces or em-dash: (\s+[-–—]\s*|[-–—]\s+)
-    final pattern = RegExp(r'([.?!…]+|[,]+|[;:]+|\s+[-–—]\s*)');
-    final matches = pattern.allMatches(trimmed);
-
-    if (matches.isEmpty) {
-      return [TtsClause(trimmed, breakPeriod)];
-    }
-
-    final List<TtsClause> clauses = [];
-    int lastIndex = 0;
-
-    for (final m in matches) {
-      final punct = m.group(0)!;
-      final clauseText = trimmed.substring(lastIndex, m.end).trim();
-      lastIndex = m.end;
-
-      if (clauseText.isEmpty) continue;
-
-      double pause = breakPeriod;
-      if (punct.contains(';') || punct.contains(':') || punct.contains('-') || punct.contains('–') || punct.contains('—')) {
-        pause = breakSemicolon;
-      } else if (punct.contains(',')) {
-        pause = breakComma;
-      } else if (punct.contains('.') || punct.contains('?') || punct.contains('!') || punct.contains('…')) {
-        pause = breakPeriod;
-      }
-
-      clauses.add(TtsClause(clauseText, pause));
-    }
-
-    if (lastIndex < trimmed.length) {
-      final rest = trimmed.substring(lastIndex).trim();
-      if (rest.isNotEmpty) {
-        clauses.add(TtsClause(rest, breakPeriod));
-      }
-    }
-
-    return clauses;
-  }
-
-  void _onParagraphComplete() {
-    if (_state != TtsPlayState.playing) return;
 
     if (_currentIndex == -1) {
       // Finished reading chapter title, start reading first paragraph (index 0)
@@ -557,14 +469,13 @@ class TtsService with ChangeNotifier {
       } catch (_) {}
 
       _ttsSessionId++;
-      final session = _ttsSessionId;
       _state = TtsPlayState.playing;
       notifyListeners();
 
       if (kIsWeb) {
         await WebTts.instance.resume();
       } else {
-        await _speakCurrentClause(session);
+        await _speakCurrentIndex();
       }
     }
   }

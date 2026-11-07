@@ -730,6 +730,14 @@ class _HomeScreenState extends State<HomeScreen> {
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final categories = [
       {
+        'title': _isEnglish ? '19 Foundations' : '19 Nền Tảng',
+        'sub': _isEnglish ? '19 Core Chapters of Transformation' : '19 Chương cốt lõi & chuyển hóa',
+        'icon': Icons.auto_stories,
+        'color': const Color(0xFFD66D57),
+        'filter': 'part',
+        'firstId': 'ch_01',
+      },
+      {
         'title': _isEnglish ? '55 Realisations' : '55 Giải Ngộ',
         'sub': _isEnglish ? 'Social, Soul & Universe' : 'Xã hội, Thân phận & Đạo',
         'icon': Icons.lightbulb_outline,
@@ -752,14 +760,6 @@ class _HomeScreenState extends State<HomeScreen> {
         'color': const Color(0xFF8E5EA2),
         'filter': 'practice',
         'firstId': 'th_01',
-      },
-      {
-        'title': _isEnglish ? '24 Provisions' : '24 Hành Trang',
-        'sub': _isEnglish ? 'Stepping into a New Era' : 'Hành trang kỷ nguyên mới',
-        'icon': Icons.flight_takeoff,
-        'color': const Color(0xFFD66D57),
-        'filter': 'outro',
-        'firstId': 'hanh_trang',
       },
     ];
 

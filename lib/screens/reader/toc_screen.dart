@@ -29,7 +29,7 @@ class _TocScreenState extends State<TocScreen> with SingleTickerProviderStateMix
 
   final List<Map<String, String>> _filterOptions = [
     {'key': 'all', 'label_vi': 'Tất cả (173)', 'label_en': 'All (173)'},
-    {'key': 'part', 'label_vi': 'Phần chính & Chương', 'label_en': 'Parts & Chapters'},
+    {'key': 'part', 'label_vi': '19 Nền Tảng & Chương', 'label_en': '19 Foundations & Chapters'},
     {'key': 'realisation', 'label_vi': '55 Giải Ngộ', 'label_en': '55 Realisations'},
     {'key': 'attainment', 'label_vi': 'Chứng Ngộ & Giác Ngộ', 'label_en': 'Attainment & Awakening'},
     {'key': 'reflection', 'label_vi': '44 Suy Ngẫm', 'label_en': '44 Reflections'},

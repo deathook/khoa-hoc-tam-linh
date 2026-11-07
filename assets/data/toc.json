@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "preface",
     "order": 1,
@@ -10,7 +10,9 @@
     "paragraphsCountVi": 10,
     "paragraphsCountEn": 9,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "introduction",
@@ -23,7 +25,9 @@
     "paragraphsCountVi": 6,
     "paragraphsCountEn": 16,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "part_1",
@@ -36,7 +40,9 @@
     "paragraphsCountVi": 5,
     "paragraphsCountEn": 6,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "ch_01",
@@ -49,7 +55,9 @@
     "paragraphsCountVi": 29,
     "paragraphsCountEn": 37,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-01-khoa-hoc-va-tam-linh-hai-ngon-ngu-cua-mot-chan-ly.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-01-science-and-spirituality-two-languages-of-one-truth.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-01-science-and-spirituality-two-languages-of-one-truth.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-01-khoa-hoc-va-tam-linh-hai-ngon-ngu-cua-mot-chan-ly.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-01-science-and-spirituality-two-languages-of-one-truth.webp"
   },
   {
     "id": "ch_02",
@@ -62,7 +70,9 @@
     "paragraphsCountVi": 26,
     "paragraphsCountEn": 30,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-02-nang-luong-coi-nguon-cua-moi-hien-tuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-02-energy-the-source-of-every-phenomenon.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-02-energy-the-source-of-every-phenomenon.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-02-nang-luong-coi-nguon-cua-moi-hien-tuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-02-energy-the-source-of-every-phenomenon.webp"
   },
   {
     "id": "ch_03",
@@ -75,7 +85,9 @@
     "paragraphsCountVi": 23,
     "paragraphsCountEn": 23,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-03-ton-giao-va-chan-ly-nhieu-con-duong-mot-dinh-nui.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-03-religion-and-truth-many-paths-one-summit.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-03-religion-and-truth-many-paths-one-summit.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-03-ton-giao-va-chan-ly-nhieu-con-duong-mot-dinh-nui.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-03-religion-and-truth-many-paths-one-summit.webp"
   },
   {
     "id": "ch_04",
@@ -88,7 +100,9 @@
     "paragraphsCountVi": 24,
     "paragraphsCountEn": 25,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-04-con-nguoi-cau-noi-giua-vat-chat-va-tinh-than.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-04-the-human-being-a-bridge-between-matter-and-spirit.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-04-the-human-being-a-bridge-between-matter-and-spirit.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-04-con-nguoi-cau-noi-giua-vat-chat-va-tinh-than.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-04-the-human-being-a-bridge-between-matter-and-spirit.webp"
   },
   {
     "id": "part_2",
@@ -101,7 +115,9 @@
     "paragraphsCountVi": 5,
     "paragraphsCountEn": 5,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "ch_05",
@@ -114,7 +130,9 @@
     "paragraphsCountVi": 24,
     "paragraphsCountEn": 32,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-05-tu-ban-nang-den-tinh-thuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-05-from-instinct-to-wakefulness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-05-from-instinct-to-wakefulness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-05-tu-ban-nang-den-tinh-thuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-05-from-instinct-to-wakefulness.webp"
   },
   {
     "id": "ch_06",
@@ -127,7 +145,9 @@
     "paragraphsCountVi": 19,
     "paragraphsCountEn": 27,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-06-luat-nhan-qua-va-su-cong-bang-cua-vu-tru.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-06-cause-and-effect-and-the-universes-justice.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-06-cause-and-effect-and-the-universes-justice.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-06-luat-nhan-qua-va-su-cong-bang-cua-vu-tru.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-06-cause-and-effect-and-the-universes-justice.webp"
   },
   {
     "id": "ch_07",
@@ -140,7 +160,9 @@
     "paragraphsCountVi": 19,
     "paragraphsCountEn": 26,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-07-nghich-canh-va-bai-hoc-linh-hon.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-07-adversity-and-the-lessons-of-the-soul.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-07-adversity-and-the-lessons-of-the-soul.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-07-nghich-canh-va-bai-hoc-linh-hon.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-07-adversity-and-the-lessons-of-the-soul.webp"
   },
   {
     "id": "ch_08",
@@ -153,7 +175,9 @@
     "paragraphsCountVi": 22,
     "paragraphsCountEn": 29,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-08-tinh-yeu-ngon-ngu-cao-nhat-cua-vu-tru.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-08-love-the-highest-language-of-the-universe.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-08-love-the-highest-language-of-the-universe.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-08-tinh-yeu-ngon-ngu-cao-nhat-cua-vu-tru.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-08-love-the-highest-language-of-the-universe.webp"
   },
   {
     "id": "part_3",
@@ -166,7 +190,9 @@
     "paragraphsCountVi": 5,
     "paragraphsCountEn": 6,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "ch_09",
@@ -179,7 +205,9 @@
     "paragraphsCountVi": 35,
     "paragraphsCountEn": 43,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-09-trung-dao-giao-diem-cua-moi-con-duong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-09-the-middle-way-where-all-paths-meet.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-09-the-middle-way-where-all-paths-meet.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-09-trung-dao-giao-diem-cua-moi-con-duong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-09-the-middle-way-where-all-paths-meet.webp"
   },
   {
     "id": "ch_10",
@@ -192,7 +220,9 @@
     "paragraphsCountVi": 16,
     "paragraphsCountEn": 22,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-10-tam-tri-kien-tao-ra-thien-duong-va-dia-nguc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-10-the-mind-creates-heaven-and-hell.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-10-the-mind-creates-heaven-and-hell.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-10-tam-tri-kien-tao-ra-thien-duong-va-dia-nguc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-10-the-mind-creates-heaven-and-hell.webp"
   },
   {
     "id": "ch_11",
@@ -205,7 +235,9 @@
     "paragraphsCountVi": 23,
     "paragraphsCountEn": 36,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-11-khi-khoa-hoc-cham-toi-tam-linh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-11-when-science-touches-spirituality.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-11-when-science-touches-spirituality.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-11-khi-khoa-hoc-cham-toi-tam-linh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-11-when-science-touches-spirituality.webp"
   },
   {
     "id": "ch_12",
@@ -218,7 +250,9 @@
     "paragraphsCountVi": 41,
     "paragraphsCountEn": 41,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-12-khoa-hoc-than-kinh-y-thuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-12-the-neuroscience-of-consciousness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-12-the-neuroscience-of-consciousness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-12-khoa-hoc-than-kinh-y-thuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-12-the-neuroscience-of-consciousness.webp"
   },
   {
     "id": "part_4",
@@ -231,7 +265,9 @@
     "paragraphsCountVi": 6,
     "paragraphsCountEn": 7,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "ch_13",
@@ -244,7 +280,9 @@
     "paragraphsCountVi": 16,
     "paragraphsCountEn": 21,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-13-giao-duc-thuan-tu-nhien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-13-education-in-harmony-with-nature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-13-education-in-harmony-with-nature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-13-giao-duc-thuan-tu-nhien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-13-education-in-harmony-with-nature.webp"
   },
   {
     "id": "ch_14",
@@ -257,7 +295,9 @@
     "paragraphsCountVi": 14,
     "paragraphsCountEn": 21,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-14-tu-bi-voi-chinh-minh-khoi-diem-cua-moi-chua-lanh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-14-compassion-for-yourself-the-beginning-of-all-healing.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-14-compassion-for-yourself-the-beginning-of-all-healing.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-14-tu-bi-voi-chinh-minh-khoi-diem-cua-moi-chua-lanh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-14-compassion-for-yourself-the-beginning-of-all-healing.webp"
   },
   {
     "id": "ch_15",
@@ -270,7 +310,9 @@
     "paragraphsCountVi": 15,
     "paragraphsCountEn": 21,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-15-khi-ta-truong-thanh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-15-when-we-mature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-15-when-we-mature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-15-khi-ta-truong-thanh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-15-when-we-mature.webp"
   },
   {
     "id": "ch_16",
@@ -283,7 +325,9 @@
     "paragraphsCountVi": 14,
     "paragraphsCountEn": 23,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-16-hoa-nhap-cung-vu-tru-song-nhu-mot-phan-cua-toan-the.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-16-becoming-one-with-the-universe-living-as-part-of-the-whole.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-16-becoming-one-with-the-universe-living-as-part-of-the-whole.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-16-hoa-nhap-cung-vu-tru-song-nhu-mot-phan-cua-toan-the.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-16-becoming-one-with-the-universe-living-as-part-of-the-whole.webp"
   },
   {
     "id": "part_5",
@@ -296,7 +340,9 @@
     "paragraphsCountVi": 8,
     "paragraphsCountEn": 8,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "ch_17",
@@ -309,7 +355,9 @@
     "paragraphsCountVi": 17,
     "paragraphsCountEn": 19,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-17-nhung-cap-do-nhan-thuc-cua-con-nguoi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-17-levels-of-human-awareness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-17-levels-of-human-awareness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-17-nhung-cap-do-nhan-thuc-cua-con-nguoi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-17-levels-of-human-awareness.webp"
   },
   {
     "id": "ch_18",
@@ -322,7 +370,9 @@
     "paragraphsCountVi": 14,
     "paragraphsCountEn": 17,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-18-tu-ton-giao-den-tam-linh-hanh-trinh-quay-ve-chinh-minh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-18-from-religion-to-spirituality-the-journey-home-to-yourself.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-18-from-religion-to-spirituality-the-journey-home-to-yourself.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-18-tu-ton-giao-den-tam-linh-hanh-trinh-quay-ve-chinh-minh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-18-from-religion-to-spirituality-the-journey-home-to-yourself.webp"
   },
   {
     "id": "ch_19",
@@ -335,7 +385,9 @@
     "paragraphsCountVi": 16,
     "paragraphsCountEn": 21,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-chuong-19-khoa-hoc-tam-linh-nen-van-minh-cua-tuong-lai.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-19-the-science-of-spirituality-a-civilisation-of-the-future.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-chapter-19-the-science-of-spirituality-a-civilisation-of-the-future.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-chuong-19-khoa-hoc-tam-linh-nen-van-minh-cua-tuong-lai.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-chapter-19-the-science-of-spirituality-a-civilisation-of-the-future.webp"
   },
   {
     "id": "poem_daidong",
@@ -348,7 +400,9 @@
     "paragraphsCountVi": 40,
     "paragraphsCountEn": 9,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "part_6",
@@ -361,7 +415,9 @@
     "paragraphsCountVi": 13,
     "paragraphsCountEn": 11,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "gn_01",
@@ -374,7 +430,9 @@
     "paragraphsCountVi": 18,
     "paragraphsCountEn": 24,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-01-ve-phan-biet-chung-toc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-01-on-racial-discrimination.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-01-on-racial-discrimination.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-01-ve-phan-biet-chung-toc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-01-on-racial-discrimination.webp"
   },
   {
     "id": "gn_02",
@@ -387,7 +445,9 @@
     "paragraphsCountVi": 34,
     "paragraphsCountEn": 46,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-02-ve-phan-biet-ton-giao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-02-on-religious-discrimination.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-02-on-religious-discrimination.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-02-ve-phan-biet-ton-giao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-02-on-religious-discrimination.webp"
   },
   {
     "id": "gn_03",
@@ -400,7 +460,9 @@
     "paragraphsCountVi": 31,
     "paragraphsCountEn": 45,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-03-ve-gioi-tinh-va-vai-tro-nam-nu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-03-on-gender-and-the-roles-of-men-and-women.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-03-on-gender-and-the-roles-of-men-and-women.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-03-ve-gioi-tinh-va-vai-tro-nam-nu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-03-on-gender-and-the-roles-of-men-and-women.webp"
   },
   {
     "id": "gn_04",
@@ -413,7 +475,9 @@
     "paragraphsCountVi": 50,
     "paragraphsCountEn": 65,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-04-ve-cai-thien-va-cai-ac.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-04-on-good-and-evil.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-04-on-good-and-evil.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-04-ve-cai-thien-va-cai-ac.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-04-on-good-and-evil.webp"
   },
   {
     "id": "gn_05",
@@ -426,7 +490,9 @@
     "paragraphsCountVi": 37,
     "paragraphsCountEn": 58,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-05-ve-an-chay-va-an-man.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-05-on-vegetarian-and-non-vegetarian-eating.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-05-on-vegetarian-and-non-vegetarian-eating.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-05-ve-an-chay-va-an-man.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-05-on-vegetarian-and-non-vegetarian-eating.webp"
   },
   {
     "id": "gn_06",
@@ -439,7 +505,9 @@
     "paragraphsCountVi": 40,
     "paragraphsCountEn": 53,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-06-ve-tien-va-dong-tien-hanh-phuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-06-on-money-and-the-currency-of-happiness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-06-on-money-and-the-currency-of-happiness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-06-ve-tien-va-dong-tien-hanh-phuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-06-on-money-and-the-currency-of-happiness.webp"
   },
   {
     "id": "gn_07",
@@ -452,7 +520,9 @@
     "paragraphsCountVi": 64,
     "paragraphsCountEn": 61,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-07-ve-kho-dau.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-07-on-suffering.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-07-on-suffering.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-07-ve-kho-dau.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-07-on-suffering.webp"
   },
   {
     "id": "gn_08",
@@ -465,7 +535,9 @@
     "paragraphsCountVi": 25,
     "paragraphsCountEn": 43,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-08-ve-sinh-va-tu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-08-on-birth-and-death.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-08-on-birth-and-death.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-08-ve-sinh-va-tu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-08-on-birth-and-death.webp"
   },
   {
     "id": "gn_09",
@@ -478,7 +550,9 @@
     "paragraphsCountVi": 27,
     "paragraphsCountEn": 44,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-09-ve-y-nghia-su-song.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-09-on-the-meaning-of-life.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-09-on-the-meaning-of-life.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-09-ve-y-nghia-su-song.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-09-on-the-meaning-of-life.webp"
   },
   {
     "id": "gn_10",
@@ -491,7 +565,9 @@
     "paragraphsCountVi": 33,
     "paragraphsCountEn": 58,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-10-ve-tu-do-y-chi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-10-on-free-will.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-10-on-free-will.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-10-ve-tu-do-y-chi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-10-on-free-will.webp"
   },
   {
     "id": "gn_11",
@@ -504,7 +580,9 @@
     "paragraphsCountVi": 26,
     "paragraphsCountEn": 28,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-11-ve-dinh-menh-va-su-an-bai.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-11-on-destiny-and-the-larger-design.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-11-on-destiny-and-the-larger-design.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-11-ve-dinh-menh-va-su-an-bai.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-11-on-destiny-and-the-larger-design.webp"
   },
   {
     "id": "gn_12",
@@ -517,7 +595,9 @@
     "paragraphsCountVi": 37,
     "paragraphsCountEn": 39,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-12-ve-noi-so-va-su-tin-tuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-12-on-fear-and-trust.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-12-on-fear-and-trust.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-12-ve-noi-so-va-su-tin-tuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-12-on-fear-and-trust.webp"
   },
   {
     "id": "gn_13",
@@ -530,7 +610,9 @@
     "paragraphsCountVi": 34,
     "paragraphsCountEn": 35,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-13-ve-cai-toi-ban-nga-ego.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-13-on-the-self-the-ego.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-13-on-the-self-the-ego.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-13-ve-cai-toi-ban-nga-ego.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-13-on-the-self-the-ego.webp"
   },
   {
     "id": "gn_14",
@@ -543,7 +625,9 @@
     "paragraphsCountVi": 32,
     "paragraphsCountEn": 30,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-14-ve-hanh-phuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-14-on-happiness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-14-on-happiness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-14-ve-hanh-phuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-14-on-happiness.webp"
   },
   {
     "id": "gn_15",
@@ -556,7 +640,9 @@
     "paragraphsCountVi": 25,
     "paragraphsCountEn": 29,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-15-ve-biet-on.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-15-on-gratitude.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-15-on-gratitude.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-15-ve-biet-on.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-15-on-gratitude.webp"
   },
   {
     "id": "gn_16",
@@ -569,7 +655,9 @@
     "paragraphsCountVi": 26,
     "paragraphsCountEn": 26,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-16-ve-tha-thu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-16-on-forgiveness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-16-on-forgiveness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-16-ve-tha-thu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-16-on-forgiveness.webp"
   },
   {
     "id": "gn_17",
@@ -582,7 +670,9 @@
     "paragraphsCountVi": 16,
     "paragraphsCountEn": 16,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-17-ve-tinh-yeu-va-trach-nhiem.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-17-on-love-and-responsibility.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-17-on-love-and-responsibility.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-17-ve-tinh-yeu-va-trach-nhiem.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-17-on-love-and-responsibility.webp"
   },
   {
     "id": "gn_18",
@@ -595,7 +685,9 @@
     "paragraphsCountVi": 14,
     "paragraphsCountEn": 15,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-18-ve-tam-va-tri.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-18-on-heart-and-mind.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-18-on-heart-and-mind.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-18-ve-tam-va-tri.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-18-on-heart-and-mind.webp"
   },
   {
     "id": "gn_19",
@@ -608,7 +700,9 @@
     "paragraphsCountVi": 16,
     "paragraphsCountEn": 16,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-19-tam-tri-bo-loc-cua-nang-luong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-19-the-mind-as-a-filter-for-energy.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-19-the-mind-as-a-filter-for-energy.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-19-tam-tri-bo-loc-cua-nang-luong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-19-the-mind-as-a-filter-for-energy.webp"
   },
   {
     "id": "gn_20",
@@ -621,7 +715,9 @@
     "paragraphsCountVi": 32,
     "paragraphsCountEn": 21,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-20-ve-goc-nhin-moi-nguoi-deu-dung-trong-the-gioi-cua-ho.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-20-perspective-everyone-is-right-in-their-own-world.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-20-perspective-everyone-is-right-in-their-own-world.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-20-ve-goc-nhin-moi-nguoi-deu-dung-trong-the-gioi-cua-ho.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-20-perspective-everyone-is-right-in-their-own-world.webp"
   },
   {
     "id": "gn_21",
@@ -634,7 +730,9 @@
     "paragraphsCountVi": 14,
     "paragraphsCountEn": 14,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-21-ve-dao-va-doi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-21-the-way-and-everyday-life.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-21-the-way-and-everyday-life.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-21-ve-dao-va-doi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-21-the-way-and-everyday-life.webp"
   },
   {
     "id": "gn_22",
@@ -647,7 +745,9 @@
     "paragraphsCountVi": 61,
     "paragraphsCountEn": 57,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-22-ve-the-gioi-ben-trong-the-gioi-ben-ngoai.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-22-the-inner-world-and-the-outer-world.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-22-the-inner-world-and-the-outer-world.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-22-ve-the-gioi-ben-trong-the-gioi-ben-ngoai.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-22-the-inner-world-and-the-outer-world.webp"
   },
   {
     "id": "gn_23",
@@ -660,7 +760,9 @@
     "paragraphsCountVi": 30,
     "paragraphsCountEn": 27,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-23-ve-ba-loai-tinh-yeu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-23-the-three-kinds-of-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-23-the-three-kinds-of-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-23-ve-ba-loai-tinh-yeu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-23-the-three-kinds-of-love.webp"
   },
   {
     "id": "gn_24",
@@ -673,7 +775,9 @@
     "paragraphsCountVi": 42,
     "paragraphsCountEn": 29,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-24-ve-le-song-tim-lai-ngon-lua-ben-trong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-24-purpose-in-life-rekindling-the-inner-flame.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-24-purpose-in-life-rekindling-the-inner-flame.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-24-ve-le-song-tim-lai-ngon-lua-ben-trong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-24-purpose-in-life-rekindling-the-inner-flame.webp"
   },
   {
     "id": "gn_25",
@@ -686,7 +790,9 @@
     "paragraphsCountVi": 40,
     "paragraphsCountEn": 29,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-25-ve-cuoc-song-can-bang.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-25-a-balanced-life.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-25-a-balanced-life.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-25-ve-cuoc-song-can-bang.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-25-a-balanced-life.webp"
   },
   {
     "id": "gn_26",
@@ -699,7 +805,9 @@
     "paragraphsCountVi": 37,
     "paragraphsCountEn": 37,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-26-ve-suc-khoe-khi-co-the-la-ngoi-den-cua-linh-hon.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-26-health-when-the-body-is-the-temple-of-the-soul.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-26-health-when-the-body-is-the-temple-of-the-soul.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-26-ve-suc-khoe-khi-co-the-la-ngoi-den-cua-linh-hon.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-26-health-when-the-body-is-the-temple-of-the-soul.webp"
   },
   {
     "id": "gn_27",
@@ -712,7 +820,9 @@
     "paragraphsCountVi": 31,
     "paragraphsCountEn": 33,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-27-ve-thoi-gian.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-27-time.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-27-time.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-27-ve-thoi-gian.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-27-time.webp"
   },
   {
     "id": "gn_28",
@@ -725,7 +835,9 @@
     "paragraphsCountVi": 27,
     "paragraphsCountEn": 28,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-28-ve-thien-duong-doi-doi-va-hoa-nguc-doi-doi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-28-on-eternal-heaven-and-eternal-hell.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-28-on-eternal-heaven-and-eternal-hell.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-28-ve-thien-duong-doi-doi-va-hoa-nguc-doi-doi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-28-on-eternal-heaven-and-eternal-hell.webp"
   },
   {
     "id": "gn_29",
@@ -738,7 +850,9 @@
     "paragraphsCountVi": 45,
     "paragraphsCountEn": 60,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-29-ve-nhi-nguyen-am-duong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-29-on-duality-yin-and-yang.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-29-on-duality-yin-and-yang.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-29-ve-nhi-nguyen-am-duong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-29-on-duality-yin-and-yang.webp"
   },
   {
     "id": "gn_30",
@@ -751,7 +865,9 @@
     "paragraphsCountVi": 42,
     "paragraphsCountEn": 51,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-30-ve-tam-nguyen-than-tam-tri.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-30-on-the-triad-of-body-heart-mind.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-30-on-the-triad-of-body-heart-mind.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-30-ve-tam-nguyen-than-tam-tri.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-30-on-the-triad-of-body-heart-mind.webp"
   },
   {
     "id": "gn_31",
@@ -764,7 +880,9 @@
     "paragraphsCountVi": 51,
     "paragraphsCountEn": 64,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-31-ve-nhat-nguyen.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-31-on-oneness-monism.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-31-on-oneness-monism.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-31-ve-nhat-nguyen.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-31-on-oneness-monism.webp"
   },
   {
     "id": "gn_32",
@@ -777,7 +895,9 @@
     "paragraphsCountVi": 78,
     "paragraphsCountEn": 46,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-32-ve-dao-tinh-khong-nen-tang-vo-hinh-cua-van-huu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-32-on-the-dao-emptiness-the-invisible-ground-of-all-things.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-32-on-the-dao-emptiness-the-invisible-ground-of-all-things.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-32-ve-dao-tinh-khong-nen-tang-vo-hinh-cua-van-huu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-32-on-the-dao-emptiness-the-invisible-ground-of-all-things.webp"
   },
   {
     "id": "gn_33",
@@ -790,7 +910,9 @@
     "paragraphsCountVi": 60,
     "paragraphsCountEn": 86,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-33-cac-trang-thai-cua-tam-khong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-33-the-states-of-the-empty-mind.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-33-the-states-of-the-empty-mind.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-33-cac-trang-thai-cua-tam-khong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-33-the-states-of-the-empty-mind.webp"
   },
   {
     "id": "gn_34",
@@ -803,7 +925,9 @@
     "paragraphsCountVi": 27,
     "paragraphsCountEn": 50,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-34-con-duong-trung-dao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-34-the-middle-way.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-34-the-middle-way.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-34-con-duong-trung-dao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-34-the-middle-way.webp"
   },
   {
     "id": "gn_35",
@@ -816,7 +940,9 @@
     "paragraphsCountVi": 302,
     "paragraphsCountEn": 323,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-35-cac-quy-luat-vu-tru.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-35-the-laws-of-the-universe.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-35-the-laws-of-the-universe.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-35-cac-quy-luat-vu-tru.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-35-the-laws-of-the-universe.webp"
   },
   {
     "id": "gn_36",
@@ -829,7 +955,9 @@
     "paragraphsCountVi": 38,
     "paragraphsCountEn": 64,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-36-vu-tru-con-nguoi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-36-the-universe-the-human-being.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-36-the-universe-the-human-being.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-36-vu-tru-con-nguoi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-36-the-universe-the-human-being.webp"
   },
   {
     "id": "gn_37",
@@ -842,7 +970,9 @@
     "paragraphsCountVi": 39,
     "paragraphsCountEn": 54,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-37-luat-cua-mot.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-37-the-law-of-one.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-37-the-law-of-one.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-37-luat-cua-mot.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-37-the-law-of-one.webp"
   },
   {
     "id": "gn_38",
@@ -855,7 +985,9 @@
     "paragraphsCountVi": 30,
     "paragraphsCountEn": 62,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-38-moi-con-duong-deu-dan-ve-mot.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-38-all-paths-lead-back-to-the-one.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-38-all-paths-lead-back-to-the-one.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-38-moi-con-duong-deu-dan-ve-mot.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-38-all-paths-lead-back-to-the-one.webp"
   },
   {
     "id": "gn_39",
@@ -868,7 +1000,9 @@
     "paragraphsCountVi": 44,
     "paragraphsCountEn": 40,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-39-tat-ca-deu-la-anh-sang.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-39-everything-is-light.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-39-everything-is-light.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-39-tat-ca-deu-la-anh-sang.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-39-everything-is-light.webp"
   },
   {
     "id": "gn_40",
@@ -881,7 +1015,9 @@
     "paragraphsCountVi": 40,
     "paragraphsCountEn": 41,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-40-ve-linh-hon.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-40-on-the-soul.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-40-on-the-soul.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-40-ve-linh-hon.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-40-on-the-soul.webp"
   },
   {
     "id": "gn_41",
@@ -894,7 +1030,9 @@
     "paragraphsCountVi": 38,
     "paragraphsCountEn": 47,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-41-goc-nhin-linh-hon.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-41-the-souls-perspective.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-41-the-souls-perspective.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-41-goc-nhin-linh-hon.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-41-the-souls-perspective.webp"
   },
   {
     "id": "gn_42",
@@ -907,7 +1045,9 @@
     "paragraphsCountVi": 22,
     "paragraphsCountEn": 29,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-42-tinh-yeu-an-sau-nhung-vet-thuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-42-love-hidden-behind-wounds.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-42-love-hidden-behind-wounds.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-42-tinh-yeu-an-sau-nhung-vet-thuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-42-love-hidden-behind-wounds.webp"
   },
   {
     "id": "gn_43",
@@ -920,7 +1060,9 @@
     "paragraphsCountVi": 42,
     "paragraphsCountEn": 38,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-43-ve-tu-do.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-43-on-freedom.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-43-on-freedom.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-43-ve-tu-do.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-43-on-freedom.webp"
   },
   {
     "id": "gn_44",
@@ -933,7 +1075,9 @@
     "paragraphsCountVi": 34,
     "paragraphsCountEn": 34,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-44-ve-doc-lap-tu-do-hanh-phuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-44-on-independence-freedom-and-happiness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-44-on-independence-freedom-and-happiness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-44-ve-doc-lap-tu-do-hanh-phuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-44-on-independence-freedom-and-happiness.webp"
   },
   {
     "id": "gn_45",
@@ -946,7 +1090,9 @@
     "paragraphsCountVi": 47,
     "paragraphsCountEn": 47,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-45-ve-cach-mang-noi-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-45-on-inner-revolution.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-45-on-inner-revolution.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-45-ve-cach-mang-noi-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-45-on-inner-revolution.webp"
   },
   {
     "id": "gn_46",
@@ -959,7 +1105,9 @@
     "paragraphsCountVi": 30,
     "paragraphsCountEn": 33,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-46-ve-tuy-duyen.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-46-on-letting-things-unfold.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-46-on-letting-things-unfold.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-46-ve-tuy-duyen.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-46-on-letting-things-unfold.webp"
   },
   {
     "id": "gn_47",
@@ -972,7 +1120,9 @@
     "paragraphsCountVi": 12,
     "paragraphsCountEn": 10,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-47-thuan-duyen-buoc-ra-khoi-tro-choi-cua-tinh-hai-mat.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-47-favourable-conditions-stepping-out-of-the-game-of-duality.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-47-favourable-conditions-stepping-out-of-the-game-of-duality.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-47-thuan-duyen-buoc-ra-khoi-tro-choi-cua-tinh-hai-mat.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-47-favourable-conditions-stepping-out-of-the-game-of-duality.webp"
   },
   {
     "id": "gn_48",
@@ -985,7 +1135,9 @@
     "paragraphsCountVi": 44,
     "paragraphsCountEn": 43,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-48-ve-dao-cua-nuoc-tinh-yeu-cua-nuoc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-48-the-way-of-water-waters-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-48-the-way-of-water-waters-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-48-ve-dao-cua-nuoc-tinh-yeu-cua-nuoc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-48-the-way-of-water-waters-love.webp"
   },
   {
     "id": "gn_49",
@@ -998,7 +1150,9 @@
     "paragraphsCountVi": 37,
     "paragraphsCountEn": 41,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-49-thien-dia-van-vat-dong-nhat-the.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-49-heaven-earth-and-all-things-are-one-whole.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-49-heaven-earth-and-all-things-are-one-whole.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-49-thien-dia-van-vat-dong-nhat-the.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-49-heaven-earth-and-all-things-are-one-whole.webp"
   },
   {
     "id": "gn_50",
@@ -1011,7 +1165,9 @@
     "paragraphsCountVi": 23,
     "paragraphsCountEn": 35,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-50-tat-ca-chung-ta-la-mot-hoa-hop-chu-khong-hoa-tan.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-50-we-are-all-one-harmonise-dont-dissolve.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-50-we-are-all-one-harmonise-dont-dissolve.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-50-tat-ca-chung-ta-la-mot-hoa-hop-chu-khong-hoa-tan.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-50-we-are-all-one-harmonise-dont-dissolve.webp"
   },
   {
     "id": "gn_51",
@@ -1024,7 +1180,9 @@
     "paragraphsCountVi": 27,
     "paragraphsCountEn": 27,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-51-thau-hieu-coi-nguon-cua-tinh-yeu-thuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-51-understanding-the-source-of-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-51-understanding-the-source-of-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-51-thau-hieu-coi-nguon-cua-tinh-yeu-thuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-51-understanding-the-source-of-love.webp"
   },
   {
     "id": "gn_52",
@@ -1037,7 +1195,9 @@
     "paragraphsCountVi": 15,
     "paragraphsCountEn": 20,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-52-tinh-yeu-la-de-cho-nguoi-khac-duoc-la-chinh-ho.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-52-love-letting-others-be-themselves.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-52-love-letting-others-be-themselves.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-52-tinh-yeu-la-de-cho-nguoi-khac-duoc-la-chinh-ho.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-52-love-letting-others-be-themselves.webp"
   },
   {
     "id": "gn_53",
@@ -1050,7 +1210,9 @@
     "paragraphsCountVi": 22,
     "paragraphsCountEn": 23,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-53-hanh-trinh-tien-hoa-cua-trai-tim.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-53-the-hearts-evolutionary-journey.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-53-the-hearts-evolutionary-journey.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-53-hanh-trinh-tien-hoa-cua-trai-tim.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-53-the-hearts-evolutionary-journey.webp"
   },
   {
     "id": "gn_54",
@@ -1063,7 +1225,9 @@
     "paragraphsCountVi": 26,
     "paragraphsCountEn": 32,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-54-song-thuan-tu-nhien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-54-living-in-harmony-with-nature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-54-living-in-harmony-with-nature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-54-song-thuan-tu-nhien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-54-living-in-harmony-with-nature.webp"
   },
   {
     "id": "gn_55",
@@ -1076,7 +1240,9 @@
     "paragraphsCountVi": 76,
     "paragraphsCountEn": 52,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-giai-ngo-55-the-gioi-dai-dong-giac-mo-chung-cua-nhan-loai.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-55-the-great-harmony-of-the-world-humanitys-shared-dream.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-realisation-55-the-great-harmony-of-the-world-humanitys-shared-dream.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-giai-ngo-55-the-gioi-dai-dong-giac-mo-chung-cua-nhan-loai.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-realisation-55-the-great-harmony-of-the-world-humanitys-shared-dream.webp"
   },
   {
     "id": "part_7",
@@ -1089,7 +1255,9 @@
     "paragraphsCountVi": 6,
     "paragraphsCountEn": 6,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "cn_01",
@@ -1102,7 +1270,9 @@
     "paragraphsCountVi": 20,
     "paragraphsCountEn": 20,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-01-hanh-trinh-tu-biet-den-song.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-01-the-journey-from-knowing-to-living.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-01-the-journey-from-knowing-to-living.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-01-hanh-trinh-tu-biet-den-song.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-01-the-journey-from-knowing-to-living.webp"
   },
   {
     "id": "cn_02",
@@ -1115,7 +1285,9 @@
     "paragraphsCountVi": 64,
     "paragraphsCountEn": 70,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-02-sau-nac-thang-chuyen-hoa-noi-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-02-six-steps-of-inner-transformation.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-02-six-steps-of-inner-transformation.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-02-sau-nac-thang-chuyen-hoa-noi-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-02-six-steps-of-inner-transformation.webp"
   },
   {
     "id": "cn_03",
@@ -1128,7 +1300,9 @@
     "paragraphsCountVi": 39,
     "paragraphsCountEn": 37,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-03-doi-dien-voi-bong-toi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-03-facing-the-darkness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-03-facing-the-darkness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-03-doi-dien-voi-bong-toi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-03-facing-the-darkness.webp"
   },
   {
     "id": "cn_04",
@@ -1141,7 +1315,9 @@
     "paragraphsCountVi": 39,
     "paragraphsCountEn": 46,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-04-khi-thu-thach-tro-thanh-mon-qua.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-04-when-challenges-become-a-gift.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-04-when-challenges-become-a-gift.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-04-khi-thu-thach-tro-thanh-mon-qua.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-04-when-challenges-become-a-gift.webp"
   },
   {
     "id": "cn_05",
@@ -1154,7 +1330,9 @@
     "paragraphsCountVi": 25,
     "paragraphsCountEn": 33,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-05-buong-buoc-ngoat-cua-hanh-trinh-chung-ngo.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-05-letting-go-the-turning-point-on-the-path-of-attainment.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-05-letting-go-the-turning-point-on-the-path-of-attainment.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-05-buong-buoc-ngoat-cua-hanh-trinh-chung-ngo.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-05-letting-go-the-turning-point-on-the-path-of-attainment.webp"
   },
   {
     "id": "cn_06",
@@ -1167,7 +1345,9 @@
     "paragraphsCountVi": 26,
     "paragraphsCountEn": 35,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-iii-chung-ngo-06-tu-do-trang-thai-tu-nhien-cua-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-06-freedom-the-heart-minds-natural-state.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-attainment-06-freedom-the-heart-minds-natural-state.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-iii-chung-ngo-06-tu-do-trang-thai-tu-nhien-cua-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-attainment-06-freedom-the-heart-minds-natural-state.webp"
   },
   {
     "id": "part_8",
@@ -1180,7 +1360,9 @@
     "paragraphsCountVi": 41,
     "paragraphsCountEn": 52,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-phan-08-giac-ngo.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-part-viii-awakening.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-part-viii-awakening.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-phan-08-giac-ngo.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-part-viii-awakening.webp"
   },
   {
     "id": "part_9",
@@ -1193,7 +1375,9 @@
     "paragraphsCountVi": 12,
     "paragraphsCountEn": 12,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "sn_01",
@@ -1206,7 +1390,9 @@
     "paragraphsCountVi": 5,
     "paragraphsCountEn": 5,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-01-tuong-dai-cua-cai-toi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-01-the-monument-of-the-ego.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-01-the-monument-of-the-ego.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-01-tuong-dai-cua-cai-toi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-01-the-monument-of-the-ego.webp"
   },
   {
     "id": "sn_02",
@@ -1219,7 +1405,9 @@
     "paragraphsCountVi": 5,
     "paragraphsCountEn": 5,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-02-hat-mam-cua-kho-dau.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-02-the-seed-of-suffering.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-02-the-seed-of-suffering.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-02-hat-mam-cua-kho-dau.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-02-the-seed-of-suffering.webp"
   },
   {
     "id": "sn_03",
@@ -1232,7 +1420,9 @@
     "paragraphsCountVi": 6,
     "paragraphsCountEn": 6,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-03-suc-manh-cua-su-that.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-03-the-power-of-truth.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-03-the-power-of-truth.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-03-suc-manh-cua-su-that.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-03-the-power-of-truth.webp"
   },
   {
     "id": "sn_04",
@@ -1245,7 +1435,9 @@
     "paragraphsCountVi": 25,
     "paragraphsCountEn": 25,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-04-ve-thien-va-ac-anh-sang-cua-su-that.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-04-good-and-evil-the-light-of-truth.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-04-good-and-evil-the-light-of-truth.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-04-ve-thien-va-ac-anh-sang-cua-su-that.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-04-good-and-evil-the-light-of-truth.webp"
   },
   {
     "id": "sn_05",
@@ -1258,7 +1450,9 @@
     "paragraphsCountVi": 8,
     "paragraphsCountEn": 8,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-05-nghich-canh-va-giai-thoat.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-05-adversity-and-liberation.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-05-adversity-and-liberation.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-05-nghich-canh-va-giai-thoat.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-05-adversity-and-liberation.webp"
   },
   {
     "id": "sn_06",
@@ -1271,7 +1465,9 @@
     "paragraphsCountVi": 6,
     "paragraphsCountEn": 6,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-06-khi-mat-roi-moi-thay-biet-on-nhung-gi-minh-dang-co.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-06-only-after-losing-it-do-we-appreciate-what-we-had.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-06-only-after-losing-it-do-we-appreciate-what-we-had.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-06-khi-mat-roi-moi-thay-biet-on-nhung-gi-minh-dang-co.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-06-only-after-losing-it-do-we-appreciate-what-we-had.webp"
   },
   {
     "id": "sn_07",
@@ -1284,7 +1480,9 @@
     "paragraphsCountVi": 5,
     "paragraphsCountEn": 5,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-07-ba-nen-tang-cua-suc-khoe-toan-dien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-07-the-three-foundations-of-true-wellbeing.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-07-the-three-foundations-of-true-wellbeing.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-07-ba-nen-tang-cua-suc-khoe-toan-dien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-07-the-three-foundations-of-true-wellbeing.webp"
   },
   {
     "id": "sn_08",
@@ -1297,7 +1495,9 @@
     "paragraphsCountVi": 27,
     "paragraphsCountEn": 27,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-08-nen-giao-duc-anh-sang.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-08-education-as-light.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-08-education-as-light.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-08-nen-giao-duc-anh-sang.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-08-education-as-light.webp"
   },
   {
     "id": "sn_09",
@@ -1310,7 +1510,9 @@
     "paragraphsCountVi": 6,
     "paragraphsCountEn": 6,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-09-chuyen-hoa-nghiep.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-09-transforming-karma.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-09-transforming-karma.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-09-chuyen-hoa-nghiep.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-09-transforming-karma.webp"
   },
   {
     "id": "sn_10",
@@ -1323,7 +1525,9 @@
     "paragraphsCountVi": 9,
     "paragraphsCountEn": 9,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-10-noi-so-ao-anh-cua-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-10-fear-the-minds-illusion.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-10-fear-the-minds-illusion.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-10-noi-so-ao-anh-cua-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-10-fear-the-minds-illusion.webp"
   },
   {
     "id": "sn_11",
@@ -1336,7 +1540,9 @@
     "paragraphsCountVi": 13,
     "paragraphsCountEn": 13,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-11-khi-tam-phan-ung-voi-ngoai-canh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-11-when-the-mind-reacts-to-outer-circumstances.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-11-when-the-mind-reacts-to-outer-circumstances.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-11-khi-tam-phan-ung-voi-ngoai-canh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-11-when-the-mind-reacts-to-outer-circumstances.webp"
   },
   {
     "id": "sn_12",
@@ -1349,7 +1555,9 @@
     "paragraphsCountVi": 11,
     "paragraphsCountEn": 12,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-12-chua-tu-chap-kieu-doi-tu-roi-chap-kieu-dao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-12-before-practice-we-cling-in-worldly-ways-after-practice-we-cling-in-spiritual-ways.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-12-before-practice-we-cling-in-worldly-ways-after-practice-we-cling-in-spiritual-ways.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-12-chua-tu-chap-kieu-doi-tu-roi-chap-kieu-dao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-12-before-practice-we-cling-in-worldly-ways-after-practice-we-cling-in-spiritual-ways.webp"
   },
   {
     "id": "sn_13",
@@ -1362,7 +1570,9 @@
     "paragraphsCountVi": 7,
     "paragraphsCountEn": 7,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-13-quy-luat-can-bang.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-13-the-law-of-balance.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-13-the-law-of-balance.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-13-quy-luat-can-bang.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-13-the-law-of-balance.webp"
   },
   {
     "id": "sn_14",
@@ -1375,7 +1585,9 @@
     "paragraphsCountVi": 8,
     "paragraphsCountEn": 8,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-14-giau-co-la-khi-tam-biet-du.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-14-wealth-is-a-contented-heart.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-14-wealth-is-a-contented-heart.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-14-giau-co-la-khi-tam-biet-du.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-14-wealth-is-a-contented-heart.webp"
   },
   {
     "id": "sn_15",
@@ -1388,7 +1600,9 @@
     "paragraphsCountVi": 5,
     "paragraphsCountEn": 5,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-15-lam-ma-khong-quan-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-15-acting-without-attachment.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-15-acting-without-attachment.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-15-lam-ma-khong-quan-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-15-acting-without-attachment.webp"
   },
   {
     "id": "sn_16",
@@ -1401,7 +1615,9 @@
     "paragraphsCountVi": 4,
     "paragraphsCountEn": 4,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-16-nguoi-da-lanh-khong-co-gi-la-khong-the-noi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-16-one-who-has-healed-there-is-nothing-they-cannot-say.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-16-one-who-has-healed-there-is-nothing-they-cannot-say.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-16-nguoi-da-lanh-khong-co-gi-la-khong-the-noi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-16-one-who-has-healed-there-is-nothing-they-cannot-say.webp"
   },
   {
     "id": "sn_17",
@@ -1414,7 +1630,9 @@
     "paragraphsCountVi": 5,
     "paragraphsCountEn": 5,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-17-khi-ta-truong-thanh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-17-when-we-grow-up.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-17-when-we-grow-up.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-17-khi-ta-truong-thanh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-17-when-we-grow-up.webp"
   },
   {
     "id": "sn_18",
@@ -1427,7 +1645,9 @@
     "paragraphsCountVi": 4,
     "paragraphsCountEn": 4,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-18-hanh-trinh-chua-lanh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-18-the-healing-journey.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-18-the-healing-journey.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-18-hanh-trinh-chua-lanh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-18-the-healing-journey.webp"
   },
   {
     "id": "sn_19",
@@ -1440,7 +1660,9 @@
     "paragraphsCountVi": 15,
     "paragraphsCountEn": 15,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-19-tan-chay-de-tro-ve-dai-duong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-19-melting-to-return-to-the-ocean.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-19-melting-to-return-to-the-ocean.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-19-tan-chay-de-tro-ve-dai-duong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-19-melting-to-return-to-the-ocean.webp"
   },
   {
     "id": "sn_20",
@@ -1453,7 +1675,9 @@
     "paragraphsCountVi": 5,
     "paragraphsCountEn": 8,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-20-tro-thanh-tinh-yeu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-20-becoming-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-20-becoming-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-20-tro-thanh-tinh-yeu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-20-becoming-love.webp"
   },
   {
     "id": "sn_21",
@@ -1466,7 +1690,9 @@
     "paragraphsCountVi": 9,
     "paragraphsCountEn": 9,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-21-tinh-yeu-vo-dieu-kien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-21-unconditional-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-21-unconditional-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-21-tinh-yeu-vo-dieu-kien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-21-unconditional-love.webp"
   },
   {
     "id": "sn_22",
@@ -1479,7 +1705,9 @@
     "paragraphsCountVi": 7,
     "paragraphsCountEn": 7,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-22-tinh-yeu-cua-tao-hoa-khong-thien-vi-khong-phan-biet.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-22-the-love-of-creation-unbiased-without-discrimination.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-22-the-love-of-creation-unbiased-without-discrimination.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-22-tinh-yeu-cua-tao-hoa-khong-thien-vi-khong-phan-biet.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-22-the-love-of-creation-unbiased-without-discrimination.webp"
   },
   {
     "id": "sn_23",
@@ -1492,7 +1720,9 @@
     "paragraphsCountVi": 7,
     "paragraphsCountEn": 7,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-23-khi-tinh-yeu-voi-chinh-minh-chua-du.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-23-when-your-self-love-is-not-yet-enough.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-23-when-your-self-love-is-not-yet-enough.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-23-khi-tinh-yeu-voi-chinh-minh-chua-du.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-23-when-your-self-love-is-not-yet-enough.webp"
   },
   {
     "id": "sn_24",
@@ -1505,7 +1735,9 @@
     "paragraphsCountVi": 6,
     "paragraphsCountEn": 7,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-24-tinh-yeu-thi-khong-co-bai-xich.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-24-love-has-no-rejection.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-24-love-has-no-rejection.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-24-tinh-yeu-thi-khong-co-bai-xich.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-24-love-has-no-rejection.webp"
   },
   {
     "id": "sn_25",
@@ -1518,7 +1750,9 @@
     "paragraphsCountVi": 11,
     "paragraphsCountEn": 8,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-25-tu-bi-voi-chinh-minh-coi-nguon-cua-moi-yeu-thuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-25-compassion-for-yourself-the-source-of-all-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-25-compassion-for-yourself-the-source-of-all-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-25-tu-bi-voi-chinh-minh-coi-nguon-cua-moi-yeu-thuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-25-compassion-for-yourself-the-source-of-all-love.webp"
   },
   {
     "id": "sn_26",
@@ -1531,7 +1765,9 @@
     "paragraphsCountVi": 14,
     "paragraphsCountEn": 18,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-26-gia-tri-song-thuoc-do-cua-hanh-phuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-26-values-in-life-the-measure-of-happiness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-26-values-in-life-the-measure-of-happiness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-26-gia-tri-song-thuoc-do-cua-hanh-phuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-26-values-in-life-the-measure-of-happiness.webp"
   },
   {
     "id": "sn_27",
@@ -1544,7 +1780,9 @@
     "paragraphsCountVi": 37,
     "paragraphsCountEn": 35,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-27-dao-cua-tu-nhien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-27-the-dao-of-nature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-27-the-dao-of-nature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-27-dao-cua-tu-nhien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-27-the-dao-of-nature.webp"
   },
   {
     "id": "sn_28",
@@ -1557,7 +1795,9 @@
     "paragraphsCountVi": 19,
     "paragraphsCountEn": 24,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-28-mot-chu-hoa.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-28-one-word-harmony.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-28-one-word-harmony.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-28-mot-chu-hoa.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-28-one-word-harmony.webp"
   },
   {
     "id": "sn_29",
@@ -1570,7 +1810,9 @@
     "paragraphsCountVi": 8,
     "paragraphsCountEn": 10,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-29-cay-su-song.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-29-the-tree-of-life.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-29-the-tree-of-life.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-29-cay-su-song.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-29-the-tree-of-life.webp"
   },
   {
     "id": "sn_30",
@@ -1583,7 +1825,9 @@
     "paragraphsCountVi": 6,
     "paragraphsCountEn": 12,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-30-bi-mat-cua-cai-chet.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-30-the-secret-of-death.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-30-the-secret-of-death.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-30-bi-mat-cua-cai-chet.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-30-the-secret-of-death.webp"
   },
   {
     "id": "sn_31",
@@ -1596,7 +1840,9 @@
     "paragraphsCountVi": 12,
     "paragraphsCountEn": 20,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-31-tat-ca-deu-la-phat.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-31-everything-is-buddha.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-31-everything-is-buddha.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-31-tat-ca-deu-la-phat.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-31-everything-is-buddha.webp"
   },
   {
     "id": "sn_32",
@@ -1609,7 +1855,9 @@
     "paragraphsCountVi": 7,
     "paragraphsCountEn": 14,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-32-phat-o-trong-tam.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-32-buddha-is-within-the-heart.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-32-buddha-is-within-the-heart.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-32-phat-o-trong-tam.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-32-buddha-is-within-the-heart.webp"
   },
   {
     "id": "sn_33",
@@ -1622,7 +1870,9 @@
     "paragraphsCountVi": 6,
     "paragraphsCountEn": 8,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-33-nu-cuoi-cua-phat-di-lac.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-33-the-smile-of-maitreya-buddha.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-33-the-smile-of-maitreya-buddha.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-33-nu-cuoi-cua-phat-di-lac.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-33-the-smile-of-maitreya-buddha.webp"
   },
   {
     "id": "sn_34",
@@ -1635,7 +1885,9 @@
     "paragraphsCountVi": 11,
     "paragraphsCountEn": 15,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-34-niet-ban-trong-luan-hoi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-34-nirvana-within-samsara.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-34-nirvana-within-samsara.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-34-niet-ban-trong-luan-hoi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-34-nirvana-within-samsara.webp"
   },
   {
     "id": "sn_35",
@@ -1648,7 +1900,9 @@
     "paragraphsCountVi": 6,
     "paragraphsCountEn": 11,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-35-thuc-tinh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-35-awakening.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-35-awakening.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-35-thuc-tinh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-35-awakening.webp"
   },
   {
     "id": "sn_36",
@@ -1661,7 +1915,9 @@
     "paragraphsCountVi": 18,
     "paragraphsCountEn": 29,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-36-nguoi-vo-hinh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-36-the-invisible-one.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-36-the-invisible-one.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-36-nguoi-vo-hinh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-36-the-invisible-one.webp"
   },
   {
     "id": "sn_37",
@@ -1674,7 +1930,9 @@
     "paragraphsCountVi": 5,
     "paragraphsCountEn": 6,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-37-vuot-ra-ngoai-nhan-qua.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-37-beyond-cause-and-effect.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-37-beyond-cause-and-effect.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-37-vuot-ra-ngoai-nhan-qua.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-37-beyond-cause-and-effect.webp"
   },
   {
     "id": "sn_38",
@@ -1687,7 +1945,9 @@
     "paragraphsCountVi": 6,
     "paragraphsCountEn": 6,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-38-thuong-de-o-khap-muon-noi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-38-god-is-everywhere.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-38-god-is-everywhere.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-38-thuong-de-o-khap-muon-noi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-38-god-is-everywhere.webp"
   },
   {
     "id": "sn_39",
@@ -1700,7 +1960,9 @@
     "paragraphsCountVi": 56,
     "paragraphsCountEn": 56,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-39-xa-hoi-dai-dong-khi-thien-duong-tro-lai.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-39-the-great-unity-society-when-heaven-returns.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-39-the-great-unity-society-when-heaven-returns.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-39-xa-hoi-dai-dong-khi-thien-duong-tro-lai.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-39-the-great-unity-society-when-heaven-returns.webp"
   },
   {
     "id": "sn_40",
@@ -1713,7 +1975,9 @@
     "paragraphsCountVi": 10,
     "paragraphsCountEn": 11,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-40-la-chinh-minh-hanh-trinh-tro-ve-tu-tinh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-40-being-yourself-the-journey-back-to-your-true-nature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-40-being-yourself-the-journey-back-to-your-true-nature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-40-la-chinh-minh-hanh-trinh-tro-ve-tu-tinh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-40-being-yourself-the-journey-back-to-your-true-nature.webp"
   },
   {
     "id": "sn_41",
@@ -1726,7 +1990,9 @@
     "paragraphsCountVi": 9,
     "paragraphsCountEn": 10,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-41-ca-the-gioi-nay-duoc-tao-ra-chi-la-vi-ban.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-41-this-whole-world-was-made-for-one-reason-you.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-41-this-whole-world-was-made-for-one-reason-you.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-41-ca-the-gioi-nay-duoc-tao-ra-chi-la-vi-ban.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-41-this-whole-world-was-made-for-one-reason-you.webp"
   },
   {
     "id": "sn_42",
@@ -1739,7 +2005,9 @@
     "paragraphsCountVi": 7,
     "paragraphsCountEn": 8,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-42-dinh-cao-cua-tri-tue-chinh-la-su-don-gian.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-42-the-highest-wisdom-is-simplicity.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-42-the-highest-wisdom-is-simplicity.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-42-dinh-cao-cua-tri-tue-chinh-la-su-don-gian.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-42-the-highest-wisdom-is-simplicity.webp"
   },
   {
     "id": "sn_43",
@@ -1752,7 +2020,9 @@
     "paragraphsCountVi": 9,
     "paragraphsCountEn": 9,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-43-ban-khong-la-gi-ca-thi-ban-la-tat-ca.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-43-when-you-are-nothing-you-are-everything.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-43-when-you-are-nothing-you-are-everything.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-43-ban-khong-la-gi-ca-thi-ban-la-tat-ca.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-43-when-you-are-nothing-you-are-everything.webp"
   },
   {
     "id": "sn_44",
@@ -1765,7 +2035,9 @@
     "paragraphsCountVi": 5,
     "paragraphsCountEn": 5,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-suy-ngam-44-nguoi-thay-vi-dai-nhat.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-44-the-greatest-teacher.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-reflection-44-the-greatest-teacher.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-suy-ngam-44-nguoi-thay-vi-dai-nhat.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-reflection-44-the-greatest-teacher.webp"
   },
   {
     "id": "part_10",
@@ -1778,7 +2050,9 @@
     "paragraphsCountVi": 14,
     "paragraphsCountEn": 14,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "th_01",
@@ -1791,7 +2065,9 @@
     "paragraphsCountVi": 49,
     "paragraphsCountEn": 38,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-01-yoga-pranayama-khi-cong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-01-yoga-pranayama-qigong.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-01-yoga-pranayama-qigong.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-01-yoga-pranayama-khi-cong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-01-yoga-pranayama-qigong.webp"
   },
   {
     "id": "th_02",
@@ -1804,7 +2080,9 @@
     "paragraphsCountVi": 71,
     "paragraphsCountEn": 69,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-02-thien-tinh-thien-nam-can-bang-thien-vipassana.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-02-still-meditation-balanced-lying-meditation-vipassana.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-02-still-meditation-balanced-lying-meditation-vipassana.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-02-thien-tinh-thien-nam-can-bang-thien-vipassana.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-02-still-meditation-balanced-lying-meditation-vipassana.webp"
   },
   {
     "id": "th_03",
@@ -1817,7 +2095,9 @@
     "paragraphsCountVi": 30,
     "paragraphsCountEn": 34,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-03-thien-dong-con-duong-chua-lanh-bang-hanh-dong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-03-dynamic-meditation-the-path-of-healing-through-action.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-03-dynamic-meditation-the-path-of-healing-through-action.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-03-thien-dong-con-duong-chua-lanh-bang-hanh-dong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-03-dynamic-meditation-the-path-of-healing-through-action.webp"
   },
   {
     "id": "th_04",
@@ -1830,7 +2110,9 @@
     "paragraphsCountVi": 44,
     "paragraphsCountEn": 41,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-04-song-thien-thien-trung-dao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-04-living-meditation-the-middle-way.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-04-living-meditation-the-middle-way.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-04-song-thien-thien-trung-dao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-04-living-meditation-the-middle-way.webp"
   },
   {
     "id": "th_05",
@@ -1843,7 +2125,9 @@
     "paragraphsCountVi": 62,
     "paragraphsCountEn": 42,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-05-an-uong-can-bang-am-duong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-05-eating-to-balance-yin-and-yang.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-05-eating-to-balance-yin-and-yang.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-05-an-uong-can-bang-am-duong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-05-eating-to-balance-yin-and-yang.webp"
   },
   {
     "id": "th_06",
@@ -1856,7 +2140,9 @@
     "paragraphsCountVi": 42,
     "paragraphsCountEn": 38,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-06-thuc-tinh-te-bao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-06-awakening-the-cells.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-06-awakening-the-cells.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-06-thuc-tinh-te-bao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-06-awakening-the-cells.webp"
   },
   {
     "id": "th_07",
@@ -1869,7 +2155,9 @@
     "paragraphsCountVi": 90,
     "paragraphsCountEn": 46,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-07-nghe-nhac-chua-lanh-nhac-tan-so.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-07-listening-to-healing-music-frequency-music.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-07-listening-to-healing-music-frequency-music.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-07-nghe-nhac-chua-lanh-nhac-tan-so.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-07-listening-to-healing-music-frequency-music.webp"
   },
   {
     "id": "th_08",
@@ -1882,7 +2170,9 @@
     "paragraphsCountVi": 55,
     "paragraphsCountEn": 81,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-08-thien-quan.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-08-insight-meditation.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-08-insight-meditation.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-08-thien-quan.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-08-insight-meditation.webp"
   },
   {
     "id": "th_09",
@@ -1895,7 +2185,9 @@
     "paragraphsCountVi": 29,
     "paragraphsCountEn": 36,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-09-nhat-ky-tinh-thuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-09-the-awakening-journal.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-09-the-awakening-journal.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-09-nhat-ky-tinh-thuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-09-the-awakening-journal.webp"
   },
   {
     "id": "th_10",
@@ -1908,7 +2200,9 @@
     "paragraphsCountVi": 47,
     "paragraphsCountEn": 50,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-10-tha-thu.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-10-forgiveness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-10-forgiveness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-10-tha-thu.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-10-forgiveness.webp"
   },
   {
     "id": "th_11",
@@ -1921,7 +2215,9 @@
     "paragraphsCountVi": 51,
     "paragraphsCountEn": 57,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-11-biet-on-va-yeu-thuong-vo-dieu-kien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-11-gratitude-and-unconditional-love.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-11-gratitude-and-unconditional-love.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-11-biet-on-va-yeu-thuong-vo-dieu-kien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-11-gratitude-and-unconditional-love.webp"
   },
   {
     "id": "th_12",
@@ -1934,7 +2230,9 @@
     "paragraphsCountVi": 63,
     "paragraphsCountEn": 67,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-12-ho-oponopono-khoa-hoc-cua-chua-lanh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-12-hooponopono-the-science-of-healing.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-12-hooponopono-the-science-of-healing.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-12-ho-oponopono-khoa-hoc-cua-chua-lanh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-12-hooponopono-the-science-of-healing.webp"
   },
   {
     "id": "th_13",
@@ -1947,7 +2245,9 @@
     "paragraphsCountVi": 50,
     "paragraphsCountEn": 56,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-13-nghi-that-noi-that-lam-that.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-13-think-true-speak-true-act-true.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-13-think-true-speak-true-act-true.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-13-nghi-that-noi-that-lam-that.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-13-think-true-speak-true-act-true.webp"
   },
   {
     "id": "th_14",
@@ -1960,7 +2260,9 @@
     "paragraphsCountVi": 41,
     "paragraphsCountEn": 43,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-14-goc-nhin-tich-cuc-tu-duy-tich-cuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-14-a-positive-perspective-positive-thinking.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-14-a-positive-perspective-positive-thinking.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-14-goc-nhin-tich-cuc-tu-duy-tich-cuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-14-a-positive-perspective-positive-thinking.webp"
   },
   {
     "id": "th_15",
@@ -1973,7 +2275,9 @@
     "paragraphsCountVi": 31,
     "paragraphsCountEn": 29,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-15-nghe-thuat-va-sang-tao.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-15-art-and-creativity.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-15-art-and-creativity.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-15-nghe-thuat-va-sang-tao.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-15-art-and-creativity.webp"
   },
   {
     "id": "th_16",
@@ -1986,7 +2290,9 @@
     "paragraphsCountVi": 34,
     "paragraphsCountEn": 30,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-16-song-cham-song-that-song-don-gian.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-16-slow-living-living-truthfully-living-simply.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-16-slow-living-living-truthfully-living-simply.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-16-song-cham-song-that-song-don-gian.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-16-slow-living-living-truthfully-living-simply.webp"
   },
   {
     "id": "th_17",
@@ -1999,7 +2305,9 @@
     "paragraphsCountVi": 46,
     "paragraphsCountEn": 56,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-17-phong-cach-song-binh-than.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-17-a-calm-way-of-living.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-17-a-calm-way-of-living.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-17-phong-cach-song-binh-than.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-17-a-calm-way-of-living.webp"
   },
   {
     "id": "th_18",
@@ -2012,7 +2320,9 @@
     "paragraphsCountVi": 41,
     "paragraphsCountEn": 54,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-18-lam-ban-voi-su-co-don.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-18-befriending-loneliness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-18-befriending-loneliness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-18-lam-ban-voi-su-co-don.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-18-befriending-loneliness.webp"
   },
   {
     "id": "th_19",
@@ -2025,7 +2335,9 @@
     "paragraphsCountVi": 27,
     "paragraphsCountEn": 46,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-19-dua-vao-chinh-minh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-19-relying-on-yourself.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-19-relying-on-yourself.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-19-dua-vao-chinh-minh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-19-relying-on-yourself.webp"
   },
   {
     "id": "th_20",
@@ -2038,7 +2350,9 @@
     "paragraphsCountVi": 45,
     "paragraphsCountEn": 74,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-20-cau-nguyen-hoac-giao-cam-voi-dang-thieng-lieng.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-20-prayer-or-communion-with-the-sacred.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-20-prayer-or-communion-with-the-sacred.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-20-cau-nguyen-hoac-giao-cam-voi-dang-thieng-lieng.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-20-prayer-or-communion-with-the-sacred.webp"
   },
   {
     "id": "th_21",
@@ -2051,7 +2365,9 @@
     "paragraphsCountVi": 65,
     "paragraphsCountEn": 50,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-21-yeu-thuong-me-trai-dat.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-21-loving-mother-earth.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-21-loving-mother-earth.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-21-yeu-thuong-me-trai-dat.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-21-loving-mother-earth.webp"
   },
   {
     "id": "th_22",
@@ -2064,7 +2380,9 @@
     "paragraphsCountVi": 52,
     "paragraphsCountEn": 46,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-22-ket-noi-voi-thien-nhien.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-22-connecting-with-nature.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-22-connecting-with-nature.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-22-ket-noi-voi-thien-nhien.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-22-connecting-with-nature.webp"
   },
   {
     "id": "th_23",
@@ -2077,7 +2395,9 @@
     "paragraphsCountVi": 73,
     "paragraphsCountEn": 45,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-23-bo-thi-dana.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-23-giving-d-na.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-23-giving-d-na.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-23-bo-thi-dana.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-23-giving-d-na.webp"
   },
   {
     "id": "th_24",
@@ -2090,7 +2410,9 @@
     "paragraphsCountVi": 40,
     "paragraphsCountEn": 45,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-24-song-tron-ven-trong-luat-cua-mot.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-24-living-fully-in-the-law-of-one.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-24-living-fully-in-the-law-of-one.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-24-song-tron-ven-trong-luat-cua-mot.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-24-living-fully-in-the-law-of-one.webp"
   },
   {
     "id": "th_25",
@@ -2103,7 +2425,9 @@
     "paragraphsCountVi": 37,
     "paragraphsCountEn": 53,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-25-song-tinh-thuc-giua-doi-thuong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-25-living-awake-in-everyday-life.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-25-living-awake-in-everyday-life.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-25-song-tinh-thuc-giua-doi-thuong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-25-living-awake-in-everyday-life.webp"
   },
   {
     "id": "th_26",
@@ -2116,7 +2440,9 @@
     "paragraphsCountVi": 53,
     "paragraphsCountEn": 59,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-26-song-tron-ven-tung-phut-giay.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-26-living-fully-moment-by-moment.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-26-living-fully-moment-by-moment.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-26-song-tron-ven-tung-phut-giay.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-26-living-fully-moment-by-moment.webp"
   },
   {
     "id": "th_27",
@@ -2129,7 +2455,9 @@
     "paragraphsCountVi": 39,
     "paragraphsCountEn": 32,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-27-giao-tiep-bang-tam-thuc.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-27-communicating-through-consciousness.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-27-communicating-through-consciousness.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-27-giao-tiep-bang-tam-thuc.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-27-communicating-through-consciousness.webp"
   },
   {
     "id": "th_28",
@@ -2142,7 +2470,9 @@
     "paragraphsCountVi": 30,
     "paragraphsCountEn": 32,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-28-nghe-thuat-buong-xa.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-28-the-art-of-letting-go.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-28-the-art-of-letting-go.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-28-nghe-thuat-buong-xa.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-28-the-art-of-letting-go.webp"
   },
   {
     "id": "th_29",
@@ -2155,7 +2485,9 @@
     "paragraphsCountVi": 41,
     "paragraphsCountEn": 46,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-29-tai-ket-noi-voi-dua-tre-ben-trong.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-29-reconnecting-with-your-inner-child.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-29-reconnecting-with-your-inner-child.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-29-tai-ket-noi-voi-dua-tre-ben-trong.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-29-reconnecting-with-your-inner-child.webp"
   },
   {
     "id": "th_30",
@@ -2168,7 +2500,9 @@
     "paragraphsCountVi": 35,
     "paragraphsCountEn": 45,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-thuc-hanh-30-thuc-tinh-trai-tim.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-30-awakening-the-heart.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-practice-30-awakening-the-heart.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-thuc-hanh-30-thuc-tinh-trai-tim.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-practice-30-awakening-the-heart.webp"
   },
   {
     "id": "part_11",
@@ -2181,7 +2515,9 @@
     "paragraphsCountVi": 35,
     "paragraphsCountEn": 33,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-phan-11-loi-ket.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-part-xi-conclusion.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-part-xi-conclusion.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-phan-11-loi-ket.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-part-xi-conclusion.webp"
   },
   {
     "id": "thanks",
@@ -2194,7 +2530,9 @@
     "paragraphsCountVi": 9,
     "paragraphsCountEn": 12,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "hanh_trang",
@@ -2207,7 +2545,9 @@
     "paragraphsCountVi": 34,
     "paragraphsCountEn": 14,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-hanh-trang-tien-vao-ky-nguyen-moi.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-packing-for-a-new-era.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-packing-for-a-new-era.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-hanh-trang-tien-vao-ky-nguyen-moi.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-packing-for-a-new-era.webp"
   },
   {
     "id": "pl_01",
@@ -2220,7 +2560,9 @@
     "paragraphsCountVi": 38,
     "paragraphsCountEn": 55,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "pl_02",
@@ -2233,7 +2575,9 @@
     "paragraphsCountVi": 59,
     "paragraphsCountEn": 62,
     "image_vertical": null,
-    "image_vertical_en": null
+    "image_vertical_en": null,
+    "image_vertical_thumb": null,
+    "image_vertical_thumb_en": null
   },
   {
     "id": "pl_03",
@@ -2246,6 +2590,8 @@
     "paragraphsCountVi": 51,
     "paragraphsCountEn": 32,
     "image_vertical": "https://khoahoctamlinh.vn/app/vertical/khoa-hoc-tam-linh-phu-luc-03-ban-do-hanh-trinh-thuc-tinh.webp",
-    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-appendix-03-map-of-the-journey-of-awakening.webp"
+    "image_vertical_en": "https://khoahoctamlinh.vn/app/vertical_en/the-science-of-spirituality-appendix-03-map-of-the-journey-of-awakening.webp",
+    "image_vertical_thumb": "https://khoahoctamlinh.vn/app/vertical/thumb/khoa-hoc-tam-linh-phu-luc-03-ban-do-hanh-trinh-thuc-tinh.webp",
+    "image_vertical_thumb_en": "https://khoahoctamlinh.vn/app/vertical_en/thumb/the-science-of-spirituality-appendix-03-map-of-the-journey-of-awakening.webp"
   }
 ]
