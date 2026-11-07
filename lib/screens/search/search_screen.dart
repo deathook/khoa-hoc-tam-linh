@@ -4,6 +4,7 @@ import '../../services/book_repository.dart';
 import '../../services/seo/seo_service.dart';
 import '../../services/storage_service.dart';
 import '../../theme/app_colors.dart';
+import '../../utils/vietnamese_utils.dart';
 import '../reader/reader_screen.dart';
 
 class SearchScreen extends StatefulWidget {
@@ -186,22 +187,55 @@ class _SearchScreenState extends State<SearchScreen> {
                             ),
                             const SizedBox(width: 8),
                             Expanded(
-                              child: Text(
-                                r.section.getTitle(_isEnglish),
+                              child: RichText(
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
-                                style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 13.5),
+                                text: TextSpan(
+                                  children: buildHighlightedSpans(
+                                    text: r.section.getTitle(_isEnglish),
+                                    query: _searchController.text,
+                                    baseStyle: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 13.5,
+                                      color: isDark ? const Color(0xFFE5B968) : AppColors.primaryDark,
+                                    ),
+                                    highlightStyle: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 13.5,
+                                      color: isDark ? Colors.white : Colors.black87,
+                                      backgroundColor: isDark
+                                          ? const Color(0xFFD4AF37).withOpacity(0.45)
+                                          : const Color(0xFFFFD54F).withOpacity(0.65),
+                                    ),
+                                  ),
+                                ),
                               ),
                             ),
                           ],
                         ),
                         const SizedBox(height: 8),
-                        Text(
-                          r.snippet,
-                          style: TextStyle(
-                            fontSize: 13.5,
-                            height: 1.5,
-                            color: isDark ? AppColors.textLight : AppColors.textDark,
+                        RichText(
+                          maxLines: 4,
+                          overflow: TextOverflow.ellipsis,
+                          text: TextSpan(
+                            children: buildHighlightedSpans(
+                              text: r.snippet,
+                              query: _searchController.text,
+                              baseStyle: TextStyle(
+                                fontSize: 13.5,
+                                height: 1.5,
+                                color: isDark ? AppColors.textLight : AppColors.textDark,
+                              ),
+                              highlightStyle: TextStyle(
+                                fontSize: 13.5,
+                                height: 1.5,
+                                fontWeight: FontWeight.bold,
+                                color: isDark ? Colors.white : Colors.black87,
+                                backgroundColor: isDark
+                                    ? const Color(0xFFD4AF37).withOpacity(0.45)
+                                    : const Color(0xFFFFD54F).withOpacity(0.65),
+                              ),
+                            ),
                           ),
                         ),
                       ],

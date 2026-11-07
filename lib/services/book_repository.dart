@@ -4,18 +4,21 @@ import '../models/book_section.dart';
 import '../models/toc_item.dart';
 import '../models/quote_item.dart';
 import '../models/podcast_item.dart';
+import '../utils/vietnamese_utils.dart';
 
 class SearchResult {
   final TocItem section;
   final int paragraphIndex;
   final String matchedText;
   final String snippet;
+  final int score;
 
   SearchResult({
     required this.section,
     required this.paragraphIndex,
     required this.matchedText,
     required this.snippet,
+    this.score = 0,
   });
 }
 
@@ -105,9 +108,60 @@ class BookRepository {
     return _toc.where((t) => t.category == category).toList();
   }
 
+  static _SearchMatchScore? _evaluateSearchMatch(
+      String text, String normQuery, List<String> queryWords) {
+    if (text.isEmpty || normQuery.isEmpty) return null;
+    final normText = removeVietnameseTones(text);
+
+    // 1. Exact full phrase match
+    final fullIdx = normText.indexOf(normQuery);
+    if (fullIdx != -1) {
+      return _SearchMatchScore(100, fullIdx);
+    }
+
+    // 2. Multi-word checks
+    if (queryWords.length > 1) {
+      int matchedWordCount = 0;
+      int firstIdx = -1;
+      for (final w in queryWords) {
+        final idx = normText.indexOf(w);
+        if (idx != -1) {
+          matchedWordCount++;
+          if (firstIdx == -1 || idx < firstIdx) {
+            firstIdx = idx;
+          }
+        }
+      }
+
+      if (matchedWordCount == queryWords.length) {
+        // All words matched!
+        return _SearchMatchScore(80, firstIdx);
+      } else if (matchedWordCount >= 2 &&
+          matchedWordCount >= (queryWords.length / 2).ceil()) {
+        // Partial words matched!
+        return _SearchMatchScore(40 + matchedWordCount * 5, firstIdx);
+      }
+    } else if (queryWords.length == 1) {
+      final idx = normText.indexOf(queryWords[0]);
+      if (idx != -1) {
+        return _SearchMatchScore(90, idx);
+      }
+    }
+
+    return null;
+  }
+
   List<SearchResult> search(String query, bool isEnglish) {
-    if (query.trim().isEmpty) return [];
-    final cleanQuery = query.toLowerCase().trim();
+    final rawQuery = query.trim();
+    if (rawQuery.isEmpty) return [];
+
+    final normQuery = removeVietnameseTones(rawQuery);
+    final queryWords = normQuery
+        .split(RegExp(r'\s+'))
+        .map((w) => w.trim())
+        .where((w) => w.isNotEmpty)
+        .toList();
+
     final results = <SearchResult>[];
 
     for (var section in _sections) {
@@ -126,23 +180,26 @@ class BookRepository {
 
       // Search in title
       final title = section.getTitle(isEnglish);
-      if (title.toLowerCase().contains(cleanQuery)) {
+      final titleMatch = _evaluateSearchMatch(title, normQuery, queryWords);
+      if (titleMatch != null) {
         results.add(SearchResult(
           section: tocItem,
           paragraphIndex: 0,
           matchedText: title,
           snippet: title,
+          score: titleMatch.score + 50, // Title matches have high priority
         ));
       }
 
       // Search in paragraphs
       for (int i = 0; i < paras.length; i++) {
         final p = paras[i];
-        if (p.toLowerCase().contains(cleanQuery)) {
-          // create snippet
-          final matchIdx = p.toLowerCase().indexOf(cleanQuery);
+        final match = _evaluateSearchMatch(p, normQuery, queryWords);
+        if (match != null) {
+          // create snippet around the match
+          final matchIdx = match.matchIndex;
           final start = (matchIdx - 40).clamp(0, p.length);
-          final end = (matchIdx + cleanQuery.length + 60).clamp(0, p.length);
+          final end = (matchIdx + normQuery.length + 70).clamp(0, p.length);
           String snippet = p.substring(start, end);
           if (start > 0) snippet = '...' + snippet;
           if (end < p.length) snippet = snippet + '...';
@@ -152,10 +209,26 @@ class BookRepository {
             paragraphIndex: i,
             matchedText: p,
             snippet: snippet,
+            score: match.score,
           ));
         }
       }
     }
+
+    // Sort by relevance score descending
+    results.sort((a, b) => b.score.compareTo(a.score));
+
+    // Limit to top 150 results for optimal performance
+    if (results.length > 150) {
+      return results.sublist(0, 150);
+    }
+
     return results;
   }
+}
+
+class _SearchMatchScore {
+  final int score;
+  final int matchIndex;
+  _SearchMatchScore(this.score, this.matchIndex);
 }

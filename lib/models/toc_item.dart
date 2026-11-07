@@ -44,6 +44,18 @@ class TocItem {
   String getTitle(bool isEnglish) => isEnglish ? (titleEn.isNotEmpty ? titleEn : titleVi) : titleVi;
   String? getImageVertical(bool isEnglish) => isEnglish ? (imageVerticalEn ?? imageVertical) : imageVertical;
 
+  String? getImageVerticalThumb(bool isEnglish) {
+    final orig = getImageVertical(isEnglish);
+    if (orig == null) return null;
+    if (orig.contains('/vertical/')) {
+      return orig.replaceFirst('/vertical/', '/vertical/thumb/');
+    }
+    if (orig.contains('/vertical_en/')) {
+      return orig.replaceFirst('/vertical_en/', '/vertical_en/thumb/');
+    }
+    return orig;
+  }
+
   String getCategoryLabel(bool isEnglish) {
     switch (category) {
       case 'intro':

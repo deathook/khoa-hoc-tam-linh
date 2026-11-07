@@ -53,6 +53,18 @@ class BookSection {
   List<String> getParagraphs(bool isEnglish) => isEnglish ? (paragraphsEn.isNotEmpty ? paragraphsEn : paragraphsVi) : paragraphsVi;
   String? getImageVertical(bool isEnglish) => isEnglish ? (imageVerticalEn ?? imageVertical) : imageVertical;
 
+  String? getImageVerticalThumb(bool isEnglish) {
+    final orig = getImageVertical(isEnglish);
+    if (orig == null) return null;
+    if (orig.contains('/vertical/')) {
+      return orig.replaceFirst('/vertical/', '/vertical/thumb/');
+    }
+    if (orig.contains('/vertical_en/')) {
+      return orig.replaceFirst('/vertical_en/', '/vertical_en/thumb/');
+    }
+    return orig;
+  }
+
   String? getIllustration(bool isEnglish) {
     final vert = getImageVertical(isEnglish);
     if (vert == null) return null;

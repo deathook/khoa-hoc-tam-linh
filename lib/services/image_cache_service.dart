@@ -26,7 +26,9 @@ class ImageCacheService {
       final uri = Uri.parse(url);
       final segments = uri.pathSegments;
       if (segments.isNotEmpty && segments.last.isNotEmpty) {
-        return segments.last;
+        final isThumb = url.contains('/thumb/') || url.contains('_thumb');
+        final prefix = isThumb ? 'thumb_' : '';
+        return '$prefix${segments.last}';
       }
     } catch (_) {}
     return 'image_${url.hashCode}.webp';

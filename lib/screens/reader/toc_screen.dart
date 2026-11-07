@@ -401,7 +401,8 @@ class _TocScreenState extends State<TocScreen> with SingleTickerProviderStateMix
             // Thumbnail or Number Circle
             if (item.getImageVertical(_isEnglish) != null)
               AppCachedImage(
-                imageUrlOrAsset: item.getImageVertical(_isEnglish)!,
+                imageUrlOrAsset: item.getImageVerticalThumb(_isEnglish) ?? item.getImageVertical(_isEnglish)!,
+                fallbackUrlOrAsset: item.getImageVertical(_isEnglish),
                 width: 44,
                 height: 56,
                 fit: BoxFit.cover,

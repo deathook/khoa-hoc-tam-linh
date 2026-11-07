@@ -7,6 +7,7 @@ import '../theme/app_colors.dart';
 
 class AppCachedImage extends StatefulWidget {
   final String imageUrlOrAsset;
+  final String? fallbackUrlOrAsset;
   final BoxFit fit;
   final double? width;
   final double? height;
@@ -17,6 +18,7 @@ class AppCachedImage extends StatefulWidget {
   const AppCachedImage({
     Key? key,
     required this.imageUrlOrAsset,
+    this.fallbackUrlOrAsset,
     this.fit = BoxFit.cover,
     this.width,
     this.height,
@@ -32,6 +34,8 @@ class AppCachedImage extends StatefulWidget {
 class _AppCachedImageState extends State<AppCachedImage> {
   final ImageCacheService _cacheService = ImageCacheService();
 
+  late String _currentSrc = widget.imageUrlOrAsset;
+  bool _attemptedFallback = false;
   File? _localFile;
   bool _isLoading = false;
   bool _hasError = false;
@@ -39,19 +43,31 @@ class _AppCachedImageState extends State<AppCachedImage> {
   @override
   void initState() {
     super.initState();
+    _currentSrc = widget.imageUrlOrAsset;
     _loadImage();
   }
 
   @override
   void didUpdateWidget(covariant AppCachedImage oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (oldWidget.imageUrlOrAsset != widget.imageUrlOrAsset) {
+    if (oldWidget.imageUrlOrAsset != widget.imageUrlOrAsset ||
+        oldWidget.fallbackUrlOrAsset != widget.fallbackUrlOrAsset) {
+      _currentSrc = widget.imageUrlOrAsset;
+      _attemptedFallback = false;
+      _loadImage();
+    }
+  }
+
+  void _tryFallback() {
+    if (!_attemptedFallback && widget.fallbackUrlOrAsset != null && widget.fallbackUrlOrAsset!.isNotEmpty) {
+      _attemptedFallback = true;
+      _currentSrc = widget.fallbackUrlOrAsset!;
       _loadImage();
     }
   }
 
   Future<void> _loadImage() async {
-    final src = widget.imageUrlOrAsset;
+    final src = _currentSrc;
     if (src.isEmpty) return;
 
     if (kIsWeb) {
@@ -98,6 +114,11 @@ class _AppCachedImageState extends State<AppCachedImage> {
     }
 
     final downloaded = await _cacheService.downloadAndCacheImage(src);
+    if (downloaded == null && !_attemptedFallback && widget.fallbackUrlOrAsset != null) {
+      _tryFallback();
+      return;
+    }
+
     if (mounted) {
       setState(() {
         _localFile = downloaded;
@@ -118,9 +139,9 @@ class _AppCachedImageState extends State<AppCachedImage> {
     Widget imageContent;
 
     if (kIsWeb) {
-      if (widget.imageUrlOrAsset.startsWith('assets/')) {
+      if (_currentSrc.startsWith('assets/')) {
         imageContent = Image.asset(
-          widget.imageUrlOrAsset,
+          _currentSrc,
           fit: widget.fit,
           width: widget.width,
           height: widget.height,
@@ -129,7 +150,7 @@ class _AppCachedImageState extends State<AppCachedImage> {
         );
       } else {
         // On web, transform absolute https://khoahoctamlinh.vn/app/ to relative /app/ for same-origin proxy
-        String webUrl = widget.imageUrlOrAsset;
+        String webUrl = _currentSrc;
         if (webUrl.startsWith('https://khoahoctamlinh.vn/app/')) {
           webUrl = webUrl.replaceFirst('https://khoahoctamlinh.vn/app/', '/app/');
         }
@@ -144,12 +165,23 @@ class _AppCachedImageState extends State<AppCachedImage> {
             if (progress == null) return child;
             return widget.placeholder ?? _buildPlaceholder();
           },
-          errorBuilder: (_, error, stack) => _buildErrorWidget(),
+          errorBuilder: (_, error, stack) {
+            if (!_attemptedFallback && widget.fallbackUrlOrAsset != null) {
+              WidgetsBinding.instance.addPostFrameCallback((_) {
+                if (mounted) {
+                  setState(() {
+                    _tryFallback();
+                  });
+                }
+              });
+            }
+            return _buildErrorWidget();
+          },
         );
       }
-    } else if (widget.imageUrlOrAsset.startsWith('assets/')) {
+    } else if (_currentSrc.startsWith('assets/')) {
       imageContent = Image.asset(
-        widget.imageUrlOrAsset,
+        _currentSrc,
         fit: widget.fit,
         width: widget.width,
         height: widget.height,
