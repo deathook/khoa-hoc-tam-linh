@@ -16,6 +16,10 @@
       "destination": "/robots.txt"
     },
     {
+      "source": "/google2e3774e741a3d322.html",
+      "destination": "/google2e3774e741a3d322.html"
+    },
+    {
       "source": "/api/(.*)",
       "destination": "/api/$1"
     },

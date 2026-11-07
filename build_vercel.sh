@@ -32,6 +32,7 @@ echo "Ensuring SEO sitemap & robots exist in build/web..."
 cp web/sitemap.xml build/web/sitemap.xml
 cp web/sitemap.xsl build/web/sitemap.xsl
 cp web/robots.txt build/web/robots.txt
+cp web/google2e3774e741a3d322.html build/web/google2e3774e741a3d322.html
 
 if [ -f "KhoaHocTamLinh.apk" ]; then
   echo "Copying KhoaHocTamLinh.apk to build/web..."

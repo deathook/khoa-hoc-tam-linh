@@ -20,22 +20,22 @@ class DefaultFirebaseOptions {
     }
   }
 
-  // TODO: Replace with your actual Firebase Web Config from Firebase Console
+  // Firebase Web Config from Firebase Console (Project: sach-khoa-hoc-tam-linh)
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyPlaceholderApiKeyForWeb12345678',
-    appId: '1:1234567890:web:abcdef123456',
-    messagingSenderId: '1234567890',
-    projectId: 'khoa-hoc-tam-linh',
-    authDomain: 'khoa-hoc-tam-linh.firebaseapp.com',
-    storageBucket: 'khoa-hoc-tam-linh.appspot.com',
+    appId: '1:300506486781:web:placeholderWebId',
+    messagingSenderId: '300506486781',
+    projectId: 'sach-khoa-hoc-tam-linh',
+    authDomain: 'sach-khoa-hoc-tam-linh.firebaseapp.com',
+    storageBucket: 'sach-khoa-hoc-tam-linh.firebasestorage.app',
   );
 
   // Android configuration uses google-services.json when compiled on Android
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyPlaceholderApiKeyForAndroid123456',
-    appId: '1:1234567890:android:abcdef123456',
-    messagingSenderId: '1234567890',
-    projectId: 'khoa-hoc-tam-linh',
-    storageBucket: 'khoa-hoc-tam-linh.appspot.com',
+    appId: '1:300506486781:android:3d61450769d8a74a6eeb94',
+    messagingSenderId: '300506486781',
+    projectId: 'sach-khoa-hoc-tam-linh',
+    storageBucket: 'sach-khoa-hoc-tam-linh.firebasestorage.app',
   );
 }
