@@ -392,7 +392,12 @@ class _MainNavScreenState extends State<MainNavScreen> {
             tooltip: isDark
                 ? (isEnglish ? 'Light Mode' : 'Chế độ Sáng')
                 : (isEnglish ? 'Dark Mode' : 'Chế độ Đêm'),
-            onPressed: widget.onThemeChanged,
+            onPressed: () async {
+              final newMode = isDark ? 'light' : 'dark';
+              await _storage.setThemeMode(newMode);
+              if (mounted) setState(() {});
+              widget.onThemeChanged();
+            },
           ),
 
           const SizedBox(width: 10),
