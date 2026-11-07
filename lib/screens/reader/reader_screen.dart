@@ -1316,7 +1316,7 @@ class _ReaderScreenState extends State<ReaderScreen> {
       modeIcon = Icons.stop_circle_outlined;
       modeTooltip = _isEnglish ? 'Stop at end of chapter' : 'Dừng khi hết chương';
     } else {
-      modeIcon = Icons.skip_next_rounded;
+      modeIcon = Icons.auto_stories_rounded;
       modeTooltip = _isEnglish ? 'Auto-play next chapter (Default)' : 'Chuyển chương tiếp theo (Mặc định)';
     }
 
@@ -1420,7 +1420,7 @@ class _ReaderScreenState extends State<ReaderScreen> {
                 value: 'next',
                 child: Row(
                   children: [
-                    const Icon(Icons.skip_next_rounded, size: 20, color: Color(0xFFC5A059)),
+                    const Icon(Icons.auto_stories_rounded, size: 20, color: Color(0xFFC5A059)),
                     const SizedBox(width: 12),
                     Expanded(
                       child: Text(

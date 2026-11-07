@@ -361,6 +361,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       _buildPodcastRow(isDesktopWeb),
 
                       // Website Footer on Web
+                      // Mobile Android App Install Banner on Mobile Web
+                      if (kIsWeb && !isDesktopWeb) _buildMobileAppDownloadBanner(isDark),
+
                       if (isDesktopWeb) _buildWebFooter(isDark),
 
                       const SizedBox(height: 32),
@@ -1121,6 +1124,123 @@ class _HomeScreenState extends State<HomeScreen> {
             decoration: TextDecoration.underline,
           ),
         ),
+      ),
+    );
+  }
+
+  Widget _buildMobileAppDownloadBanner(bool isDark) {
+    return Container(
+      margin: const EdgeInsets.only(top: 24, bottom: 8),
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: isDark ? const Color(0xFF1E2433) : const Color(0xFFF9F5EE),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(
+          color: isDark ? const Color(0xFFE5B968).withOpacity(0.3) : AppColors.primary.withOpacity(0.35),
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(isDark ? 0.3 : 0.06),
+            blurRadius: 10,
+            offset: const Offset(0, 3),
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: Image.asset(
+                  'assets/images/app_icon.webp',
+                  width: 44,
+                  height: 44,
+                  fit: BoxFit.cover,
+                ),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      _isEnglish ? 'Download Android App' : 'Cài Đặt Ứng Dụng Android',
+                      style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14.5),
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      _isEnglish
+                          ? 'Full offline reading & background audiobook'
+                          : 'Đọc offline trọn vẹn & nghe sách nói chạy ngầm',
+                      style: TextStyle(
+                        fontSize: 11.5,
+                        color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Row(
+            children: [
+              Expanded(
+                child: ElevatedButton.icon(
+                  onPressed: () {
+                    downloadFile('https://play.google.com/store/apps/details?id=vn.khoahoctamlinh.app');
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(_isEnglish
+                            ? 'Opening Google Play Store (CH Play)...'
+                            : 'Đang mở cửa hàng ứng dụng Google Play (CH Play)...'),
+                      ),
+                    );
+                  },
+                  icon: const Icon(Icons.shop, size: 16),
+                  label: Text(
+                    _isEnglish ? 'CH Play' : 'Tải từ CH Play',
+                    style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
+                  ),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFF01875F),
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 8),
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                  ),
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: ElevatedButton.icon(
+                  onPressed: () {
+                    downloadFile('https://khoahoctamlinh.vn/app/KhoaHocTamLinh.apk');
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(_isEnglish
+                            ? 'Downloading KhoaHocTamLinh.apk...'
+                            : 'Đang tải về bộ cài đặt KhoaHocTamLinh.apk...'),
+                      ),
+                    );
+                  },
+                  icon: const Icon(Icons.download_rounded, size: 16),
+                  label: Text(
+                    _isEnglish ? 'File APK' : 'Tải File APK',
+                    style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
+                  ),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: isDark ? const Color(0xFFE5B968) : AppColors.primary,
+                    foregroundColor: Colors.black87,
+                    padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 8),
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ],
       ),
     );
   }

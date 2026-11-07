@@ -795,13 +795,14 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 children: [
                   Row(
                     children: [
-                      Container(
-                        padding: const EdgeInsets.all(10),
-                        decoration: BoxDecoration(
-                          color: const Color(0xFF3DDC84).withOpacity(0.15),
-                          shape: BoxShape.circle,
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Image.asset(
+                          'assets/images/app_icon.webp',
+                          width: 44,
+                          height: 44,
+                          fit: BoxFit.cover,
                         ),
-                        child: const Icon(Icons.android, color: Color(0xFF2E7D32), size: 24),
                       ),
                       const SizedBox(width: 14),
                       Expanded(
