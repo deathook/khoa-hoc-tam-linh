@@ -96,13 +96,38 @@
     ]
   }
   </script>
+  <!-- Google Tag Manager (GTM-5JHSSPWP) -->
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5JHSSPWP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    window.trackPageView = function(path, title) {
+      if (window.dataLayer) {
+        window.dataLayer.push({
+          'event': 'pageview',
+          'page_path': path,
+          'page_title': title
+        });
+      }
+    };
+  </script>
+  <!-- End Google Tag Manager -->
 </head>
 <body style="background-color: #0E1117; margin: 0; padding: 0; overflow-x: hidden;">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JHSSPWP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <script>
     window.KHTL_TTS = {
       currentAudio: null,
       audioQueue: [],
       isAudioPlaying: false,
+      isPaused: false,
+      isStopped: true,
+      currentSessionId: 0,
       keepAliveTimer: null,
       currentRate: 1.0,
 
@@ -142,8 +167,12 @@
         var targetLang = isEnglish ? 'en-US' : 'vi-VN';
         var effectiveRate = (typeof rate === 'number' && rate > 0) ? rate : (this.currentRate || 1.0);
         this.currentRate = effectiveRate;
+        this.isStopped = false;
+        this.isPaused = false;
+        var sessionId = ++this.currentSessionId;
+        var self = this;
 
-        // Check if browser has a matching native voice
+        // Check for matching native voice in browser
         var voices = window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
         var selectedVoice = null;
 
@@ -190,31 +219,47 @@
           u.pitch = (typeof pitch === 'number' && pitch > 0) ? pitch : 1.0;
 
           u.onstart = function() {
+            if (self.isStopped || self.currentSessionId !== sessionId) return;
             if (onStart) onStart();
-            KHTL_TTS.keepAliveTimer = setInterval(function() {
-              if (window.speechSynthesis && window.speechSynthesis.speaking) {
-                window.speechSynthesis.pause();
+
+            // Safe Chrome keep-alive: ONLY call resume() if speaking, never pause()!
+            if (self.keepAliveTimer) clearInterval(self.keepAliveTimer);
+            self.keepAliveTimer = setInterval(function() {
+              if (self.isStopped || self.currentSessionId !== sessionId) {
+                clearInterval(self.keepAliveTimer);
+                return;
+              }
+              if (window.speechSynthesis && window.speechSynthesis.speaking && !self.isPaused) {
                 window.speechSynthesis.resume();
               }
-            }, 10000);
+            }, 5000);
           };
 
           u.onend = function() {
-            clearInterval(KHTL_TTS.keepAliveTimer);
+            if (self.keepAliveTimer) clearInterval(self.keepAliveTimer);
+            if (self.isStopped || self.currentSessionId !== sessionId) return;
             if (onEnd) onEnd();
           };
 
-          u.onerror = function() {
-            clearInterval(KHTL_TTS.keepAliveTimer);
-            KHTL_TTS._playOnlineTts(cleanText, isEnglish, effectiveRate, onStart, onEnd, onError);
+          u.onerror = function(e) {
+            if (self.keepAliveTimer) clearInterval(self.keepAliveTimer);
+            // If user stopped, paused, or changed session, do not trigger fallback!
+            if (self.isStopped || self.currentSessionId !== sessionId) return;
+            if (e && (e.error === 'interrupted' || e.error === 'canceled')) return;
+
+            self._playOnlineTts(cleanText, isEnglish, effectiveRate, onStart, onEnd, onError, sessionId);
           };
 
-          window.speechSynthesis.speak(u);
+          try {
+            window.speechSynthesis.speak(u);
+          } catch(e) {
+            self._playOnlineTts(cleanText, isEnglish, effectiveRate, onStart, onEnd, onError, sessionId);
+          }
           return;
         }
 
         // Fallback to high quality online audio
-        this._playOnlineTts(cleanText, isEnglish, effectiveRate, onStart, onEnd, onError);
+        this._playOnlineTts(cleanText, isEnglish, effectiveRate, onStart, onEnd, onError, sessionId);
       },
 
       _splitTextIntoChunks: function(text, maxLength) {
@@ -238,7 +283,10 @@
         return chunks.length > 0 ? chunks : [text.substring(0, maxLength)];
       },
 
-      _playOnlineTts: function(text, isEnglish, rate, onStart, onEnd, onError) {
+      _playOnlineTts: function(text, isEnglish, rate, onStart, onEnd, onError, sessionId) {
+        var self = this;
+        if (self.isStopped || self.currentSessionId !== sessionId) return;
+
         var effectiveRate = (typeof rate === 'number' && rate > 0) ? rate : (this.currentRate || 1.0);
         this.currentRate = effectiveRate;
         var lang = isEnglish ? 'en' : 'vi';
@@ -261,10 +309,11 @@
 
         var queueIdx = 0;
         var queue = this.audioQueue;
-        var self = this;
         var hasStarted = false;
 
         function playNext() {
+          if (self.isStopped || self.currentSessionId !== sessionId) return;
+
           if (queueIdx >= queue.length) {
             self.isAudioPlaying = false;
             self.currentAudio = null;
@@ -273,8 +322,8 @@
           }
 
           var item = queue[queueIdx++];
-          var audio = document.createElement('audio');
-          audio.referrerPolicy = 'no-referrer';
+          var audio = new Audio();
+          audio.preload = 'auto';
           self.currentAudio = audio;
           self.isAudioPlaying = true;
 
@@ -289,6 +338,10 @@
           applyRate();
 
           audio.onplay = function() {
+            if (self.isStopped || self.currentSessionId !== sessionId) {
+              try { audio.pause(); audio.removeAttribute('src'); } catch(e){}
+              return;
+            }
             applyRate();
             if (!hasStarted) {
               hasStarted = true;
@@ -296,25 +349,20 @@
             }
           };
 
-          audio.onloadedmetadata = function() {
-            applyRate();
-          };
-
-          audio.oncanplay = function() {
-            applyRate();
-          };
-
           audio.onended = function() {
+            if (self.isStopped || self.currentSessionId !== sessionId) return;
             playNext();
           };
 
           var triedDirect = false;
           audio.onerror = function() {
+            if (self.isStopped || self.currentSessionId !== sessionId) return;
             if (!triedDirect && item.directUrl) {
               triedDirect = true;
               audio.src = item.directUrl;
               applyRate();
               audio.play().catch(function() {
+                if (self.isStopped || self.currentSessionId !== sessionId) return;
                 playNext();
               });
             } else {
@@ -325,11 +373,13 @@
           audio.src = item.proxyUrl;
           applyRate();
           audio.play().catch(function(e) {
+            if (self.isStopped || self.currentSessionId !== sessionId) return;
             if (!triedDirect && item.directUrl) {
               triedDirect = true;
               audio.src = item.directUrl;
               applyRate();
               audio.play().catch(function(err) {
+                if (self.isStopped || self.currentSessionId !== sessionId) return;
                 if (queueIdx >= queue.length && onError) {
                   onError(err ? err.message : 'autoplay-blocked');
                 } else {
@@ -346,34 +396,50 @@
       },
 
       pause: function() {
+        this.isPaused = true;
         if (this.currentAudio) {
-          this.currentAudio.pause();
+          try { this.currentAudio.pause(); } catch(e) {}
         } else if (window.speechSynthesis) {
-          window.speechSynthesis.pause();
+          try { window.speechSynthesis.pause(); } catch(e) {}
         }
       },
 
       resume: function() {
+        this.isPaused = false;
         if (this.currentAudio) {
-          this.currentAudio.play().catch(function(){});
+          try { this.currentAudio.play().catch(function(){}); } catch(e) {}
         } else if (window.speechSynthesis) {
-          window.speechSynthesis.resume();
+          try { window.speechSynthesis.resume(); } catch(e) {}
         }
       },
 
       stop: function() {
-        clearInterval(this.keepAliveTimer);
+        this.isStopped = true;
+        this.isPaused = false;
+        this.currentSessionId = (this.currentSessionId || 0) + 1;
+        if (this.keepAliveTimer) {
+          clearInterval(this.keepAliveTimer);
+          this.keepAliveTimer = null;
+        }
         this.audioQueue = [];
         this.isAudioPlaying = false;
         if (this.currentAudio) {
-          try {
-            this.currentAudio.pause();
-            this.currentAudio.currentTime = 0;
-          } catch(e){}
+          var a = this.currentAudio;
           this.currentAudio = null;
+          try {
+            a.pause();
+            a.currentTime = 0;
+            a.onplay = null;
+            a.onended = null;
+            a.onerror = null;
+            a.removeAttribute('src');
+            a.load();
+          } catch(e) {}
         }
         if (window.speechSynthesis) {
-          window.speechSynthesis.cancel();
+          try {
+            window.speechSynthesis.cancel();
+          } catch(e) {}
         }
       }
     };

@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:audioplayers/audioplayers.dart';
 import '../models/podcast_item.dart';
+import 'tts_service.dart';
 
 enum AudioPlayState { stopped, playing, paused }
 
@@ -60,6 +61,11 @@ class AudioPlayerService with ChangeNotifier {
   }
 
   Future<void> playPodcast(PodcastItem podcast) async {
+    // Immediately stop any active TTS reading
+    try {
+      TtsService().stop();
+    } catch (_) {}
+
     _currentPodcast = podcast;
     _state = AudioPlayState.playing;
     notifyListeners();
@@ -97,6 +103,9 @@ class AudioPlayerService with ChangeNotifier {
   }
 
   Future<void> resume() async {
+    try {
+      TtsService().stop();
+    } catch (_) {}
     await _player.resume();
     _state = AudioPlayState.playing;
     notifyListeners();

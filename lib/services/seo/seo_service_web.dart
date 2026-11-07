@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:html' as html;
+import 'dart:js' as js;
 
 class SeoService {
   static bool _initialized = false;
@@ -97,6 +98,11 @@ class SeoService {
 
       // JSON-LD Structured Data Update
       _updateDynamicJsonLd(fullUrl, title, description);
+
+      // Track PageView in Google Tag Manager / Analytics
+      try {
+        js.context.callMethod('trackPageView', [normalizedPath, title ?? '']);
+      } catch (_) {}
     }
 
     if (currentFullPath == normalizedPath) {

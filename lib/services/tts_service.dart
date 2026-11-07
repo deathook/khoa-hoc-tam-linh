@@ -4,6 +4,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'book_repository.dart';
 import 'storage_service.dart';
 import 'web_tts/web_tts.dart';
+import 'audio_player_service.dart';
 
 enum TtsPlayState { stopped, playing, paused }
 
@@ -294,6 +295,11 @@ class TtsService with ChangeNotifier {
     String? title,
     int startIndex = 0,
   }) async {
+    // Stop any active Podcast playing
+    try {
+      AudioPlayerService().stop();
+    } catch (_) {}
+
     await init();
     await stop();
 
@@ -433,6 +439,10 @@ class TtsService with ChangeNotifier {
 
   Future<void> resume() async {
     if (_state == TtsPlayState.paused) {
+      try {
+        AudioPlayerService().stop();
+      } catch (_) {}
+
       if (kIsWeb) {
         await WebTts.instance.resume();
         _state = TtsPlayState.playing;
