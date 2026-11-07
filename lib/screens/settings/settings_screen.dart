@@ -222,8 +222,12 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     const SizedBox(height: 24),
                   ],
 
-        // Section: Language
-        _buildSectionHeader(_isEnglish ? 'LANGUAGE / NGÔN NGỮ' : 'NGÔN NGỮ / LANGUAGE'),
+                  // Section 1: Account & Firebase Cloud Sync (Top Priority)
+                  _buildCloudSyncSection(isDark),
+                  const SizedBox(height: 20),
+
+                  // Section: Language
+                  _buildSectionHeader(_isEnglish ? 'LANGUAGE / NGÔN NGỮ' : 'NGÔN NGỮ / LANGUAGE'),
           Row(
             children: [
               // Vietnamese Card
@@ -393,11 +397,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
             ),
           ),
-
-          const SizedBox(height: 16),
-
-          // Section: Firebase Cloud Sync
-          _buildCloudSyncSection(isDark),
 
           const SizedBox(height: 16),
 
@@ -989,6 +988,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
     final sync = FirebaseSyncService();
     final isLoggedIn = sync.isLoggedIn;
     final user = sync.currentUser;
+    final photoUrl = user?.photoURL;
+    final displayName = user?.displayName;
     final hlCount = _storage.getHighlights().length;
     final notesCount = _storage.getNotes().length;
     final bmCount = _storage.getBookmarks().length;
@@ -996,7 +997,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _buildSectionHeader(_isEnglish ? 'FIREBASE CLOUD SYNC' : 'ĐỒNG BỘ ĐÁM MÂY (FIREBASE)'),
+        _buildSectionHeader(_isEnglish ? 'ACCOUNT & CLOUD SYNC' : 'TÀI KHOẢN & ĐỒNG BỘ ĐÁM MÂY'),
         Card(
           child: Padding(
             padding: const EdgeInsets.all(16),
@@ -1005,20 +1006,27 @@ class _SettingsScreenState extends State<SettingsScreen> {
               children: [
                 Row(
                   children: [
-                    Container(
-                      padding: const EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: isLoggedIn
-                            ? AppColors.primary.withOpacity(0.15)
-                            : Colors.blueGrey.withOpacity(0.12),
-                        shape: BoxShape.circle,
+                    if (isLoggedIn && photoUrl != null && photoUrl.isNotEmpty)
+                      CircleAvatar(
+                        radius: 22,
+                        backgroundColor: AppColors.primary.withOpacity(0.2),
+                        backgroundImage: NetworkImage(photoUrl),
+                      )
+                    else
+                      Container(
+                        padding: const EdgeInsets.all(10),
+                        decoration: BoxDecoration(
+                          color: isLoggedIn
+                              ? AppColors.primary.withOpacity(0.15)
+                              : Colors.blueGrey.withOpacity(0.12),
+                          shape: BoxShape.circle,
+                        ),
+                        child: Icon(
+                          isLoggedIn ? Icons.cloud_done : Icons.cloud_queue,
+                          color: isLoggedIn ? AppColors.primaryDark : Colors.blueGrey,
+                          size: 24,
+                        ),
                       ),
-                      child: Icon(
-                        isLoggedIn ? Icons.cloud_done : Icons.cloud_queue,
-                        color: isLoggedIn ? AppColors.primaryDark : Colors.blueGrey,
-                        size: 26,
-                      ),
-                    ),
                     const SizedBox(width: 14),
                     Expanded(
                       child: Column(
@@ -1028,8 +1036,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                             children: [
                               Text(
                                 isLoggedIn
-                                    ? (_isEnglish ? 'Cloud Connected' : 'Đã kết nối đám mây')
-                                    : (_isEnglish ? 'Offline / Local Storage' : 'Lưu trữ trên thiết bị'),
+                                    ? (displayName ?? (_isEnglish ? 'Cloud Connected' : 'Đã kết nối đám mây'))
+                                    : (_isEnglish ? 'Offline / Local Storage' : 'Chưa đăng nhập đám mây'),
                                 style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
                               ),
                               const SizedBox(width: 6),
@@ -1055,10 +1063,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
                           const SizedBox(height: 3),
                           Text(
                             isLoggedIn
-                                ? (user?.email ?? (_isEnglish ? 'Anonymous User' : 'Tài khoản khách'))
+                                ? (user?.email ?? (_isEnglish ? 'Guest Account' : 'Tài khoản khách'))
                                 : (_isEnglish
-                                    ? 'Highlights & notes are stored locally'
-                                    : 'Dữ liệu tô màu, ghi chú đang lưu trên máy này'),
+                                    ? 'Sign in to sync your notes across devices'
+                                    : 'Đăng nhập để đồng bộ ghi chú, vị trí đọc giữa Web & App'),
                             style: TextStyle(
                               fontSize: 12.5,
                               color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
@@ -1109,8 +1117,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 // Subtitle / explanation
                 Text(
                   _isEnglish
-                      ? 'Syncs highlights, personal notes, bookmarks, and reading progress across Web & Android App (Package: com.khtl.app).'
-                      : 'Tự động đồng bộ các đoạn tô màu, ghi chú, đánh dấu chương và vị trí đang đọc dở giữa Web và ứng dụng Android (Mã app: com.khtl.app).',
+                      ? 'Securely backs up and synchronizes your notes, highlights, bookmarks, and reading progress.'
+                      : 'Tự động sao lưu và đồng bộ toàn bộ ghi chú, đoạn tô màu, dấu trang và chương đọc dở giữa Web và App.',
                   style: const TextStyle(fontSize: 12, color: AppColors.textMuted, height: 1.4),
                 ),
                 const SizedBox(height: 14),
@@ -1172,21 +1180,98 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     ],
                   )
                 else
-                  SizedBox(
-                    width: double.infinity,
-                    child: ElevatedButton.icon(
-                      onPressed: () => _showAuthDialog(isDark),
-                      icon: const Icon(Icons.login, size: 18),
-                      label: Text(_isEnglish
-                          ? 'Sign In / Register Cloud Account'
-                          : 'Đăng Nhập / Tạo Tài Khoản Đồng Bộ'),
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: AppColors.primary,
-                        foregroundColor: Colors.black87,
-                        padding: const EdgeInsets.symmetric(vertical: 12),
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                  Column(
+                    children: [
+                      // Google Sign In Button
+                      InkWell(
+                        onTap: () => _showAuthDialog(isDark),
+                        borderRadius: BorderRadius.circular(12),
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
+                          decoration: BoxDecoration(
+                            color: isDark ? const Color(0xFF272C3E) : Colors.white,
+                            borderRadius: BorderRadius.circular(12),
+                            border: Border.all(
+                              color: isDark ? AppColors.cardDarkBorder : Colors.black.withOpacity(0.18),
+                              width: 1.2,
+                            ),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withOpacity(isDark ? 0.2 : 0.04),
+                                blurRadius: 6,
+                                offset: const Offset(0, 2),
+                              ),
+                            ],
+                          ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Image.asset(
+                                'assets/images/google_logo.png',
+                                width: 22,
+                                height: 22,
+                                errorBuilder: (_, __, ___) => const Icon(Icons.g_mobiledata, size: 24, color: Color(0xFF4285F4)),
+                              ),
+                              const SizedBox(width: 12),
+                              Text(
+                                _isEnglish ? 'Sign in with Google Account' : 'Đăng nhập nhanh bằng tài khoản Google',
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.w600,
+                                  color: isDark ? Colors.white : const Color(0xFF3C4043),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
                       ),
-                    ),
+                      const SizedBox(height: 10),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: OutlinedButton.icon(
+                              onPressed: () => _showAuthDialog(isDark),
+                              icon: const Icon(Icons.email_outlined, size: 16),
+                              label: Text(_isEnglish ? 'Email / Password' : 'Email / Mật khẩu'),
+                              style: OutlinedButton.styleFrom(
+                                padding: const EdgeInsets.symmetric(vertical: 11),
+                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 10),
+                          Expanded(
+                            child: OutlinedButton.icon(
+                              onPressed: () async {
+                                try {
+                                  await sync.signInAnonymously();
+                                  if (mounted) {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(
+                                        content: Text(_isEnglish ? 'Guest mode connected!' : 'Đã kết nối chế độ Khách!'),
+                                        backgroundColor: AppColors.primaryDark,
+                                      ),
+                                    );
+                                  }
+                                } catch (e) {
+                                  if (mounted) {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(content: Text('Lỗi: $e')),
+                                    );
+                                  }
+                                }
+                              },
+                              icon: const Icon(Icons.flash_on, size: 16, color: Color(0xFFE5B968)),
+                              label: Text(_isEnglish ? 'Guest Mode' : 'Dùng Khách'),
+                              style: OutlinedButton.styleFrom(
+                                padding: const EdgeInsets.symmetric(vertical: 11),
+                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
               ],
             ),
