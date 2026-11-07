@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 import '../models/user_note.dart';
 import '../firebase_options.dart';
 import 'storage_service.dart';
@@ -94,6 +95,15 @@ class FirebaseSyncService with ChangeNotifier {
     }
   }
 
+  Future<void> sendPasswordResetEmail(String email) async {
+    if (!_isInitialized || _auth == null) return;
+    try {
+      await _auth!.sendPasswordResetEmail(email: email.trim());
+    } catch (e) {
+      rethrow;
+    }
+  }
+
   Future<UserCredential?> signInAnonymously() async {
     if (!_isInitialized || _auth == null) return null;
     try {
@@ -105,8 +115,47 @@ class FirebaseSyncService with ChangeNotifier {
     }
   }
 
+  Future<UserCredential?> signInWithGoogle() async {
+    if (!_isInitialized || _auth == null) return null;
+    try {
+      if (kIsWeb) {
+        final GoogleAuthProvider googleProvider = GoogleAuthProvider();
+        googleProvider.addScope('email');
+        googleProvider.addScope('profile');
+        final cred = await _auth!.signInWithPopup(googleProvider);
+        notifyListeners();
+        return cred;
+      } else {
+        final GoogleSignIn googleSignIn = GoogleSignIn(
+          serverClientId: '300506486781-t9nbekq08ch08i3epnlfcgojutp1nsdt.apps.googleusercontent.com',
+          scopes: ['email', 'profile'],
+        );
+        final GoogleSignInAccount? googleUser = await googleSignIn.signIn();
+        if (googleUser == null) {
+          // User canceled
+          return null;
+        }
+        final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
+        final AuthCredential credential = GoogleAuthProvider.credential(
+          accessToken: googleAuth.accessToken,
+          idToken: googleAuth.idToken,
+        );
+        final cred = await _auth!.signInWithCredential(credential);
+        notifyListeners();
+        return cred;
+      }
+    } catch (e) {
+      rethrow;
+    }
+  }
+
   Future<void> signOut() async {
     _cancelCloudSubscriptions();
+    try {
+      if (!kIsWeb) {
+        await GoogleSignIn().signOut();
+      }
+    } catch (_) {}
     await _auth?.signOut();
     notifyListeners();
   }

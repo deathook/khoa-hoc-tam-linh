@@ -5,6 +5,8 @@ import '../../services/book_repository.dart';
 import '../../services/seo/seo_service.dart';
 import '../../services/storage_service.dart';
 import '../../services/tts_service.dart';
+import '../../services/firebase_sync_service.dart';
+import '../../widgets/auth_dialog.dart';
 import '../../theme/app_colors.dart';
 import '../reader/reader_screen.dart';
 
@@ -18,6 +20,9 @@ class NotesScreen extends StatefulWidget {
 class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStateMixin {
   final StorageService _storage = StorageService();
   final BookRepository _repo = BookRepository();
+  final ScrollController _hlScrollController = ScrollController();
+  final ScrollController _notesScrollController = ScrollController();
+  final ScrollController _bmScrollController = ScrollController();
 
   late TabController _tabController;
   late bool _isEnglish;
@@ -34,6 +39,9 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
   void dispose() {
     _tabController.dispose();
     _storage.isEnglishNotifier.removeListener(_onLangChanged);
+    _hlScrollController.dispose();
+    _notesScrollController.dispose();
+    _bmScrollController.dispose();
     super.dispose();
   }
 
@@ -114,13 +122,54 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
                         ),
                       ),
                       const SizedBox(height: 6),
-                      Text(
-                        _isEnglish ? 'Highlights & Personal Notes' : 'Đoạn Trích Tô Màu & Ghi Chú',
-                        style: TextStyle(
-                          fontSize: 28,
-                          fontWeight: FontWeight.bold,
-                          color: isDark ? const Color(0xFFF0EBE0) : const Color(0xFF1B1E28),
-                        ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          Expanded(
+                            child: Text(
+                              _isEnglish ? 'Highlights & Personal Notes' : 'Đoạn Trích Tô Màu & Ghi Chú',
+                              style: TextStyle(
+                                fontSize: 28,
+                                fontWeight: FontWeight.bold,
+                                color: isDark ? const Color(0xFFF0EBE0) : const Color(0xFF1B1E28),
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 12),
+                          ListenableBuilder(
+                            listenable: FirebaseSyncService(),
+                            builder: (context, _) {
+                              final sync = FirebaseSyncService();
+                              final isLoggedIn = sync.isLoggedIn;
+                              return OutlinedButton.icon(
+                                onPressed: () => showAppAuthDialog(context, isDark: isDark, isEnglish: _isEnglish),
+                                icon: Icon(
+                                  isLoggedIn ? Icons.cloud_done : Icons.cloud_outlined,
+                                  size: 16,
+                                  color: isLoggedIn ? Colors.green : AppColors.primaryDark,
+                                ),
+                                label: Text(
+                                  isLoggedIn
+                                      ? (_isEnglish ? 'Cloud Synced' : 'Đã Đồng Bộ Đám Mây')
+                                      : (_isEnglish ? 'Enable Cloud Sync' : 'Bật Đồng Bộ Đám Mây'),
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w600,
+                                    color: isLoggedIn ? Colors.green : AppColors.primaryDark,
+                                  ),
+                                ),
+                                style: OutlinedButton.styleFrom(
+                                  side: BorderSide(
+                                    color: (isLoggedIn ? Colors.green : AppColors.primaryDark).withOpacity(0.4),
+                                  ),
+                                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                                ),
+                              );
+                            },
+                          ),
+                        ],
                       ),
                       const SizedBox(height: 16),
                       TabBar(
@@ -196,7 +245,7 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
         ),
         actions: [
           Container(
-            margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
+            margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 4),
             decoration: BoxDecoration(
               color: AppColors.primary.withOpacity(0.15),
               borderRadius: BorderRadius.circular(20),
@@ -227,6 +276,52 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
               ),
             ),
           ),
+          ListenableBuilder(
+            listenable: FirebaseSyncService(),
+            builder: (context, _) {
+              final sync = FirebaseSyncService();
+              final isLoggedIn = sync.isLoggedIn;
+              final photoUrl = sync.currentUser?.photoURL;
+              return IconButton(
+                icon: Stack(
+                  clipBehavior: Clip.none,
+                  children: [
+                    if (isLoggedIn && photoUrl != null && photoUrl.isNotEmpty)
+                      CircleAvatar(
+                        radius: 12,
+                        backgroundImage: NetworkImage(photoUrl),
+                      )
+                    else
+                      Icon(
+                        isLoggedIn ? Icons.cloud_done : Icons.cloud_outlined,
+                        size: 22,
+                        color: isLoggedIn ? AppColors.primaryDark : null,
+                      ),
+                    if (isLoggedIn)
+                      Positioned(
+                        right: -2,
+                        bottom: -2,
+                        child: Container(
+                          width: 8,
+                          height: 8,
+                          decoration: BoxDecoration(
+                            color: Colors.green,
+                            shape: BoxShape.circle,
+                            border: Border.all(
+                              color: isDark ? const Color(0xFF1B1E28) : Colors.white,
+                              width: 1.5,
+                            ),
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
+                tooltip: _isEnglish ? 'Cloud Sync' : 'Đồng bộ đám mây',
+                onPressed: () => showAppAuthDialog(context, isDark: isDark, isEnglish: _isEnglish),
+              );
+            },
+          ),
+          const SizedBox(width: 4),
         ],
         bottom: TabBar(
           controller: _tabController,
@@ -276,6 +371,7 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
     }
 
     final listView = ListView.separated(
+      controller: _hlScrollController,
       padding: EdgeInsets.symmetric(
         horizontal: isDesktopWeb ? 24 : 16,
         vertical: 16,
@@ -362,7 +458,9 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
 
     if (isDesktopWeb) {
       return Scrollbar(
+        controller: _hlScrollController,
         thumbVisibility: true,
+        interactive: true,
         child: listView,
       );
     }
@@ -388,6 +486,7 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
     }
 
     final listView = ListView.separated(
+      controller: _notesScrollController,
       padding: EdgeInsets.symmetric(
         horizontal: isDesktopWeb ? 24 : 16,
         vertical: 16,
@@ -485,7 +584,9 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
 
     if (isDesktopWeb) {
       return Scrollbar(
+        controller: _notesScrollController,
         thumbVisibility: true,
+        interactive: true,
         child: listView,
       );
     }
@@ -511,6 +612,7 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
     }
 
     final listView = ListView.separated(
+      controller: _bmScrollController,
       padding: EdgeInsets.symmetric(
         horizontal: isDesktopWeb ? 24 : 16,
         vertical: 16,
@@ -572,7 +674,9 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
 
     if (isDesktopWeb) {
       return Scrollbar(
+        controller: _bmScrollController,
         thumbVisibility: true,
+        interactive: true,
         child: listView,
       );
     }

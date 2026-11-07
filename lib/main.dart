@@ -1,3 +1,4 @@
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
@@ -34,6 +35,16 @@ void main() async {
   await FirebaseSyncService().init();
 
   runApp(KhoaHocTamLinhApp(initialRoute: initialRoute));
+}
+
+class AppScrollBehavior extends MaterialScrollBehavior {
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+        PointerDeviceKind.touch,
+        PointerDeviceKind.mouse,
+        PointerDeviceKind.trackpad,
+        PointerDeviceKind.stylus,
+      };
 }
 
 class KhoaHocTamLinhApp extends StatefulWidget {
@@ -142,6 +153,7 @@ class _KhoaHocTamLinhAppState extends State<KhoaHocTamLinhApp> {
         return MaterialApp(
           title: 'Khoa Học Tâm Linh',
           debugShowCheckedModeBanner: false,
+          scrollBehavior: AppScrollBehavior(),
           theme: _getThemeForMode(themeMode),
           home: _isLoading
               ? _buildSplashScreen()

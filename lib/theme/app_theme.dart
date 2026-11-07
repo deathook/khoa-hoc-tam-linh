@@ -8,6 +8,11 @@ class AppTheme {
       brightness: Brightness.light,
       primaryColor: AppColors.primary,
       scaffoldBackgroundColor: AppColors.lightBg,
+      scrollbarTheme: _buildScrollbarTheme(
+        isDark: false,
+        thumbColor: AppColors.primaryDark,
+        thumbActiveColor: const Color(0xFF8B641B),
+      ),
       colorScheme: ColorScheme.light(
         primary: AppColors.primary,
         secondary: AppColors.secondary,
@@ -45,6 +50,11 @@ class AppTheme {
       brightness: Brightness.light,
       primaryColor: AppColors.primaryDark,
       scaffoldBackgroundColor: AppColors.sepiaBg,
+      scrollbarTheme: _buildScrollbarTheme(
+        isDark: false,
+        thumbColor: AppColors.textSepia,
+        thumbActiveColor: const Color(0xFF3E2D1E),
+      ),
       colorScheme: ColorScheme.light(
         primary: AppColors.primaryDark,
         secondary: AppColors.secondary,
@@ -83,6 +93,11 @@ class AppTheme {
       brightness: Brightness.dark,
       primaryColor: goldAccent,
       scaffoldBackgroundColor: AppColors.darkBg,
+      scrollbarTheme: _buildScrollbarTheme(
+        isDark: true,
+        thumbColor: goldAccent,
+        thumbActiveColor: const Color(0xFFF3C978),
+      ),
       colorScheme: const ColorScheme.dark(
         primary: goldAccent,
         secondary: Color(0xFF5CA37B),
@@ -115,6 +130,42 @@ class AppTheme {
         bodyLarge: TextStyle(color: AppColors.textLight, fontSize: 16, height: 1.6),
         bodyMedium: TextStyle(color: AppColors.textLightMuted, fontSize: 14, height: 1.5),
       ),
+    );
+  }
+
+  static ScrollbarThemeData _buildScrollbarTheme({
+    required bool isDark,
+    required Color thumbColor,
+    required Color thumbActiveColor,
+  }) {
+    return ScrollbarThemeData(
+      interactive: true,
+      thumbVisibility: const WidgetStatePropertyAll<bool>(true),
+      trackVisibility: const WidgetStatePropertyAll<bool>(true),
+      thickness: WidgetStateProperty.resolveWith<double>((states) {
+        if (states.contains(WidgetState.hovered) || states.contains(WidgetState.dragged)) {
+          return 14.0;
+        }
+        return 10.0;
+      }),
+      minThumbLength: 48.0,
+      radius: const Radius.circular(8),
+      thumbColor: WidgetStateProperty.resolveWith<Color>((states) {
+        if (states.contains(WidgetState.dragged)) {
+          return thumbActiveColor;
+        }
+        if (states.contains(WidgetState.hovered)) {
+          return thumbColor;
+        }
+        return thumbColor.withOpacity(0.65);
+      }),
+      trackColor: WidgetStateProperty.resolveWith<Color>((states) {
+        if (states.contains(WidgetState.hovered)) {
+          return isDark ? Colors.white.withOpacity(0.08) : Colors.black.withOpacity(0.06);
+        }
+        return isDark ? Colors.white.withOpacity(0.03) : Colors.black.withOpacity(0.02);
+      }),
+      trackBorderColor: const WidgetStatePropertyAll<Color>(Colors.transparent),
     );
   }
 }

@@ -11,6 +11,8 @@ import '../../theme/app_colors.dart';
 import '../../utils/web_download.dart';
 import '../reader/reader_screen.dart';
 import '../search/search_screen.dart';
+import '../../services/firebase_sync_service.dart';
+import '../../widgets/auth_dialog.dart';
 import '../../widgets/quote_card_dialog.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -32,6 +34,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final BookRepository _repo = BookRepository();
   final StorageService _storage = StorageService();
+  final ScrollController _scrollController = ScrollController();
 
   late bool _isEnglish;
   QuoteItem? _currentQuote;
@@ -47,6 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void dispose() {
     _storage.isEnglishNotifier.removeListener(_onLangChanged);
+    _scrollController.dispose();
     super.dispose();
   }
 
@@ -224,6 +228,51 @@ class _HomeScreenState extends State<HomeScreen> {
                     );
                   },
                 ),
+                ListenableBuilder(
+                  listenable: FirebaseSyncService(),
+                  builder: (context, _) {
+                    final sync = FirebaseSyncService();
+                    final isLoggedIn = sync.isLoggedIn;
+                    final photoUrl = sync.currentUser?.photoURL;
+                    return IconButton(
+                      icon: Stack(
+                        clipBehavior: Clip.none,
+                        children: [
+                          if (isLoggedIn && photoUrl != null && photoUrl.isNotEmpty)
+                            CircleAvatar(
+                              radius: 12,
+                              backgroundImage: NetworkImage(photoUrl),
+                            )
+                          else
+                            Icon(
+                              isLoggedIn ? Icons.account_circle : Icons.account_circle_outlined,
+                              size: 24,
+                              color: isLoggedIn ? AppColors.primaryDark : null,
+                            ),
+                          if (isLoggedIn)
+                            Positioned(
+                              right: -2,
+                              bottom: -2,
+                              child: Container(
+                                width: 8,
+                                height: 8,
+                                decoration: BoxDecoration(
+                                  color: Colors.green,
+                                  shape: BoxShape.circle,
+                                  border: Border.all(
+                                    color: isDark ? const Color(0xFF1B1E28) : Colors.white,
+                                    width: 1.5,
+                                  ),
+                                ),
+                              ),
+                            ),
+                        ],
+                      ),
+                      tooltip: _isEnglish ? 'Cloud Sync & Account' : 'Tài khoản & Đồng bộ đám mây',
+                      onPressed: () => showAppAuthDialog(context, isDark: isDark, isEnglish: _isEnglish),
+                    );
+                  },
+                ),
                 const SizedBox(width: 4),
               ],
             ),
@@ -233,8 +282,11 @@ class _HomeScreenState extends State<HomeScreen> {
           setState(() {});
         },
         child: Scrollbar(
+          controller: _scrollController,
           thumbVisibility: true,
+          interactive: true,
           child: ListView(
+            controller: _scrollController,
             padding: EdgeInsets.symmetric(
               horizontal: isDesktopWeb ? 24 : 16,
               vertical: isDesktopWeb ? 24 : 12,

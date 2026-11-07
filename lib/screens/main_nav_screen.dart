@@ -13,8 +13,10 @@ import '../services/storage_service.dart';
 import '../services/book_repository.dart';
 import '../services/tts_service.dart';
 import '../services/audio_player_service.dart';
+import '../services/firebase_sync_service.dart';
 import '../theme/app_colors.dart';
 import '../utils/web_download.dart';
+import '../widgets/auth_dialog.dart';
 
 class MainNavScreen extends StatefulWidget {
   final VoidCallback onThemeChanged;
@@ -421,6 +423,77 @@ class _MainNavScreenState extends State<MainNavScreen> {
               await _storage.setThemeMode(newMode);
               if (mounted) setState(() {});
               widget.onThemeChanged();
+            },
+          ),
+
+          const SizedBox(width: 8),
+
+          // Account / Cloud Sync Button
+          ListenableBuilder(
+            listenable: FirebaseSyncService(),
+            builder: (context, _) {
+              final sync = FirebaseSyncService();
+              final isLoggedIn = sync.isLoggedIn;
+              final user = sync.currentUser;
+              final photoUrl = user?.photoURL;
+              final displayName = user?.displayName;
+
+              if (isLoggedIn) {
+                return InkWell(
+                  onTap: () => showAppAuthDialog(context, isDark: isDark, isEnglish: isEnglish),
+                  borderRadius: BorderRadius.circular(20),
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                    decoration: BoxDecoration(
+                      color: isDark ? const Color(0xFF272C3E) : Colors.black.withOpacity(0.04),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(color: Colors.green.withOpacity(0.5)),
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        CircleAvatar(
+                          radius: 12,
+                          backgroundColor: AppColors.primary,
+                          backgroundImage: (photoUrl != null && photoUrl.isNotEmpty) ? NetworkImage(photoUrl) : null,
+                          child: (photoUrl == null || photoUrl.isEmpty)
+                              ? const Icon(Icons.person, size: 14, color: Colors.black87)
+                              : null,
+                        ),
+                        const SizedBox(width: 6),
+                        ConstrainedBox(
+                          constraints: const BoxConstraints(maxWidth: 110),
+                          child: Text(
+                            displayName ?? (isEnglish ? 'Synced' : 'Đã Đồng Bộ'),
+                            style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w600,
+                              color: isDark ? Colors.white : Colors.black87,
+                            ),
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ),
+                        const SizedBox(width: 4),
+                        const Icon(Icons.cloud_done, size: 14, color: Colors.green),
+                      ],
+                    ),
+                  ),
+                );
+              }
+
+              return OutlinedButton.icon(
+                onPressed: () => showAppAuthDialog(context, isDark: isDark, isEnglish: isEnglish),
+                style: OutlinedButton.styleFrom(
+                  side: BorderSide(color: AppColors.primaryDark.withOpacity(0.5)),
+                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                ),
+                icon: const Icon(Icons.account_circle_outlined, size: 18, color: AppColors.primaryDark),
+                label: Text(
+                  isEnglish ? 'Sign In' : 'Đăng Nhập',
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 12.5, color: AppColors.primaryDark),
+                ),
+              );
             },
           ),
 

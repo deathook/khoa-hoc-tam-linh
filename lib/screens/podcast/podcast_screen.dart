@@ -19,6 +19,7 @@ class _PodcastScreenState extends State<PodcastScreen> {
   final BookRepository _repo = BookRepository();
   final AudioPlayerService _player = AudioPlayerService();
   final StorageService _storage = StorageService();
+  final ScrollController _scrollController = ScrollController();
 
   late bool _isEnglish;
   String _selectedFilter = 'auto'; // 'auto' means automatically follow current language
@@ -43,6 +44,7 @@ class _PodcastScreenState extends State<PodcastScreen> {
   void dispose() {
     _player.removeListener(_onPlayerStateChanged);
     _storage.isEnglishNotifier.removeListener(_onLangChanged);
+    _scrollController.dispose();
     super.dispose();
   }
 
@@ -108,7 +110,11 @@ class _PodcastScreenState extends State<PodcastScreen> {
     if (isDesktopWeb) {
       return Scaffold(
         body: Scrollbar(
+          controller: _scrollController,
+          thumbVisibility: true,
+          interactive: true,
           child: ListView(
+            controller: _scrollController,
             padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
             children: [
               Center(

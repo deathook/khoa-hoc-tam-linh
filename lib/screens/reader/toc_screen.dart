@@ -21,6 +21,7 @@ class TocScreen extends StatefulWidget {
 class _TocScreenState extends State<TocScreen> with SingleTickerProviderStateMixin {
   final BookRepository _repo = BookRepository();
   final StorageService _storage = StorageService();
+  final ScrollController _scrollController = ScrollController();
 
   late bool _isEnglish;
   String _selectedFilter = 'all';
@@ -46,6 +47,7 @@ class _TocScreenState extends State<TocScreen> with SingleTickerProviderStateMix
   @override
   void dispose() {
     _storage.isEnglishNotifier.removeListener(_onLangChanged);
+    _scrollController.dispose();
     super.dispose();
   }
 
@@ -131,8 +133,11 @@ class _TocScreenState extends State<TocScreen> with SingleTickerProviderStateMix
     if (isDesktopWeb) {
       return Scaffold(
         body: Scrollbar(
+          controller: _scrollController,
           thumbVisibility: true,
+          interactive: true,
           child: ListView(
+            controller: _scrollController,
             padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
             children: [
               Center(

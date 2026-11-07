@@ -1030,6 +1030,7 @@ class _ReaderScreenState extends State<ReaderScreen> {
           Scrollbar(
             controller: _scrollController,
             thumbVisibility: true,
+            interactive: true,
             child: ListView(
               controller: _scrollController,
               cacheExtent: 50000,
