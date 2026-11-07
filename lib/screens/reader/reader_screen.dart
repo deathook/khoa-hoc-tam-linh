@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../../models/book_section.dart';
@@ -936,6 +937,7 @@ class _ReaderScreenState extends State<ReaderScreen> {
     final notes = _storage.getNotes().where((n) => n.sectionId == _currentId).toList();
 
     final isTtsActive = _tts.state != TtsPlayState.stopped && _tts.currentSectionId == _currentId;
+    final isDesktopWeb = kIsWeb && MediaQuery.of(context).size.width >= 800;
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
     final textColor = theme.textTheme.bodyLarge?.color ?? (isDark ? AppColors.textLight : AppColors.textDark);
@@ -1007,8 +1009,9 @@ class _ReaderScreenState extends State<ReaderScreen> {
         children: [
           Scrollbar(
             controller: _scrollController,
-            thumbVisibility: true,
-            interactive: true,
+            thumbVisibility: isDesktopWeb,
+            trackVisibility: isDesktopWeb,
+            interactive: isDesktopWeb,
             child: ListView(
               controller: _scrollController,
               cacheExtent: 50000,

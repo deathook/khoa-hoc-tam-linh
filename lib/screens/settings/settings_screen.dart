@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../../routes/seo_router.dart';
 import '../../services/book_repository.dart';
@@ -188,12 +189,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final screenWidth = MediaQuery.of(context).size.width;
-    final isDesktopWeb = screenWidth >= 800;
+    final isDesktopWeb = kIsWeb && screenWidth >= 800;
 
     final content = Scrollbar(
       controller: _scrollController,
-      thumbVisibility: true,
-      interactive: true,
+      thumbVisibility: isDesktopWeb,
+      trackVisibility: isDesktopWeb,
+      interactive: isDesktopWeb,
       child: ListView(
         controller: _scrollController,
         padding: EdgeInsets.symmetric(horizontal: isDesktopWeb ? 24 : 16, vertical: isDesktopWeb ? 32 : 16),

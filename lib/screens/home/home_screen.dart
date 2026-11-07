@@ -283,8 +283,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         child: Scrollbar(
           controller: _scrollController,
-          thumbVisibility: true,
-          interactive: true,
+          thumbVisibility: isDesktopWeb,
+          trackVisibility: isDesktopWeb,
+          interactive: isDesktopWeb,
           child: ListView(
             controller: _scrollController,
             padding: EdgeInsets.symmetric(

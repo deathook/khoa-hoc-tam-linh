@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../../models/podcast_item.dart';
 import '../../routes/seo_router.dart';
@@ -103,7 +104,7 @@ class _PodcastScreenState extends State<PodcastScreen> {
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
     final screenWidth = MediaQuery.of(context).size.width;
-    final isDesktopWeb = screenWidth >= 800;
+    final isDesktopWeb = kIsWeb && screenWidth >= 800;
     final pods = _getFilteredPods();
     final current = _player.currentPodcast;
 
@@ -111,8 +112,9 @@ class _PodcastScreenState extends State<PodcastScreen> {
       return Scaffold(
         body: Scrollbar(
           controller: _scrollController,
-          thumbVisibility: true,
-          interactive: true,
+          thumbVisibility: isDesktopWeb,
+          trackVisibility: isDesktopWeb,
+          interactive: isDesktopWeb,
           child: ListView(
             controller: _scrollController,
             padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),

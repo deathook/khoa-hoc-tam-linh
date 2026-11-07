@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../../models/toc_item.dart';
 import '../../routes/seo_router.dart';
@@ -127,7 +128,7 @@ class _TocScreenState extends State<TocScreen> with SingleTickerProviderStateMix
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
     final screenWidth = MediaQuery.of(context).size.width;
-    final isDesktopWeb = screenWidth >= 800;
+    final isDesktopWeb = kIsWeb && screenWidth >= 800;
     final filteredList = _getFilteredList();
 
     if (isDesktopWeb) {

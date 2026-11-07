@@ -140,16 +140,16 @@ class AppTheme {
   }) {
     return ScrollbarThemeData(
       interactive: true,
-      thumbVisibility: const WidgetStatePropertyAll<bool>(true),
-      trackVisibility: const WidgetStatePropertyAll<bool>(true),
+      thumbVisibility: const WidgetStatePropertyAll<bool>(false),
+      trackVisibility: const WidgetStatePropertyAll<bool>(false),
       thickness: WidgetStateProperty.resolveWith<double>((states) {
         if (states.contains(WidgetState.hovered) || states.contains(WidgetState.dragged)) {
-          return 14.0;
+          return 9.0;
         }
-        return 10.0;
+        return 6.0;
       }),
       minThumbLength: 48.0,
-      radius: const Radius.circular(8),
+      radius: const Radius.circular(6),
       thumbColor: WidgetStateProperty.resolveWith<Color>((states) {
         if (states.contains(WidgetState.dragged)) {
           return thumbActiveColor;

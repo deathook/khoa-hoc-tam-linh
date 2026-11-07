@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import '../../models/user_note.dart';
 import '../../routes/seo_router.dart';
@@ -93,7 +94,7 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
     final screenWidth = MediaQuery.of(context).size.width;
-    final isDesktopWeb = screenWidth >= 800;
+    final isDesktopWeb = kIsWeb && screenWidth >= 800;
 
     final highlights = _storage.getHighlights();
     final notes = _storage.getNotes();
@@ -459,8 +460,9 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
     if (isDesktopWeb) {
       return Scrollbar(
         controller: _hlScrollController,
-        thumbVisibility: true,
-        interactive: true,
+        thumbVisibility: isDesktopWeb,
+        trackVisibility: isDesktopWeb,
+        interactive: isDesktopWeb,
         child: listView,
       );
     }
@@ -585,8 +587,9 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
     if (isDesktopWeb) {
       return Scrollbar(
         controller: _notesScrollController,
-        thumbVisibility: true,
-        interactive: true,
+        thumbVisibility: isDesktopWeb,
+        trackVisibility: isDesktopWeb,
+        interactive: isDesktopWeb,
         child: listView,
       );
     }
@@ -675,8 +678,9 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
     if (isDesktopWeb) {
       return Scrollbar(
         controller: _bmScrollController,
-        thumbVisibility: true,
-        interactive: true,
+        thumbVisibility: isDesktopWeb,
+        trackVisibility: isDesktopWeb,
+        interactive: isDesktopWeb,
         child: listView,
       );
     }

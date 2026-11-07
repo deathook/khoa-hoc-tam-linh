@@ -360,13 +360,16 @@ class TtsService with ChangeNotifier {
 
   String _formatParagraphForTts(String paragraph) {
     var s = paragraph.trim();
-    // Normalize dashes surrounded by spaces or em-dashes to a semicolon with space so the voice takes a natural clause pause
-    s = s.replaceAll(RegExp(r'\s+[-–—]\s*'), ' ; ');
-    // Ensure semicolons and colons have a following space
-    s = s.replaceAll(RegExp(r'([;:])\s*'), r'\1 ');
-    // Ensure commas have a following space
-    s = s.replaceAll(RegExp(r'([,])\s*'), r', ');
-    return s;
+    // Replace colons with comma followed by space so TTS takes a natural breath pause without pronouncing the colon
+    s = s.replaceAll(RegExp(r'\s*:\s*'), ', ');
+    // Replace semicolons with comma followed by space
+    s = s.replaceAll(RegExp(r'\s*;\s*'), ', ');
+    // Replace punctuation dashes with comma followed by space
+    s = s.replaceAll(RegExp(r'\s+[-–—]\s*'), ', ');
+    // Clean up any double commas or extra spaces
+    s = s.replaceAll(RegExp(r',\s*,'), ',');
+    s = s.replaceAll(RegExp(r'\s+'), ' ');
+    return s.trim();
   }
 
   Future<void> _onParagraphComplete() async {
