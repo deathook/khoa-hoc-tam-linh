@@ -130,135 +130,143 @@ class _TocScreenState extends State<TocScreen> with SingleTickerProviderStateMix
 
     if (isDesktopWeb) {
       return Scaffold(
-        body: Center(
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 1140),
-            child: ListView(
-              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
-              children: [
-                // Desktop Web Header
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          _isEnglish ? 'BOOK CONTENTS' : 'MỤC LỤC TÁC PHẨM',
-                          style: const TextStyle(
-                            fontSize: 12,
-                            fontWeight: FontWeight.bold,
-                            letterSpacing: 1.5,
-                            color: AppColors.primaryDark,
+        body: Scrollbar(
+          thumbVisibility: true,
+          child: ListView(
+            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
+            children: [
+              Center(
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(maxWidth: 1140),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      // Desktop Web Header
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                _isEnglish ? 'BOOK CONTENTS' : 'MỤC LỤC TÁC PHẨM',
+                                style: const TextStyle(
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold,
+                                  letterSpacing: 1.5,
+                                  color: AppColors.primaryDark,
+                                ),
+                              ),
+                              const SizedBox(height: 6),
+                              Text(
+                                _isEnglish ? 'The Science of Spirituality' : 'Khoa Học Tâm Linh',
+                                style: TextStyle(
+                                  fontSize: 28,
+                                  fontWeight: FontWeight.bold,
+                                  color: isDark ? const Color(0xFFF0EBE0) : const Color(0xFF1B1E28),
+                                ),
+                              ),
+                              const SizedBox(height: 6),
+                              Text(
+                                _isEnglish
+                                    ? '173 sections & chapters • Quantum physics meets ancient Eastern wisdom'
+                                    : 'Toàn bộ 173 chương & chủ đề • Giao thoa khoa học lượng tử & trí tuệ Đông phương',
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
+                                ),
+                              ),
+                            ],
                           ),
-                        ),
-                        const SizedBox(height: 6),
-                        Text(
-                          _isEnglish ? 'The Science of Spirituality' : 'Khoa Học Tâm Linh',
-                          style: TextStyle(
-                            fontSize: 28,
-                            fontWeight: FontWeight.bold,
-                            color: isDark ? const Color(0xFFF0EBE0) : const Color(0xFF1B1E28),
+                          ElevatedButton.icon(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (_) => const SearchScreen()),
+                              );
+                            },
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: AppColors.primary,
+                              foregroundColor: Colors.black,
+                              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                            ),
+                            icon: const Icon(Icons.search, size: 20),
+                            label: Text(
+                              _isEnglish ? 'Search Chapters' : 'Tìm kiếm trong sách',
+                              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 13),
+                            ),
                           ),
-                        ),
-                        const SizedBox(height: 6),
-                        Text(
-                          _isEnglish
-                              ? '173 sections & chapters • Quantum physics meets ancient Eastern wisdom'
-                              : 'Toàn bộ 173 chương & chủ đề • Giao thoa khoa học lượng tử & trí tuệ Đông phương',
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
-                          ),
-                        ),
-                      ],
-                    ),
-                    ElevatedButton.icon(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (_) => const SearchScreen()),
-                        );
-                      },
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: AppColors.primary,
-                        foregroundColor: Colors.black,
-                        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
-                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                        ],
                       ),
-                      icon: const Icon(Icons.search, size: 20),
-                      label: Text(
-                        _isEnglish ? 'Search Chapters' : 'Tìm kiếm trong sách',
-                        style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 13),
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 24),
+                      const SizedBox(height: 24),
 
-                // Horizontal Filter Chips
-                SizedBox(
-                  height: 44,
-                  child: ListView.separated(
-                    scrollDirection: Axis.horizontal,
-                    itemCount: _filterOptions.length,
-                    separatorBuilder: (_, __) => const SizedBox(width: 8),
-                    itemBuilder: (context, idx) {
-                      final f = _filterOptions[idx];
-                      final isSelected = _selectedFilter == f['key'];
-                      final label = _isEnglish ? f['label_en']! : f['label_vi']!;
+                      // Horizontal Filter Chips
+                      SizedBox(
+                        height: 44,
+                        child: ListView.separated(
+                          scrollDirection: Axis.horizontal,
+                          itemCount: _filterOptions.length,
+                          separatorBuilder: (_, __) => const SizedBox(width: 8),
+                          itemBuilder: (context, idx) {
+                            final f = _filterOptions[idx];
+                            final isSelected = _selectedFilter == f['key'];
+                            final label = _isEnglish ? f['label_en']! : f['label_vi']!;
 
-                      return ChoiceChip(
-                        label: Text(label),
-                        selected: isSelected,
-                        onSelected: (val) {
-                          if (val) {
-                            setState(() {
-                              _selectedFilter = f['key']!;
-                            });
-                          }
-                        },
-                        selectedColor: AppColors.primary,
-                        labelStyle: TextStyle(
-                          color: isSelected ? Colors.black : (isDark ? Colors.white70 : Colors.black87),
-                          fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
-                          fontSize: 13,
+                            return ChoiceChip(
+                              label: Text(label),
+                              selected: isSelected,
+                              onSelected: (val) {
+                                if (val) {
+                                  setState(() {
+                                    _selectedFilter = f['key']!;
+                                  });
+                                }
+                              },
+                              selectedColor: AppColors.primary,
+                              labelStyle: TextStyle(
+                                color: isSelected ? Colors.black : (isDark ? Colors.white70 : Colors.black87),
+                                fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+                                fontSize: 13,
+                              ),
+                            );
+                          },
                         ),
-                      );
-                    },
+                      ),
+                      const SizedBox(height: 28),
+
+                      // Responsive 2-column grid of chapters
+                      if (filteredList.isEmpty)
+                        Padding(
+                          padding: const EdgeInsets.all(40),
+                          child: Center(
+                            child: Text(
+                              _isEnglish ? 'No sections found' : 'Không tìm thấy mục nào',
+                              style: const TextStyle(color: AppColors.textMuted),
+                            ),
+                          ),
+                        )
+                      else
+                        GridView.builder(
+                          shrinkWrap: true,
+                          physics: const NeverScrollableScrollPhysics(),
+                          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount: 2,
+                            childAspectRatio: 3.8,
+                            crossAxisSpacing: 16,
+                            mainAxisSpacing: 14,
+                          ),
+                          itemCount: filteredList.length,
+                          itemBuilder: (context, idx) {
+                            return _buildChapterCard(filteredList[idx], isDark);
+                          },
+                        ),
+                    ],
                   ),
                 ),
-                const SizedBox(height: 28),
-
-                // Responsive 2-column grid of chapters
-                if (filteredList.isEmpty)
-                  Padding(
-                    padding: const EdgeInsets.all(40),
-                    child: Center(
-                      child: Text(
-                        _isEnglish ? 'No sections found' : 'Không tìm thấy mục nào',
-                        style: const TextStyle(color: AppColors.textMuted),
-                      ),
-                    ),
-                  )
-                else
-                  GridView.builder(
-                    shrinkWrap: true,
-                    physics: const NeverScrollableScrollPhysics(),
-                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 2,
-                      childAspectRatio: 3.8,
-                      crossAxisSpacing: 16,
-                      mainAxisSpacing: 14,
-                    ),
-                    itemCount: filteredList.length,
-                    itemBuilder: (context, idx) {
-                      return _buildChapterCard(filteredList[idx], isDark);
-                    },
-                  ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       );

@@ -124,6 +124,7 @@ class _AppCachedImageState extends State<AppCachedImage> {
           fit: widget.fit,
           width: widget.width,
           height: widget.height,
+          cacheWidth: _isThumbnail ? 160 : null,
           errorBuilder: (_, __, ___) => _buildErrorWidget(),
         );
       } else {
@@ -138,6 +139,7 @@ class _AppCachedImageState extends State<AppCachedImage> {
           fit: widget.fit,
           width: widget.width,
           height: widget.height,
+          cacheWidth: _isThumbnail ? 160 : null,
           loadingBuilder: (context, child, progress) {
             if (progress == null) return child;
             return widget.placeholder ?? _buildPlaceholder();
@@ -151,6 +153,7 @@ class _AppCachedImageState extends State<AppCachedImage> {
         fit: widget.fit,
         width: widget.width,
         height: widget.height,
+        cacheWidth: _isThumbnail ? 160 : null,
         errorBuilder: (_, __, ___) => _buildErrorWidget(),
       );
     } else if (_localFile != null) {
@@ -159,6 +162,7 @@ class _AppCachedImageState extends State<AppCachedImage> {
         fit: widget.fit,
         width: widget.width,
         height: widget.height,
+        cacheWidth: _isThumbnail ? 160 : null,
         errorBuilder: (_, __, ___) => _buildErrorWidget(),
       );
     } else if (_isLoading) {

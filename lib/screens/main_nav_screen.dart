@@ -123,12 +123,12 @@ class _MainNavScreenState extends State<MainNavScreen> {
   }
 
   void _downloadAndroidApk() {
-    downloadFile('KhoaHocTamLinh.apk');
+    downloadFile('https://khoahoctamlinh.vn/app/KhoaHocTamLinh.apk');
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(_storage.isEnglish
-            ? 'Downloading Android APK: KhoaHocTamLinh.apk'
-            : 'Đang tải về bộ cài Android: KhoaHocTamLinh.apk'),
+            ? 'Downloading Android APK from khoahoctamlinh.vn/app/KhoaHocTamLinh.apk'
+            : 'Đang tải về bộ cài Android từ khoahoctamlinh.vn/app/KhoaHocTamLinh.apk'),
         backgroundColor: AppColors.primaryDark,
       ),
     );

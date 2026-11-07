@@ -93,13 +93,13 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
 
     if (isDesktopWeb) {
       return Scaffold(
-        body: Center(
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 1040),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Padding(
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Center(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 1040),
+                child: Padding(
                   padding: const EdgeInsets.fromLTRB(24, 32, 24, 16),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -139,19 +139,19 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
                     ],
                   ),
                 ),
-                Expanded(
-                  child: TabBarView(
-                    controller: _tabController,
-                    children: [
-                      _buildHighlightsTab(highlights, isDark),
-                      _buildNotesTab(notes, isDark),
-                      _buildBookmarksTab(bookmarks, isDark),
-                    ],
-                  ),
-                ),
-              ],
+              ),
             ),
-          ),
+            Expanded(
+              child: TabBarView(
+                controller: _tabController,
+                children: [
+                  _buildHighlightsTab(highlights, isDark, isDesktopWeb: true),
+                  _buildNotesTab(notes, isDark, isDesktopWeb: true),
+                  _buildBookmarksTab(bookmarks, isDark, isDesktopWeb: true),
+                ],
+              ),
+            ),
+          ],
         ),
       );
     }
@@ -226,7 +226,7 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
     );
   }
 
-  Widget _buildHighlightsTab(List<UserHighlight> highlights, bool isDark) {
+  Widget _buildHighlightsTab(List<UserHighlight> highlights, bool isDark, {bool isDesktopWeb = false}) {
     if (highlights.isEmpty) {
       return Center(
         child: Column(
@@ -244,8 +244,11 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
       );
     }
 
-    return ListView.separated(
-      padding: const EdgeInsets.all(16),
+    final listView = ListView.separated(
+      padding: EdgeInsets.symmetric(
+        horizontal: isDesktopWeb ? 24 : 16,
+        vertical: 16,
+      ),
       itemCount: highlights.length,
       separatorBuilder: (_, __) => const SizedBox(height: 10),
       itemBuilder: (context, idx) {
@@ -257,7 +260,7 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
             ? paras[h.paragraphIndex]
             : h.text;
 
-        return InkWell(
+        final card = InkWell(
           onTap: () => _openSection(h.sectionId, h.paragraphIndex),
           borderRadius: BorderRadius.circular(14),
           child: Container(
@@ -313,11 +316,29 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
             ),
           ),
         );
+
+        if (isDesktopWeb) {
+          return Center(
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 1040),
+              child: card,
+            ),
+          );
+        }
+        return card;
       },
     );
+
+    if (isDesktopWeb) {
+      return Scrollbar(
+        thumbVisibility: true,
+        child: listView,
+      );
+    }
+    return listView;
   }
 
-  Widget _buildNotesTab(List<UserNote> notes, bool isDark) {
+  Widget _buildNotesTab(List<UserNote> notes, bool isDark, {bool isDesktopWeb = false}) {
     if (notes.isEmpty) {
       return Center(
         child: Column(
@@ -335,8 +356,11 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
       );
     }
 
-    return ListView.separated(
-      padding: const EdgeInsets.all(16),
+    final listView = ListView.separated(
+      padding: EdgeInsets.symmetric(
+        horizontal: isDesktopWeb ? 24 : 16,
+        vertical: 16,
+      ),
       itemCount: notes.length,
       separatorBuilder: (_, __) => const SizedBox(height: 10),
       itemBuilder: (context, idx) {
@@ -347,7 +371,7 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
             ? paras[n.paragraphIndex]
             : n.targetText;
 
-        return InkWell(
+        final card = InkWell(
           onTap: () => _openSection(n.sectionId, n.paragraphIndex),
           borderRadius: BorderRadius.circular(14),
           child: Container(
@@ -415,11 +439,29 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
             ),
           ),
         );
+
+        if (isDesktopWeb) {
+          return Center(
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 1040),
+              child: card,
+            ),
+          );
+        }
+        return card;
       },
     );
+
+    if (isDesktopWeb) {
+      return Scrollbar(
+        thumbVisibility: true,
+        child: listView,
+      );
+    }
+    return listView;
   }
 
-  Widget _buildBookmarksTab(List<String> bookmarks, bool isDark) {
+  Widget _buildBookmarksTab(List<String> bookmarks, bool isDark, {bool isDesktopWeb = false}) {
     if (bookmarks.isEmpty) {
       return Center(
         child: Column(
@@ -437,8 +479,11 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
       );
     }
 
-    return ListView.separated(
-      padding: const EdgeInsets.all(16),
+    final listView = ListView.separated(
+      padding: EdgeInsets.symmetric(
+        horizontal: isDesktopWeb ? 24 : 16,
+        vertical: 16,
+      ),
       itemCount: bookmarks.length,
       separatorBuilder: (_, __) => const SizedBox(height: 8),
       itemBuilder: (context, idx) {
@@ -446,7 +491,7 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
         final item = _repo.getTocById(id);
         final title = item != null ? item.getTitle(_isEnglish) : id;
 
-        return InkWell(
+        final card = InkWell(
           onTap: () => _openSection(id, 0),
           borderRadius: BorderRadius.circular(14),
           child: Container(
@@ -481,7 +526,25 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
             ),
           ),
         );
+
+        if (isDesktopWeb) {
+          return Center(
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 1040),
+              child: card,
+            ),
+          );
+        }
+        return card;
       },
     );
+
+    if (isDesktopWeb) {
+      return Scrollbar(
+        thumbVisibility: true,
+        child: listView,
+      );
+    }
+    return listView;
   }
 }

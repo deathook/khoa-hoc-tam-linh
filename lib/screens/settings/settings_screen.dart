@@ -171,30 +171,38 @@ class _SettingsScreenState extends State<SettingsScreen> {
     final screenWidth = MediaQuery.of(context).size.width;
     final isDesktopWeb = screenWidth >= 800;
 
-    final content = ListView(
-      padding: EdgeInsets.symmetric(horizontal: isDesktopWeb ? 24 : 16, vertical: isDesktopWeb ? 32 : 16),
-      children: [
-        if (isDesktopWeb) ...[
-          Text(
-            _isEnglish ? 'SYSTEM & PREFERENCES' : 'CÀI ĐẶT & HỆ THỐNG',
-            style: const TextStyle(
-              fontSize: 12,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 1.5,
-              color: AppColors.primaryDark,
-            ),
-          ),
-          const SizedBox(height: 6),
-          Text(
-            _isEnglish ? 'Preferences & Offline Storage' : 'Tùy Chọn Đọc Sách & Dữ Liệu',
-            style: TextStyle(
-              fontSize: 28,
-              fontWeight: FontWeight.bold,
-              color: isDark ? const Color(0xFFF0EBE0) : const Color(0xFF1B1E28),
-            ),
-          ),
-          const SizedBox(height: 24),
-        ],
+    final content = Scrollbar(
+      thumbVisibility: true,
+      child: ListView(
+        padding: EdgeInsets.symmetric(horizontal: isDesktopWeb ? 24 : 16, vertical: isDesktopWeb ? 32 : 16),
+        children: [
+          Center(
+            child: ConstrainedBox(
+              constraints: BoxConstraints(maxWidth: isDesktopWeb ? 820 : double.infinity),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  if (isDesktopWeb) ...[
+                    Text(
+                      _isEnglish ? 'SYSTEM & PREFERENCES' : 'CÀI ĐẶT & HỆ THỐNG',
+                      style: const TextStyle(
+                        fontSize: 12,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 1.5,
+                        color: AppColors.primaryDark,
+                      ),
+                    ),
+                    const SizedBox(height: 6),
+                    Text(
+                      _isEnglish ? 'Preferences & Offline Storage' : 'Tùy Chọn Đọc Sách & Dữ Liệu',
+                      style: TextStyle(
+                        fontSize: 28,
+                        fontWeight: FontWeight.bold,
+                        color: isDark ? const Color(0xFFF0EBE0) : const Color(0xFF1B1E28),
+                      ),
+                    ),
+                    const SizedBox(height: 24),
+                  ],
 
         // Section: Language
         _buildSectionHeader(_isEnglish ? 'LANGUAGE / NGÔN NGỮ' : 'NGÔN NGỮ / LANGUAGE'),
@@ -791,18 +799,18 @@ class _SettingsScreenState extends State<SettingsScreen> {
             ),
           ),
 
-          const SizedBox(height: 32),
+                  const SizedBox(height: 32),
+                ],
+              ),
+            ),
+          ),
         ],
-      );
+      ),
+    );
 
     if (isDesktopWeb) {
       return Scaffold(
-        body: Center(
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 820),
-            child: content,
-          ),
-        ),
+        body: content,
       );
     }
 

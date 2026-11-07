@@ -118,84 +118,108 @@ class _SearchScreenState extends State<SearchScreen> {
       );
     }
 
+    final screenWidth = MediaQuery.of(context).size.width;
+    final isDesktopWeb = screenWidth >= 800;
+
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Padding(
-          padding: const EdgeInsets.fromLTRB(16, 12, 16, 8),
-          child: Text(
-            _isEnglish ? 'Found ${_results.length} results:' : 'Tìm thấy ${_results.length} kết quả:',
-            style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: AppColors.primaryDark),
+        Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 900),
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(16, 12, 16, 8),
+              child: Text(
+                _isEnglish ? 'Found ${_results.length} results:' : 'Tìm thấy ${_results.length} kết quả:',
+                style: const TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: AppColors.primaryDark),
+              ),
+            ),
           ),
         ),
         Expanded(
-          child: ListView.separated(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-            itemCount: _results.length,
-            separatorBuilder: (_, __) => const SizedBox(height: 8),
-            itemBuilder: (context, idx) {
-              final r = _results[idx];
-              return InkWell(
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) => ReaderScreen(
-                        sectionId: r.section.id,
-                        initialParagraphIndex: r.paragraphIndex,
-                      ),
-                    ),
-                  );
-                },
-                borderRadius: BorderRadius.circular(14),
-                child: Container(
-                  padding: const EdgeInsets.all(14),
-                  decoration: BoxDecoration(
-                    color: isDark ? AppColors.cardDark : Colors.white,
-                    borderRadius: BorderRadius.circular(14),
-                    border: Border.all(color: isDark ? AppColors.cardDarkBorder : Colors.black.withOpacity(0.06)),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        children: [
-                          Container(
-                            padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                            decoration: BoxDecoration(
-                              color: AppColors.primary.withOpacity(0.15),
-                              borderRadius: BorderRadius.circular(6),
-                            ),
-                            child: Text(
-                              r.section.getCategoryLabel(_isEnglish),
-                              style: const TextStyle(fontSize: 10, fontWeight: FontWeight.bold, color: AppColors.primaryDark),
-                            ),
-                          ),
-                          const SizedBox(width: 8),
-                          Expanded(
-                            child: Text(
-                              r.section.getTitle(_isEnglish),
-                              maxLines: 1,
-                              overflow: TextOverflow.ellipsis,
-                              style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 13.5),
-                            ),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        r.snippet,
-                        style: TextStyle(
-                          fontSize: 13.5,
-                          height: 1.5,
-                          color: isDark ? AppColors.textLight : AppColors.textDark,
+          child: Scrollbar(
+            thumbVisibility: isDesktopWeb,
+            child: ListView.separated(
+              padding: EdgeInsets.symmetric(
+                horizontal: isDesktopWeb ? 24 : 16,
+                vertical: 8,
+              ),
+              itemCount: _results.length,
+              separatorBuilder: (_, __) => const SizedBox(height: 8),
+              itemBuilder: (context, idx) {
+                final r = _results[idx];
+                final card = InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => ReaderScreen(
+                          sectionId: r.section.id,
+                          initialParagraphIndex: r.paragraphIndex,
                         ),
                       ),
-                    ],
+                    );
+                  },
+                  borderRadius: BorderRadius.circular(14),
+                  child: Container(
+                    padding: const EdgeInsets.all(14),
+                    decoration: BoxDecoration(
+                      color: isDark ? AppColors.cardDark : Colors.white,
+                      borderRadius: BorderRadius.circular(14),
+                      border: Border.all(color: isDark ? AppColors.cardDarkBorder : Colors.black.withOpacity(0.06)),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                              decoration: BoxDecoration(
+                                color: AppColors.primary.withOpacity(0.15),
+                                borderRadius: BorderRadius.circular(6),
+                              ),
+                              child: Text(
+                                r.section.getCategoryLabel(_isEnglish),
+                                style: const TextStyle(fontSize: 10, fontWeight: FontWeight.bold, color: AppColors.primaryDark),
+                              ),
+                            ),
+                            const SizedBox(width: 8),
+                            Expanded(
+                              child: Text(
+                                r.section.getTitle(_isEnglish),
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 13.5),
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          r.snippet,
+                          style: TextStyle(
+                            fontSize: 13.5,
+                            height: 1.5,
+                            color: isDark ? AppColors.textLight : AppColors.textDark,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
-                ),
-              );
-            },
+                );
+
+                if (isDesktopWeb) {
+                  return Center(
+                    child: ConstrainedBox(
+                      constraints: const BoxConstraints(maxWidth: 900),
+                      child: card,
+                    ),
+                  );
+                }
+                return card;
+              },
+            ),
           ),
         ),
       ],

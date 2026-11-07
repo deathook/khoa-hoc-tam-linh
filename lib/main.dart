@@ -15,6 +15,10 @@ void main() async {
   usePathUrlStrategy();
   SeoService.init();
 
+  // Capture the browser's incoming URL IMMEDIATELY on load/F5 before any Flutter widget mounts!
+  final initialPath = SeoService.getCurrentPath();
+  final initialRoute = SeoRouter.parsePath(initialPath);
+
   // Set system UI overlay style
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
@@ -27,11 +31,13 @@ void main() async {
   final storage = StorageService();
   await storage.init();
 
-  runApp(const KhoaHocTamLinhApp());
+  runApp(KhoaHocTamLinhApp(initialRoute: initialRoute));
 }
 
 class KhoaHocTamLinhApp extends StatefulWidget {
-  const KhoaHocTamLinhApp({Key? key}) : super(key: key);
+  final ParsedSeoRoute? initialRoute;
+
+  const KhoaHocTamLinhApp({Key? key, this.initialRoute}) : super(key: key);
 
   @override
   State<KhoaHocTamLinhApp> createState() => _KhoaHocTamLinhAppState();
@@ -41,7 +47,6 @@ class _KhoaHocTamLinhAppState extends State<KhoaHocTamLinhApp> {
   final StorageService _storage = StorageService();
   final BookRepository _repo = BookRepository();
   bool _isLoading = true;
-  ParsedSeoRoute? _initialRoute;
 
   @override
   void initState() {
@@ -53,14 +58,10 @@ class _KhoaHocTamLinhAppState extends State<KhoaHocTamLinhApp> {
     await _repo.loadData();
     await TtsService().init();
 
-    // Check deep link URL on initial page load
-    final currentPath = SeoService.getCurrentPath();
-    final parsed = SeoRouter.parsePath(currentPath);
-    _initialRoute = parsed;
-
-    if (parsed.isEnglish != _storage.isEnglish) {
-      await _storage.setIsEnglish(parsed.isEnglish);
-      await TtsService().setLanguage(parsed.isEnglish);
+    final route = widget.initialRoute;
+    if (route != null && route.isEnglish != _storage.isEnglish) {
+      await _storage.setIsEnglish(route.isEnglish);
+      await TtsService().setLanguage(route.isEnglish);
     }
 
     setState(() {
@@ -78,53 +79,49 @@ class _KhoaHocTamLinhAppState extends State<KhoaHocTamLinhApp> {
     return AppTheme.lightTheme;
   }
 
+  Widget _buildSplashScreen() {
+    return Scaffold(
+      backgroundColor: AppColors.lightBg,
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ClipRRect(
+              borderRadius: BorderRadius.circular(20),
+              child: Image.asset(
+                'assets/images/image1.jpg',
+                width: 120,
+                height: 160,
+                fit: BoxFit.cover,
+              ),
+            ),
+            const SizedBox(height: 24),
+            const Text(
+              'KHOA HỌC TÂM LINH',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 2,
+                color: AppColors.primaryDark,
+              ),
+            ),
+            const SizedBox(height: 6),
+            const Text(
+              'Hoàng Nhật Minh',
+              style: TextStyle(fontSize: 14, color: AppColors.textMuted),
+            ),
+            const SizedBox(height: 32),
+            const CircularProgressIndicator(
+              valueColor: AlwaysStoppedAnimation<Color>(AppColors.primary),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    if (_isLoading) {
-      return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: AppTheme.lightTheme,
-        home: Scaffold(
-          backgroundColor: AppColors.lightBg,
-          body: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(20),
-                  child: Image.asset(
-                    'assets/images/image1.jpg',
-                    width: 120,
-                    height: 160,
-                    fit: BoxFit.cover,
-                  ),
-                ),
-                const SizedBox(height: 24),
-                const Text(
-                  'KHOA HỌC TÂM LINH',
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    letterSpacing: 2,
-                    color: AppColors.primaryDark,
-                  ),
-                ),
-                const SizedBox(height: 6),
-                const Text(
-                  'Hoàng Nhật Minh',
-                  style: TextStyle(fontSize: 14, color: AppColors.textMuted),
-                ),
-                const SizedBox(height: 32),
-                const CircularProgressIndicator(
-                  valueColor: AlwaysStoppedAnimation<Color>(AppColors.primary),
-                ),
-              ],
-            ),
-          ),
-        ),
-      );
-    }
-
     return ValueListenableBuilder<String>(
       valueListenable: _storage.themeModeNotifier,
       builder: (context, themeMode, _) {
@@ -132,11 +129,13 @@ class _KhoaHocTamLinhAppState extends State<KhoaHocTamLinhApp> {
           title: 'Khoa Học Tâm Linh',
           debugShowCheckedModeBanner: false,
           theme: _getThemeForMode(themeMode),
-          home: MainNavScreen(
-            onThemeChanged: _onThemeChanged,
-            initialTabIndex: _initialRoute?.tabIndex ?? 0,
-            initialSectionId: _initialRoute?.sectionId,
-          ),
+          home: _isLoading
+              ? _buildSplashScreen()
+              : MainNavScreen(
+                  onThemeChanged: _onThemeChanged,
+                  initialTabIndex: widget.initialRoute?.tabIndex ?? 0,
+                  initialSectionId: widget.initialRoute?.sectionId,
+                ),
         );
       },
     );

@@ -192,82 +192,90 @@ class _HomeScreenState extends State<HomeScreen> {
           _setDailyQuote(randomize: true);
           setState(() {});
         },
-        child: Center(
-          child: ConstrainedBox(
-            constraints: BoxConstraints(maxWidth: isDesktopWeb ? 1180 : double.infinity),
-            child: ListView(
-              padding: EdgeInsets.symmetric(
-                horizontal: isDesktopWeb ? 24 : 16,
-                vertical: isDesktopWeb ? 24 : 12,
-              ),
-              children: [
-                // Desktop Web Hero Banner OR Mobile Daily Quote
-                if (isDesktopWeb) ...[
-                  _buildDesktopHero(isDark),
-                  const SizedBox(height: 16),
-                ] else if (_currentQuote != null) ...[
-                  _buildDailyQuoteCard(isDark),
-                  const SizedBox(height: 16),
-                ],
-
-                // Continue Reading Banner
-                _buildContinueReadingCard(lastReadId, lastReadTitle, isDark),
-
-                const SizedBox(height: 28),
-
-                // Main Book Categorized Sections
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      _isEnglish ? 'Explore Book Categories' : 'Khám Phá Các Tầng Bậc Cuốn Sách',
-                      style: theme.textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 0.5,
-                      ),
-                    ),
-                    TextButton.icon(
-                      onPressed: widget.onOpenLibrary,
-                      icon: const Icon(Icons.menu_book, size: 16),
-                      label: Text(_isEnglish ? 'Full Table of Contents (173)' : 'Toàn Bộ Mục Lục (173)'),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 10),
-
-                // Quick Category Grid (4 columns on desktop, 2 on mobile)
-                _buildCategoryGrid(isDesktopWeb),
-
-                const SizedBox(height: 32),
-
-                // Featured Healing Podcasts / Audio
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      _isEnglish ? 'Featured Audio & Healing Podcasts' : 'Sách Nói & Podcast Chữa Lành Nổi Bật',
-                      style: theme.textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 0.5,
-                      ),
-                    ),
-                    TextButton.icon(
-                      onPressed: widget.onOpenAudio,
-                      icon: const Icon(Icons.podcasts, size: 16),
-                      label: Text(_isEnglish ? 'Listen All (12)' : 'Nghe Tất Cả (12)'),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 10),
-
-                _buildPodcastRow(isDesktopWeb),
-
-                // Website Footer on Web
-                if (isDesktopWeb) _buildWebFooter(isDark),
-
-                const SizedBox(height: 32),
-              ],
+        child: Scrollbar(
+          thumbVisibility: true,
+          child: ListView(
+            padding: EdgeInsets.symmetric(
+              horizontal: isDesktopWeb ? 24 : 16,
+              vertical: isDesktopWeb ? 24 : 12,
             ),
+            children: [
+              Center(
+                child: ConstrainedBox(
+                  constraints: BoxConstraints(maxWidth: isDesktopWeb ? 1180 : double.infinity),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      // Desktop Web Hero Banner OR Mobile Daily Quote
+                      if (isDesktopWeb) ...[
+                        _buildDesktopHero(isDark),
+                        const SizedBox(height: 16),
+                      ] else if (_currentQuote != null) ...[
+                        _buildDailyQuoteCard(isDark),
+                        const SizedBox(height: 16),
+                      ],
+
+                      // Continue Reading Banner
+                      _buildContinueReadingCard(lastReadId, lastReadTitle, isDark),
+
+                      const SizedBox(height: 28),
+
+                      // Main Book Categorized Sections
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            _isEnglish ? 'Explore Book Categories' : 'Khám Phá Các Tầng Bậc Cuốn Sách',
+                            style: theme.textTheme.titleMedium?.copyWith(
+                              fontWeight: FontWeight.bold,
+                              letterSpacing: 0.5,
+                            ),
+                          ),
+                          TextButton.icon(
+                            onPressed: widget.onOpenLibrary,
+                            icon: const Icon(Icons.menu_book, size: 16),
+                            label: Text(_isEnglish ? 'Full Table of Contents (173)' : 'Toàn Bộ Mục Lục (173)'),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 10),
+
+                      // Quick Category Grid (4 columns on desktop, 2 on mobile)
+                      _buildCategoryGrid(isDesktopWeb),
+
+                      const SizedBox(height: 32),
+
+                      // Featured Healing Podcasts / Audio
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            _isEnglish ? 'Featured Audio & Healing Podcasts' : 'Sách Nói & Podcast Chữa Lành Nổi Bật',
+                            style: theme.textTheme.titleMedium?.copyWith(
+                              fontWeight: FontWeight.bold,
+                              letterSpacing: 0.5,
+                            ),
+                          ),
+                          TextButton.icon(
+                            onPressed: widget.onOpenAudio,
+                            icon: const Icon(Icons.podcasts, size: 16),
+                            label: Text(_isEnglish ? 'Listen All (12)' : 'Nghe Tất Cả (12)'),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 10),
+
+                      _buildPodcastRow(isDesktopWeb),
+
+                      // Website Footer on Web
+                      if (isDesktopWeb) _buildWebFooter(isDark),
+
+                      const SizedBox(height: 32),
+                    ],
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
       ),
@@ -404,7 +412,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     OutlinedButton.icon(
-                      onPressed: () => downloadFile('KhoaHocTamLinh.apk'),
+                      onPressed: () => downloadFile('https://khoahoctamlinh.vn/app/KhoaHocTamLinh.apk'),
                       style: OutlinedButton.styleFrom(
                         padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
                         side: BorderSide(color: isDark ? AppColors.cardDarkBorder : Colors.black26),
@@ -986,7 +994,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     const SizedBox(height: 10),
                     _buildFooterLink(_isEnglish ? 'Healing Podcasts (5)' : 'Podcast Chữa Lành (7)', widget.onOpenAudio, isDark),
-                    _buildFooterLink(_isEnglish ? 'Download Android App' : 'Tải Cài Đặt Android (.APK)', () => downloadFile('KhoaHocTamLinh.apk'), isDark),
+                    _buildFooterLink(_isEnglish ? 'Download Android App' : 'Tải Cài Đặt Android (.APK)', () => downloadFile('https://khoahoctamlinh.vn/app/KhoaHocTamLinh.apk'), isDark),
                     _buildFooterLink('khoahoctamlinh.vn', () {}, isDark),
                   ],
                 ),
