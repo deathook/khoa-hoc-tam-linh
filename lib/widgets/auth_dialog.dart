@@ -71,6 +71,11 @@ class _AuthDialogState extends State<AuthDialog> {
     if (s.contains('popup-closed-by-user')) {
       return widget.isEnglish ? 'Sign-in popup was closed.' : 'Cửa sổ đăng nhập đã bị đóng trước khi hoàn tất.';
     }
+    if (s.contains('unauthorized-domain')) {
+      return widget.isEnglish
+          ? 'Domain not authorized for OAuth. Please add "sach.khoahoctamlinh.vn" to Firebase Console > Authentication > Settings > Authorized domains.'
+          : 'Tên miền chưa được cấp phép. Vui lòng thêm "sach.khoahoctamlinh.vn" vào Firebase Console > Authentication > Settings > Authorized domains.';
+    }
     return s.replaceAll('Exception: ', '').replaceAll('FirebaseAuthException: ', '');
   }
 
