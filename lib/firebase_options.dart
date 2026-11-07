@@ -22,17 +22,18 @@ class DefaultFirebaseOptions {
 
   // Firebase Web Config from Firebase Console (Project: sach-khoa-hoc-tam-linh)
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyPlaceholderApiKeyForWeb12345678',
-    appId: '1:300506486781:web:placeholderWebId',
+    apiKey: 'AIzaSyD-R-0KntZmPP7Ul04jDSu977SYOczGV_Y',
+    appId: '1:300506486781:web:8a06912886fa7f886eeb94',
     messagingSenderId: '300506486781',
     projectId: 'sach-khoa-hoc-tam-linh',
     authDomain: 'sach-khoa-hoc-tam-linh.firebaseapp.com',
     storageBucket: 'sach-khoa-hoc-tam-linh.firebasestorage.app',
+    measurementId: 'G-223BDNRXGL',
   );
 
   // Android configuration uses google-services.json when compiled on Android
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyPlaceholderApiKeyForAndroid123456',
+    apiKey: 'AIzaSyDZnvLhtMuHHCBjzDZ3zrzWmxdFyzlShi0',
     appId: '1:300506486781:android:3d61450769d8a74a6eeb94',
     messagingSenderId: '300506486781',
     projectId: 'sach-khoa-hoc-tam-linh',

@@ -98,12 +98,14 @@
     ]
   }
   </script>
-  <!-- Google Tag Manager (GTM-5JHSSPWP) -->
+  <!-- Google Tag Manager (GTM-5JHSSPWP) & Google Analytics 4 (G-223BDNRXGL) -->
   <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5JHSSPWP"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-223BDNRXGL"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
+    gtag('config', 'G-223BDNRXGL', { send_page_view: false });
 
     window.trackPageView = function(path, title) {
       if (window.dataLayer) {
@@ -113,9 +115,15 @@
           'page_title': title
         });
       }
+      if (typeof gtag === 'function') {
+        gtag('event', 'page_view', {
+          page_path: path,
+          page_title: title
+        });
+      }
     };
   </script>
-  <!-- End Google Tag Manager -->
+  <!-- End Google Tag Manager & Google Analytics -->
 </head>
 <body style="background-color: #0E1117; margin: 0; padding: 0; overflow-x: hidden;">
   <!-- Google Tag Manager (noscript) -->

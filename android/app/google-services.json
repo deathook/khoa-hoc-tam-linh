@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "300506486781",
+    "project_id": "sach-khoa-hoc-tam-linh",
+    "storage_bucket": "sach-khoa-hoc-tam-linh.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300506486781:android:3d61450769d8a74a6eeb94",
+        "android_client_info": {
+          "package_name": "com.khtl.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300506486781-8ndqbe9smhp1f0b931gcmj683q1tcr33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khtl.app",
+            "certificate_hash": "23e19a5e51b78e47802081fa7eb628323c26e187"
+          }
+        },
+        {
+          "client_id": "300506486781-t9nbekq08ch08i3epnlfcgojutp1nsdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZnvLhtMuHHCBjzDZ3zrzWmxdFyzlShi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300506486781-t9nbekq08ch08i3epnlfcgojutp1nsdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
