@@ -1171,20 +1171,24 @@ class _ReaderScreenState extends State<ReaderScreen> {
                   margin: const EdgeInsets.only(bottom: 14),
                   decoration: BoxDecoration(
                     color: isTtsReading
-                        ? AppColors.primary.withOpacity(0.2)
-                        : (highlightBg ?? Colors.transparent),
+                        ? (isDark ? AppColors.primary.withOpacity(0.28) : AppColors.primary.withOpacity(0.18))
+                        : (highlightBg != null
+                            ? (isDark ? highlightBg.withOpacity(0.32) : highlightBg)
+                            : Colors.transparent),
                     borderRadius: BorderRadius.circular(8),
                     border: isTtsReading
-                        ? Border.all(color: AppColors.primaryDark, width: 1.5)
-                        : (idx == widget.initialParagraphIndex && widget.initialParagraphIndex > 0
-                            ? Border.all(color: AppColors.primary, width: 2)
-                            : null),
+                        ? Border.all(color: isDark ? const Color(0xFFE5B968) : AppColors.primaryDark, width: 1.5)
+                        : (highlightBg != null && isDark
+                            ? Border.all(color: highlightBg.withOpacity(0.7), width: 1)
+                            : (idx == widget.initialParagraphIndex && widget.initialParagraphIndex > 0
+                                ? Border.all(color: AppColors.primary, width: 2)
+                                : null)),
                   ),
                   child: InkWell(
                     onTap: () => _showParagraphOptions(idx, pText),
                     borderRadius: BorderRadius.circular(8),
                     child: Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 4),
+                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -1194,7 +1198,9 @@ class _ReaderScreenState extends State<ReaderScreen> {
                               fontSize: _fontSize,
                               height: 1.7,
                               fontWeight: isTtsReading ? FontWeight.w600 : FontWeight.normal,
-                              color: textColor,
+                              color: (highlightBg != null && !isDark)
+                                  ? const Color(0xFF1B1B1B)
+                                  : textColor,
                             ),
                           ),
                           if (hasNote) ...[

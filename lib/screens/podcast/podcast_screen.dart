@@ -194,9 +194,40 @@ class _PodcastScreenState extends State<PodcastScreen> {
     // Mobile Phone Layout
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          _isEnglish ? 'Podcasts & Healing Audio' : 'Sách Nói & Podcast Chữa Lành',
-          style: const TextStyle(fontWeight: FontWeight.bold),
+        titleSpacing: 12,
+        title: Row(
+          children: [
+            Container(
+              width: 32,
+              height: 32,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                boxShadow: [
+                  BoxShadow(
+                    color: AppColors.primary.withOpacity(0.3),
+                    blurRadius: 6,
+                    offset: const Offset(0, 1),
+                  ),
+                ],
+              ),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(16),
+                child: Image.asset(
+                  'assets/images/app_logo_circle.webp',
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Text(
+                _isEnglish ? 'Podcasts & Audio' : 'Sách Nói & Podcast',
+                style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+          ],
         ),
         actions: [
           Container(
@@ -289,7 +320,7 @@ class _PodcastScreenState extends State<PodcastScreen> {
             ClipRRect(
               borderRadius: BorderRadius.circular(12),
               child: Image.asset(
-                p.image ?? 'assets/images/image1.jpg',
+                p.image ?? 'assets/images/image1.webp',
                 width: 64,
                 height: 64,
                 fit: BoxFit.cover,
@@ -302,21 +333,22 @@ class _PodcastScreenState extends State<PodcastScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                    padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2.5),
                     decoration: BoxDecoration(
-                      color: AppColors.primary.withOpacity(0.2),
+                      color: isDark ? const Color(0xFFE5B968).withOpacity(0.18) : AppColors.primary.withOpacity(0.15),
                       borderRadius: BorderRadius.circular(6),
+                      border: isDark ? Border.all(color: const Color(0xFFE5B968).withOpacity(0.35), width: 0.8) : null,
                     ),
                     child: Text(
                       p.getCategory(_isEnglish),
-                      style: const TextStyle(
-                        fontSize: 9.5,
+                      style: TextStyle(
+                        fontSize: 10,
                         fontWeight: FontWeight.bold,
-                        color: AppColors.primaryDark,
+                        color: isDark ? const Color(0xFFF3C978) : AppColors.primaryDark,
                       ),
                     ),
                   ),
-                  const SizedBox(height: 4),
+                  const SizedBox(height: 5),
                   Text(
                     p.getTitle(_isEnglish),
                     maxLines: 2,
@@ -324,13 +356,18 @@ class _PodcastScreenState extends State<PodcastScreen> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 13.5,
-                      color: isSelected ? AppColors.primaryDark : null,
+                      color: isSelected
+                          ? (isDark ? const Color(0xFFE5B968) : AppColors.primaryDark)
+                          : (isDark ? const Color(0xFFF5F6F8) : const Color(0xFF1E1E1E)),
                     ),
                   ),
                   const SizedBox(height: 4),
                   Text(
                     '${p.author} • ${p.duration}',
-                    style: const TextStyle(fontSize: 11, color: AppColors.textMuted),
+                    style: TextStyle(
+                      fontSize: 11.5,
+                      color: isDark ? const Color(0xFFB0B7C3) : AppColors.textMuted,
+                    ),
                   ),
                 ],
               ),
@@ -393,7 +430,7 @@ class _PodcastScreenState extends State<PodcastScreen> {
               ClipRRect(
                 borderRadius: BorderRadius.circular(12),
                 child: Image.asset(
-                  p.image ?? 'assets/images/image1.jpg',
+                  p.image ?? 'assets/images/image1.webp',
                   width: 52,
                   height: 52,
                   fit: BoxFit.cover,
@@ -406,11 +443,11 @@ class _PodcastScreenState extends State<PodcastScreen> {
                   children: [
                     Text(
                       _isEnglish ? 'NOW PLAYING' : 'ĐANG PHÁT AUDIO',
-                      style: const TextStyle(
+                      style: TextStyle(
                         fontSize: 10,
                         fontWeight: FontWeight.bold,
                         letterSpacing: 1,
-                        color: AppColors.primaryDark,
+                        color: isDark ? const Color(0xFFF3C978) : AppColors.primaryDark,
                       ),
                     ),
                     const SizedBox(height: 2),
@@ -418,11 +455,18 @@ class _PodcastScreenState extends State<PodcastScreen> {
                       p.getTitle(_isEnglish),
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
-                      style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                        color: isDark ? Colors.white : AppColors.textDark,
+                      ),
                     ),
                     Text(
                       p.author,
-                      style: const TextStyle(fontSize: 12, color: AppColors.textMuted),
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: isDark ? const Color(0xFFB0B7C3) : AppColors.textMuted,
+                      ),
                     ),
                   ],
                 ),
@@ -554,11 +598,17 @@ class _PodcastScreenState extends State<PodcastScreen> {
     return ChoiceChip(
       label: Text(label),
       selected: isSel,
-      selectedColor: AppColors.primary,
+      selectedColor: isDark ? const Color(0xFFE5B968) : AppColors.primary,
+      backgroundColor: isDark ? const Color(0xFF222838) : Colors.black.withOpacity(0.04),
+      side: BorderSide(
+        color: isSel
+            ? (isDark ? const Color(0xFFE5B968) : AppColors.primary)
+            : (isDark ? const Color(0xFF384055) : Colors.black12),
+      ),
       labelStyle: TextStyle(
         fontSize: 12,
-        fontWeight: isSel ? FontWeight.bold : FontWeight.normal,
-        color: isSel ? Colors.black : (isDark ? Colors.white70 : Colors.black87),
+        fontWeight: isSel ? FontWeight.bold : FontWeight.w500,
+        color: isSel ? Colors.black87 : (isDark ? const Color(0xFFE2E6EE) : Colors.black87),
       ),
       onSelected: (val) {
         if (val) setState(() => _selectedFilter = key);

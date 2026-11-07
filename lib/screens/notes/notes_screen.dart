@@ -159,9 +159,40 @@ class _NotesScreenState extends State<NotesScreen> with SingleTickerProviderStat
     // Mobile Phone Layout
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          _isEnglish ? 'Notes & Highlights' : 'Ghi Chú & Đánh Dấu',
-          style: const TextStyle(fontWeight: FontWeight.bold),
+        titleSpacing: 12,
+        title: Row(
+          children: [
+            Container(
+              width: 32,
+              height: 32,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                boxShadow: [
+                  BoxShadow(
+                    color: AppColors.primary.withOpacity(0.3),
+                    blurRadius: 6,
+                    offset: const Offset(0, 1),
+                  ),
+                ],
+              ),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(16),
+                child: Image.asset(
+                  'assets/images/app_logo_circle.webp',
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Text(
+                _isEnglish ? 'Notes & Highlights' : 'Ghi Chú & Đánh Dấu',
+                style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+          ],
         ),
         actions: [
           Container(

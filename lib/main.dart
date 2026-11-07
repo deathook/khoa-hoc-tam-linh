@@ -87,22 +87,22 @@ class _KhoaHocTamLinhAppState extends State<KhoaHocTamLinhApp> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
+              width: 108,
+              height: 108,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(16),
+                shape: BoxShape.circle,
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.18),
+                    color: AppColors.primary.withOpacity(0.35),
                     blurRadius: 24,
                     offset: const Offset(0, 8),
                   ),
                 ],
               ),
               child: ClipRRect(
-                borderRadius: BorderRadius.circular(16),
+                borderRadius: BorderRadius.circular(54),
                 child: Image.asset(
-                  'assets/images/image1.jpg',
-                  width: 120,
-                  height: 168,
+                  'assets/images/app_logo_circle.webp',
                   fit: BoxFit.cover,
                 ),
               ),

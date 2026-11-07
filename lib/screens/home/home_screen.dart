@@ -125,18 +125,58 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: isDesktopWeb
           ? null
           : AppBar(
-              title: Column(
+              titleSpacing: 12,
+              title: Row(
                 children: [
-                  Text(
-                    _isEnglish ? 'The Science of Spirituality' : 'Khoa Học Tâm Linh',
-                    style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 17),
+                  Container(
+                    width: 36,
+                    height: 36,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      boxShadow: [
+                        BoxShadow(
+                          color: AppColors.primary.withOpacity(0.3),
+                          blurRadius: 6,
+                          offset: const Offset(0, 1),
+                        ),
+                      ],
+                    ),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(18),
+                      child: Image.asset(
+                        'assets/images/app_logo_circle.webp',
+                        fit: BoxFit.cover,
+                      ),
+                    ),
                   ),
-                  Text(
-                    _isEnglish ? 'Hoang Nhat Minh' : 'Hoàng Nhật Minh',
-                    style: TextStyle(
-                      fontSize: 12,
-                      color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
-                      fontWeight: FontWeight.normal,
+                  const SizedBox(width: 10),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text(
+                          _isEnglish ? 'The Science of Spirituality' : 'Khoa Học Tâm Linh',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                            color: isDark ? const Color(0xFFE5B968) : AppColors.primaryDark,
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                        Text(
+                          _isEnglish ? 'Hoang Nhat Minh' : 'Hoàng Nhật Minh',
+                          style: TextStyle(
+                            fontSize: 11.5,
+                            color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
+                            fontWeight: FontWeight.normal,
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
                     ),
                   ),
                 ],
@@ -770,7 +810,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
                         child: Image.asset(
-                          pod.image ?? 'assets/images/image1.jpg',
+                          pod.image ?? 'assets/images/image1.webp',
                           width: 48,
                           height: 48,
                           fit: BoxFit.cover,
@@ -856,7 +896,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(12),
                     child: Image.asset(
-                      pod.image ?? 'assets/images/image1.jpg',
+                      pod.image ?? 'assets/images/image1.webp',
                       width: 70,
                       height: 100,
                       fit: BoxFit.cover,

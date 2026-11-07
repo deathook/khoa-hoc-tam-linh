@@ -285,7 +285,7 @@ class _MainNavScreenState extends State<MainNavScreen> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(22),
                       child: Image.asset(
-                        'assets/images/app_logo_circle.png',
+                        'assets/images/app_logo_circle.webp',
                         fit: BoxFit.cover,
                       ),
                     ),

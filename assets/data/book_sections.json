@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "preface",
     "category": "intro",
@@ -183,7 +183,7 @@
     "num": "2",
     "title_vi": "CHƯƠNG 2: Năng lượng - Cội nguồn của mọi hiện tượng",
     "title_en": "Chapter 2: Energy - The Source of Every Phenomenon",
-    "image": "assets/images/image3.jpeg",
+    "image": "assets/images/image3.webp",
     "image_caption": "Hình ảnh: Biểu đồ thước đo ý thức của Tiến sĩ David Hawkins",
     "paragraphs_vi": [
       "Ngọn gió và cánh diều",
@@ -3438,7 +3438,7 @@
     "num": "24",
     "title_vi": "GIẢI NGỘ 24: Về Lẽ sống - Tìm lại ngọn lửa bên trong",
     "title_en": "Realisation 24: Purpose in life - rekindling the inner flame",
-    "image": "assets/images/image4.jpeg",
+    "image": "assets/images/image4.webp",
     "image_caption": null,
     "paragraphs_vi": [
       "Một người đi khắp nơi tìm ánh sáng, mà chẳng biết mình đang cầm cây đuốc chưa thắp. Một cụ già châm cho anh ngọn lửa. Anh nhìn lại - hóa ra, đuốc vẫn nằm trong tay mình ngay từ đầu.",
@@ -3524,7 +3524,7 @@
     "num": "25",
     "title_vi": "GIẢI NGỘ 25: Về Cuộc sống Cân bằng",
     "title_en": "Realisation 25: A balanced life",
-    "image": "assets/images/image5.jpeg",
+    "image": "assets/images/image5.webp",
     "image_caption": null,
     "paragraphs_vi": [
       "Cây tre đứng giữa cánh đồng. Khi gió đến, nó không cứng rắn chống lại - cũng không mềm yếu gục ngã. Nó biết nghiêng theo gió, rồi trở về thẳng đứng khi giông bão đi qua.",
@@ -3846,7 +3846,7 @@
     "num": "29",
     "title_vi": "GIẢI NGỘ 29: Về Nhị nguyên - Âm dương",
     "title_en": "Realisation 29: On duality - Yin and Yang",
-    "image": "assets/images/image6.jpeg",
+    "image": "assets/images/image6.webp",
     "image_caption": null,
     "paragraphs_vi": [
       "Mặt trăng hỏi mặt trời: Sao ta chẳng bao giờ gặp nhau? Mặt trời đáp: Vì nếu ta gặp nhau, vũ trụ sẽ không còn luân chuyển.",
@@ -3966,7 +3966,7 @@
     "num": "30",
     "title_vi": "GIẢI NGỘ 30: Về Tam nguyên Thân - Tâm - Trí",
     "title_en": "Realisation 30: On the triad of Body - Heart - Mind",
-    "image": "assets/images/image8.jpeg",
+    "image": "assets/images/image8.webp",
     "image_caption": null,
     "paragraphs_vi": [
       "Một người cố gắng chạy, nhưng thân mệt, tâm lo, trí loạn. Thầy nói: - Khi ba người bạn trong con cùng bước một nhịp, con sẽ thấy mình đang bay.",
@@ -4074,7 +4074,7 @@
     "num": "31",
     "title_vi": "GIẢI NGỘ 31: Về Nhất nguyên",
     "title_en": "Realisation 31: On Oneness (Monism)",
-    "image": "assets/images/image9.jpeg",
+    "image": "assets/images/image9.webp",
     "image_caption": null,
     "paragraphs_vi": [
       "Một giọt nước hỏi: - Ai đúng, ai sai giữa ta và sông? Sông mỉm cười: - Khi con tan vào ta, câu hỏi ấy biến mất.",
@@ -4204,7 +4204,7 @@
     "num": "32",
     "title_vi": "GIẢI NGỘ 32: Về Đạo - Tính không - Nền tảng vô hình của vạn hữu",
     "title_en": "Realisation 32: On the Dao - Emptiness - the Invisible Ground of All Things",
-    "image": "assets/images/image10.jpeg",
+    "image": "assets/images/image10.webp",
     "image_caption": null,
     "paragraphs_vi": [
       "Một người hỏi thiền sư: - Con có thể thấy Đạo ở đâu? Ngài đưa chiếc bát trống: - Chính khoảng không này chứa tất cả và làm cho cái bát trở nên hữu dụng.",
@@ -12716,7 +12716,7 @@
     "num": "XI",
     "title_vi": "PHẦN XI - LỜI KẾT",
     "title_en": "Part XI - Conclusion",
-    "image": "assets/images/image11.jpeg",
+    "image": "assets/images/image11.webp",
     "image_caption": null,
     "paragraphs_vi": [
       "1. Con đường nhận ra chính mình",
@@ -13142,7 +13142,7 @@
     "num": "3",
     "title_vi": "PHỤ LỤC 3: BẢN ĐỒ HÀNH TRÌNH THỨC TỈNH",
     "title_en": "Appendix 3: Map of the Journey of Awakening",
-    "image": "assets/images/image12.jpeg",
+    "image": "assets/images/image12.webp",
     "image_caption": null,
     "paragraphs_vi": [
       "“Mọi hành trình ra ngoài đều bắt đầu từ bên trong.”",
