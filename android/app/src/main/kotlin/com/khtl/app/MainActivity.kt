@@ -1,4 +1,4 @@
-package vn.khoahoctamlinh.khoa_hoc_tam_linh
+package com.khtl.app
 
 import io.flutter.embedding.android.FlutterActivity
 

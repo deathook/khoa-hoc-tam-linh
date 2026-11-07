@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../routes/seo_router.dart';
 import '../../services/book_repository.dart';
+import '../../services/firebase_sync_service.dart';
 import '../../services/image_cache_service.dart';
 import '../../services/seo/seo_service.dart';
 import '../../services/storage_service.dart';
@@ -48,6 +49,17 @@ class _SettingsScreenState extends State<SettingsScreen> {
     _chapterMode = _storage.autoNextChapterMode;
     _loadDeviceVoices();
     _refreshCacheInfo();
+    FirebaseSyncService().addListener(_onSyncUpdated);
+  }
+
+  @override
+  void dispose() {
+    FirebaseSyncService().removeListener(_onSyncUpdated);
+    super.dispose();
+  }
+
+  void _onSyncUpdated() {
+    if (mounted) setState(() {});
   }
 
   Future<void> _refreshCacheInfo() async {
@@ -375,6 +387,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
             ),
           ),
+
+          const SizedBox(height: 16),
+
+          // Section: Firebase Cloud Sync
+          _buildCloudSyncSection(isDark),
 
           const SizedBox(height: 16),
 
@@ -927,6 +944,475 @@ class _SettingsScreenState extends State<SettingsScreen> {
             color: isSelected ? AppColors.primaryDark : (isDark ? Colors.white70 : Colors.black87),
           ),
         ),
+      ),
+    );
+  }
+
+  Widget _buildSyncStatItem(IconData icon, String value, String label, bool isDark) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(icon, size: 14, color: AppColors.primary),
+            const SizedBox(width: 4),
+            Text(
+              value,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 14,
+                color: isDark ? Colors.white : Colors.black87,
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 2),
+        Text(
+          label,
+          style: TextStyle(
+            fontSize: 11,
+            color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildCloudSyncSection(bool isDark) {
+    final sync = FirebaseSyncService();
+    final isLoggedIn = sync.isLoggedIn;
+    final user = sync.currentUser;
+    final hlCount = _storage.getHighlights().length;
+    final notesCount = _storage.getNotes().length;
+    final bmCount = _storage.getBookmarks().length;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        _buildSectionHeader(_isEnglish ? 'FIREBASE CLOUD SYNC' : 'ĐỒNG BỘ ĐÁM MÂY (FIREBASE)'),
+        Card(
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: isLoggedIn
+                            ? AppColors.primary.withOpacity(0.15)
+                            : Colors.blueGrey.withOpacity(0.12),
+                        shape: BoxShape.circle,
+                      ),
+                      child: Icon(
+                        isLoggedIn ? Icons.cloud_done : Icons.cloud_queue,
+                        color: isLoggedIn ? AppColors.primaryDark : Colors.blueGrey,
+                        size: 26,
+                      ),
+                    ),
+                    const SizedBox(width: 14),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Text(
+                                isLoggedIn
+                                    ? (_isEnglish ? 'Cloud Connected' : 'Đã kết nối đám mây')
+                                    : (_isEnglish ? 'Offline / Local Storage' : 'Lưu trữ trên thiết bị'),
+                                style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+                              ),
+                              const SizedBox(width: 6),
+                              Container(
+                                padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                                decoration: BoxDecoration(
+                                  color: isLoggedIn ? Colors.green.withOpacity(0.15) : Colors.orange.withOpacity(0.15),
+                                  borderRadius: BorderRadius.circular(6),
+                                ),
+                                child: Text(
+                                  isLoggedIn
+                                      ? (_isEnglish ? 'ONLINE' : 'ĐÃ ĐỒNG BỘ')
+                                      : (_isEnglish ? 'LOCAL' : 'CỤC BỘ'),
+                                  style: TextStyle(
+                                    fontSize: 10,
+                                    fontWeight: FontWeight.bold,
+                                    color: isLoggedIn ? Colors.green : Colors.orange,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 3),
+                          Text(
+                            isLoggedIn
+                                ? (user?.email ?? (_isEnglish ? 'Anonymous User' : 'Tài khoản khách'))
+                                : (_isEnglish
+                                    ? 'Highlights & notes are stored locally'
+                                    : 'Dữ liệu tô màu, ghi chú đang lưu trên máy này'),
+                            style: TextStyle(
+                              fontSize: 12.5,
+                              color: isDark ? AppColors.textLightMuted : AppColors.textMuted,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 12),
+
+                // Data stats
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                  decoration: BoxDecoration(
+                    color: isDark ? Colors.black.withOpacity(0.2) : Colors.grey.withOpacity(0.06),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      _buildSyncStatItem(
+                        Icons.brush,
+                        '$hlCount',
+                        _isEnglish ? 'Highlights' : 'Tô màu',
+                        isDark,
+                      ),
+                      Container(width: 1, height: 24, color: Colors.grey.withOpacity(0.2)),
+                      _buildSyncStatItem(
+                        Icons.edit_note,
+                        '$notesCount',
+                        _isEnglish ? 'Notes' : 'Ghi chú',
+                        isDark,
+                      ),
+                      Container(width: 1, height: 24, color: Colors.grey.withOpacity(0.2)),
+                      _buildSyncStatItem(
+                        Icons.bookmark_border,
+                        '$bmCount',
+                        _isEnglish ? 'Bookmarks' : 'Dấu trang',
+                        isDark,
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 12),
+
+                // Subtitle / explanation
+                Text(
+                  _isEnglish
+                      ? 'Syncs highlights, personal notes, bookmarks, and reading progress across Web & Android App (Package: com.khtl.app).'
+                      : 'Tự động đồng bộ các đoạn tô màu, ghi chú, đánh dấu chương và vị trí đang đọc dở giữa Web và ứng dụng Android (Mã app: com.khtl.app).',
+                  style: const TextStyle(fontSize: 12, color: AppColors.textMuted, height: 1.4),
+                ),
+                const SizedBox(height: 14),
+
+                // Action buttons
+                if (isLoggedIn)
+                  Row(
+                    children: [
+                      Expanded(
+                        child: ElevatedButton.icon(
+                          onPressed: () async {
+                            try {
+                              await sync.syncLocalToCloud();
+                              if (mounted) {
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(
+                                    content: Text(_isEnglish
+                                        ? 'Data synced with Cloud Firestore!'
+                                        : 'Đã đồng bộ dữ liệu lên Firebase Cloud Firestore thành công!'),
+                                    backgroundColor: AppColors.primaryDark,
+                                  ),
+                                );
+                              }
+                            } catch (e) {
+                              if (mounted) {
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(content: Text('Lỗi đồng bộ: $e')),
+                                );
+                              }
+                            }
+                          },
+                          icon: const Icon(Icons.sync, size: 18),
+                          label: Text(_isEnglish ? 'Sync Now' : 'Đồng Bộ Ngay'),
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: AppColors.primary,
+                            foregroundColor: Colors.black87,
+                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      OutlinedButton.icon(
+                        onPressed: () async {
+                          await sync.signOut();
+                          if (mounted) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              SnackBar(
+                                content: Text(_isEnglish ? 'Signed out' : 'Đã đăng xuất tài khoản đám mây'),
+                              ),
+                            );
+                          }
+                        },
+                        icon: const Icon(Icons.logout, size: 18),
+                        label: Text(_isEnglish ? 'Sign Out' : 'Đăng xuất'),
+                        style: OutlinedButton.styleFrom(
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                        ),
+                      ),
+                    ],
+                  )
+                else
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton.icon(
+                      onPressed: () => _showAuthDialog(isDark),
+                      icon: const Icon(Icons.login, size: 18),
+                      label: Text(_isEnglish
+                          ? 'Sign In / Register Cloud Account'
+                          : 'Đăng Nhập / Tạo Tài Khoản Đồng Bộ'),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: AppColors.primary,
+                        foregroundColor: Colors.black87,
+                        padding: const EdgeInsets.symmetric(vertical: 12),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  void _showAuthDialog(bool isDark) {
+    final messenger = ScaffoldMessenger.of(context);
+    final emailController = TextEditingController();
+    final passwordController = TextEditingController();
+    final nameController = TextEditingController();
+    bool isRegister = false;
+    bool isLoading = false;
+    String? errorMessage;
+
+    showDialog(
+      context: context,
+      builder: (ctx) => StatefulBuilder(
+        builder: (context, setDialogState) {
+          final sync = FirebaseSyncService();
+          return AlertDialog(
+            backgroundColor: isDark ? const Color(0xFF1E2230) : Colors.white,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+            title: Row(
+              children: [
+                const Icon(Icons.cloud_sync, color: AppColors.primaryDark),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(
+                    isRegister
+                        ? (_isEnglish ? 'Create Cloud Account' : 'Tạo Tài Khoản Mới')
+                        : (_isEnglish ? 'Sign In Cloud' : 'Đăng Nhập Đám Mây'),
+                    style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ],
+            ),
+            content: SingleChildScrollView(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Text(
+                    _isEnglish
+                        ? 'Keep your highlights, bookmarks, and notes in sync across web and mobile.'
+                        : 'Lưu và đồng bộ dữ liệu tô màu, ghi chú, đánh dấu giữa điện thoại và máy tính.',
+                    style: const TextStyle(fontSize: 12.5, color: AppColors.textMuted),
+                  ),
+                  const SizedBox(height: 16),
+                  if (errorMessage != null) ...[
+                    Container(
+                      padding: const EdgeInsets.all(10),
+                      margin: const EdgeInsets.only(bottom: 12),
+                      decoration: BoxDecoration(
+                        color: Colors.red.withOpacity(0.12),
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(color: Colors.red.withOpacity(0.3)),
+                      ),
+                      child: Text(
+                        errorMessage!,
+                        style: const TextStyle(color: Colors.red, fontSize: 12),
+                      ),
+                    ),
+                  ],
+                  if (isRegister) ...[
+                    TextField(
+                      controller: nameController,
+                      decoration: InputDecoration(
+                        labelText: _isEnglish ? 'Display Name' : 'Họ và tên',
+                        prefixIcon: const Icon(Icons.person_outline, size: 20),
+                        border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+                        contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                      ),
+                    ),
+                    const SizedBox(height: 12),
+                  ],
+                  TextField(
+                    controller: emailController,
+                    keyboardType: TextInputType.emailAddress,
+                    decoration: InputDecoration(
+                      labelText: 'Email',
+                      prefixIcon: const Icon(Icons.email_outlined, size: 20),
+                      border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+                      contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                    ),
+                  ),
+                  const SizedBox(height: 12),
+                  TextField(
+                    controller: passwordController,
+                    obscureText: true,
+                    decoration: InputDecoration(
+                      labelText: _isEnglish ? 'Password' : 'Mật khẩu',
+                      prefixIcon: const Icon(Icons.lock_outline, size: 20),
+                      border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+                      contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  ElevatedButton(
+                    onPressed: isLoading
+                        ? null
+                        : () async {
+                            final email = emailController.text.trim();
+                            final pass = passwordController.text;
+                            if (email.isEmpty || pass.isEmpty) {
+                              setDialogState(() {
+                                errorMessage = _isEnglish
+                                    ? 'Please enter email and password'
+                                    : 'Vui lòng nhập đầy đủ email và mật khẩu';
+                              });
+                              return;
+                            }
+                            setDialogState(() {
+                              isLoading = true;
+                              errorMessage = null;
+                            });
+                            try {
+                              if (isRegister) {
+                                await sync.registerWithEmail(
+                                  email,
+                                  pass,
+                                  displayName: nameController.text.trim(),
+                                );
+                              } else {
+                                await sync.signInWithEmail(email, pass);
+                              }
+                              if (ctx.mounted) Navigator.pop(ctx);
+                              if (mounted) {
+                                messenger.showSnackBar(
+                                  SnackBar(
+                                    content: Text(_isEnglish
+                                        ? 'Successfully connected to Cloud Sync!'
+                                        : 'Đã kết nối tài khoản đám mây thành công!'),
+                                    backgroundColor: AppColors.primaryDark,
+                                  ),
+                                );
+                              }
+                            } catch (e) {
+                              setDialogState(() {
+                                isLoading = false;
+                                errorMessage = e.toString().replaceAll('Exception: ', '');
+                              });
+                            }
+                          },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppColors.primary,
+                      foregroundColor: Colors.black87,
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                    ),
+                    child: isLoading
+                        ? const SizedBox(
+                            width: 20,
+                            height: 20,
+                            child: CircularProgressIndicator(strokeWidth: 2, color: Colors.black87),
+                          )
+                        : Text(
+                            isRegister
+                                ? (_isEnglish ? 'Register Account' : 'Tạo Tài Khoản Mới')
+                                : (_isEnglish ? 'Sign In' : 'Đăng Nhập'),
+                            style: const TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                  ),
+                  const SizedBox(height: 8),
+                  TextButton(
+                    onPressed: isLoading
+                        ? null
+                        : () {
+                            setDialogState(() {
+                              isRegister = !isRegister;
+                              errorMessage = null;
+                            });
+                          },
+                    child: Text(
+                      isRegister
+                          ? (_isEnglish ? 'Already have an account? Sign in' : 'Đã có tài khoản? Bấm để Đăng nhập')
+                          : (_isEnglish ? 'Need an account? Register here' : 'Chưa có tài khoản? Bấm để Tạo mới'),
+                      style: const TextStyle(fontSize: 12.5),
+                    ),
+                  ),
+                  const Divider(height: 24),
+                  OutlinedButton.icon(
+                    onPressed: isLoading
+                        ? null
+                        : () async {
+                            setDialogState(() {
+                              isLoading = true;
+                              errorMessage = null;
+                            });
+                            try {
+                              await sync.signInAnonymously();
+                              if (ctx.mounted) Navigator.pop(ctx);
+                              if (mounted) {
+                                messenger.showSnackBar(
+                                  SnackBar(
+                                    content: Text(_isEnglish
+                                        ? 'Signed in as Guest. Data is syncing!'
+                                        : 'Đã đăng nhập tài khoản Khách. Dữ liệu đang được đồng bộ!'),
+                                    backgroundColor: AppColors.primaryDark,
+                                  ),
+                                );
+                              }
+                            } catch (e) {
+                              setDialogState(() {
+                                isLoading = false;
+                                errorMessage = e.toString().replaceAll('Exception: ', '');
+                              });
+                            }
+                          },
+                    icon: const Icon(Icons.person_outline, size: 18),
+                    label: Text(_isEnglish
+                        ? 'Quick Guest Sync (No password)'
+                        : 'Đăng nhập Nhanh / Khách (Không cần mật khẩu)'),
+                    style: OutlinedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 10),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(ctx),
+                child: Text(_isEnglish ? 'Close' : 'Đóng'),
+              ),
+            ],
+          );
+        },
       ),
     );
   }

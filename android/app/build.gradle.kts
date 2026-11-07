@@ -4,8 +4,12 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
+if (file("google-services.json").exists()) {
+    apply(plugin = "com.google.gms.google-services")
+}
+
 android {
-    namespace = "vn.khoahoctamlinh.khoa_hoc_tam_linh"
+    namespace = "com.khtl.app"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -15,7 +19,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "vn.khoahoctamlinh.khoa_hoc_tam_linh"
+        applicationId = "com.khtl.app"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

@@ -8,6 +8,10 @@
       "destination": "/sitemap.xml"
     },
     {
+      "source": "/sitemap.xsl",
+      "destination": "/sitemap.xsl"
+    },
+    {
       "source": "/robots.txt",
       "destination": "/robots.txt"
     },
@@ -20,7 +24,7 @@
       "destination": "https://khoahoctamlinh.vn/app/$1"
     },
     {
-      "source": "/((?!.*\\.(?:xml|txt|ico|png|jpg|jpeg|webp|js|json|wasm|apk|html)$).*)",
+      "source": "/((?!.*\\.(?:xml|xsl|txt|ico|png|jpg|jpeg|webp|js|json|wasm|apk|html)$).*)",
       "destination": "/index.html"
     }
   ],
@@ -31,6 +35,19 @@
         {
           "key": "Content-Type",
           "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=86400"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xsl",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/xsl; charset=utf-8"
         },
         {
           "key": "Cache-Control",

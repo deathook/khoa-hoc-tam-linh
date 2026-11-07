@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/user_note.dart';
+import 'firebase_sync_service.dart';
 
 class StorageService {
   static final StorageService _instance = StorageService._internal();
@@ -112,6 +113,9 @@ class StorageService {
   Future<void> saveLastRead(String sectionId, String sectionTitle) async {
     await _prefs?.setString('last_read_section_id', sectionId);
     await _prefs?.setString('last_read_section_title', sectionTitle);
+    try {
+      FirebaseSyncService().uploadLastRead(sectionId, sectionTitle);
+    } catch (_) {}
   }
 
   // --- Bookmarks ---
@@ -125,6 +129,9 @@ class StorageService {
       list.add(sectionId);
     }
     await _prefs?.setStringList('bookmarks', list);
+    try {
+      FirebaseSyncService().uploadBookmarks(list);
+    } catch (_) {}
   }
 
   // --- Highlights ---
@@ -145,6 +152,9 @@ class StorageService {
     list.insert(0, h);
     final raw = list.map((item) => jsonEncode(item.toJson())).toList();
     await _prefs?.setStringList('user_highlights', raw);
+    try {
+      FirebaseSyncService().uploadHighlight(h);
+    } catch (_) {}
   }
 
   Future<void> removeHighlight(String id) async {
@@ -152,13 +162,22 @@ class StorageService {
     list.removeWhere((item) => item.id == id);
     final raw = list.map((item) => jsonEncode(item.toJson())).toList();
     await _prefs?.setStringList('user_highlights', raw);
+    try {
+      FirebaseSyncService().deleteHighlight(id);
+    } catch (_) {}
   }
 
   Future<void> removeHighlightBySectionAndIndex(String sectionId, int paragraphIndex) async {
     final list = getHighlights();
+    final toRemove = list.where((item) => item.sectionId == sectionId && item.paragraphIndex == paragraphIndex).toList();
     list.removeWhere((item) => item.sectionId == sectionId && item.paragraphIndex == paragraphIndex);
     final raw = list.map((item) => jsonEncode(item.toJson())).toList();
     await _prefs?.setStringList('user_highlights', raw);
+    try {
+      for (final h in toRemove) {
+        FirebaseSyncService().deleteHighlight(h.id);
+      }
+    } catch (_) {}
   }
 
   // --- Notes ---
@@ -179,6 +198,9 @@ class StorageService {
     list.insert(0, note);
     final raw = list.map((item) => jsonEncode(item.toJson())).toList();
     await _prefs?.setStringList('user_notes', raw);
+    try {
+      FirebaseSyncService().uploadNote(note);
+    } catch (_) {}
   }
 
   Future<void> deleteNote(String id) async {
@@ -186,5 +208,8 @@ class StorageService {
     list.removeWhere((item) => item.id == id);
     final raw = list.map((item) => jsonEncode(item.toJson())).toList();
     await _prefs?.setStringList('user_notes', raw);
+    try {
+      FirebaseSyncService().deleteNote(id);
+    } catch (_) {}
   }
 }

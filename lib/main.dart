@@ -6,6 +6,7 @@ import 'services/book_repository.dart';
 import 'services/seo/seo_service.dart';
 import 'services/storage_service.dart';
 import 'services/tts_service.dart';
+import 'services/firebase_sync_service.dart';
 import 'theme/app_theme.dart';
 import 'theme/app_colors.dart';
 import 'screens/main_nav_screen.dart';
@@ -27,9 +28,10 @@ void main() async {
     ),
   );
 
-  // Initialize storage
+  // Initialize storage & firebase sync
   final storage = StorageService();
   await storage.init();
+  await FirebaseSyncService().init();
 
   runApp(KhoaHocTamLinhApp(initialRoute: initialRoute));
 }

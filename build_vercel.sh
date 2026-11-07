@@ -27,7 +27,12 @@ flutter pub get
 echo "Building Flutter Web release..."
 flutter build web --release --no-tree-shake-icons
 
-# 6. Copy Android APK if present
+# 6. Copy static SEO assets and Android APK if present
+echo "Ensuring SEO sitemap & robots exist in build/web..."
+cp web/sitemap.xml build/web/sitemap.xml
+cp web/sitemap.xsl build/web/sitemap.xsl
+cp web/robots.txt build/web/robots.txt
+
 if [ -f "KhoaHocTamLinh.apk" ]; then
   echo "Copying KhoaHocTamLinh.apk to build/web..."
   cp KhoaHocTamLinh.apk build/web/KhoaHocTamLinh.apk
