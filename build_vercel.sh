@@ -27,4 +27,10 @@ flutter pub get
 echo "Building Flutter Web release..."
 flutter build web --release --no-tree-shake-icons
 
+# 6. Copy Android APK if present
+if [ -f "KhoaHocTamLinh.apk" ]; then
+  echo "Copying KhoaHocTamLinh.apk to build/web..."
+  cp KhoaHocTamLinh.apk build/web/KhoaHocTamLinh.apk
+fi
+
 echo "=== Build Finished Successfully! ==="
