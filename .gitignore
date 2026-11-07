@@ -58,6 +58,12 @@ app.*.map.json
 /podcast/
 *.apk
 KhoaHocTamLinh.apk
+*.aab
+KhoaHocTamLinh.aab
+*.jks
+*.keystore
+key.properties
+android/key.properties
 
 # Vercel & CI
 .vercel/
