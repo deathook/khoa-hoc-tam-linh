@@ -318,7 +318,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            _isEnglish ? 'Explore Book Categories' : 'Khám Phá Các Tầng Bậc Cuốn Sách',
+                            _isEnglish ? 'Explore The Book' : 'Khám Phá Cuốn Sách',
                             style: theme.textTheme.titleMedium?.copyWith(
                               fontWeight: FontWeight.bold,
                               letterSpacing: 0.5,
@@ -343,7 +343,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            _isEnglish ? 'Featured Audio & Healing Podcasts' : 'Sách Nói & Podcast Chữa Lành Nổi Bật',
+                            _isEnglish ? 'Audiobooks & Podcasts' : 'Sách Nói & Podcast',
                             style: theme.textTheme.titleMedium?.copyWith(
                               fontWeight: FontWeight.bold,
                               letterSpacing: 0.5,
