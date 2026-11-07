@@ -270,22 +270,22 @@ class _MainNavScreenState extends State<MainNavScreen> {
               child: Row(
                 children: [
                   Container(
-                    width: 42,
-                    height: 42,
+                    width: 44,
+                    height: 44,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: AppColors.primary.withOpacity(0.25),
-                          blurRadius: 8,
+                          color: AppColors.primary.withOpacity(0.35),
+                          blurRadius: 10,
                           offset: const Offset(0, 2),
                         ),
                       ],
                     ),
                     child: ClipRRect(
-                      borderRadius: BorderRadius.circular(21),
+                      borderRadius: BorderRadius.circular(22),
                       child: Image.asset(
-                        'assets/images/image1.jpg',
+                        'assets/images/app_logo_circle.png',
                         fit: BoxFit.cover,
                       ),
                     ),
